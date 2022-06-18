@@ -4,26 +4,37 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Jessica Lee &vert; FrontEnd Development</title>
+        <title>Jessica Lee &vert; Front&dash;End Development</title>
+        <link rel="icon" type="image/favicon" href="images/jessicalee_favicon.svg">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400&display=swap" rel="stylesheet">
         <script src="https://cdn.tailwindcss.com"></script>
         <link type="stylesheet" src="styles/reset.css">
         <link type="stylesheet" src="styles/main.css">
     </head>
     <body>
-        <header>
-            <nav>
-                <!-- logo here -->
-                <ul>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Projects</a></li>
-                    <li><a href="">Contact</a></li>
-                </ul>
-            </nav>
+        <header class="header">
+            <div class="container is-flex">
+                <div class="img-wrap">
+                    <a class="img-link" href="#index.html" title="Home Page">
+                        <img src="images/jessicalee_wordmark.png" alt="Jessica Lee Logo">
+                    </a>
+                </div>
+                <button id="gn-trigger" class="gn-trigger">
+                    <div class="burger"></div>
+                </button>
+                <nav class="gn">
+                    <ul class="gn-items">
+                        <li><a href="#about" title="About">About</a></li>
+                        <li><a href="#projects" title="Projects">Projects</a></li>
+                        <li><a href="#contact" title="Contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
         <main>
             <section class="home-intro">
                 <div>
-                    <h2>Hi, I&apos; Jessica</h2>
+                    <h2>Hi, I&apos;m Jessica</h2>
                     <p>I&apos;m a curious storyteller and systematic problem&dash;solver&comma; currently pursuing a career in <b>Front&dash;End Development</b> in Vancouver&comma; British Columbia&period;</p>
                     <a href="">Get in touch</a>
                 </div>
