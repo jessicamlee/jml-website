@@ -13,6 +13,10 @@ body {
 /* ---------------------
 ----- Helpers ----------
 --------------------- */
+.is-flex {
+    display: flex;
+}
+
 .is-faux-winter {
     background-color: #d3f7ff;
 }
@@ -39,6 +43,16 @@ h2 {
 ----- Projects Page ----
 --------------------- */
 
+/* ---------------------
+----- Project Pieces ---
+--------------------- */
+.proj-sum-details {
+    padding: 2em auto;
+}
+
+.proj-details {
+    text-transform: uppercase;
+}
 
 /* ---------------------
 ----- Contact Page -----
