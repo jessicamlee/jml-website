@@ -13,10 +13,6 @@ body {
 /* ---------------------
 ----- Helpers ----------
 --------------------- */
-.is-flex {
-    display: flex;
-}
-
 .is-faux-winter {
     background-color: #d3f7ff;
 }
