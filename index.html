@@ -6,44 +6,45 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Jessica Lee &vert; Front&dash;End Development</title>
         <link rel="icon" type="image/favicon" href="images/jessicalee_favicon.svg">
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400&display=swap" rel="stylesheet">
-        <script src="https://cdn.tailwindcss.com"></script>
-        <link type="stylesheet" src="styles/reset.css">
-        <link type="stylesheet" src="styles/main.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400&display=swap">
+        <link rel="stylesheet" href="styles/reset.css">
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="dist/output.css">
     </head>
     <body>
         <header id="header" class="header py-4 px-12" style="background-color:#d3f7ff;">
-            <div class="container flex">
-                <a class="flex basis-1/4" href="index.html" title="Home Page">
+            <div class="flex">
+                <a class="basis-1/4" href="index.html" title="Home Page">
                     <img class="w-auto" src="images/jessicalee_wordmark.png" alt="Jessica Lee Wordmark">
                 </a>
                 <button id="gn-trigger" class="gn-trigger hidden">
                     <div class="burger"></div>
                 </button>
-                <div class="basis-1/4"></div>
-                <nav class="gn basis-1/2 flex items-center justify-end">
+                <div class="basis-1/2"></div>
+                <nav class="gn basis-1/4 flex items-center justify-end font-semibold">
                     <ul class="flex items-center">
                         <li class="px-4"><a href="about.html" title="Link to About">About</a></li>
                         <li class="px-4"><a href="projects.html" title="Link to Projects">Projects</a></li>
-                        <li class="px-4"><a href="contact.html" title="Link to Contact">Contact</a></li>
+                        <li class="pl-4"><a href="contact.html" title="Link to Contact">Contact</a></li>
                     </ul>
                 </nav>
             </div>
         </header>
-        <main class="px-12">
-            <section class="home-intro is-faux-winter">
-                <div>
-                    <div>
-                        <h2>Hi, I&apos;m Jessica</h2>
-                        <p>I&apos;m a curious storyteller and systematic problem&dash;solver&comma; currently pursuing a career in <b>Front&dash;End Development</b> in Vancouver&comma; British Columbia&period;</p>
-                        <a class="button" href="">Get in touch</a>
+        <main>
+            <section class="home-intro bg-winter p-12">
+                <div class="flex">
+                    <div class="w-2/5">
+                        <h2 class="font-semibold text-5xl leading-relaxed mb-5">Hi, I&apos;m Jessica</h2>
+                        <p class="leading-8 mt-7 mb-9">I&apos;m a curious storyteller and systematic problem&dash;solver&comma; currently pursuing a career in <b>Front&dash;End Development</b> in Vancouver&comma; British Columbia&period;</p>
+                        <a class="py-4 px-7 my-7 font-semibold border-solid border-2 border-violet rounded-full uppercase shadow-vio" href="#">Get in touch</a>
                     </div>
-                    <!-- logo animation -->
+                    <div class="w-1/5"></div>
+                    <img class="w-2/5" src="images/jessicalee_favicon.svg" alt="JL Logo Animation">
                 </div>
                 <div class="bottom-more"></div>
             </section>
-            <section class="home-projects">
-                <h2>Projects</h2>
+            <section class="p-12">
+                <h2 class="font-semibold">Projects</h2>
                 <!-- card of artifacts -->
                 <div>
                     <div class="port-card">
@@ -70,52 +71,55 @@
                     <div class="right-more"></div>
                 </div>
             </section>
-            <section class="home-about is-faux-winter">
+            <section class="bg-winter p-12">
                 <div>
-                    <h2>About</h2>
+                    <h2 class="font-semibold">About</h2>
                     <p>Crafting user&dash;centered projects to share stories in immersive&comma; insightful&comma; and memorable experiences is what I&apos;m striving to achieve as an aspiring Front&dash;End Developer&period;</p>
                     <a class="button" href="">More about me</a>
                 </div>
                 <img src="" alt="Jessica Lee Profile Picture">
             </section>
         </main>
-        <footer class="px-12">
-            <div class="ftr-contact">
-                <h2>Contact</h2>
-                <p>Send me an email if you would like to work together&period; I look forward to your message&excl;</p>
-                <a clas="button" href="mailto:jessicamlee@gmail.com" title="Email Jessica">Email me</a>
+        <footer class="px-12 pt-6">
+            <div class="flex">
+                <div class="ftr-contact w-2/5">
+                    <h2 class="font-semibold">Contact</h2>
+                    <p>Send me an email if you would like to work together&period; I look forward to your message&excl;</p>
+                    <a clas="button" href="mailto:jessicamlee@gmail.com" title="Email Jessica">Email me</a>
+                </div>
+                <div class="w-1/5"></div>
+                <ul class="font-semibold w-2/5">
+                    <li><a href="about.html" title="Link to About">About</a></li>
+                    <li><a href="projects.html" title="Link to Projects">Projects</a></li>
+                    <li><a href="contact.html" title="Link to Contact">Contact</a></li>
+                    <li class="sm-handles flex">
+                        <ol>
+                            <li class="px-4 w-16">
+                                <a href="" target="_blank" title="Email Jessica">
+                                    <img src="images/icons/mail_outlined.svg" title="Email Icon">
+                                </a>
+                            </li>
+                            <li class="px-4 w-16">
+                                <a href="" target="_blank" title="Link to Jessica's LinkedIn">
+                                    <img src="images/icons/linkedin_black.svg" title="LinkedIn Icon">
+                                </a>
+                            </li>
+                            <li class="px-4 w-16">
+                                <a href="" target="_blank" title="Link to Jessica's GitHub">
+                                    <img src="images/icons/githu_black.svg" title="GitHub Icon">
+                                </a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a href="#header" title="Back to Top of page">
+                            <p>Back to Top</p>
+                            <img src="../images/icons/up_arrow.svg" title="Up Arrow">
+                        </a>
+                    </li>
+                </ul>
             </div>
-            <ul>
-                <li><a href="about.html" title="Link to About">About</a></li>
-                <li><a href="projects.html" title="Link to Projects">Projects</a></li>
-                <li><a href="contact.html" title="Link to Contact">Contact</a></li>
-                <li class="sm-handles is-flex">
-                    <ol>
-                        <li class="px-4 w-16">
-                            <a href="" target="_blank" title="Email Jessica">
-                                <img src="images/icons/mail_outlined.svg" title="Email Icon">
-                            </a>
-                        </li>
-                        <li class="px-4 w-16">
-                            <a href="" target="_blank" title="Link to Jessica's LinkedIn">
-                                <img src="images/icons/linkedin_black.svg" title="LinkedIn Icon">
-                            </a>
-                        </li>
-                        <li class="px-4 w-16">
-                            <a href="" target="_blank" title="Link to Jessica's GitHub">
-                                <img src="images/icons/githu_black.svg" title="GitHub Icon">
-                            </a>
-                        </li>
-                    </ol>
-                </li>
-                <li>
-                    <a href="#header" title="Back to Top of page">
-                        <p>Back to Top</p>
-                        <img src="../images/icons/up_arrow.svg" title="Up Arrow">
-                    </a>
-                </li>
-            </ul>
-            <div class="copyright is-faux-winter">
+            <div class="bg-winter">
                 <p>&copy; 2022 Jessica Lee&period; All Rights Reserved&period;</p>
             </div>
         </footer>

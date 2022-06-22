@@ -1,0 +1,18 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "A cool portfolio for development",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx tailwindcss -i ./styles/tw.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "n"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.1.4"
+  }
+}
