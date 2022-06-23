@@ -11,8 +11,8 @@
         <link rel="stylesheet" href="styles/main.css">
         <link rel="stylesheet" href="dist/output.css">
     </head>
-    <body>
-        <header id="header" class="header py-4 px-12" style="background-color:#d3f7ff;">
+    <body class="bg-ghost text-violet font-medium">
+        <header id="header" class="header py-8 px-28" style="background-color:#d3f7ff;">
             <div class="flex">
                 <a class="basis-1/4" href="index.html" title="Home Page">
                     <img class="w-auto" src="images/jessicalee_wordmark.png" alt="Jessica Lee Wordmark">
@@ -23,104 +23,108 @@
                 <div class="basis-1/2"></div>
                 <nav class="gn basis-1/4 flex items-center justify-end font-semibold">
                     <ul class="flex items-center">
-                        <li class="px-4"><a href="about.html" title="Link to About">About</a></li>
-                        <li class="px-4"><a href="projects.html" title="Link to Projects">Projects</a></li>
-                        <li class="pl-4"><a href="contact.html" title="Link to Contact">Contact</a></li>
+                        <li class="px-4 text-lg"><a href="about.html" title="Link to About">About</a></li>
+                        <li class="px-4 text-lg"><a href="projects.html" title="Link to Projects">Projects</a></li>
+                        <li class="pl-4 text-lg"><a href="contact.html" title="Link to Contact">Contact</a></li>
                     </ul>
                 </nav>
             </div>
         </header>
         <main>
-            <section class="home-intro bg-winter p-12">
+            <section class="bg-winter px-28 pt-8 pb-14">
                 <div class="flex">
                     <div class="w-2/5">
-                        <h2 class="font-semibold text-5xl leading-relaxed mb-5">Hi, I&apos;m Jessica</h2>
-                        <p class="leading-8 mt-7 mb-9">I&apos;m a curious storyteller and systematic problem&dash;solver&comma; currently pursuing a career in <b>Front&dash;End Development</b> in Vancouver&comma; British Columbia&period;</p>
-                        <a class="py-4 px-7 my-7 font-semibold border-solid border-2 border-violet rounded-full uppercase shadow-vio" href="#">Get in touch</a>
+                        <h2 class="font-semibold text-5xl leading-relaxed mb-2">Hi, I&apos;m Jessica</h2>
+                        <p class="leading-7 mt-4 mb-9">I&apos;m a curious storyteller and systematic problem&dash;solver&comma; currently pursuing a career in <b>Front&dash;End Development</b> in Vancouver&comma; British Columbia&period;</p>
+                        <a class="py-3.5 px-7 my-8 font-semibold border-solid border-2 border-violet rounded-full uppercase shadow-vi bg-winter" href="contact.html">Get in touch</a>
                     </div>
                     <div class="w-1/5"></div>
-                    <img class="w-2/5" src="images/jessicalee_favicon.svg" alt="JL Logo Animation">
+                    <div class="w-2/5">
+                        <img class="rounded-3xl shadow-vi" src="images/jessicalee_favicon.svg" alt="JL Logo Animation">
+                    </div>
                 </div>
                 <div class="bottom-more"></div>
             </section>
-            <section class="p-12">
-                <h2 class="font-semibold">Projects</h2>
-                <!-- card of artifacts -->
-                <div>
-                    <div class="port-card">
-                        <img src="" alt="">
-                        <div>
-                            <h3>LOCLO Homepage</h3>
-                            <p>A Responsive e&dash;Commerce website experience&period;</p>
+            <section class="px-28 py-14">
+                <h2 class="font-semibold text-4xl leading-relaxed mb-2">Projects</h2>
+                <div class="flex">
+                    <div class="overflow-hidden mr-6 rounded-3xl shadow-vi">
+                        <img class="min-w-full h-80" src="images/projects/loclo_dev_card.jpg" alt="LOCLO Homepage Project Cover Photo">
+                        <div class="bg-violet text-ghost px-6 py-8">
+                            <h3 class="font-semibold text-lg">LOCLO Homepage</h3>
+                            <p class="mt-2">A Responsive e&dash;Commerce website experience&period;</p>
                         </div>
                     </div>
-                    <div class="port-card">
-                        <img src="" alt="">
-                        <div>
-                            <h3>My To&dash;Do List</h3>
-                            <p>Let your worries go in a To-Do List in Dark Mode&excl;</p>
+                    <div class="overflow-hidden rounded-3xl shadow-vi">
+                        <img class="min-w-fit h-80" src="images/projects/toDoList_3.jpg" alt="To Do List Project Cover Photo">
+                        <div class="bg-violet text-ghost px-6 py-8">
+                            <h3 class="font-semibold text-lg">My To&dash;Do List</h3>
+                            <p class="mt-2">Let your worries go in a To-Do List in Dark Mode&excl;</p>
                         </div>
                     </div>
-                    <div class="port-card">
-                        <img src="" alt="">
-                        <div>
-                            <h3>Get IEN Home&excl;</h3>
-                            <p>A simple game to help IEN the alien return home&period;</p>
+                    <div class="overflow-hidden ml-6 rounded-3xl shadow-vi">
+                        <img class="min-w-fit h-80" src="images/projects/get_ien_home.jpg" alt="Get IEN the Alien Home Project Cover Photo">
+                        <div class="bg-violet text-ghost px-6 py-8">
+                            <h3 class="font-semibold text-lg">Get IEN Home&excl;</h3>
+                            <p class="mt-2">A simple game to help IEN the alien return home&period;</p>
                         </div>
                     </div>
                     <div class="right-more"></div>
                 </div>
             </section>
-            <section class="bg-winter p-12">
-                <div>
-                    <h2 class="font-semibold">About</h2>
-                    <p>Crafting user&dash;centered projects to share stories in immersive&comma; insightful&comma; and memorable experiences is what I&apos;m striving to achieve as an aspiring Front&dash;End Developer&period;</p>
-                    <a class="button" href="">More about me</a>
+            <section class="bg-winter px-28 py-14">
+                <div class="flex">
+                    <div class="w-2/5">
+                        <h2 class="font-semibold text-4xl leading-relaxed mb-2">About</h2>
+                        <p class="leading-7 mt-4 mb-9">I want to crafting user&dash;centered projects to share stories in immersive&comma; insightful&comma; and memorable experiences&period;</p>
+                        <a class="py-3.5 px-7 my-8 font-semibold border-solid border-2 border-violet rounded-full uppercase shadow-vi bg-winter" href="about.html">More about me</a>
+                    </div>
+                    <div class="w-1/5"></div>
+                    <img class="w-2/5 rounded-3xl shadow-vi" src="images/about/jessicalee_profilepicture.jpg" alt="Jessica Lee Profile Picture">
                 </div>
-                <img src="" alt="Jessica Lee Profile Picture">
             </section>
         </main>
-        <footer class="px-12 pt-6">
-            <div class="flex">
-                <div class="ftr-contact w-2/5">
-                    <h2 class="font-semibold">Contact</h2>
-                    <p>Send me an email if you would like to work together&period; I look forward to your message&excl;</p>
-                    <a clas="button" href="mailto:jessicamlee@gmail.com" title="Email Jessica">Email me</a>
+        <footer class="pt-6">
+            <div class="flex px-28 pt-8">
+                <div class="w-2/5">
+                    <h2 class="font-semibold text-4xl leading-relaxed mb-2">Contact</h2>
+                    <p class="leading-7 mt-4 mb-9">Send me an email if you would like to work together&period; I look forward to your message&excl;</p>
+                    <a class="py-3.5 px-7 my-8 font-semibold border-solid border-2 border-violet rounded-full uppercase shadow-vi bg-winter" href="mailto:jessicamlee@gmail.com" title="Email Jessica">Email me</a>
                 </div>
                 <div class="w-1/5"></div>
-                <ul class="font-semibold w-2/5">
-                    <li><a href="about.html" title="Link to About">About</a></li>
-                    <li><a href="projects.html" title="Link to Projects">Projects</a></li>
-                    <li><a href="contact.html" title="Link to Contact">Contact</a></li>
-                    <li class="sm-handles flex">
-                        <ol>
-                            <li class="px-4 w-16">
-                                <a href="" target="_blank" title="Email Jessica">
+                <ul class="w-2/5 text-right items-center content-end">
+                    <li class="mb-2.5"><a class="font-semibold text-xl" href="about.html" title="Link to About">About</a></li>
+                    <li class="mb-2.5"><a class="font-semibold text-xl" href="projects.html" title="Link to Projects">Projects</a></li>
+                    <li class="mb-2"><a class="font-semibold text-xl" href="contact.html" title="Link to Contact">Contact</a></li>
+                    <li class="mb-2.5">
+                        <ol class="flex items-center justify-end">
+                            <li class="pr-4 w-16">
+                                <a href="mailto:jessicamlee@gmail.com" target="_blank" title="Email Jessica">
                                     <img src="images/icons/mail_outlined.svg" title="Email Icon">
                                 </a>
                             </li>
-                            <li class="px-4 w-16">
-                                <a href="" target="_blank" title="Link to Jessica's LinkedIn">
+                            <li class="w-8">
+                                <a class="w-auto" href="https://www.linkedin.com/in/jessicamlee-/" target="_blank" title="Link to Jessica's LinkedIn">
                                     <img src="images/icons/linkedin_black.svg" title="LinkedIn Icon">
                                 </a>
                             </li>
-                            <li class="px-4 w-16">
-                                <a href="" target="_blank" title="Link to Jessica's GitHub">
-                                    <img src="images/icons/githu_black.svg" title="GitHub Icon">
+                            <li class="pl-4 w-16">
+                                <a href="https://github.com/jessicamlee" target="_blank" title="Link to Jessica's GitHub">
+                                    <img src="images/icons/github_black.svg" title="GitHub Icon">
                                 </a>
                             </li>
                         </ol>
                     </li>
-                    <li>
-                        <a href="#header" title="Back to Top of page">
+                    <li class="mt-7">
+                        <a class="flex items-center justify-end" href="#header" title="Back to Top of page">
                             <p>Back to Top</p>
-                            <img src="../images/icons/up_arrow.svg" title="Up Arrow">
+                            <img class="w-8" src="../images/icons/up_arrow.svg" title="Up Arrow">
                         </a>
                     </li>
                 </ul>
             </div>
-            <div class="bg-winter">
-                <p>&copy; 2022 Jessica Lee&period; All Rights Reserved&period;</p>
+            <div class="bg-winter py-7 mt-14">
+                <p class="px-12 font-medium text-center">&copy; 2022 Jessica Lee&period; All Rights Reserved&period;</p>
             </div>
         </footer>
         <script></script>

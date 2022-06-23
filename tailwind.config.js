@@ -5,7 +5,7 @@ module.exports = {
   theme: {
     extend: {
       boxShadow: {
-        'vio': '0px 3px 5px rgba(43,4,98,0.65)',
+        'vi': '0px 3px 5px rgba(43,4,98,0.65)',
       }
     },
     colors: {
