@@ -6,6 +6,9 @@ module.exports = {
     extend: {
       boxShadow: {
         'vi': '0px 3px 5px rgba(43,4,98,0.65)',
+      },
+      rotate: {
+        '270': '270deg',
       }
     },
     colors: {
