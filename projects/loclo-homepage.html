@@ -4,113 +4,113 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Jessica Lee &vert; Front&dash;End Development</title>
-        <link rel="icon" type="image/favicon" href="images/jessicalee_favicon.svg">
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400&display=swap" rel="stylesheet">
-        <script src="https://cdn.tailwindcss.com"></script>
-        <link type="stylesheet" src="styles/reset.css">
-        <link type="stylesheet" src="styles/main.css">
+        <title>LOCLO Homepage &vert; Jessica Lee</title>
+        <link rel="icon" type="image/favicon" href="/images/jessicalee_favicon.svg">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400&display=swap">
+        <link rel="stylesheet" href="/styles/reset.css">
+        <link rel="stylesheet" href="/styles/main.css">
+        <link rel="stylesheet" href="/dist/output.css">
     </head>
-    <body>
-        <header id="header" class="header py-4 px-12" style="background-color:#d3f7ff;">
-            <div class="container flex">
-                <a class="flex basis-1/4" href="index.html" title="Home Page">
-                    <img class="w-auto" src="images/jessicalee_wordmark.png" alt="Jessica Lee Wordmark">
+    <body class="bg-ghost text-dviolet font-medium">
+        <header id="header" class="header py-8 px-28" style="background-color:#d3f7ff;">
+            <div class="flex">
+                <a class="basis-1/4" href="/index.html" title="Home Page">
+                    <img class="w-auto" src="/images/jessicalee_wordmark.png" alt="Jessica Lee Wordmark">
                 </a>
                 <button id="gn-trigger" class="gn-trigger hidden">
                     <div class="burger"></div>
                 </button>
-                <div class="basis-1/4"></div>
-                <nav class="gn basis-1/2 flex items-center justify-end">
+                <div class="basis-1/2"></div>
+                <nav class="gn basis-1/4 flex items-center justify-end font-semibold">
                     <ul class="flex items-center">
-                        <li class="px-4"><a href="about.html" title="Link to About">About</a></li>
-                        <li class="px-4"><a href="projects.html" title="Link to Projects">Projects</a></li>
-                        <li class="px-4"><a href="contact.html" title="Link to Contact">Contact</a></li>
+                        <li class="px-4 text-lg"><a href="/about.html" title="Link to About">About</a></li>
+                        <li class="px-4 text-lg"><a href="/projects.html" title="Link to Projects">Projects</a></li>
+                        <li class="pl-4 text-lg"><a href="#contact" title="Link to Contact">Contact</a></li>
                     </ul>
                 </nav>
             </div>
         </header>
-        <main class="px-12">
-            <a class="prev-page" href="projects.html" title="Back to all Projects">
-                <img src="../images/icons/back_arrow.svg" title="Back Arrow Icon">
+        <main>
+            <a class="px-28 pt-8 pb-10 flex items-center justify-start" href="/projects.html" title="Back to Previous Page">
+                <img class="w-8 mr-2" src="/images/icons/arrow_button.svg" title="Back Arrow">
                 <p>Back to Projects</p>
             </a>
-            <section class="loclo-dev-intro">
-                <div>
+            <section class="px-28 pt-8 pb-10 flex">
+                <div class="text-center justify-center">
                     <div>
-                        <h1>LOCLO Homepage</h1>
-                        <p class="subtitle">A Responsive e&dash;Commerce Website</p>
+                        <h1 class="font-semibold text-5xl leading-relaxed mb-1">LOCLO Homepage</h1>
+                        <p class="leading-7 mb-9 italic">A Responsive e&dash;Commerce Website</p>
                     </div>
                     <img src="" alt="Screenshot of LOCLO Homepage above the fold">
-                    <p>The LOCLO website was designed for a fictional client who is a one-woman entrepreneur&period; The client wants a simple website to sell her products to her target audience who are believed to be mostly mobile users&period;</p>
+                    <p class="leading-7 mt-4 mb-9">The LOCLO website was designed for a fictional client who is a one-woman entrepreneur&period; The client wants a simple website to sell her products to her target audience who are believed to be mostly mobile users&period;</p>
                 </div>
-                <a class="bottom-more">
-                    <img src="../images/icons/more_arrow_down.svg" title="Discover more below">
+                <a class="flex-none">
+                    <img class="w-8 mr-2 rotate-270" src="/images/icons/arrow_button.svg" title="Discover more below">
                 </a>
             </section>
-            <section class="proj-sum-details is-faux-winter">
+            <section class="px-28 pt-8 pb-10 bg-winter">
                 <ul>
                     <li>
-                        <p class="proj-details">Dates&colon;</p>
-                        <p>February 21 &ndash; May 20&comma; 2022</p>
+                        <h3 class="font-semibold text-lg">Dates&colon;</h3>
+                        <p class="mt-2">February 21 &ndash; May 20&comma; 2022</p>
                     </li>
                     <li>
-                        <p class="proj-details">Hours&colon;</p>
-                        <p>19&period;25 hours</p>
+                        <h3 class="font-semibold text-lg">Hours&colon;</h3>
+                        <p class="mt-2">19&period;25 hours</p>
                     </li>
                     <li>
-                        <p class="proj-details">Role&colon;</p>
-                        <p>Front&dash;End Developer</p>
+                        <h3 class="font-semibold text-lg">Role&colon;</h3>
+                        <p class="mt-2">Front&dash;End Developer</p>
                     </li>
                 </ul>
                 <ul>
                     <li>
-                        <p class="proj-details">Deliverables&colon;</p>
-                        <p>Responsive Homepage</p>
+                        <h3 class="font-semibold text-lg">Deliverables&colon;</h3>
+                        <p class="mt-2">Responsive Homepage</p>
                     </li>
                     <li>
-                        <p class="proj-details">Project Goal&colon;</p>
-                        <p>Develop a responsive homepage website using HTML and media queries in CSS to style the UX&sol;UI Project&comma; LOCLO e&dash;commerce store&comma; from <a href="" title="Link to LOCLO Web and Mobile Project">Web &amp; Mobile&period;</a></p>
+                        <h3 class="font-semibold text-lg">Project Goal&colon;</h3>
+                        <p class="mt-2">Develop a responsive homepage website using HTML and media queries in CSS to style the UX&sol;UI Project&comma; LOCLO e&dash;commerce store&comma; from <a href="#" title="Link to LOCLO Web and Mobile Project">Web &amp; Mobile&period;</a></p>
                     </li>
                     <li>
-                        <p class="proj-details">Tools&colon;</p>
-                        <p>HTML&comma; CSS&comma; Visual Studio Code</p>
+                        <h3 class="font-semibold text-lg">Tools&colon;</h3>
+                        <p class="mt-2">HTML&comma; CSS&comma; Visual Studio Code</p>
                     </li>
                 </ul>
             </section>
-            <section class="project-process">
+            <section class="px-28 pt-8 pb-10">
                 <div>
-                    <h2>Phase 1&colon; Planning &amp; Designing</h2>
+                    <h2 class="font-semibold text-2xl leading-relaxed mb-2">Phase 1&colon; Planning &amp; Designing</h2>
                     <img src="" alt="Screenshot">
-                    <p>To create a responsive&comma; mobile&dash;first website&comma; I first created high&dash;fidelity wireframes for the most popular screen size breakpoints&period;</p>
-                    <p>Creating wireframes helps me work efficiently when developing a mobile&dash;friendly website&period; I start from a 280&dash;pixel wide screen and scale to a large screen size at 1200 pixels wide&period;</p>
-                    <p>The next steps were to gather web copy&comma; fonts&comma; and iamges to be compressed for a fatser page load speed and a better use experience&period;</p>
-                    <p>Planning and outlining each stage of the project helped me manage my time and energy wisely to complete the project in time&period;</p>
+                    <p class="leading-7 my-2">To create a responsive&comma; mobile&dash;first website&comma; I first created high&dash;fidelity wireframes for the most popular screen size breakpoints&period;</p>
+                    <p class="leading-7 my-2">Creating wireframes helps me work efficiently when developing a mobile&dash;friendly website&period; I start from a 280&dash;pixel wide screen and scale to a large screen size at 1200 pixels wide&period;</p>
+                    <p class="leading-7 my-2">The next steps were to gather web copy&comma; fonts&comma; and iamges to be compressed for a fatser page load speed and a better use experience&period;</p>
+                    <p class="leading-7 my-2">Planning and outlining each stage of the project helped me manage my time and energy wisely to complete the project in time&period;</p>
                 </div>
                 <div>
-                    <h2>Phase 2&colon; Developing the Basics</h2>
+                    <h2 class="font-semibold text-2xl leading-relaxed mb-2">Phase 2&colon; Developing the Basics</h2>
                     <img src="" alt="Screenshot">
-                    <p>The development phase began with a mobile&dash;friendly approach by structuring and styling the smallest size of 280&dash;pixels wide&period;</p>
-                    <p>Mobile&dash;friendly websites are important since most users are navigating digital spaces from mobile devices with smalls screens nowadays&period;</p>
+                    <p class="leading-7 my-2">The development phase began with a mobile&dash;friendly approach by structuring and styling the smallest size of 280&dash;pixels wide&period;</p>
+                    <p class="leading-7 my-2">Mobile&dash;friendly websites are important since most users are navigating digital spaces from mobile devices with smalls screens nowadays&period;</p>
                 </div>
                 <div>
-                    <h2>Phase 3&colon; Reviewing &amp; Resolving Errors</h2>
+                    <h2 class="font-semibold text-2xl leading-relaxed mb-2">Phase 3&colon; Reviewing &amp; Resolving Errors</h2>
                     <img src="" alt="Screenshot">
-                    <p>As I styled each larger breakpoint&comma; I encountered problems with overlapping sections because of how I organized the content&period;</p>
-                    <p>I first reviewed the styles for the sections at each screen size to ensure there were no syntax errors&period; I then reassigned the parent and child positions for each section to ensure smooth scalability for the larger screen sizes&period;</p>
-                    <p>Next&comma; I tested the responsiveness from one breakpoint to another to check that the errors were fixed&period;</p>
+                    <p class="leading-7 my-2">As I styled each larger breakpoint&comma; I encountered problems with overlapping sections because of how I organized the content&period;</p>
+                    <p class="leading-7 my-2">I first reviewed the styles for the sections at each screen size to ensure there were no syntax errors&period; I then reassigned the parent and child positions for each section to ensure smooth scalability for the larger screen sizes&period;</p>
+                    <p class="leading-7 my-2">Next&comma; I tested the responsiveness from one breakpoint to another to check that the errors were fixed&period;</p>
                 </div>
             </section>
-            <div class="section-divider is-faux-winter"></div>
-            <section>
-                <h2>Outcome</h2>
+            <div class="px-28 pt-8 pb-10 bg-winter"></div>
+            <section class="px-28 pt-8 pb-10">
+                <h2 class="font-semibold text-2xl leading-relaxed mb-2">Outcome</h2>
                 <img src="" alt="">
-                <p><a href=""><b>Link to Live Site&colon;</b> LOCLO Homepage</a></p>
-                <p>Reviewing each line of code helped me avoid missing crucial details that would impeded the user&apos;s experience&period;</p>
-                <p>Conducting the final check also allowed me to make the stylesheet as concise &lpar;or &ldquo;dry&rdquo;&rpar; as possible for easier peer review in the future&period;</p>
+                <p class="leading-7 my-2"><a href=""><b>Link to Live Site&colon;</b> LOCLO Homepage</a></p>
+                <p class="leading-7 my-2">Reviewing each line of code helped me avoid missing crucial details that would impeded the user&apos;s experience&period;</p>
+                <p class="leading-7 my-2">Conducting the final check also allowed me to make the stylesheet as concise &lpar;or &ldquo;dry&rdquo;&rpar; as possible for easier peer review in the future&period;</p>
             </section>
-            <section class="more-by-jessica is-faux-winter">
-                <h2>More Projects by Jessica</h2>
+            <section class="px-28 pt-8 pb-10 bg-winter">
+                <h2 class="font-semibold text-3xl leading-relaxed mb-2">More Projects by Jessica</h2>
                 <div class="is-flex">
                     <div class="proj-card">
                         <img src="" alt="">
@@ -129,44 +129,47 @@
                 </div>
             </section>
         </main>
-        <footer class="px-12">
-            <div class="ftr-contact">
-                <h2>Contact</h2>
-                <p>Send me an email if you would like to work together&period; I look forward to your message&excl;</p>
-                <a clas="button" href="mailto:jessicamlee@gmail.com" title="Email Jessica">Email me</a>
+        <footer class="pt-6">
+            <div class="flex px-28 pt-8">
+                <div class="w-2/5">
+                    <h2 class="font-semibold text-4xl leading-relaxed mb-2">Contact</h2>
+                    <p class="leading-7 mt-4 mb-9">Send me an email if you would like to work together&period; I look forward to your message&excl;</p>
+                    <a class="py-3.5 px-7 my-8 font-semibold border-solid border-2 border-dviolet rounded-full uppercase shadow-vi bg-winter" href="mailto:jessicamlee@gmail.com" title="Email Jessica">Email me</a>
+                </div>
+                <div class="w-1/5"></div>
+                <ul class="w-2/5 text-right items-center content-end">
+                    <li class="mb-2.5"><a class="font-semibold text-xl" href="about.html" title="Link to About">About</a></li>
+                    <li class="mb-2.5"><a class="font-semibold text-xl" href="projects.html" title="Link to Projects">Projects</a></li>
+                    <li class="mb-3"><a class="font-semibold text-xl" href="contact.html" title="Link to Contact">Contact</a></li>
+                    <li class="mb-2.5">
+                        <ol class="flex items-center justify-end">
+                            <li class="pr-4 w-14">
+                                <a href="mailto:jessicamlee@gmail.com" target="_blank" title="Email Jessica">
+                                    <img src="/images/icons/email_dviolet.svg" title="Email Icon">
+                                </a>
+                            </li>
+                            <li class="w-10">
+                                <a class="w-auto" href="https://www.linkedin.com/in/jessicamlee-/" target="_blank" title="Link to Jessica's LinkedIn">
+                                    <img src="/images/icons/linkedin_dviolet.svg" title="LinkedIn Icon">
+                                </a>
+                            </li>
+                            <li class="pl-4 w-14">
+                                <a href="https://github.com/jessicamlee" target="_blank" title="Link to Jessica's GitHub">
+                                    <img src="/images/icons/github_dviolet.svg" title="GitHub Icon">
+                                </a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="mt-7">
+                        <a class="flex items-center justify-end" href="#header" title="Back to Top of page">
+                            <p>Back to Top</p>
+                            <img class="w-8 ml-2 rotate-90" src="../images/icons/arrow_button.svg" title="Up Arrow">
+                        </a>
+                    </li>
+                </ul>
             </div>
-            <ul>
-                <li><a href="about.html" title="Link to About">About</a></li>
-                <li><a href="projects.html" title="Link to Projects">Projects</a></li>
-                <li><a href="contact.html" title="Link to Contact">Contact</a></li>
-                <li class="sm-handles is-flex">
-                    <ol>
-                        <li class="px-4 w-16">
-                            <a href="" target="_blank" title="Email Jessica">
-                                <img src="images/icons/mail_outlined.svg" title="Email Icon">
-                            </a>
-                        </li>
-                        <li class="px-4 w-16">
-                            <a href="" target="_blank" title="Link to Jessica's LinkedIn">
-                                <img src="images/icons/linkedin_black.svg" title="LinkedIn Icon">
-                            </a>
-                        </li>
-                        <li class="px-4 w-16">
-                            <a href="" target="_blank" title="Link to Jessica's GitHub">
-                                <img src="images/icons/githu_black.svg" title="GitHub Icon">
-                            </a>
-                        </li>
-                    </ol>
-                </li>
-                <li>
-                    <a href="#header" title="Back to Top of page">
-                        <p>Back to Top</p>
-                        <img src="../images/icons/up_arrow.svg" title="Up Arrow">
-                    </a>
-                </li>
-            </ul>
-            <div class="copyright is-faux-winter">
-                <p>&copy; 2022 Jessica Lee&period; All Rights Reserved&period;</p>
+            <div class="bg-winter py-7 mt-14">
+                <p class="px-12 font-medium text-center">&copy; 2022 Jessica Lee&period; All Rights Reserved&period;</p>
             </div>
         </footer>
         <script></script>
