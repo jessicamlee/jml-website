@@ -4,127 +4,137 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Jessica Lee &vert; Front&dash;End Development</title>
+        <title>About &vert; Jessica Lee</title>
         <link rel="icon" type="image/favicon" href="images/jessicalee_favicon.svg">
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400&display=swap" rel="stylesheet">
-        <script src="https://cdn.tailwindcss.com"></script>
-        <link type="stylesheet" src="styles/reset.css">
-        <link type="stylesheet" src="styles/main.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400&display=swap">
+        <link rel="stylesheet" href="styles/reset.css">
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="dist/output.css">
     </head>
-    <body>
-        <header id="header" class="header py-4 px-12" style="background-color:#d3f7ff;">
-            <div class="container flex">
-                <a class="flex basis-1/4" href="index.html" title="Home Page">
+    <body class="bg-ghost text-dviolet font-medium">
+        <header id="header" class="header py-8 px-28" style="background-color:#d3f7ff;">
+            <div class="flex">
+                <a class="basis-1/4" href="index.html" title="Home Page">
                     <img class="w-auto" src="images/jessicalee_wordmark.png" alt="Jessica Lee Wordmark">
                 </a>
                 <button id="gn-trigger" class="gn-trigger hidden">
                     <div class="burger"></div>
                 </button>
-                <div class="basis-1/4"></div>
-                <nav class="gn basis-1/2 flex items-center justify-end">
+                <div class="basis-1/2"></div>
+                <nav class="gn basis-1/4 flex items-center justify-end font-semibold">
                     <ul class="flex items-center">
-                        <li class="px-4"><a href="about.html" title="Link to About">About</a></li>
-                        <li class="px-4"><a href="projects.html" title="Link to Projects">Projects</a></li>
-                        <li class="px-4"><a href="contact.html" title="Link to Contact">Contact</a></li>
+                        <li class="px-4 text-lg"><a href="about.html" title="Link to About">About</a></li>
+                        <li class="px-4 text-lg"><a href="projects.html" title="Link to Projects">Projects</a></li>
+                        <li class="pl-4 text-lg"><a href="contact.html" title="Link to Contact">Contact</a></li>
                     </ul>
                 </nav>
             </div>
         </header>
-        <main class="px-12">
-            <section class="about-intro">
-                <div>
-                    <div>
-                        <h1>About</h1>
-                        <p>I&apos;m a curious storyteller and systematic problem&dash;solver&comma; currently pursuing a career in <b>Front&dash;End Development</b> in Vancouver&comma; British Columbia&period;</p>
-                        <a class="button" href="">Get in touch</a>
+        <main>
+            <section class="px-28 pt-8 pb-14">
+                <div class="flex">
+                    <div class="w-2/5">
+                        <h1 class="font-semibold text-5xl leading-relaxed mb-2">About</h1>
+                        <p class="leading-7 mt-4 mb-9">I&apos;m a curious storyteller and systematic problem&dash;solver&comma; currently pursuing a career in <b>Front&dash;End Development</b> in Vancouver&comma; British Columbia&period;</p>
+                        <a class="py-3.5 px-7 my-8 font-semibold border-solid border-2 border-dviolet rounded-full uppercase shadow-vi bg-winter" href="contact.html">Get in touch</a>
                     </div>
-                    <img src="" alt="Jessica Lee Profile Picture">
+                    <div class="w-1/5"></div>
+                    <img class="w-2/5 rounded-3xl shadow-vi" src="images/about/jessicalee_profilepicture.jpg" alt="Jessica Lee Profile Picture">
                 </div>
                 <div class="bottom-more"></div>
             </section>
-            <section class="about-matters">
-                <h2>What matters to me&colon;</h2>
-                <div class="is-faux-winter">
-                    <div class="core-value-itm">
-                        <img src="" alt="">
+            <section class="px-28 py-14 bg-winter">
+                <h2 class="font-semibold text-4xl leading-relaxed mb-2">What matters to me&colon;</h2>
+                <div>
+                    <div>
+                        <img src="" alt="Core Value Icon">
                         <h3>Integrity</h3>
                         <p>Having integrity means I am honest about my contributions and obstacles to produce my best work&period;</p>
                     </div>
-                    <div class="core-value-itm">
-                        <img src="" alt="">
+                    <div>
+                        <img src="" alt="Core Value Icon">
                         <h3>Empathy</h3>
                         <p>Having empathy means I build stronger relationships with my team to resolve problems better together&period;</p>
                     </div>
-                    <div class="core-value-itm">
-                        <img src="" alt="">
+                    <div>
+                        <img src="" alt="Core Value Icon">
                         <h3>Growth</h3>
                         <p>Being a curious learner allows me to expand my knowledge and toolkit as a developer to become a wiser problem&dash;solver in future projects&period;</p>
                     </div>
-                    <div class="core-value-itm">
-                        <img src="" alt="">
+                    <div>
+                        <img src="" alt="Core Value Icon">
                         <h3>Freedom</h3>
                         <p>Freedom of creativity allows me to consider any nd all types of solutiosn to resolve a problem in the best way&period;</p>
                     </div>
                 </div>
             </section>
-            <section class="about-ydev">
-                <div>
-                    <div>
-                        <h2>Why Development&quest;</h2>
-                        <p>When I completed my Bachelor&apos;s in English Literature and Creative Writing&comma; I knew I wanted to contribute to the digital world&period;</p>
-                        <p>I started as a writer and editor for multiple website projects&period;</p>
-                        <p>The projects ranged from analyzing literature and stories to contributing to topics about the environment&comma; finance&comma; wellness&comma; and technology&period;</p>
-                    </div>
-                    <!-- animation -->
+            <section class="px-28 py-14 flex">
+                <div class="w-2/5">
+                    <h2 class="font-semibold text-4xl leading-relaxed mb-2">Why Development&quest;</h2>
+                    <p>When I completed my Bachelor&apos;s in English Literature and Creative Writing&comma; I knew I wanted to contribute to the digital world&period;</p>
+                    <p>I started as a writer and editor for multiple website projects&period;</p>
+                    <p>The projects ranged from analyzing literature and stories to contributing to topics about the environment&comma; finance&comma; wellness&comma; and technology&period;</p>
                 </div>
-                <div class="is-faux-winter">
-                    <!-- animation -->
-                    <div>
-                        <p>A year later&comma; I realized I wnated to learn more about Information Architecture, User Experiences, and User&dash;Centered Design to create better websites expeirences for users&period;</p>
-                        <p>My curiosity led me to Front&dash;End Development&period;</p>
-                        <p>I choose the developer&apos;s path because development gives me the opportunity to learn new ways to bring design to life while sharing fun and insightful experiences with everyone&period;</p>
-                    </div>
+                <div class="w-1/5"></div>
+                <!-- animation -->
+                <div class="w-2/5">
+                    <img class="rounded-3xl shadow-vi" src="images/jessicalee_favicon.svg" alt="JL Logo Animation">
+                </div>
+            </section>
+            <section class="bg-winter px-28 py-14 flex">
+                <!-- animation -->
+                <div class="w-2/5">
+                    <img class="rounded-3xl shadow-vi" src="images/jessicalee_favicon.svg" alt="JL Logo Animation">
+                </div>
+                <div class="w-1/5"></div>
+                <div class="w-2/5">
+                    <p>A year later&comma; I realized I wnated to learn more about Information Architecture, User Experiences, and User&dash;Centered Design to create better websites expeirences for users&period;</p>
+                    <p>My curiosity led me to Front&dash;End Development&period;</p>
+                    <p>I choose the developer&apos;s path because development gives me the opportunity to learn new ways to bring design to life while sharing fun and insightful experiences with everyone&period;</p>
                 </div>
             </section>
         </main>
-        <footer class="px-12">
-            <div class="ftr-contact">
-                <h2>Contact</h2>
-                <p>Send me an email if you would like to work together&period; I look forward to your message&excl;</p>
-                <a clas="button" href="mailto:jessicamlee@gmail.com" title="Email Jessica">Email me</a>
+        <footer class="pt-6">
+            <div class="flex px-28 pt-8">
+                <div class="w-2/5">
+                    <h2 class="font-semibold text-4xl leading-relaxed mb-2">Contact</h2>
+                    <p class="leading-7 mt-4 mb-9">Send me an email if you would like to work together&period; I look forward to your message&excl;</p>
+                    <a class="py-3.5 px-7 my-8 font-semibold border-solid border-2 border-dviolet rounded-full uppercase shadow-vi bg-winter" href="mailto:jessicamlee@gmail.com" title="Email Jessica">Email me</a>
+                </div>
+                <div class="w-1/5"></div>
+                <ul class="w-2/5 text-right items-center content-end">
+                    <li class="mb-2.5"><a class="font-semibold text-xl" href="about.html" title="Link to About">About</a></li>
+                    <li class="mb-2.5"><a class="font-semibold text-xl" href="projects.html" title="Link to Projects">Projects</a></li>
+                    <li class="mb-2"><a class="font-semibold text-xl" href="contact.html" title="Link to Contact">Contact</a></li>
+                    <li class="mb-2.5">
+                        <ol class="flex items-center justify-end">
+                            <li class="pr-4 w-16">
+                                <a href="mailto:jessicamlee@gmail.com" target="_blank" title="Email Jessica">
+                                    <img src="images/icons/email_dviolet.svg" title="Email Icon">
+                                </a>
+                            </li>
+                            <li class="w-12">
+                                <a class="w-auto" href="https://www.linkedin.com/in/jessicamlee-/" target="_blank" title="Link to Jessica's LinkedIn">
+                                    <img src="images/icons/linkedin_dviolet.svg" title="LinkedIn Icon">
+                                </a>
+                            </li>
+                            <li class="pl-4 w-16">
+                                <a href="https://github.com/jessicamlee" target="_blank" title="Link to Jessica's GitHub">
+                                    <img src="images/icons/github_dviolet.svg" title="GitHub Icon">
+                                </a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="mt-7">
+                        <a class="flex items-center justify-end" href="#header" title="Back to Top of page">
+                            <p>Back to Top</p>
+                            <img class="w-8 ml-2 rotate-90" src="../images/icons/arrow_button.svg" title="Up Arrow">
+                        </a>
+                    </li>
+                </ul>
             </div>
-            <ul>
-                <li><a href="about.html" title="Link to About">About</a></li>
-                <li><a href="projects.html" title="Link to Projects">Projects</a></li>
-                <li><a href="contact.html" title="Link to Contact">Contact</a></li>
-                <li class="sm-handles is-flex">
-                    <ol>
-                        <li class="px-4 w-16">
-                            <a href="" target="_blank" title="Email Jessica">
-                                <img src="images/icons/mail_outlined.svg" title="Email Icon">
-                            </a>
-                        </li>
-                        <li class="px-4 w-16">
-                            <a href="" target="_blank" title="Link to Jessica's LinkedIn">
-                                <img src="images/icons/linkedin_black.svg" title="LinkedIn Icon">
-                            </a>
-                        </li>
-                        <li class="px-4 w-16">
-                            <a href="" target="_blank" title="Link to Jessica's GitHub">
-                                <img src="images/icons/githu_black.svg" title="GitHub Icon">
-                            </a>
-                        </li>
-                    </ol>
-                </li>
-                <li>
-                    <a href="#header" title="Back to Top of page">
-                        <p>Back to Top</p>
-                        <img src="../images/icons/up_arrow.svg" title="Up Arrow">
-                    </a>
-                </li>
-            </ul>
-            <div class="copyright is-faux-winter">
-                <p>&copy; 2022 Jessica Lee&period; All Rights Reserved&period;</p>
+            <div class="bg-winter py-7 mt-14">
+                <p class="px-12 font-medium text-center">&copy; 2022 Jessica Lee&period; All Rights Reserved&period;</p>
             </div>
         </footer>
         <script></script>

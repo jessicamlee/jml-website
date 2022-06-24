@@ -10,7 +10,7 @@ module.exports = {
     },
     colors: {
       'winter': '#d3f7ff',
-      'violet': '#2b0462',
+      'dviolet': '#2b0462',
       'ghost': '#f7fcfe',
     }
   },
