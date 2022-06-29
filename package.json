@@ -4,7 +4,7 @@
   "description": "A cool portfolio for development",
   "main": "index.js",
   "scripts": {
-    "start": "npx tailwindcss -i ./styles/tw.css -o ./dist/output.css --watch"
+    "start": "npx tailwindcss -i ./styles/main.css -o ./dist/output.css --watch"
   },
   "repository": {
     "type": "git",

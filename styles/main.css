@@ -1,60 +1,6 @@
-/* ---------------------
------ Global -----------
---------------------- */
-body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
-    font-size: 16px;
-    background-color: #f7fcfe;
-    color: #2b0462;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.btn {
+    @apply py-3.5 px-7 my-8 font-semibold border-solid border-2 border-dviolet rounded-full uppercase shadow-vi bg-winter;
 }
-
-/* ---------------------
------ Helpers ----------
---------------------- */
-.is-faux-winter {
-    background-color: #d3f7ff;
-}
-
-/* ---------------------
------ Typography -------
---------------------- */
-h2 {
-    font-weight: 700;
-    font-size: 3em;
-}
-
-/* ---- -----------------
------ Home Page --------
---------------------- */
-
-
-/* ---------------------
------ About Page -------
---------------------- */
-
-
-/* ---------------------
------ Projects Page ----
---------------------- */
-
-/* ---------------------
------ Project Pieces ---
---------------------- */
-.proj-sum-details {
-    padding: 2em auto;
-}
-
-.proj-details {
-    text-transform: uppercase;
-}
-
-/* ---------------------
------ Contact Page -----
---------------------- */
-
-/* ---------------------
------ Footer -----------
---------------------- */
-
