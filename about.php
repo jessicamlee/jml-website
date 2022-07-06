@@ -1,15 +1,22 @@
 <!DOCTYPE html>
 <html lang="en-CA">
-    <?php require ('partials/global/head.php'); ?>
+    <?php 
+        $title_text = "About &vert; Jessica Lee";
+        require ('partials/global/head.php');
+    ?>
     <body class="bg-ghost text-dviolet font-medium">
-        <?php require ('partials/global/header.php'); ?>
+        <?php 
+            $active_page = "about";
+            require ('partials/global/header.php'); 
+        ?>
         <main>
             <section class="px-28 pt-8 pb-14">
                 <div class="grid grid-cols-2 gap-8">
                     <div>
                         <h1 class="font-semibold text-5xl leading-relaxed mb-2">About</h1>
-                        <p class="leading-7 mt-4 mb-9">I&apos;m a curious storyteller and systematic problem&dash;solver&comma; currently pursuing a career in <b>Front&dash;End Development</b> in Vancouver&comma; British Columbia&period;</p>
-                        <a class="py-3.5 px-7 my-8 font-semibold border-solid border-2 border-dviolet rounded-full uppercase shadow-vi bg-winter" href="contact.html">Get in touch</a>
+                        <p class="leading-7 mt-4">I am currently studying New Media and Web Development to become a <b>Front&dash;End Developer</b> who specializes in the user&apos;s experience&period;</p>
+                        <p class="leading-7 mt-4 mb-9">When I&apos;m not at my desk&comma; you can find me catching up on a show or film&comma; reconnecting with friends and family&comma; or planning another adventure to explore a new place&period;</p>
+                        <a class="py-3.5 px-7 my-8 font-semibold border-solid border-2 border-dviolet rounded-full uppercase shadow-vi bg-winter" href="#contact">Get in touch</a>
                     </div>
                     <img class="rounded-3xl shadow-vi" src="images/about/jessicalee_profilepicture.jpg" alt="Jessica Lee Profile Picture">
                 </div>
