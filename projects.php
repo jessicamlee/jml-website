@@ -1,8 +1,14 @@
 <!DOCTYPE html>
 <html lang="en-CA">
-    <?php require('partials/global/head.php'); ?>
+    <?php 
+        $title_text = "Development &vert; Jessica Lee";
+        require('partials/global/head.php'); 
+    ?>
     <body class="bg-ghost text-dviolet font-medium">
-        <?php require('partials/global/header.php'); ?>
+        <?php 
+            $active_page = "development";
+            require('partials/global/header.php'); 
+        ?>
         <main>
             <section class="px-28 pt-8 pb-10">
                 <div class="grid grid-cols-2 gap-8">
@@ -12,7 +18,7 @@
                         <a class="btn" href="#more-projects">More Projects</a>
                     </div>
                     <div class="overflow-hidden mr-6 mt-4 rounded-3xl shadow-vi">
-                        <a href="/projects/loclo-homepage.html" title="Go to LOCLO Homepage Project">
+                        <a href="/projects/loclo-homepage.php" title="Go to LOCLO Homepage Project">
                             <img src="images/projects/loclo_dev_1.jpg" alt="LOCLO Homepage Project Cover Photo">
                             <div class="bg-dviolet text-ghost px-6 py-8">
                                 <h2 class="font-semibold text-xl">LOCLO Homepage</h2>

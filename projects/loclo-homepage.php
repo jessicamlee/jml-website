@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en-CA">
-    <?php require('partials/global/head_projects.php'); ?>
+    <?php 
+        $project_title = "LOCLO Home &vert; Jessica Lee";
+        require('partials/global/head_projects.php'); 
+    ?>
     <body class="bg-ghost text-dviolet font-medium">
         <?php require('partials/global/header_projects.php'); ?>
         <main>
@@ -13,6 +16,7 @@
                     <div>
                         <h1 class="font-semibold text-5xl leading-relaxed">LOCLO Homepage</h1>
                         <p class="leading-7 mb-4 italic">A Responsive e&dash;Commerce Website</p>
+                        <p class="leading-7 my-2"><a href="#" target="_blank" title="Link to live site of LOCLO's Homepage"><b>Link to Live Site&colon;</b> LOCLO Homepage</a></p>
                     </div>
                     <img class="min-w-full w-3/4 overflow-hidden rounded-3xl shadow-vi my-7" src="/images/projects/loclo_dev_1.jpg" alt="LOCLO Homepage Project Cover Photo">
                     <p class="leading-7 mt-4 mb-9 text-left">The LOCLO website was designed for a fictional client who is a one-woman entrepreneur&period; The client wants a simple website to sell her products to her target audience who are believed to be mostly mobile users&period;</p>
@@ -82,7 +86,6 @@
             <section class="px-44 py-10">
                 <h2 class="font-semibold text-2xl leading-relaxed">Outcome</h2>
                 <img class="rounded-3xl shadow-vi my-7" src="/images/projects/loclo_dev_2.jpg" alt="Screenshot of Developed LOCLO Homepage">
-                <p class="leading-7 my-2"><a href="#" target="_blank" title="Link to live site of LOCLO's Homepage"><b>Link to Live Site&colon;</b> LOCLO Homepage</a></p>
                 <p class="leading-7 my-2">Reviewing each line of code helped me avoid missing crucial details that would impeded the user&apos;s experience&period;</p>
                 <p class="leading-7 my-2">Conducting the final check also allowed me to make the stylesheet as concise &lpar;or &ldquo;dry&rdquo;&rpar; as possible for easier peer review in the future&period;</p>
             </section>
