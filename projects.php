@@ -13,12 +13,12 @@
             <section class="px-28 pt-8 pb-10">
                 <div class="grid grid-cols-2 gap-8">
                     <div>
-                        <h1 class="font-semibold text-5xl leading-relaxed mb-2">Projects</h1>
+                        <h1 class="font-semibold text-5xl leading-relaxed mb-2">Development</h1>
                         <p class="leading-7 mt-4 mb-9">Check out my latest <b>Front&dash;End Development</b> projects <br>with a sprinkle of user experience design&period;</p>
                         <a class="btn" href="#more-projects">More Projects</a>
                     </div>
                     <div class="overflow-hidden mr-6 mt-4 rounded-3xl shadow-vi">
-                        <a href="/projects/loclo-homepage.php" title="Go to LOCLO Homepage Project">
+                        <a href="projects/loclo-homepage.php" title="Go to LOCLO Homepage Project">
                             <img src="images/projects/loclo_dev_1.jpg" alt="LOCLO Homepage Project Cover Photo">
                             <div class="bg-dviolet text-ghost px-6 py-8">
                                 <h2 class="font-semibold text-xl">LOCLO Homepage</h2>
