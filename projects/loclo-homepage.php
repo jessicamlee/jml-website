@@ -7,7 +7,7 @@
     <body class="bg-ghost text-dviolet font-medium">
         <?php require('partials/global/header_projects.php'); ?>
         <main>
-            <a class="px-28 pt-8 flex items-center justify-start" href="/projects.html" title="Back to Previous Page">
+            <a class="px-28 pt-8 flex items-center justify-start" href="/projects.php" title="Back to Previous Page">
                 <img class="w-8 mr-2" src="/images/icons/arrow_button.svg" title="Back Arrow">
                 <p>Back to Projects</p>
             </a>
