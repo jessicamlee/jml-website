@@ -10,7 +10,7 @@
             require ('partials/global/header.php'); 
         ?>
         <main>
-            <section class="px-28 pt-8 pb-14">
+            <section class="px-40 pt-8 pb-14">
                 <div class="grid grid-cols-2 gap-8">
                     <div>
                         <h1 class="font-semibold text-5xl leading-relaxed mb-2">About</h1>
@@ -21,7 +21,7 @@
                     <img class="rounded-3xl shadow-vi" src="images/about/jessicalee_profilepicture.jpg" alt="Jessica Lee Profile Picture">
                 </div>
             </section>
-            <section class="px-28 py-14 bg-winter">
+            <section class="px-40 py-14 bg-winter">
                 <h2 class="font-semibold text-4xl leading-relaxed mb-2">What matters to me&colon;</h2>
                 <div class="grid grid-cols-2 gap-7">
                     <div class="grid grid-cols-6">
@@ -54,7 +54,7 @@
                     </div>
                 </div>
             </section>
-            <section class="px-28 py-14 grid grid-cols-2 gap-8">
+            <section class="px-40 py-14 grid grid-cols-2 gap-8">
                 <div>
                     <h2 class="font-semibold text-4xl leading-relaxed mb-2">Why Development&quest;</h2>
                     <p class="leading-7 mb-4">When I completed my Bachelor&apos;s in English Literature and Creative Writing&comma; I knew I wanted to contribute to the digital world&period;</p>
@@ -66,7 +66,7 @@
                     <img class="rounded-3xl shadow-vi" src="images/about/animation_2.jpg" alt="Preloader Animation created by Jessica Lee">
                 </div>
             </section>
-            <section class="bg-winter px-28 py-14 grid grid-cols-2 gap-8">
+            <section class="bg-winter px-40 py-14 grid grid-cols-2 gap-8">
                 <div>
                     <!-- animation -->
                     <img class="rounded-3xl shadow-vi" src="images/about/animation_3.jpg" alt="Traffic Lights Animation created by Jessica Lee">
