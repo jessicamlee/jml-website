@@ -13,7 +13,7 @@
             require ('partials/global/header.php'); 
         ?>
         <main>
-            <section class="bg-winter px-28 pt-8 pb-14">
+            <section class="bg-winter px-40 pt-8 pb-14">
                 <div class="grid grid-cols-2 gap-8">
                     <div>
                         <h2 class="font-semibold text-5xl leading-relaxed mb-2">Hi&comma; I&apos;m Jessica</h2>
@@ -28,7 +28,7 @@
                     </a>
                 </div>
             </section>
-            <section id="projects" class="px-28 py-14">
+            <section id="projects" class="px-40 py-14">
                 <h2 class="font-semibold text-4xl leading-relaxed mb-2">Projects</h2>
                 <div class="flex mt-4 justify-center">
                     <div class="overflow-hidden mr-6 rounded-3xl shadow-vi w-72">
@@ -58,10 +58,10 @@
                             </div>
                         </a>
                     </div>
-                    <div class="right-more"></div>
+                    <!-- <div class="right-more"></div> -->
                 </div>
             </section>
-            <section class="bg-winter px-28 py-14">
+            <section class="bg-winter px-40 py-14">
                 <div class="grid grid-cols-2 gap-8">
                     <div>
                         <h2 class="font-semibold text-4xl leading-relaxed mb-2">About</h2>

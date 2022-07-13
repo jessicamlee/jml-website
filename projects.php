@@ -10,7 +10,7 @@
             require('partials/global/header.php'); 
         ?>
         <main>
-            <section class="px-28 pt-8 pb-10">
+            <section class="px-40 pt-8 pb-10">
                 <div class="grid grid-cols-2 gap-8">
                     <div>
                         <h1 class="font-semibold text-5xl leading-relaxed mb-2">Development</h1>
@@ -18,7 +18,7 @@
                         <a class="btn" href="#more-projects">More Projects</a>
                     </div>
                     <div class="overflow-hidden mr-6 mt-4 rounded-3xl shadow-vi">
-                        <a href="projects/loclo-homepage.php" title="Go to LOCLO Homepage Project">
+                        <a href="/projects/loclo-homepage.php" title="Go to LOCLO Homepage Project">
                             <img src="images/projects/loclo_dev_1.jpg" alt="LOCLO Homepage Project Cover Photo">
                             <div class="bg-dviolet text-ghost px-6 py-8">
                                 <h2 class="font-semibold text-xl">LOCLO Homepage</h2>
@@ -33,26 +33,34 @@
                     </a>
                 </div>
             </section>
-            <section id="more-projects" class="px-28 py-12 bg-winter grid grid-cols-3">
-                <div class="overflow-hidden mr-6 rounded-3xl shadow-vi">
-                    <img class="min-w-fit" src="images/projects/loclo_design_1.jpg" alt="LOCLO Web and App Project Cover Photo">
-                    <div class="bg-dviolet text-ghost px-6 py-8">
-                        <h3 class="font-semibold text-lg">LOCLO Web &amp; Mobile</h3>
-                        <p class="mt-2">A User Experience design for a local shopping experience&period;</p>
+            <section id="more-projects" class="px-40 py-14 bg-winter">
+                <div class="flex mt-4 justify-center">
+                    <div class="overflow-hidden mr-6 rounded-3xl shadow-vi w-72">
+                        <a href="projects/loclo-homepage.php" title="Link to project">
+                            <img class="min-w-full h-80" src="images/projects/loclo_dev_card.jpg" alt="LOCLO Homepage Project Cover Photo">
+                            <div class="bg-dviolet text-ghost px-6 py-8">
+                                <h3 class="font-semibold text-lg">LOCLO Homepage</h3>
+                                <p class="mt-2">A Responsive e&dash;Commerce website experience&period;</p>
+                            </div>
+                        </a>
                     </div>
-                </div>
-                <div class="overflow-hidden rounded-3xl shadow-vi">
-                    <img class="min-w-fit h-80" src="images/projects/toDoList_3.jpg" alt="To Do List Project Cover Photo">
-                    <div class="bg-dviolet text-ghost px-6 py-8">
-                        <h3 class="font-semibold text-lg">My To&dash;Do List</h3>
-                        <p class="mt-2">Let your worries go in a To-Do List in Dark Mode&excl;</p>
+                    <div class="overflow-hidden rounded-3xl shadow-vi w-72">
+                        <a href="projects/loclo-homepage.php" title="Link to project">
+                            <img class="min-w-fit h-80" src="images/projects/toDoList_3.jpg" alt="To Do List Project Cover Photo">
+                            <div class="bg-dviolet text-ghost px-6 py-8">
+                                <h3 class="font-semibold text-lg">My To&dash;Do List</h3>
+                                <p class="mt-2">Let your worries go in a To-Do List in Dark Mode&excl;</p>
+                            </div>
+                        </a>
                     </div>
-                </div>
-                <div class="overflow-hidden ml-6 rounded-3xl shadow-vi">
-                    <img class="min-w-fit h-80" src="images/projects/get_ien_home.jpg" alt="Get IEN the Alien Home Project Cover Photo">
-                    <div class="bg-dviolet text-ghost px-6 py-8">
-                        <h3 class="font-semibold text-lg">Get IEN Home&excl;</h3>
-                        <p class="mt-2">A simple game to help IEN the alien return home&period;</p>
+                    <div class="overflow-hidden ml-6 rounded-3xl shadow-vi w-72">
+                        <a href="projects/loclo-homepage.php" title="Link to project">
+                            <img class="min-w-fit h-80" src="images/projects/get_ien_home.jpg" alt="Get IEN the Alien Home Project Cover Photo">
+                            <div class="bg-dviolet text-ghost px-6 py-8">
+                                <h3 class="font-semibold text-lg">Get IEN Home&excl;</h3>
+                                <p class="mt-2">A simple game to help IEN the alien return home&period;</p>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </section>
