@@ -1,12 +1,12 @@
 <footer id="contact" class="pt-6">
-    <div class="flex px-28 pt-8">
-        <div class="w-2/5">
+    <div class="flex flex-row px-40 pt-8">
+        <div class="basis-2/5">
             <h2 class="font-semibold text-4xl leading-relaxed mb-2">Contact</h2>
             <p class="leading-7 mt-4 mb-9">Send me an email if you would like to work together&period; <br> I look forward to your message&excl;</p>
             <a class="btn" href="mailto:jessicamlee@gmail.com" title="Email Jessica">Email me</a>
         </div>
-        <div class="w-1/5"></div>
-        <ul class="w-2/5 text-right items-center content-end">
+        <div class="basis-1/5"></div>
+        <ul class="basis-2/5 text-right items-center content-end">
             <li class="mb-2.5"><a class="font-semibold text-xl" href="about.php" title="Link to About">About</a></li>
             <li class="mb-2.5"><a class="font-semibold text-xl" href="projects.php" title="Link to Development Projects">Development</a></li>
             <li class="mb-3"><a class="font-semibold text-xl" href="#contact" title="Link to Contact">Contact</a></li>
