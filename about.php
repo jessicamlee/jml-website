@@ -18,7 +18,7 @@
                         <p class="leading-7 mt-4 mb-9">When I&apos;m not at my desk&comma; you can find me catching up on a show or film&comma; reconnecting with friends and family&comma; or planning another adventure to explore a new place&period;</p>
                         <a class="py-3.5 px-7 my-8 font-semibold border-solid border-2 border-dviolet rounded-full uppercase shadow-vi bg-winter" href="#contact">Get in touch</a>
                     </div>
-                    <img class="rounded-3xl shadow-vi" src="images/about/jessicalee_profilepicture.jpg" alt="Jessica Lee Profile Picture">
+                    <img class="rounded-2xl shadow-vi" src="images/about/jessicalee_profilepicture.jpg" alt="Jessica Lee Profile Picture">
                 </div>
             </section>
             <section class="px-40 py-14 bg-winter">
@@ -63,13 +63,13 @@
                 </div>
                 <div>
                     <!-- animation -->
-                    <img class="rounded-3xl shadow-vi" src="images/about/animation_2.jpg" alt="Preloader Animation created by Jessica Lee">
+                    <img class="rounded-2xl shadow-vi" src="images/about/animation_2.jpg" alt="Preloader Animation created by Jessica Lee">
                 </div>
             </section>
             <section class="bg-winter px-40 py-14 grid grid-cols-2 gap-8">
                 <div>
                     <!-- animation -->
-                    <img class="rounded-3xl shadow-vi" src="images/about/animation_3.jpg" alt="Traffic Lights Animation created by Jessica Lee">
+                    <img class="rounded-2xl shadow-vi" src="images/about/animation_3.jpg" alt="Traffic Lights Animation created by Jessica Lee">
                 </div>
                 <div>
                     <p class="leading-7 mb-4">A year later&comma; I realized I wanted to learn more about Information Architecture&comma; User Experiences&comma; and User&dash;Centered Design to create better websites expeirences for users&period;</p>

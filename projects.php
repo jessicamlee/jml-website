@@ -17,8 +17,8 @@
                         <p class="leading-7 mt-4 mb-9">Check out my latest <b>Front&dash;End Development</b> projects <br>with a sprinkle of user experience design&period;</p>
                         <a class="btn" href="#more-projects">More Projects</a>
                     </div>
-                    <div class="overflow-hidden mr-6 mt-4 rounded-3xl shadow-vi">
-                        <a href="/projects/loclo-homepage.php" title="Go to LOCLO Homepage Project">
+                    <div class="overflow-hidden mr-6 mt-4 rounded-2xl shadow-vi">
+                        <a href="projects/loclo-homepage.php" title="Go to LOCLO Homepage Project">
                             <img src="images/projects/loclo_dev_1.jpg" alt="LOCLO Homepage Project Cover Photo">
                             <div class="bg-dviolet text-ghost px-6 py-8">
                                 <h2 class="font-semibold text-xl">LOCLO Homepage</h2>
@@ -35,8 +35,8 @@
             </section>
             <section id="more-projects" class="px-40 py-14 bg-winter">
                 <div class="flex mt-4 justify-center">
-                    <div class="overflow-hidden mr-6 rounded-3xl shadow-vi w-72">
-                        <a href="projects/loclo-homepage.php" title="Link to project">
+                    <div class="overflow-hidden mr-6 rounded-2xl shadow-vi w-72">
+                        <a href="projects/loclo-homepage.php" title="Go to project">
                             <img class="min-w-full h-80" src="images/projects/loclo_dev_card.jpg" alt="LOCLO Homepage Project Cover Photo">
                             <div class="bg-dviolet text-ghost px-6 py-8">
                                 <h3 class="font-semibold text-lg">LOCLO Homepage</h3>
@@ -44,8 +44,8 @@
                             </div>
                         </a>
                     </div>
-                    <div class="overflow-hidden rounded-3xl shadow-vi w-72">
-                        <a href="projects/loclo-homepage.php" title="Link to project">
+                    <div class="overflow-hidden rounded-2xl shadow-vi w-72">
+                        <a href="projects/loclo-homepage.php" title="Go to project">
                             <img class="min-w-fit h-80" src="images/projects/toDoList_3.jpg" alt="To Do List Project Cover Photo">
                             <div class="bg-dviolet text-ghost px-6 py-8">
                                 <h3 class="font-semibold text-lg">My To&dash;Do List</h3>
@@ -53,8 +53,8 @@
                             </div>
                         </a>
                     </div>
-                    <div class="overflow-hidden ml-6 rounded-3xl shadow-vi w-72">
-                        <a href="projects/loclo-homepage.php" title="Link to project">
+                    <div class="overflow-hidden ml-6 rounded-2xl shadow-vi w-72">
+                        <a href="projects/loclo-homepage.php" title="Go to project">
                             <img class="min-w-fit h-80" src="images/projects/get_ien_home.jpg" alt="Get IEN the Alien Home Project Cover Photo">
                             <div class="bg-dviolet text-ghost px-6 py-8">
                                 <h3 class="font-semibold text-lg">Get IEN Home&excl;</h3>

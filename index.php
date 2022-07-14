@@ -31,7 +31,7 @@
             <section id="projects" class="px-40 py-14">
                 <h2 class="font-semibold text-4xl leading-relaxed mb-2">Projects</h2>
                 <div class="flex mt-4 justify-center">
-                    <div class="overflow-hidden mr-6 rounded-3xl shadow-vi w-72">
+                    <div class="overflow-hidden mr-6 rounded-2xl shadow-vi w-72">
                         <a href="projects/loclo-homepage.php" title="Link to project">
                             <img class="min-w-full h-80" src="images/projects/loclo_dev_card.jpg" alt="LOCLO Homepage Project Cover Photo">
                             <div class="bg-dviolet text-ghost px-6 py-8">
@@ -40,7 +40,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="overflow-hidden rounded-3xl shadow-vi w-72">
+                    <div class="overflow-hidden rounded-2xl shadow-vi w-72">
                         <a href="projects/loclo-homepage.php" title="Link to project">
                             <img class="min-w-fit h-80" src="images/projects/toDoList_3.jpg" alt="To Do List Project Cover Photo">
                             <div class="bg-dviolet text-ghost px-6 py-8">
@@ -49,7 +49,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="overflow-hidden ml-6 rounded-3xl shadow-vi w-72">
+                    <div class="overflow-hidden ml-6 rounded-2xl shadow-vi w-72">
                         <a href="projects/loclo-homepage.php" title="Link to project">
                             <img class="min-w-fit h-80" src="images/projects/get_ien_home.jpg" alt="Get IEN the Alien Home Project Cover Photo">
                             <div class="bg-dviolet text-ghost px-6 py-8">
@@ -68,7 +68,7 @@
                         <p class="leading-7 mt-4 mb-9">I want to crafting user&dash;centered projects to share stories in immersive&comma; insightful&comma; and memorable experiences&period;</p>
                         <a class="btn" href="about.php">More about me</a>
                     </div>
-                    <img class="rounded-3xl shadow-vi" src="images/about/jessicalee_profilepicture.jpg" alt="Jessica Lee Profile Picture">
+                    <img class="rounded-2xl shadow-vi" src="images/about/jessicalee_profilepicture.jpg" alt="Jessica Lee Profile Picture">
                 </div>
             </section>
         </main>

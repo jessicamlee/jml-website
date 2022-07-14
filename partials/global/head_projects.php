@@ -12,4 +12,5 @@
     <link rel="stylesheet" href="../styles/reset.css">
     <link rel="stylesheet" href="../styles/main.css">
     <link rel="stylesheet" href="../dist/output.css">
+    <link rel="stylesheet" href="../styles/dics.css">
 </head>
