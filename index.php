@@ -18,7 +18,7 @@
                     <div>
                         <h2 class="font-semibold text-5xl leading-relaxed mb-2">Hi&comma; I&apos;m Jessica</h2>
                         <p class="leading-7 mt-4 mb-9">I&apos;m a curious storyteller and systematic problem&dash;solver&comma; currently pursuing a career in <b>Front&dash;End Development</b> in Vancouver&comma; British Columbia&period;</p>
-                        <a class="btn" href="contact.html">Get in touch</a>
+                        <a class="btn" href="#contact">Get in touch</a>
                     </div>
                     <img class="rounded-xl shadow-vi" src="images/jessicalee_favicon.svg" alt="JL Logo Animation">
                 </div>
@@ -35,8 +35,8 @@
                         <a href="projects/loclo-homepage.php" title="Link to project">
                             <img class="min-w-full h-80" src="images/projects/loclo_dev_card.jpg" alt="LOCLO Homepage Project Cover Photo">
                             <div class="bg-dviolet text-ghost px-6 py-8">
-                                <h3 class="font-semibold text-lg">LOCLO Homepage</h3>
-                                <p class="mt-2">A Responsive e&dash;Commerce website experience&period;</p>
+                                <h3 class="font-bold text-lg">LOCLO Homepage</h3>
+                                <p class="mt-2 font-normal text-sm">A Responsive e&dash;Commerce website experience&period;</p>
                             </div>
                         </a>
                     </div>
@@ -44,8 +44,8 @@
                         <a href="projects/loclo-homepage.php" title="Link to project">
                             <img class="min-w-fit h-80" src="images/projects/toDoList_3.jpg" alt="To Do List Project Cover Photo">
                             <div class="bg-dviolet text-ghost px-6 py-8">
-                                <h3 class="font-semibold text-lg">My To&dash;Do List</h3>
-                                <p class="mt-2">Let your worries go in a To-Do List in Dark Mode&excl;</p>
+                                <h3 class="font-bold text-lg">My To&dash;Do List</h3>
+                                <p class="mt-2 font-normal text-sm">Let your worries go in a To-Do List in Dark Mode&excl;</p>
                             </div>
                         </a>
                     </div>
@@ -53,8 +53,8 @@
                         <a href="projects/loclo-homepage.php" title="Link to project">
                             <img class="min-w-fit h-80" src="images/projects/get_ien_home.jpg" alt="Get IEN the Alien Home Project Cover Photo">
                             <div class="bg-dviolet text-ghost px-6 py-8">
-                                <h3 class="font-semibold text-lg">Get IEN Home&excl;</h3>
-                                <p class="mt-2">A simple game to help IEN the alien return home&period;</p>
+                                <h3 class="font-bold text-lg">Get IEN Home&excl;</h3>
+                                <p class="mt-2 font-normal text-sm">A simple game to help IEN the alien return home&period;</p>
                             </div>
                         </a>
                     </div>
