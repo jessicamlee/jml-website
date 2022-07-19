@@ -2,7 +2,7 @@
 
     $active_page = $active_page ?? '';
 
-?><header id="header" class="py-6 px-40" style="background-color:#d3f7ff;">
+?><header id="header" class="py-6 px-20 lg:px-40" style="background-color:#d3f7ff;">
     <div class="flex">
         <a class="basis-1/4" href="../index.php" title="Home Page">
             <img class="w-auto" src="../images/jessicalee_wordmark.png" alt="Jessica Lee Wordmark">
