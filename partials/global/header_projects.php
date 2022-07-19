@@ -11,7 +11,7 @@
         <nav class="basis-1/4 flex items-center justify-end font-semibold">
             <ul class="flex items-center">
                 <li class="px-4 text-base <?php if($active_page == "about") { echo "active"; } ?>"><a href="../about.php" title="Link to About">About</a></li>
-                <li class="px-4 text-base <?php if($active_page == "development") { echo "active"; } ?>"><a href="../projects.php" title="Link to Development Projects">Development</a></li>
+                <li class="px-4 text-base <?php if($active_page == "development") { echo "active"; } ?>"><a href="../projects.php" title="Link to Development Projects">Projects</a></li>
                 <li class="pl-4 text-base <?php if($active_page == "contact") { echo "active"; } ?>"><a href="#contact" title="Link to Contact">Contact</a></li>
             </ul>
         </nav>

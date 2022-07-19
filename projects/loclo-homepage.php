@@ -85,8 +85,8 @@
             <section class="px-44 py-10">
                 <h2 class="font-semibold text-2xl leading-relaxed">Outcome</h2>
                 <div class="my-7 h-96 b-dics" style="width: 1000px;">
-                    <img class="object-cover object-center overflow-hidden rounded-2xl shadow-vi my-7" src="../images/projects/loclo_dev_1.jpg" alt="LOCLO Homepage Project Cover Photo">
-                    <img class="object-cover object-center overflow-hidden rounded-2xl shadow-vi my-7" src="../images/projects/loclo_dev_1.jpg" alt="LOCLO Homepage Project Cover Photo">
+                    <img class="object-cover object-center overflow-hidden rounded-2xl shadow-vi my-7" src="../images/projects/loclo_design_v3.jpg" alt="LOCLO Homepage Design">
+                    <img class="object-cover object-center overflow-hidden rounded-2xl shadow-vi my-7" src="../images/projects/loclo_dev_1.jpg" alt="LOCLO Homepage Developed page">
                 </div>
                 <p class="leading-7 my-2">Reviewing each line of code helped me avoid missing crucial details that would impeded the user&apos;s experience&period;</p>
                 <p class="leading-7 my-2">Conducting the final check also allowed me to make the stylesheet as concise &lpar;or &ldquo;dry&rdquo;&rpar; as possible for easier peer review in the future&period;</p>
