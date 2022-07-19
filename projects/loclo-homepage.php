@@ -84,7 +84,6 @@
             <div class="py-6 bg-winter"></div>
             <section class="px-44 py-10">
                 <h2 class="font-semibold text-2xl leading-relaxed">Outcome</h2>
-                <!-- <img class="h-96 w-full object-cover object-top rounded-2xl shadow-vi my-7" src="../images/projects/loclo_dev_2.jpg" alt="Screenshot of Developed LOCLO Homepage"> -->
                 <div class="my-7 h-96 b-dics" style="width: 1000px;">
                     <img class="object-cover object-center overflow-hidden rounded-2xl shadow-vi my-7" src="../images/projects/loclo_dev_1.jpg" alt="LOCLO Homepage Project Cover Photo">
                     <img class="object-cover object-center overflow-hidden rounded-2xl shadow-vi my-7" src="../images/projects/loclo_dev_1.jpg" alt="LOCLO Homepage Project Cover Photo">
@@ -93,8 +92,8 @@
                 <p class="leading-7 my-2">Conducting the final check also allowed me to make the stylesheet as concise &lpar;or &ldquo;dry&rdquo;&rpar; as possible for easier peer review in the future&period;</p>
             </section>
             <section class="px-40 py-10 bg-winter flex mt-4 justify-center">
-                <h2 class="font-semibold text-2xl leading-relaxed mr-10 basis-1/3">More Projects <br> by Jessica</h2>
-                <div class="overflow-hidden mr-6 rounded-2xl shadow-vi w-72 basis-1/3">
+                <h2 class="font-semibold text-2xl leading-relaxed mr-10">More Projects <br> by Jessica</h2>
+                <div class="overflow-hidden mr-6 rounded-2xl shadow-vi w-72">
                     <a href="#" title="Go to My To-Do List Project">
                         <img class="min-w-full h-80" src="../images/projects/toDoList_3.jpg" alt="To Do List Project Cover Photo">
                         <div class="bg-dviolet text-ghost px-6 py-8">
@@ -103,7 +102,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="overflow-hidden mr-6 rounded-2xl shadow-vi w-72 basis-1/3">
+                <div class="overflow-hidden mr-6 rounded-2xl shadow-vi w-72">
                     <a href="#" title="Go to My To-Do List Project">
                         <img class="min-w-full h-80" src="../images/projects/get_ien_home.jpg" alt="Get IEN the Alien Home Project Cover Photo">
                         <div class="bg-dviolet text-ghost px-6 py-8">
