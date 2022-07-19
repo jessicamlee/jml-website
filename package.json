@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "A cool portfolio for development",
+  "description": "Jessica Lee's Front&dash;End Development Portfolio",
   "main": "index.js",
   "scripts": {
     "start": "npx tailwindcss -i ./styles/main.css -o ./dist/output.css --watch"
