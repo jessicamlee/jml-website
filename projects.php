@@ -10,7 +10,7 @@
             require('partials/global/header.php'); 
         ?>
         <main>
-            <section class="px-40 pt-8 pb-10">
+            <section class="px-20 lg:px-40 pt-8 pb-10">
                 <div class="grid grid-cols-2 gap-8">
                     <div>
                         <h1 class="font-semibold text-5xl leading-relaxed mb-2">Projects</h1>
@@ -33,7 +33,7 @@
                     </a>
                 </div>
             </section>
-            <section id="more-projects" class="px-40 py-14 bg-winter">
+            <section id="more-projects" class="px-20 lg:px-40 py-14 bg-winter">
                 <div class="flex mt-4 justify-center">
                     <div class="overflow-hidden mr-6 rounded-2xl shadow-vi w-72">
                         <a href="projects/loclo-homepage.php" title="Go to project">
