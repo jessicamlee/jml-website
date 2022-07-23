@@ -1,15 +1,15 @@
 <footer id="contact" class="pt-6">
-    <div class="px-16 sm:px-24 pt-8 lg:px-40 sm:flex flex-row">
+    <div class="sm:flex flex-row pt-8 px-8 xs:px-12 sm:px-16 md:px-24 lg:px-28 xl:px-32">
         <div class="basis-2/5">
             <h2 class="font-semibold text-3xl lg:text-4xl xl:text-5xl leading-relaxed mb-1.5">Contact</h2>
-            <p class="leading-6 mb-6">Send me an email to connect with me&period; <br class="sm:hidden"> I look forward to your message&excl;</p>
-            <a class="btn-gh btn=gh:hover" href="mailto:jessicamlee@gmail.com" title="Email Jessica">Email me</a>
+            <p class="leading-6 mb-6">Send me an email to connect with me&period; I look forward to your message&excl;</p>
+            <a class="btn-gh btn-gh:hover" href="mailto:jessicamlee@gmail.com" title="Email Jessica">Email me</a>
         </div>
         <div class="basis-1/5 h-12 sm:h-16"></div>
-        <ul class="basis-2/5 text-center self-end sm:text-right sm:content-end">
-            <li class="mb-1.5"><a class="font-semibold text-lg uppercase leading-3" href="about.php" title="Link to About">About</a></li>
-            <li class="mb-1.5"><a class="font-semibold text-lg uppercase leading-3" href="projects.php" title="Link to Development Projects">Projects</a></li>
-            <li class="mb-3.5"><a class="font-semibold text-lg uppercase leading-3" href="#contact" title="Link to Contact">Contact</a></li>
+        <ul class="basis-2/5 text-center self-end sm:text-right content-end text-base sm:text-lg">
+            <li><a class="font-semibold uppercase leading-3" href="about.php" title="About Jessica">About</a></li>
+            <li><a class="font-semibold uppercase leading-3" href="projects.php" title="Projects by Jessica">Projects</a></li>
+            <li class="mb-3"><a class="font-semibold uppercase leading-3" href="#contact" title="Contact Jessica">Contact</a></li>
             <li class="mb-2.5">
                 <ol class="flex items-center justify-center sm:justify-end">
                     <li class="w-10 mr-2">
