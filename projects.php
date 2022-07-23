@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html lang="en-CA">
     <?php 
-        $title_text = "Development &vert; Jessica Lee";
+        $title_text = "Projects &vert; Jessica Lee";
         require('partials/global/head.php'); 
     ?>
     <body class="bg-ghost text-dviolet font-medium">
         <?php 
-            $active_page = "development";
+            $active_page = "projects";
             require('partials/global/header.php'); 
         ?>
         <main>
             <section class="px-20 lg:px-40 pt-8 pb-10">
                 <div class="grid grid-cols-2 gap-8">
                     <div>
-                        <h1 class="font-semibold text-5xl leading-relaxed mb-2">Projects</h1>
-                        <p class="leading-7 mt-4 mb-9">Check out my latest <b>Front&dash;End Development</b> projects <br>with a sprinkle of user experience design&period;</p>
-                        <a class="btn" href="#more-projects">More Projects</a>
+                        <h1 class="font-semibold text-5xl leading-relaxed mb-1.5">Projects</h1>
+                        <p class="leading-6 mb-6">Check out my latest <b>Front&dash;End Development</b> projects with a sprinkle of user experience design&period;</p>
+                        <a class="btn btn:hover" href="#more-projects">More Projects</a>
                     </div>
-                    <div class="overflow-hidden mr-6 mt-4 rounded-2xl shadow-vi">
+                    <div class="overflow-hidden mt-4 rounded-2xl shadow-vi">
                         <a href="projects/loclo-homepage.php" title="Go to LOCLO Homepage Project">
-                            <img src="images/projects/loclo_dev_1.jpg" alt="LOCLO Homepage Project Cover Photo">
+                            <img class="w-full" src="images/projects/loclo_dev_1.jpg" alt="LOCLO Homepage Project Cover Photo">
                             <div class="bg-dviolet text-ghost px-6 py-8">
                                 <h2 class="font-semibold text-xl">LOCLO Homepage</h2>
                                 <p class="mt-2">A Responsive e&dash;Commerce website experience&period;</p>
@@ -33,7 +33,7 @@
                     </a>
                 </div>
             </section>
-            <section id="more-projects" class="px-20 lg:px-40 py-14 bg-winter">
+            <section id="more-projects" class="px-20 lg:px-40 py-14 bg-gray-300">
                 <div class="flex mt-4 justify-center">
                     <div class="overflow-hidden mr-6 rounded-2xl shadow-vi w-72">
                         <a href="projects/loclo-homepage.php" title="Go to project">

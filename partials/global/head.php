@@ -21,6 +21,8 @@
     <meta property="twitter:title" content="Jessica Lee | Front-End Developer">
     <meta property="twitter:description" content="Jessica Lee | I develop experiences to share stories in immersive, insightful, and memorable ways.">
     <meta property="twitter:image" content="https://jessicamlee.dev/images/jml-home.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400&display=swap">
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/main.css">
