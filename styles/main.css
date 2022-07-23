@@ -1,6 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-.btn {
-    @apply py-3.5 px-7 my-8 font-semibold border-solid border-2 border-dviolet rounded-full uppercase shadow-vi bg-winter;
+.btn-vi {
+    @apply py-2 px-4 text-sm font-semibold bg-dviolet text-ghost border-ghost border-solid border-2 rounded-full uppercase;
+}
+.btn-vi:hover {
+    @apply bg-ghost text-dviolet border-dviolet;
+}
+.btn-gh {
+    @apply py-2 px-4 text-sm font-semibold bg-ghost text-dviolet border-dviolet border-solid 
+    border-2 rounded-full uppercase shadow-vi;
+}
+.btn-gh:hover {
+    @apply bg-dviolet text-ghost border-dviolet;
 }

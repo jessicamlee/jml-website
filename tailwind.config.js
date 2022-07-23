@@ -4,6 +4,9 @@ module.exports = {
   content: ["./**/*.{html,php}",],
   theme: {
     extend: {
+      fontFamily: {
+        'sans': ['Poppins', 'sans-serif']
+      },
       colors: {
         'winter': '#d3f7ff',
         'dviolet': '#2b0462',

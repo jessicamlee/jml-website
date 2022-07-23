@@ -10,19 +10,19 @@
             require ('partials/global/header.php'); 
         ?>
         <main>
-            <section class="px-40 pt-8 pb-14">
+            <section class="px-20 pt-8 pb-14 lg:px-40 ">
                 <div class="grid grid-cols-2 gap-8">
                     <div>
-                        <h1 class="font-semibold text-5xl leading-relaxed mb-2">About</h1>
-                        <p class="leading-7 mt-4">I am currently studying New Media and Web Development to become a <b>Front&dash;End Developer</b> who specializes in the user&apos;s experience&period;</p>
-                        <p class="leading-7 mt-4 mb-9">When I&apos;m not at my desk&comma; you can find me catching up on a show or film&comma; reconnecting with friends and family&comma; or planning another adventure to explore a new place&period;</p>
-                        <a class="py-3.5 px-7 my-8 font-semibold border-solid border-2 border-dviolet rounded-full uppercase shadow-vi bg-winter" href="#contact">Get in touch</a>
+                        <h1 class="font-semibold text-5xl leading-relaxed">About</h1>
+                        <p class="leading-6 my-3">I am currently studying New Media and Web Development to become a <b>Front&dash;End Developer</b> who specializes in the user&apos;s experience&period;</p>
+                        <p class="leading-6 mt-3 mb-6">When I&apos;m not at my desk&comma; you can find me catching up on a show or film&comma; reconnecting with friends and family&comma; or planning another adventure to explore a new place&period;</p>
+                        <a class="btn btn:hover" href="#contact">Get in touch</a>
                     </div>
-                    <img class="rounded-2xl shadow-vi" src="images/about/jessicalee_profilepicture.jpg" alt="Jessica Lee Profile Picture">
+                    <img class="rounded-full shadow-vi" src="images/about/jessicalee_profilepicture.jpg" alt="Jessica Lee Profile Picture">
                 </div>
             </section>
-            <section class="px-40 py-14 bg-winter">
-                <h2 class="font-semibold text-4xl leading-relaxed mb-2">What matters to me&colon;</h2>
+            <section class="px-20 pt-8 lg:px-40 py-14 bg-winter">
+                <h2 class="font-semibold text-4xl leading-relaxed mb-3">What matters to me&colon;</h2>
                 <div class="grid grid-cols-2 gap-7">
                     <div class="grid grid-cols-6">
                         <img class="w-14 pr-2 rotate-180" src="images/icons/arrow_button.svg" alt="Core Value Icon">
@@ -54,27 +54,27 @@
                     </div>
                 </div>
             </section>
-            <section class="px-40 py-14 grid grid-cols-2 gap-8">
+            <section class="px-20 lg:px-40 py-14 grid grid-cols-2 gap-8">
                 <div>
-                    <h2 class="font-semibold text-4xl leading-relaxed mb-2">Why Development&quest;</h2>
-                    <p class="leading-7 mb-4">When I completed my Bachelor&apos;s in English Literature and Creative Writing&comma; I knew I wanted to contribute to the digital world&period;</p>
-                    <p class="leading-7">I started as a writer and editor for multiple website projects&period;</p>
-                    <p class="leading-7 mt-4 mb-9">The projects ranged from analyzing literature and stories to contributing to topics about the environment&comma; finance&comma; wellness&comma; and technology&period;</p>
+                    <h2 class="font-semibold text-4xl leading-relaxed mb-1.5">Why Development&quest;</h2>
+                    <p class="leading-6 my-3 self-center">When I completed my Bachelor&apos;s in English Literature and Creative Writing&comma; I knew I wanted to contribute to the digital world&period;</p>
+                    <p class="leading-6 my-3 self-center">I started as a writer and editor for multiple website projects&period;</p>
+                    <p class="leading-6 my-3 self-center">The projects ranged from analyzing literature and stories to contributing to topics about the environment&comma; finance&comma; wellness&comma; and technology&period;</p>
                 </div>
-                <div>
+                <div class="justify-self-center">
                     <!-- animation -->
-                    <img class="rounded-2xl shadow-vi" src="images/about/animation_2.jpg" alt="Preloader Animation created by Jessica Lee">
+                    <img class="rounded-full shadow-vi" src="images/about/animation_2.jpg" alt="Preloader Animation created by Jessica Lee">
                 </div>
             </section>
-            <section class="bg-winter px-40 py-14 grid grid-cols-2 gap-8">
-                <div>
+            <section class="bg-winter px-20 lg:px-40 py-14 grid grid-cols-2 gap-8">
+                <div class="justify-self-center">
                     <!-- animation -->
-                    <img class="rounded-2xl shadow-vi" src="images/about/animation_3.jpg" alt="Traffic Lights Animation created by Jessica Lee">
+                    <img class="rounded-full shadow-vi" src="images/about/animation_3.jpg" alt="Traffic Lights Animation created by Jessica Lee">
                 </div>
-                <div>
-                    <p class="leading-7 mb-4">A year later&comma; I realized I wanted to learn more about Information Architecture&comma; User Experiences&comma; and User&dash;Centered Design to create better websites expeirences for users&period;</p>
-                    <p class="leading-7">My curiosity led me to Front&dash;End Development&period;</p>
-                    <p class="leading-7 mt-4 mb-9">I choose the developer&apos;s path because development gives me the opportunity to learn new ways to bring design to life while sharing fun and insightful experiences with everyone&period;</p>
+                <div class="self-center">
+                    <p class="leading-6 my-3">A year later&comma; I realized I wanted to learn more about Information Architecture&comma; User Experiences&comma; and User&dash;Centered Design to create better websites expeirences for users&period;</p>
+                    <p class="leading-6 my-3">My curiosity led me to Front&dash;End Development&period;</p>
+                    <p class="leading-6 my-3">I choose the developer&apos;s path because development gives me the opportunity to learn new ways to bring design to life while sharing fun and insightful experiences with everyone&period;</p>
                 </div>
             </section>
         </main>
