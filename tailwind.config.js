@@ -5,7 +5,12 @@ module.exports = {
   theme: {
     screens: {
       '2xs': '320px',
-      'xs': '576px',
+      'xs': '500px',
+      'sm': '640px',
+      'md': '768px',
+      'lg': '992px',
+      'xl': '1200px',
+      '2xl': '1440px'
     },
     extend: {
       fontFamily: {
