@@ -13,25 +13,28 @@
             require ('partials/global/header.php'); 
         ?>
         <main>
-            <section class="bg-dviolet px-10 xs:px-14 sm:px-18 md:px-24 lg:px-28 xl:px-32 py-10">
+            <section class="bg-dviolet px-10 xs:px-14 sm:px-18 md:px-24 lg:px-28 xl:px-32 py-10 shadow-vi">
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
                     <div>
-                        <h2 class="font-semibold text-4xl leading-10 xl:text-5xl leading-relaxed mb-4 text-ghost">Hi&comma; I&apos;m Jessica</h2>
-                        <p class="leading-6 mb-6 text-ghost font-light">I&apos;m a curious storyteller and systematic problem&dash;solver&comma; currently pursuing a career in <span class="font-bold">Front&dash;End Development</span> in Vancouver&comma; British Columbia&period;</p>
-                        <a class="btn-vi xl:btn-vi:hover" href="#contact">Get in touch</a>
+                        <span class="font-semibold text-4xl leading-10 xl:text-5xl leading-relaxed mb-2 text-ghost">Hi&comma; I&apos;m <h1 class="inline mt-4">Jessica</h1></span>
+                        <p class="leading-6 mb-6 text-ghost font-light mt-2">I&apos;m a curious storyteller and systematic problem&dash;solver&comma; currently pursuing a career in <span class="font-bold">Front&dash;End Development</span> in Vancouver&comma; British Columbia&period;</p>
+                        <div><a class="btn-vi xl:btn-vi:hover" href="#contact">Get in touch</a></div>
                     </div>
                     <!-- Logo Animation Here -->
-                    <img class="justify-self-center w-1/2 sm:w-3/4" src="images/jessicalee_favicon.svg" alt="JL Logo Animation">
+                    <div class="justify-self-center w-1/2 sm:w-3/4">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960.32 936" alt="Jessica Lee Logo Animation"><defs></defs><g id="Layer_2" data-name="Layer 2"><g id="Design"><path class="cls-1" d="M960.32,446l-63.41,50.27c-45-.47-101.54-1.13-156.86-1.77-77.9-.91-151.48-1.76-183-2l-25.25-.16V467.16c0-38.22-.72-297.82-1.77-466.84L580.92,0c.91,147.29,1.56,363.36,1.72,441.94,37.61.36,96.45,1,158,1.76C827.13,444.71,916.56,445.74,960.32,446Z" fill="#f7fcfe"/><path class="cls-1" d="M878.3,511.06l-26.45,21c-46.49-.39-110.07-1-172.16-1.59-76.19-.72-148.16-1.41-179.86-1.62l-10.52-.07V518.23c0-7.76.05-26.9.11-53.91.24-106.51.74-328.15-.11-464.09L510.49.09c.85,136,.34,357.74.1,464.28,0,18.54-.07,33.36-.09,43.34,35.44.27,100.7.89,169.39,1.55C754.69,510,831.73,510.7,878.3,511.06Z" fill="#f7fcfe"/><path class="cls-1" d="M469.34,0c1.88,298.54,1.88,527.76,1.88,712,0,.44,0,.88,0,1.31C465.78,817.7,378.28,914.1,272,932.74A214.9,214.9,0,0,1,234.85,936c-41.16,0-81.28-12.09-117.74-35.71C70.52,870.11,31.21,822.34,0,758.08l40.94-32.45c53,115.51,133.42,172.6,222.28,157,83.69-14.67,152.6-89.88,157.16-171.39,0-184,0-412.93-1.88-710.95Z" fill="#f7fcfe"/><path class="cls-1" d="M402.59.13c.62,211.91.43,387.84.27,543.06-.07,62.48-.13,120.73-.13,175.35,0,.32,0,.64,0,1-2.51,27.65-18.28,58.56-43.28,84.8-26.83,28.17-60.48,46.86-94.75,52.61a135.41,135.41,0,0,1-22.52,1.89c-48,0-119.3-25.49-177.71-151.79l17-13.49.08,0C128.21,797,192,847.63,261.14,836c29.79-5,59.24-21.46,82.93-46.33,21.3-22.35,35.28-49.09,37.48-71.64,0-54.48.06-112.58.13-174.87.16-155.2.35-331.11-.28-543Z" fill="#f7fcfe"/></g></g></svg>
+                    </div>
                 </div>
-                <!-- Not currently visible -->
-                <div class="mt-2 flex">
-                    <a class="justify-self-center" href="#projects">
-                        <img class="w-8 rotate-270" src="images/icons/arrow_button.svg" title="Discover more below">
+                <div class="mt-8 flex justify-center">
+                    <a class="arrow-gh animate-bounce ease-in-out" href="#projects" alt="Violet arrow pointing downward" title="Discover more below">
+                        <svg viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" title="Bouncing arrow">
+                            <path d="M34.2 17.0359L34.2 24.1159L25.24 32.8359L16.28 24.1159L16.28 17.0359L25.24 25.7959L34.2 17.0359Z" fill="#f7fcfe"/>
+                        </svg>
                     </a>
                 </div>
             </section>
             <section id="projects" class="px-10 xs:px-14 sm:px-18 md:px-24 lg:px-28 xl:px-32 py-10 lg:py-14">
-                <h2 class="font-semibold text-3xl lg:text-4xl leading-relaxed lg:mb-2.5">Projects</h2>
+                <h2 class="font-semibold text-2xl xs:text-3xl lg:text-4xl leading-8 xs:leading-relaxed lg:mb-2.5">Projects</h2>
                 <div class="mt-4 grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-3 gap-4">
                     <div class="overflow-hidden rounded-2xl shadow-vi">
                         <a href="projects/loclo-homepage.php" title="Link to project">
@@ -65,7 +68,7 @@
             <section class="bg-gray-300 px-8 xs:px-12 sm:px-16 md:px-24 lg:px-28 xl:px-32 py-14 ">
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                     <div>
-                        <h2 class="font-semibold text-3xl lg:text-4xl leading-relaxed lg:mb-2.5">About</h2>
+                        <h2 class="font-semibold text-2xl xs:text-3xl lg:text-4xl leading-8 xs:leading-relaxed lg:mb-2.5">About</h2>
                         <p class="leading-6 mb-6">I want to crafting user&dash;centered projects to share stories in immersive&comma; insightful&comma; and memorable experiences&period;</p>
                         <a class="btn-gh xl:btn-gh:hover" href="about.php">About Me</a>
                     </div>

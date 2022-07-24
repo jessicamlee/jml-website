@@ -14,3 +14,9 @@
 .btn-gh:hover {
     @apply bg-dviolet text-ghost border-dviolet;
 }
+.arrow-gh {
+    @apply w-8 h-8 border-ghost border-2 border-solid rounded-full;
+}
+.arrow-vi {
+    @apply w-8 h-8 border-dviolet border-2 border-solid rounded-full;
+}
