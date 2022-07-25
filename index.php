@@ -18,7 +18,7 @@
                     <div>
                         <span class="font-semibold text-4xl leading-10 xl:text-5xl leading-relaxed mb-2 text-ghost">Hi&comma; I&apos;m <h1 class="inline mt-4">Jessica</h1></span>
                         <p class="leading-6 mb-6 text-ghost font-light mt-2">I&apos;m a curious storyteller and systematic problem&dash;solver&comma; currently pursuing a career in <span class="font-bold">Front&dash;End Development</span> in Vancouver&comma; British Columbia&period;</p>
-                        <div><a class="btn-vi xl:btn-vi:hover" href="#contact">Get in touch</a></div>
+                        <div><a class="btn-vi xl:hover:bg-ghost xl:hover:text-dviolet transition ease-in-out duration-500" href="#contact">Get in touch</a></div>
                     </div>
                     <!-- Logo Animation Here -->
                     <div class="justify-self-center w-1/2 sm:w-3/4">
@@ -46,16 +46,16 @@
                         </a>
                     </div>
                     <div class="overflow-hidden rounded-2xl shadow-vi">
-                        <a href="projects/loclo-homepage.php" title="Link to project">
+                        <a href="projects/todo-list.php" title="Link to project">
                             <img class="w-full lg:min-w-fit" src="images/projects/toDoList_3.jpg" alt="To Do List Project Cover Photo">
                             <div class="bg-dviolet text-ghost h-full p-6 xl:px-6 xl:py-8">
-                                <h3 class="font-bold text-base md:text-lg lg:text-xl">My To&dash;Do List</h3>
+                                <h3 class="font-bold text-base md:text-lg lg:text-xl">To&dash;Do List</h3>
                                 <p class="mt-2 font-normal text-sm">Let your worries go in a To-Do List in Dark Mode&excl;</p>
                             </div>
                         </a>
                     </div>
                     <div class="overflow-hidden rounded-2xl shadow-vi">
-                        <a href="projects/loclo-homepage.php" title="Link to project">
+                        <a href="projects/get-ien-home.php" title="Link to project">
                             <img class="w-full lg:min-w-fit" src="images/projects/get_ien_home.jpg" alt="Get IEN the Alien Home Project Cover Photo">
                             <div class="bg-dviolet text-ghost h-full p-6 xl:px-6 xl:py-8">
                                 <h3 class="font-bold text-base md:text-lg lg:text-xl">Get IEN Home&excl;</h3>
@@ -70,7 +70,7 @@
                     <div>
                         <h2 class="font-semibold text-2xl xs:text-3xl lg:text-4xl leading-8 xs:leading-relaxed lg:mb-2.5">About</h2>
                         <p class="leading-6 mb-6">I want to crafting user&dash;centered projects to share stories in immersive&comma; insightful&comma; and memorable experiences&period;</p>
-                        <a class="btn-gh xl:btn-gh:hover" href="about.php">About Me</a>
+                        <a class="btn-gh xl:hover:bg-dviolet xl:hover:text-ghost transition ease-in-out duration-500" href="about.php">About Me</a>
                     </div>
                     <img class="rounded-full shadow-vi justify-self-center w-4/6 md:w-full" src="images/about/jessicalee_profilepicture.jpg" alt="Jessica Lee Profile Picture">
                 </div>
