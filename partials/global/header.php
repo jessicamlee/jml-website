@@ -13,9 +13,9 @@
         <div class="basis-1/5"></div>
         <nav class="basis-2/5 mt-6 xs:mt-0 flex justify-center content-center xs:justify-end">
             <ul class="flex items-center text-sm lg:text-base xl:text-lg uppercase leading-3 font-semibold">
-                <li class="pr-4 lg:pr-6 <?php if($active_page == "about") { echo "active"; } ?>"><a href="about.php" title="About Jessica">About</a></li>
-                <li class="<?php if($active_page == "development") { echo "active"; } ?>"><a href="projects.php" title="Projects by Jessica">Projects</a></li>
-                <li class="pl-4 lg:pl-6 <?php if($active_page == "contact") { echo "active"; } ?>"><a href="#contact" title="Contact Jessica">Contact</a></li>
+                <li class="mr-4 lg:mr-6 pb-1 xl:hover:scale-125 xl:hover:border-ghost xl:hover:border-b-2 transition ease-in-out duration-600 border-solid delay-100 <?php if($active_page == "about") { echo "active"; } ?>"><a class="xl:hover:border-ghost xl:hover:border-b-4 transition ease-in-out duration-600 border-solid" href="about.php" title="About Jessica">About</a></li>
+                <li class="pb-1 xl:hover:scale-125 xl:hover:border-ghost xl:hover:border-b-2 transition ease-in-out duration-600 border-solid delay-100 <?php if($active_page == "development") { echo "active"; } ?>"><a class="xl:hover:border-ghost xl:hover:border-b-4 transition ease-in-out duration-600 border-solid" href="projects.php" title="Projects by Jessica">Projects</a></li>
+                <li class="ml-4 lg:ml-6 pb-1 xl:hover:scale-125 xl:hover:border-ghost xl:hover:border-b-2 transition ease-in-out duration-600 border-solid delay-100 <?php if($active_page == "contact") { echo "active"; } ?>"><a class="xl:hover:border-ghost xl:hover:border-b-4 transition ease-in-out duration-600 border-solid" href="#contact" title="Contact Jessica">Contact</a></li>
             </ul>
         </nav>
     </div>

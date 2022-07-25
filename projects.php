@@ -15,7 +15,7 @@
                     <div>
                         <h1 class="font-semibold text-4xl leading-10 md:text-5xl leading-relaxed lg:mb-2.5">Projects</h1>
                         <p class="leading-6 mt-3 mb-6">Check out my latest <b>Front&dash;End Development</b> projects with a sprinkle of user experience design&period;</p>
-                        <a class="btn-gh xl:btn-gh:hover" href="#more-projects">More Projects</a>
+                        <a class="btn-gh xl:hover:bg-dviolet xl:hover:text-ghost transition ease-in-out duration-500" href="#more-projects">More Projects</a>
                     </div>
                     <div class="overflow-hidden mt-4 rounded-2xl shadow-vi">
                         <a href="projects/loclo-homepage.php" title="Go to LOCLO Homepage Project">
@@ -38,25 +38,25 @@
             <section id="more-projects" class="bg-gray-300 px-10 xs:px-14 sm:px-18 md:px-24 lg:px-28 xl:px-32 py-10">
                 <div class="mt-4 grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-3 gap-4">
                     <div class="overflow-hidden rounded-2xl shadow-vi">
-                        <a href="projects/loclo-homepage.php" title="Go to project">
-                            <img class="w-full lg:min-w-fit" src="images/projects/loclo_dev_card.jpg" alt="LOCLO Homepage Project Cover Photo">
+                        <a href="projects/loclo-ux-design.php" title="Go to project">
+                            <img class="w-full lg:min-w-fit" src="images/projects/loclo_dev_card.jpg" alt="LOCLO Website and UX Design Project Cover Photo">
                             <div class="bg-dviolet text-ghost h-full p-6 xl:px-6 xl:py-8">
-                                <h3 class="font-bold md:leading-5 text-base md:text-lg lg:text-xl">LOCLO Homepage</h3>
-                                <p class="mt-2 font-normal text-sm">A Responsive e&dash;Commerce website experience&period;</p>
+                                <h3 class="font-bold md:leading-5 text-base md:text-lg lg:text-xl">LOCLO Web &amp; Design</h3>
+                                <p class="mt-2 font-normal text-sm">A User Experience design for a local shopping experience&period;</p>
                             </div>
                         </a>
                     </div>
                     <div class="overflow-hidden rounded-2xl shadow-vi">
-                        <a href="projects/loclo-homepage.php" title="Go to project">
+                        <a href="projects/todo-list.php" title="Go to project">
                             <img class="w-full lg:min-w-fit" src="images/projects/toDoList_3.jpg" alt="To Do List Project Cover Photo">
                             <div class="bg-dviolet text-ghost h-full p-6 xl:px-6 xl:py-8">
-                                <h3 class="font-bold md:leading-5 text-base md:text-lg lg:text-xl">My To&dash;Do List</h3>
+                                <h3 class="font-bold md:leading-5 text-base md:text-lg lg:text-xl">To&dash;Do List</h3>
                                 <p class="mt-2 font-normal text-sm">Let your worries go in a To-Do List in Dark Mode&excl;</p>
                             </div>
                         </a>
                     </div>
                     <div class="overflow-hidden rounded-2xl shadow-vi">
-                        <a href="projects/loclo-homepage.php" title="Go to project">
+                        <a href="projects/get-ien-home.php" title="Go to project">
                             <img class="w-full lg:min-w-fit" src="images/projects/get_ien_home.jpg" alt="Get IEN the Alien Home Project Cover Photo">
                             <div class="bg-dviolet text-ghost h-full p-6 xl:px-6 xl:py-8">
                                 <h3 class="font-bold md:leading-5 text-base md:text-lg lg:text-xl">Get IEN Home&excl;</h3>

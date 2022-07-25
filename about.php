@@ -16,7 +16,7 @@
                         <h1 class="font-semibold text-4xl leading-10 md:text-5xl leading-relaxed lg:mb-2.5">About</h1>
                         <p class="leading-6 my-3">I am currently studying New Media and Web Development to become a <b>Front&dash;End Developer</b> who specializes in the user&apos;s experience&period;</p>
                         <p class="leading-6 mt-3 mb-6">When I&apos;m not at my desk&comma; you can find me catching up on a show or film&comma; reconnecting with friends and family&comma; or planning another adventure to explore a new place&period;</p>
-                        <a class="btn-gh btn-gh:hover" href="#contact">Get in touch</a>
+                        <a class="btn-gh xl:hover:bg-dviolet xl:hover:text-ghost transition ease-in-out duration-500" href="#contact">Get in touch</a>
                     </div>
                     <img class="rounded-full shadow-vi" src="images/about/jessicalee_profilepicture.jpg" alt="Jessica Lee Profile Picture">
                 </div>
