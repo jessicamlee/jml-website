@@ -1,7 +1,7 @@
-<footer id="contact" class="pt-6">
+<footer id="contact" class="pt-3">
     <div class="xs:flex flex-row pt-8 px-8 xs:px-12 sm:px-16 md:px-24 lg:px-28 xl:px-32">
         <div class="basis-3/5 sm:basis-2/5">
-            <h2 class="font-semibold text-3xl lg:text-4xl leading-relaxed lg:mb-2.5">Contact</h2>
+            <h2 class="font-semibold text-2xl 2xs:text-3xl lg:text-4xl leading-8 xs:leading-relaxed lg:mb-2.5">Contact</h2>
             <p class="leading-6 mb-6">Send me an email to connect with me&period; I look forward to your message&excl;</p>
             <a class="btn-gh xl:hover:bg-dviolet xl:hover:text-ghost transition ease-in-out duration-500" href="mailto:jessicamlee@gmail.com" title="Email Jessica">Email me</a>
         </div>
@@ -33,9 +33,9 @@
     </div>
     <div class="mt-8">
         <a class="flex items-center justify-center" href="#header" title="Back to Top of page">
-            <p class="text-sm uppercase font-semibold mr-2">Back to Top</p>
+            <p class="text-sm uppercase font-semibold mr-2 xl:hover:border-dviolet xl:hover:border-b-4 transition ease-in-out duration-600 border-solid delay-75">Back to Top</p>
             <div class="rotate-180">
-                <svg class="arrow-vi" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" title="Back to the top arrow button">
+                <svg class="arrow-vi animate-bounce ease-in-out" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" title="Back to the top arrow button">
                     <path d="M34.2 17.0359L34.2 24.1159L25.24 32.8359L16.28 24.1159L16.28 17.0359L25.24 25.7959L34.2 17.0359Z" fill="#2b0462"/>
                 </svg>
             </div>

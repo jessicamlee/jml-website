@@ -34,31 +34,31 @@
                 </div>
             </section>
             <section id="projects" class="px-10 xs:px-14 sm:px-18 md:px-24 lg:px-28 xl:px-32 py-10 lg:py-14">
-                <h2 class="font-semibold text-2xl xs:text-3xl lg:text-4xl leading-8 xs:leading-relaxed lg:mb-2.5">Projects</h2>
-                <div class="mt-4 grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-3 gap-4">
-                    <div class="overflow-hidden rounded-2xl shadow-vi">
+                <h2 class="font-semibold text-2xl 2xs:text-3xl lg:text-4xl leading-8 xs:leading-relaxed lg:mb-2.5">Projects</h2>
+                <div class="mt-2 grid grid-cols-1 xs:grid-cols-2 lg:grid-cols-3 gap-4">
+                    <div class="overflow-hidden rounded-2xl shadow-vi xl:hover:scale-105 transition ease-in-out duration-600 delay-75">
                         <a href="projects/loclo-homepage.php" title="Link to project">
-                            <img class="w-full lg:min-w-fit" src="images/projects/loclo_dev_card.jpg" alt="LOCLO Homepage Project Cover Photo">
+                            <img class="w-full" src="images/projects/loclo_develop/loclo_developed_v2.jpg" alt="LOCLO Homepage Project Cover Photo">
                             <div class="bg-dviolet text-ghost h-full p-6 xl:px-6 xl:py-8">
-                                <h3 class="font-bold md:leading-5 text-base md:text-lg lg:text-xl">LOCLO Homepage</h3>
+                                <h3 class="font-bold md:leading-5 text-lg lg:text-xl">LOCLO Homepage</h3>
                                 <p class="mt-2 font-normal text-sm">A Responsive e&dash;Commerce website experience&period;</p>
                             </div>
                         </a>
                     </div>
-                    <div class="overflow-hidden rounded-2xl shadow-vi">
+                    <div class="overflow-hidden rounded-2xl shadow-vi xl:hover:scale-105 transition ease-in-out duration-600 delay-75">
                         <a href="projects/todo-list.php" title="Link to project">
-                            <img class="w-full lg:min-w-fit" src="images/projects/toDoList_3.jpg" alt="To Do List Project Cover Photo">
+                            <img class="w-full" src="images/projects/todo_list/todo_list_both_modes.jpg" alt="To Do List Project Cover Photo">
                             <div class="bg-dviolet text-ghost h-full p-6 xl:px-6 xl:py-8">
-                                <h3 class="font-bold text-base md:text-lg lg:text-xl">To&dash;Do List</h3>
-                                <p class="mt-2 font-normal text-sm">Let your worries go in a To-Do List in Dark Mode&excl;</p>
+                                <h3 class="font-bold md:leading-5 text-lg lg:text-xl">To&dash;Do List</h3>
+                                <p class="mt-2 font-normal text-sm">Let your worries go in a To&dash;Do List in Dark Mode&excl;</p>
                             </div>
                         </a>
                     </div>
-                    <div class="overflow-hidden rounded-2xl shadow-vi">
+                    <div class="overflow-hidden rounded-2xl shadow-vi xl:hover:scale-105 transition ease-in-out duration-600 delay-75">
                         <a href="projects/get-ien-home.php" title="Link to project">
-                            <img class="w-full lg:min-w-fit" src="images/projects/get_ien_home.jpg" alt="Get IEN the Alien Home Project Cover Photo">
+                            <img class="w-full" src="images/projects/get_ien_home/get_ien_home_cover.jpg" alt="Get IEN the Alien Home Project Cover Photo">
                             <div class="bg-dviolet text-ghost h-full p-6 xl:px-6 xl:py-8">
-                                <h3 class="font-bold text-base md:text-lg lg:text-xl">Get IEN Home&excl;</h3>
+                                <h3 class="font-bold md:leading-5 text-lg lg:text-xl">Get IEN Home&excl;</h3>
                                 <p class="mt-2 font-normal text-sm">A simple game to help IEN the alien return home&period;</p>
                             </div>
                         </a>
@@ -66,13 +66,13 @@
                 </div>
             </section>
             <section class="bg-gray-300 px-8 xs:px-12 sm:px-16 md:px-24 lg:px-28 xl:px-32 py-14 ">
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
                     <div>
-                        <h2 class="font-semibold text-2xl xs:text-3xl lg:text-4xl leading-8 xs:leading-relaxed lg:mb-2.5">About</h2>
-                        <p class="leading-6 mb-6">I want to crafting user&dash;centered projects to share stories in immersive&comma; insightful&comma; and memorable experiences&period;</p>
+                        <h2 class="font-semibold text-2xl 2xs:text-3xl lg:text-4xl leading-8 xs:leading-relaxed lg:mb-2.5">About</h2>
+                        <p class="leading-6 mt-2 xs:mt-0 mb-6">I want to crafting user&dash;centered projects to share stories in immersive&comma; insightful&comma; and memorable experiences&period;</p>
                         <a class="btn-gh xl:hover:bg-dviolet xl:hover:text-ghost transition ease-in-out duration-500" href="about.php">About Me</a>
                     </div>
-                    <img class="rounded-full shadow-vi justify-self-center w-4/6 md:w-full" src="images/about/jessicalee_profilepicture.jpg" alt="Jessica Lee Profile Picture">
+                    <img class="rounded-full shadow-vi justify-self-center w-5/6 sm:w-full" src="images/jessicalee_profilepicture.jpg" alt="Jessica Lee Profile Picture">
                 </div>
             </section>
         </main>
