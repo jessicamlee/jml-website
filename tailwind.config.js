@@ -17,7 +17,6 @@ module.exports = {
         'sans': ['Poppins', 'sans-serif']
       },
       colors: {
-        // 'winter': '#d3f7ff',
         'dviolet': '#2b0462',
         'ghost': '#f7fcfe',
       },

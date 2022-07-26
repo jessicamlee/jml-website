@@ -20,10 +20,10 @@
                     <div class="text-center">
                         <h1 class="font-semibold text-2xl xs:text-3xl lg:text-4xl leading-8 xs:leading-relaxed">To&dash;Do List</h1>
                         <p class="mb-6 sm:mb-8 italic">Let your worries go in a To&dash;Do List in Dark Mode&excl;</p>
-                        <p class="leading-6"><a href="#" target="_blank" title="Visit live site of To Do List with Dark Mode"><b>Go to Live Site&colon;</b> To&dash;Do List with Dark Mode</a></p>
+                        <p class="leading-6"><a href="#" target="_blank" title="Visit live site of To Do List with Dark Mode"><b>Go to Live Site&colon;</b> <span class="border-b-4 border-dviolet border-solid xl:hover:border-dashed transition ease-in-out duration-600 delay-100">To&dash;Do List with Dark Mode</span></a></p>
                     </div>
-                    <a href="#" target="_blank" title="Visit live site of To Do List with Dark Mode">
-                        <img class="w-full xl:min-w-fit h-96 object-cover object-top overflow-hidden rounded-2xl shadow-vi mt-3" src="../images/projects/loclo_dev_1.jpg" alt="LOCLO Homepage Project Cover Photo">
+                    <a href="#" target="_blank" title="Visit live site of To-Do List Project">
+                        <img class="w-full object-cover object-top overflow-hidden rounded-xl shadow-vi mt-3" src="../images/projects/todo_list/todo_list_both_modes.jpg" alt="To-Do List Cover Photo">
                     </a>
                     <p class="leading-6 mt-4 md:px-20 lg:px-24 xl:px-40 text-left">The To&dash;Do List project reflects my passion for organization and challenges my current knowledge of basic JavaScript&period;</p>
                 </div>
@@ -66,7 +66,7 @@
             <section id="project-details" class="px-10 xs:px-14 sm:px-18 md:px-24 lg:px-28 xl:px-32 py-10">
                 <div class="pb-10">
                     <h2 class="font-semibold text-xl xs:text-2xl lg:text-3xl">Phase 1&colon; Researching &amp; Planning</h2>
-                    <img class="w-full xl:min-w-fit h-96 object-cover object-top rounded-2xl shadow-vi my-5" src="../images/projects/loclo_dev_planning.jpg" alt="Screenshot of LOCLO Homepage Planning Process">
+                    <img class="w-full object-cover object-top rounded-xl shadow-vi my-5" src="../images/projects/todo_list/todo_list_brainstorm.jpg" alt="Screenshot of To-Do List Planning Process">
                     <p class="leading-6 my-4 md:px-20 lg:px-24 xl:px-40 text-left">I first conducted research to explore other ways to structure and style the to&dash;do list&period;</p>
                     <p class="leading-6 my-4 md:px-20 lg:px-24 xl:px-40 text-left">The primary target audience is students and workaholics who need an organizational system&period;</p>
                     <p class="leading-6 my-4 md:px-20 lg:px-24 xl:px-40 text-left">To resolve the targeted audience&apos;s pain points, the purpose of the to&dash;do list is to provide a single space to organize everything for the day&period;</p>
@@ -74,16 +74,13 @@
                 </div>
                 <div class="pb-10">
                     <h2 class="font-semibold text-xl xs:text-2xl lg:text-3xl">Phase 2&colon; Designing &amp; Developing</h2>
-                    <img class="w-full xl:min-w-fit h-96 object-cover object-top rounded-2xl shadow-vi my-5" src="../images/projects/loclo_dev_problems.jpg" alt="Screenshotof Problems in LOCLO Homepage">
+                    <img class="w-full object-cover object-top rounded-xl shadow-vi my-5" src="../images/projects/todo_list/todo_list_experimenting.jpg" alt="Screenshot of Dark Mode Toggle and To Do List Experimenting files">
                     <p class="leading-6 my-4 md:px-20 lg:px-24 xl:px-40 text-left">In the design stage&comma; I considered the laws of interface design, specifically Law of Clarity&comma; Law of Preferred Action&comma; Law of Easting&comma; and&comma; most importantly&comma; Law of Feedback&period;</p>
                     <p class="leading-6 my-4 md:px-20 lg:px-24 xl:px-40 text-left">Integrating these design laws would help make the interface more intuitive for users to engage with&period;</p>
                 </div>
                 <div>
                     <h2 class="font-semibold text-xl xs:text-2xl lg:text-3xl">Phase 3&colon; Reviewing Problems &amp; Solutions</h2>
-                    <div class="flex my-5 shadow-vi rounded-2xl h-96 overflow-none">
-                        <img class="w-full xl:min-w-fit object-cover object-center rounded-l-2xl px-4" src="../images/projects/loclo_dev_280px_des.jpg" alt="Screenshot of LOCLO Homepage Design">
-                        <img class="w-full xl:min-w-fit object-cover object-center rounded-l-2xl px-4" src="../images/projects/loclo_dev_280px_dev.jpg" alt="Screenshot of developed LOCLO Homepage">
-                    </div>
+                    <img class="w-full object-cover object-top rounded-xl shadow-vi my-5" src="../images/projects/todo_list/todo_list_problems.jpg" alt="Screenshot of Initial Problems on To-Do List interface">
                     <p class="leading-6 my-4 md:px-20 lg:px-24 xl:px-40 text-left">The obstacles I faced were the to&dash;do list could not be centered&comma; the font colors had low color contrast ratios in both modes&comma; and the Dark Mode toggle overlapped content&period;</p>
                     <p class="leading-6 my-4 md:px-20 lg:px-24 xl:px-40 text-left">After reviewing the problematic areas&comma; I revised the affected by adding a &lt;div&gt; to apply a relative parent container to place the child elements at their intended positions&period;</p>
                 </div>
@@ -91,11 +88,11 @@
             <div class="py-4 bg-dviolet"></div>
             <section class="px-10 xs:px-14 sm:px-18 md:px-24 lg:px-28 xl:px-32 py-10">
                 <h2 class="font-semibold text-2xl xs:text-3xl lg:text-4xl leading-8 xs:leading-relaxed">Outcome &amp; Next Steps</h2>
-                <p class="italic">Move the slider on the image below to see the Before and After&period;</p>
-                <div class="my-5 b-dics rounded-2xl shadow-vi" style="width: 1000px;">
-                    <img class="object-cover object-center overflow-hidden mt-1" src="../images/projects/loclo_design_v3.jpg" alt="Before (Design)">
-                    <img class="object-cover object-center overflow-hidden" src="../images/projects/loclo_dev_1.jpg" alt="After (Developed)">
+                <div class="my-5 b-dics rounded-xl shadow-vi w-full">
+                    <img class="object-cover object-center overflow-hidden" src="../images/projects/todo_list/todo_list_light_mode.jpg" alt="Light Mode">
+                    <img class="object-cover object-center overflow-hidden" src="../images/projects/todo_list/todo_list_dark_mode.jpg" alt="Dark Mode">
                 </div>
+                <p class="italic mb-2 text-center text-xs lg:text-base">Move the slider on the image to check out the Light and Dark Modes&period;</p>
                 <p class="leading-6 my-4 md:px-20 lg:px-24 xl:px-40 text-left">For this initial draft&comma; the result met the project goal while inspiring other ideas for me to learn to implement for future iterations&period;</p>
                 <p class="leading-6 my-4 md:px-20 lg:px-24 xl:px-40 text-left"><b>Next Steps&colon;</b> My plan for the project in the future is to add filters and tags to sort each task into different categories&period;</p>
                 <p class="leading-6 my-4 md:px-20 lg:px-24 xl:px-40 text-left">Having sorting options would visually group the tasks into whichever view the users would prefer for a personalized experience&period;</p>
@@ -103,18 +100,18 @@
             <section class="bg-gray-300 px-10 xs:px-14 sm:px-18 md:px-24 lg:px-28 xl:px-32 py-10">
                 <div class="grid grid-cols-1 xs:grid-cols-2 md:grid-cols-3 gap-4">
                     <h2 class="font-semibold text-xl xs:text-2xl lg:text-3xl mb-1 lg:mb-2.5 xs:col-span-2 md:col-span-1">More Projects <br class="hidden md:inline"> by Jessica</h2>
-                    <div class="overflow-hidden rounded-2xl shadow-vi">
-                        <a href="#" title="Go to My To-Do List Project">
-                            <img class="w-full xl:min-w-fit" src="../images/projects/loclo_dev_card.jpg" alt="To Do List Project Cover Photo">
+                    <div class="overflow-hidden rounded-2xl shadow-vi xl:hover:scale-105 transition ease-in-out duration-600 delay-75">
+                        <a href="../projects/loclo-homepage.php" title="Go to My To-Do List Project">
+                            <img class="w-full" src="../images/projects/loclo_develop/loclo_developed_v2.jpg" alt="LOCLO Homepage Project Cover Photo">
                             <div class="bg-dviolet text-ghost h-full p-6 xl:px-6 xl:py-8">
                                 <h3 class="font-bold text-base md:text-lg lg:text-xl">LOCLO Homepage</h3>
                                 <p class="mt-2 font-normal text-sm">A Responsive e&dash;Commerce website experience&period;</p>
                             </div>
                         </a>
                     </div>
-                    <div class="overflow-hidden rounded-2xl shadow-vi">
-                        <a href="#" title="Go to My To-Do List Project">
-                            <img class="w-full xl:min-w-fit" src="../images/projects/get_ien_home.jpg" alt="Get IEN the Alien Home Project Cover Photo">
+                    <div class="overflow-hidden rounded-2xl shadow-vi xl:hover:scale-105 transition ease-in-out duration-600 delay-75">
+                        <a href="../projects/get-ien-home.php" title="Go to My To-Do List Project">
+                            <img class="w-full" src="../images/projects/get_ien_home/get_ien_home_cover.jpg" alt="Get IEN the Alien Home Project Cover Photo">
                             <div class="bg-dviolet text-ghost h-full p-6 xl:px-6 xl:py-8">
                                 <h3 class="font-bold text-base md:text-lg lg:text-xl">Get IEN Home&excl;</h3>
                                 <p class="mt-2 font-normal text-sm">A simple game to help IEN the alien return home&period;</p>
