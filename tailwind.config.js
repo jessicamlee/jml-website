@@ -3,9 +3,20 @@ const plugin = require('tailwindcss/plugin');
 module.exports = {
   content: ["./**/*.{html,php}",],
   theme: {
+    screens: {
+      '2xs': '320px',
+      'xs': '500px',
+      'sm': '640px',
+      'md': '768px',
+      'lg': '992px',
+      'xl': '1200px',
+      '2xl': '1440px'
+    },
     extend: {
+      fontFamily: {
+        'sans': ['Poppins', 'sans-serif']
+      },
       colors: {
-        'winter': '#d3f7ff',
         'dviolet': '#2b0462',
         'ghost': '#f7fcfe',
       },
