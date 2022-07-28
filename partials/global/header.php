@@ -14,8 +14,13 @@
         <nav class="basis-2/5 mt-6 xs:mt-0 flex justify-center content-center xs:justify-end">
             <ul class="flex items-center text-sm 2xs:text-base uppercase leading-3 font-medium">
                 <li class="mr-4 lg:mr-6 pb-1 xl:hover:scale-125 xl:hover:border-ghost xl:hover:border-b-2 transition ease-in-out duration-600 border-solid delay-75 <?php if($active_page == "about") { echo "active"; } ?>"><a class="xl:hover:border-ghost xl:hover:border-b-4 transition ease-in-out duration-600 border-solid" href="about.php" title="About Jessica">About</a></li>
-                <li class="pb-1 xl:hover:scale-125 xl:hover:border-ghost xl:hover:border-b-2 transition ease-in-out duration-600 border-solid delay-75 <?php if($active_page == "development") { echo "active"; } ?>"><a class="xl:hover:border-ghost xl:hover:border-b-4 transition ease-in-out duration-600 border-solid" href="projects.php" title="Projects by Jessica">Projects</a></li>
-                <li class="ml-4 lg:ml-6 pb-1 xl:hover:scale-125 xl:hover:border-ghost xl:hover:border-b-2 transition ease-in-out duration-600 border-solid delay-75 <?php if($active_page == "contact") { echo "active"; } ?>"><a class="xl:hover:border-ghost xl:hover:border-b-4 transition ease-in-out duration-600 border-solid" href="#contact" title="Contact Jessica">Contact</a></li>
+                <li class="mr-4 pb-1 xl:hover:scale-125 xl:hover:border-ghost xl:hover:border-b-2 transition ease-in-out duration-600 border-solid delay-75 <?php if($active_page == "development") { echo "active"; } ?>"><a class="xl:hover:border-ghost xl:hover:border-b-4 transition ease-in-out duration-600 border-solid" href="projects.php" title="Projects by Jessica">Projects</a></li>
+                <li class="mr-4 lg:mr-6 pb-1 xl:hover:scale-125 xl:hover:border-ghost xl:hover:border-b-2 transition ease-in-out duration-600 border-solid delay-75 <?php if($active_page == "contact") { echo "active"; } ?>"><a class="xl:hover:border-ghost xl:hover:border-b-4 transition ease-in-out duration-600 border-solid" href="#contact" title="Contact Jessica">Contact</a></li>
+                <li class="w-10 xl:hover:scale-125 transition ease-in-out duration-600 delay-100">
+                    <a class="w-auto" href="https://www.linkedin.com/in/jessicamlee-/" target="_blank" title="Visit Jessica's LinkedIn">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 258.56 258.56" title="LinkedIn Icon"><defs></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M129.28,0A129.28,129.28,0,1,0,258.56,129.28,129.28,129.28,0,0,0,129.28,0ZM107.73,172.37H86.19V107.73h21.54ZM97,98.13a11.95,11.95,0,1,1,11.85-11.94A11.89,11.89,0,0,1,97,98.13Zm86.18,74.24H161.62V141.55c0-20.27-21.57-18.55-21.57,0v30.82H118.5V107.73h21.55v11.78c9.39-17.41,43.09-18.71,43.09,16.67Z" fill="#f7fcfe"/></g></g></svg>
+                    </a>
+                </li>
             </ul>
         </nav>
     </div>
