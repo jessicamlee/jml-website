@@ -99,7 +99,7 @@
                 <div class="container max-w-screen-xl mx-auto">
                     <h2 class="font-semibold text-2xl xs:text-3xl lg:text-4xl leading-8 xs:leading-relaxed">Outcome</h2>
                     <div class="my-5 b-dics rounded-xl shadow-vi w-full">
-                        <img class="object-cover object-center overflow-hidden mt-1" src="../images/projects/loclo_develop/loclo_design_v2.jpg" alt="Before (Design)">
+                        <img class="object-cover object-center overflow-hidden" src="../images/projects/loclo_develop/loclo_design_v2.jpg" alt="Before (Design)">
                         <img class="object-cover object-center overflow-hidden" src="../images/projects/loclo_develop/loclo_developed_v2.jpg" alt="After (Developed)">
                     </div>
                     <p class="italic mb-2 text-center text-xs lg:text-base">Move the slider on the image to check out the Before and After&period;</p>
