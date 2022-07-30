@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-CA">
+<html class="scroll-smooth" lang="en-CA">
     <?php 
         $title_text = "About &vert; Jessica Lee";
         require ('partials/global/head.php');
@@ -96,7 +96,7 @@
                         <img class="rounded-full shadow-vi" src="images/about/animation_3.jpg" alt="Traffic Lights Animation created by Jessica Lee">
                     </div>
                     <div class="justify-self-center">
-                        <p class="leading-6 my-3">A year later&comma; I realized I wanted to learn more about Information Architecture&comma; User Experiences&comma; and User&dash;Centered Design to create better websites expeirences for users&period;</p>
+                        <p class="leading-6 my-3">A year later&comma; I realized I wanted to learn more about Information Architecture&comma; User Experiences&comma; and User&dash;Centered Design to create better websites experiences for users&period;</p>
                         <p class="leading-6 my-3">My curiosity led me to Front&dash;End Development&period;</p>
                         <p class="leading-6 my-3">I choose the developer&apos;s path because development gives me the opportunity to learn new ways to bring design to life while sharing fun and insightful experiences with everyone&period;</p>
                     </div>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-CA">
+<html class="scroll-smooth" lang="en-CA">
     <?php 
         $project_title = "LOCLO Homepage &vert; Jessica Lee";
         require('../partials/global/head_projects.php'); 
