@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-CA">
+<html class="scroll-smooth" lang="en-CA">
     <?php 
         $title_text = "About &vert; Jessica Lee";
         require ('partials/global/head.php');
