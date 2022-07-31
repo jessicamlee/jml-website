@@ -21,7 +21,7 @@
                             <p class="leading-6 mb-6 text-ghost font-light mt-2">I&apos;m a curious storyteller and systematic problem&dash;solver&comma; currently pursuing a career in <span class="font-bold">Front&dash;End Development</span> in Vancouver&comma; British Columbia&period;</p>
                             <div><a class="btn-vi xl:hover:bg-ghost xl:hover:text-dviolet transition ease-in-out duration-500" href="#contact">Get in touch</a></div>
                         </div>
-                        <div class="justify-self-center w-1/2 sm:w-3/4 overflow-visible">
+                        <div class="hidden sm:block justify-self-center w-1/2 sm:w-3/4 overflow-visible">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960.32 936" alt="Jessica Lee Logo Animation"><defs></defs>
                             <path class="l-right fill-ghost animate-letterl" d="M960.32,446l-63.41,50.27c-45-.47-101.54-1.13-156.86-1.77-77.9-.91-151.48-1.76-183-2l-25.25-.16V467.16c0-38.22-.72-297.82-1.77-466.84L580.92,0c.91,147.29,1.56,363.36,1.72,441.94,37.61.36,96.45,1,158,1.76C827.13,444.71,916.56,445.74,960.32,446Z"/>
                             <path class="l-left fill-ghost animate-letterl" d="M878.3,511.06l-26.45,21c-46.49-.39-110.07-1-172.16-1.59-76.19-.72-148.16-1.41-179.86-1.62l-10.52-.07V518.23c0-7.76.05-26.9.11-53.91.24-106.51.74-328.15-.11-464.09L510.49.09c.85,136,.34,357.74.1,464.28,0,18.54-.07,33.36-.09,43.34,35.44.27,100.7.89,169.39,1.55C754.69,510,831.73,510.7,878.3,511.06Z"/>
