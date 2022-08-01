@@ -1,4 +1,4 @@
-// ------ DICS Slider --------
+// ------ DICS Slider -------- //
 new Dics({
     container: document.querySelector(".b-dics"),
     textPosition: "center",

@@ -27,4 +27,22 @@
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="dist/output.css">
+    <!-- Light/Dark/System Modes Appearance -->
+    <script>
+        // To support light mode, dark mode, and the OS's preference: (added inline to avoid Flash of Unstyled Content or 'FOUC')
+        if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.classList.add('dark');
+        } else {
+            document.documentElement.classList.remove('dark');
+        }
+        
+        // For when users select light mode as their preference:
+        localStorage.theme = 'light';
+
+        // For when users select dark mode as their preference:
+        localStorage.theme = 'dark';
+
+        // For when user choses the OS' setting as their preference:
+        localStorage.removeItem('theme');
+    </script>
 </head>

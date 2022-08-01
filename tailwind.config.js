@@ -2,6 +2,7 @@
 const plugin = require('tailwindcss/plugin');
 module.exports = {
   content: ["./**/*.{html,php}",],
+  darkMode: 'class',
   theme: {
     screens: {
       '2xs': '320px',

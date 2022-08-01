@@ -2,7 +2,7 @@
     require('init.php');
 ?>
 <!DOCTYPE html>
-<html class="scroll-smooth" lang="en-CA">
+<html class="scroll-smooth dark" lang="en-CA">
     <?php 
         $title_text = "Jessica Lee &vert; Front&dash;End Development";
         require ('partials/global/head.php'); 
