@@ -38,7 +38,7 @@
                     </div>
                 </div>
             </section>
-            <section id="projects" class="px-10 xs:px-14 sm:px-18 md:px-24 lg:px-28 xl:px-32 py-10 lg:py-14">
+            <section id="projects" class="px-10 xs:px-14 sm:px-18 md:px-24 lg:px-28 xl:px-32 py-10 lg:py-14 dark:bg-gray-500 dark:text-ghost">
                 <div class="container max-w-screen-xl mx-auto">
                     <h2 class="font-semibold text-2xl 2xs:text-3xl lg:text-4xl leading-8 xs:leading-relaxed lg:mb-2.5">Projects</h2>
                     <div class="mt-2 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -72,12 +72,12 @@
                     </div>
                 </div>
             </section>
-            <section class="bg-gray-300 px-8 xs:px-12 sm:px-16 md:px-24 lg:px-28 xl:px-32 py-14 ">
+            <section class="bg-gray-300 px-8 xs:px-12 sm:px-16 md:px-24 lg:px-28 xl:px-32 py-14 dark:bg-dviolet dark:text-ghost">
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-8 container max-w-screen-xl mx-auto">
                     <div>
                         <h2 class="font-semibold text-2xl 2xs:text-3xl lg:text-4xl leading-8 xs:leading-relaxed lg:mb-2.5">About</h2>
                         <p class="leading-6 mt-2 xs:mt-0 mb-6">I want to crafting user&dash;centered projects to share stories in immersive&comma; insightful&comma; and memorable experiences&period;</p>
-                        <a class="btn-gh xl:hover:bg-dviolet xl:hover:text-ghost transition ease-in-out duration-500" href="about.php">About Me</a>
+                        <a class="btn-gh xl:hover:bg-dviolet xl:hover:text-ghost transition ease-in-out duration-500 dark:btn-vi dark:xl:hover:bg-ghost dark:xl:hover:text-dviolet" href="about.php">About Me</a>
                     </div>
                     <img class="rounded-full shadow-vi justify-self-center w-5/6 sm:w-full" src="images/jessicalee_profilepicture.jpg" alt="Jessica Lee Profile Picture">
                 </div>
