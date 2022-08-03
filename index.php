@@ -19,7 +19,7 @@
                         <div>
                             <span class="font-semibold text-4xl leading-10 xl:text-5xl leading-relaxed mb-2 text-ghost">Hi&comma; I&apos;m <h1 class="inline mt-4">Jessica</h1></span>
                             <p class="leading-6 mb-6 text-ghost font-light mt-2">I&apos;m a curious storyteller and systematic problem&dash;solver&comma; currently pursuing a career in <span class="font-bold">Front&dash;End Development</span> in Vancouver&comma; British Columbia&period;</p>
-                            <div><a class="btn-vi xl:hover:bg-ghost xl:hover:text-dviolet transition ease-in-out duration-500" href="#contact">Get in touch</a></div>
+                            <div><a class="btn-gh xl:hover:bg-dviolet xl:hover:text-ghost transition ease-in-out duration-500 dark:border-ghost light:border-ghost dark:shadow-vindigo" href="#contact">Get in touch</a></div>
                         </div>
                         <div class="hidden sm:block justify-self-center w-1/2 sm:w-3/4 overflow-visible">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960.32 936" alt="Jessica Lee Logo Animation"><defs></defs>
@@ -31,18 +31,18 @@
                     </div>
                     <div class="mt-8 flex justify-center">
                         <a class="arrow-gh animate-bounce ease-in-out" href="#projects" alt="Violet arrow pointing downward" title="Discover more below">
-                            <svg viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" title="Bouncing arrow">
-                                <path d="M34.2 17.0359L34.2 24.1159L25.24 32.8359L16.28 24.1159L16.28 17.0359L25.24 25.7959L34.2 17.0359Z" fill="#f7fcfe"/>
+                            <svg class="fill-dviolet dark:fill-ghost" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg" title="Bouncing arrow">
+                                <path d="M34.2 17.0359L34.2 24.1159L25.24 32.8359L16.28 24.1159L16.28 17.0359L25.24 25.7959L34.2 17.0359Z"/>
                             </svg>
                         </a>
                     </div>
                 </div>
             </section>
-            <section id="projects" class="px-10 xs:px-14 sm:px-18 md:px-24 lg:px-28 xl:px-32 py-10 lg:py-14 dark:bg-gray-500 dark:text-ghost">
+            <section id="projects" class="px-10 xs:px-14 sm:px-18 md:px-24 lg:px-28 xl:px-32 py-10 lg:py-14 dark:bg-vindigo dark:text-ghost">
                 <div class="container max-w-screen-xl mx-auto">
                     <h2 class="font-semibold text-2xl 2xs:text-3xl lg:text-4xl leading-8 xs:leading-relaxed lg:mb-2.5">Projects</h2>
-                    <div class="mt-2 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-                        <div class="overflow-hidden rounded-2xl shadow-vi xl:hover:scale-105 transition ease-in-out duration-600 delay-75">
+                    <div class="mt-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                        <div class="overflow-hidden rounded-2xl shadow-vi xl:hover:scale-105 transition ease-in-out duration-600 delay-75 dark:border-ghost border-2 dark:border-solid">
                             <a href="projects/loclo-homepage.php" title="Link to project">
                                 <img class="w-full" src="images/projects/loclo_develop/loclo_developed_v2.jpg" alt="LOCLO Homepage Project Cover Photo">
                                 <div class="bg-dviolet text-ghost h-full p-6 xl:px-6 xl:py-8">
@@ -51,7 +51,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="overflow-hidden rounded-2xl shadow-vi xl:hover:scale-105 transition ease-in-out duration-600 delay-75">
+                        <div class="overflow-hidden rounded-2xl shadow-vi xl:hover:scale-105 transition ease-in-out duration-600 delay-75 dark:border-ghost border-2 dark:border-solid">
                             <a href="projects/todo-list.php" title="Link to project">
                                 <img class="w-full" src="images/projects/todo_list/todo_list_both_modes.jpg" alt="To Do List Project Cover Photo">
                                 <div class="bg-dviolet text-ghost h-full p-6 xl:px-6 xl:py-8">
@@ -60,7 +60,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="overflow-hidden rounded-2xl shadow-vi xl:hover:scale-105 transition ease-in-out duration-600 delay-75">
+                        <div class="overflow-hidden rounded-2xl shadow-vi xl:hover:scale-105 transition ease-in-out duration-600 delay-75 dark:border-ghost border-2 dark:border-solid">
                             <a href="projects/get-ien-home.php" title="Link to project">
                                 <img class="w-full" src="images/projects/get_ien_home/get_ien_home_cover.jpg" alt="Get IEN the Alien Home Project Cover Photo">
                                 <div class="bg-dviolet text-ghost h-full p-6 xl:px-6 xl:py-8">
@@ -77,9 +77,9 @@
                     <div>
                         <h2 class="font-semibold text-2xl 2xs:text-3xl lg:text-4xl leading-8 xs:leading-relaxed lg:mb-2.5">About</h2>
                         <p class="leading-6 mt-2 xs:mt-0 mb-6">I want to crafting user&dash;centered projects to share stories in immersive&comma; insightful&comma; and memorable experiences&period;</p>
-                        <a class="btn-gh xl:hover:bg-dviolet xl:hover:text-ghost transition ease-in-out duration-500 dark:btn-vi dark:xl:hover:bg-ghost dark:xl:hover:text-dviolet" href="about.php">About Me</a>
+                        <a class="btn-gh xl:hover:bg-dviolet xl:hover:text-ghost transition ease-in-out duration-500 dark:border-ghost dark:shadow-vindigo" href="about.php">About Me</a>
                     </div>
-                    <img class="rounded-full shadow-vi justify-self-center w-5/6 sm:w-full" src="images/jessicalee_profilepicture.jpg" alt="Jessica Lee Profile Picture">
+                    <img class="rounded-full shadow-vi justify-self-center w-5/6 sm:w-full dark:shadow-vindigo" src="images/jessicalee_profilepicture.jpg" alt="Jessica Lee Profile Picture">
                 </div>
             </section>
         </main>

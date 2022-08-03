@@ -19,6 +19,7 @@ module.exports = {
       colors: {
         'dviolet': '#2b0462',
         'ghost': '#f7fcfe',
+        'vindigo': '#16042e',
       },
       boxShadow: {
         'vi': '0px 3px 5px rgba(43,4,98,0.65)',
