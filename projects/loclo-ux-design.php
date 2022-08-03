@@ -7,17 +7,17 @@
     <body class="bg-ghost text-dviolet font-medium text-sm lg:text-base">
         <?php require('../partials/global/header_projects.php'); ?>
         <main>
-            <div class="pt-6 xs:pt-8 px-10 xs:px-14 sm:px-18 md:px-24 lg:px-28 xl:px-32">
+            <div class="pt-6 xs:pt-8 px-10 xs:px-14 sm:px-18 md:px-24 lg:px-28 xl:px-32 dark:bg-vindigo dark:text-ghost">
                 <a class="flex content-center container max-w-screen-xl mx-auto" href="../projects.php" title="Back to Previous Page">
                     <div class="rotate-90">
-                        <svg class="arrow-vi animate-bounce ease-in-out" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" alt="Violet arrow pointing downward" title="Bouncing arrow">
-                            <path d="M34.2 17.0359L34.2 24.1159L25.24 32.8359L16.28 24.1159L16.28 17.0359L25.24 25.7959L34.2 17.0359Z" fill="#2b0462"/>
+                        <svg class="arrow-vi animate-bounce ease-in-out fill-dviolet dark:fill-ghost dark:border-ghost"  viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg" alt="Violet arrow pointing downward" title="Bouncing arrow">
+                            <path d="M34.2 17.0359L34.2 24.1159L25.24 32.8359L16.28 24.1159L16.28 17.0359L25.24 25.7959L34.2 17.0359Z"/>
                         </svg>
                     </div>
                     <p class="text-xs xs:text-sm uppercase font-semibold ml-4 self-center">Back to Projects</p>
                 </a>
             </div>
-            <section class="px-10 xs:px-14 sm:px-18 md:px-24 lg:px-28 xl:px-32 py-10 lg:py-14">
+            <section class="px-10 xs:px-14 sm:px-18 md:px-24 lg:px-28 xl:px-32 py-10 lg:py-14 dark:bg-vindigo dark:text-ghost">
                 <div class="container max-w-screen-xl mx-auto">
                     <div>
                         <div class="text-center">
@@ -69,7 +69,7 @@
                     </ul>
                 </div>
             </section>
-            <section id="project-details" class="px-10 xs:px-14 sm:px-18 md:px-24 lg:px-28 xl:px-32 py-10">
+            <section id="project-details" class="px-10 xs:px-14 sm:px-18 md:px-24 lg:px-28 xl:px-32 py-10 dark:bg-vindigo dark:text-ghost">
                 <div class="container max-w-screen-xl mx-auto">
                     <div class="pb-10">
                         <h2 class="font-semibold text-xl xs:text-2xl lg:text-3xl">Phase 1&colon; Researching &amp; Planning</h2>
@@ -100,7 +100,7 @@
                 </div>
             </section>
             <div class="py-4 bg-dviolet"></div>
-            <section class="px-10 xs:px-14 sm:px-18 md:px-24 lg:px-28 xl:px-32 py-10">
+            <section class="px-10 xs:px-14 sm:px-18 md:px-24 lg:px-28 xl:px-32 py-10 dark:bg-vindigo dark:text-ghost">
                 <div class="container max-w-screen-xl mx-auto">
                     <h2 class="font-semibold text-2xl xs:text-3xl lg:text-4xl leading-8 xs:leading-relaxed">Revisions &amp; Next Step</h2>
                     <p class="leading-6"><a href="#" target="_blank" title="Link to live site of LOCLO's Homepage"><b>Go to Website Live Site&colon;</b> <span class="border-b-4 border-dviolet border-solid xl:hover:border-dashed transition ease-in-out duration-600 delay-100">LOCLO Homepage</span></a></p>
@@ -110,10 +110,10 @@
                     <p class="leading-6 my-4 md:px-20 lg:px-24 xl:px-40 text-left"><b>Next Step&colon;</b> To prepare for a future usability study for each platform&comma; I brainstormed new questions to answer and noted previous pain points to observe improvements for&period;</p>
                 </div>
             </section>
-            <section class="bg-gray-300 px-10 xs:px-14 sm:px-18 md:px-24 lg:px-28 xl:px-32 py-10">
+            <section class="bg-gray-300 px-10 xs:px-14 sm:px-18 md:px-24 lg:px-28 xl:px-32 py-10 dark:bg-dviolet dark:text-ghost">
                 <div class="grid grid-cols-1 xs:grid-cols-2 md:grid-cols-3 gap-4 container max-w-screen-xl mx-auto">
                     <h2 class="font-semibold text-xl xs:text-2xl lg:text-3xl mb-1 lg:mb-2.5 xs:col-span-2 md:col-span-1">More Projects <br class="hidden md:inline"> by Jessica</h2>
-                    <div class="overflow-hidden rounded-2xl shadow-vi xl:hover:scale-105 transition ease-in-out duration-600 delay-75">
+                    <div class="overflow-hidden rounded-2xl shadow-vi xl:hover:scale-105 transition ease-in-out duration-600 delay-75 dark:border-ghost border-2 dark:border-solid dark:shadow-vindigo">
                         <a href="../projects/loclo-homepage.php" title="Go to My To-Do List Project">
                             <img class="w-full" src="../images/projects/loclo_develop/loclo_developed_v2.jpg" alt="LOCLO Homepage Project Cover Photo">
                             <div class="bg-dviolet text-ghost h-full p-6 xl:px-6 xl:py-8">
@@ -122,7 +122,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="overflow-hidden rounded-2xl shadow-vi xl:hover:scale-105 transition ease-in-out duration-600 delay-75">
+                    <div class="overflow-hidden rounded-2xl shadow-vi xl:hover:scale-105 transition ease-in-out duration-600 delay-75 dark:border-ghost border-2 dark:border-solid dark:shadow-vindigo">
                         <a href="../projects/get-ien-home.php" title="Go to My To-Do List Project">
                             <img class="w-full" src="../images/projects/get_ien_home/get_ien_home_cover.jpg" alt="Get IEN the Alien Home Project Cover Photo">
                             <div class="bg-dviolet text-ghost h-full p-6 xl:px-6 xl:py-8">
