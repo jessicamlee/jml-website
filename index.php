@@ -31,7 +31,7 @@
                     </div>
                     <div class="mt-8 flex justify-center">
                         <a class="arrow-gh animate-bounce ease-in-out" href="#projects" alt="Violet arrow pointing downward" title="Discover more below">
-                            <svg class="fill-dviolet dark:fill-ghost" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg" title="Bouncing arrow">
+                            <svg class="fill-ghost" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg" title="Bouncing arrow">
                                 <path d="M34.2 17.0359L34.2 24.1159L25.24 32.8359L16.28 24.1159L16.28 17.0359L25.24 25.7959L34.2 17.0359Z"/>
                             </svg>
                         </a>
