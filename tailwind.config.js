@@ -33,57 +33,49 @@ module.exports = {
             transform: 'translateY(50%)',
             opacity: 0,
           },
-          '12%': {
+          '22%': {
             transform: 'translateY(-25%)'
           },
-          '22%': {
+          '42%': {
             transform: 'translateY(25%)'
           },
-          '32%': {
+          '62%': {
             transform: 'translateY(-12%)'
           },
-          '40%': { 
+          '82%': {
+            transform: 'translateY(12%)'
+          },
+          '100%': { 
             transform: 'translateY(0)',
             opacity: 1,
           },
-          '99%': { 
-            transform: 'translateY(100%)',
-            opacity: 0.05,
-          },
-          '100%': {
-            opacity: 0,
-          }
         },
         letterl: {
           '0%': { 
             transform: 'translateY(-50%)',
             opacity: 0,
           },
-          '10%': {
+          '20%': {
             transform: 'translateY(25%)'
           },
-          '20%': {
+          '40%': {
             transform: 'translateY(-25%)'
           },
-          '30%': {
+          '60%': {
             transform: 'translateY(12%)'
           },
-          '40%': { 
-            transform: 'translateY(0)',
+          '80%': { 
+            transform: 'translateY(-12%)',
+          },
+          '100%': { 
+            transform: 'translateY(0%)',
             opacity: 1,
           },
-          '99%': { 
-            transform: 'translateY(-100%)',
-            opacity: 0.05,
-          },
-          '100%': {
-            opacity: 0,
-          }
         }
       },
       animation: {
-        letterj: 'letterj 8s ease-in-out infinite',
-        letterl: 'letterl 8s ease-in-out infinite',
+        letterj: 'letterj 5s ease-in-out',
+        letterl: 'letterl 5s ease-in-out',
       },
     },
   },

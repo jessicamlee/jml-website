@@ -33,13 +33,13 @@
             </ul>
         </div>
         <div class="mt-8 container max-w-screen-xl mx-auto">
-            <a class="flex items-center justify-center" href="#header" title="Back to Top of page">
-                <p class="text-sm uppercase font-semibold mr-2 xl:hover:border-dviolet xl:hover:border-b-4 transition ease-in-out duration-600 border-solid delay-75">Back to Top</p>
+            <a class="grid grid-cols-1 items-center justify-items-center" href="#header" title="Back to Top of page">
                 <div class="rotate-180">
                     <svg class="arrow-vi animate-bounce ease-in-out fill-dviolet dark:fill-ghost dark:border-ghost" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg" title="Back to the top arrow button">
                         <path d="M34.2 17.0359L34.2 24.1159L25.24 32.8359L16.28 24.1159L16.28 17.0359L25.24 25.7959L34.2 17.0359Z"/>
                     </svg>
                 </div>
+                <p class="mt-4 text-sm uppercase font-semibold mr-2 xl:hover:border-dviolet xl:hover:border-b-4 transition ease-in-out duration-600 border-solid delay-75 dark:hover:border-ghost">Back to Top</p>
             </a>
         </div>
     </div>

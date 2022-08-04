@@ -23,7 +23,7 @@
                         <div class="text-center">
                             <h1 class="font-semibold text-2xl xs:text-3xl lg:text-4xl leading-8 xs:leading-relaxed">LOCLO Web &amp; Mobile Design</h1>
                             <p class="mb-6 sm:mb-8 italic">A User Experience &lpar;UX&rpar; design for a local shopping experience&period;</p>
-                            <p class="leading-6"><a href="#" target="_blank" title="Link to LOCLO Website Prototype"><b>Go to Prototype&colon;</b> <span class="border-b-4 border-dviolet border-solid xl:hover:border-dashed transition ease-in-out duration-600 delay-100">LOCLO UX Design</span></a></p>
+                            <p class="leading-6"><a href="#" target="_blank" title="Link to LOCLO Website Prototype"><b>Go to Prototype&colon;</b> <span class="border-b-4 border-dviolet border-solid xl:hover:border-dashed transition ease-in-out duration-600 delay-100 dark:border-ghost">LOCLO UX Design</span></a></p>
                         </div>
                         <a href="#" target="_blank" title="Link to LOCLO Website Prototype">
                             <img class="w-full object-cover object-top overflow-hidden rounded-xl shadow-vi mt-3" src="../images/projects/loclo_design/loclo_ux_cover.jpg" alt="LOCLO Website and UX Design Project Cover Photo">
@@ -32,8 +32,8 @@
                     </div>
                     <div class="mt-8 flex justify-center">
                         <a class="arrow-vi animate-bounce ease-in-out" href="#project-details" alt="Violet arrow pointing downward" title="Discover more below">
-                            <svg viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" title="Bouncing arrow">
-                                <path d="M34.2 17.0359L34.2 24.1159L25.24 32.8359L16.28 24.1159L16.28 17.0359L25.24 25.7959L34.2 17.0359Z" fill="#2b0462"/>
+                            <svg class="fill-dviolet dark:fill-ghost" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" title="Bouncing arrow">
+                                <path d="M34.2 17.0359L34.2 24.1159L25.24 32.8359L16.28 24.1159L16.28 17.0359L25.24 25.7959L34.2 17.0359Z"/>
                             </svg>
                         </a>
                     </div>
@@ -93,7 +93,7 @@
                             <img class="object-cover object-center overflow-hidden" src="../images/projects/loclo_design/loclo_ux_cart_pg_v2.jpg" alt="After Usability Study">
                         </div>
                         <p class="italic mb-2 text-center text-xs lg:text-base">Move the slider on the image to check out the Before and After&period;</p>
-                        <p class="leading-6 my-4 md:px-20 lg:px-24 xl:px-40 text-left">The unmoderated usability studies were hosted on <a class="border-b-4 border-dviolet border-solid xl:hover:border-dashed transition ease-in-out duration-600 delay-75" href="https://www.useberry.com/integrations/figma/" target="_blank" title="Link to Useberry Figma Integration page">Useberry</a> for the website and <a class="border-b-4 border-dviolet border-solid xl:hover:border-dashed transition ease-in-out duration-600 delay-75" href="https://maze.co/use-cases/wireframe-and-usability-testing/" target="_blank" title="Link to Maze Usability Testing page">Maze</a> for the mobile application&period;</p>
+                        <p class="leading-6 my-4 md:px-20 lg:px-24 xl:px-40 text-left">The unmoderated usability studies were hosted on <a class="border-b-4 border-dviolet border-solid xl:hover:border-dashed transition ease-in-out duration-600 delay-75 dark:border-ghost" href="https://www.useberry.com/integrations/figma/" target="_blank" title="Link to Useberry Figma Integration page">Useberry</a> for the website and <a class="border-b-4 border-dviolet border-solid xl:hover:border-dashed transition ease-in-out duration-600 delay-75 dark:border-ghost" href="https://maze.co/use-cases/wireframe-and-usability-testing/" target="_blank" title="Link to Maze Usability Testing page">Maze</a> for the mobile application&period;</p>
                         <p class="leading-6 my-4 md:px-20 lg:px-24 xl:px-40 text-left">Reviewing the screen recordings&comma; statistics&comma; and heatmaps provided a better understanding that the &ldquo;Proceed to Checkout&rdquo; process on the website and &ldquo;Add to Cart&rdquo; task on the mobile app had a lower success rate&period;</p>
                         <p class="leading-6 my-4 md:px-20 lg:px-24 xl:px-40 text-left">The lower misclick and success rates highlighted which areas needed more clarity to help users complete the task more efficiently in a future usability study&period;</p>
                     </div>
@@ -103,7 +103,7 @@
             <section class="px-10 xs:px-14 sm:px-18 md:px-24 lg:px-28 xl:px-32 py-10 dark:bg-vindigo dark:text-ghost">
                 <div class="container max-w-screen-xl mx-auto">
                     <h2 class="font-semibold text-2xl xs:text-3xl lg:text-4xl leading-8 xs:leading-relaxed">Revisions &amp; Next Step</h2>
-                    <p class="leading-6"><a href="#" target="_blank" title="Link to live site of LOCLO's Homepage"><b>Go to Website Live Site&colon;</b> <span class="border-b-4 border-dviolet border-solid xl:hover:border-dashed transition ease-in-out duration-600 delay-100">LOCLO Homepage</span></a></p>
+                    <p class="leading-6"><a href="#" target="_blank" title="Link to live site of LOCLO's Homepage"><b>Go to Website Live Site&colon;</b> <span class="border-b-4 border-dviolet border-solid xl:hover:border-dashed transition ease-in-out duration-600 delay-100 dark:border-ghost">LOCLO Homepage</span></a></p>
                     <img class="w-full object-cover object-top rounded-xl shadow-vi my-5" src="../images/projects/loclo_design/loclo_ux_compare.jpg" alt="Screenshot of LOCLO UX Design  and Developed page comparison">
                     <p class="leading-6 my-4 md:px-20 lg:px-24 xl:px-40 text-left">One noticeable change in the revised website design was reorganizing the content to fit above the fold&period; This change would limit an additional action by the user to scroll down the page to complete their task&period;</p>
                     <p class="leading-6 my-4 md:px-20 lg:px-24 xl:px-40 text-left">Another revision was a color scheme update across the website and mobile application wireframes and prototype for consistent branding&period;</p>

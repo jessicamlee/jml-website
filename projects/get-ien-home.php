@@ -23,10 +23,10 @@
                         <div class="text-center">
                             <h1 class="font-semibold text-2xl xs:text-3xl lg:text-4xl leading-8 xs:leading-relaxed">Get IEN Home&excl;</h1>
                             <p class="mb-6 sm:mb-8 italic">A simple game to help IEN the alien return home&period;</p>
-                            <p class="leading-6"><a href="#" target="_blank" title="Link to live site of Get IEN Home"><b>Go to Live Site&colon;</b> <span class="border-b-4 border-dviolet border-solid xl:hover:border-dashed transition ease-in-out duration-600 delay-100">Get IEN Home&excl;</span></a></p>
+                            <p class="leading-6"><a href="#" target="_blank" title="Link to live site of Get IEN Home"><b>Go to Live Site&colon;</b> <span class="border-b-4 border-dviolet border-solid xl:hover:border-dashed transition ease-in-out duration-600 delay-100 dark:border-ghost">Get IEN Home&excl;</span></a></p>
                         </div>
                         <a href="#" target="_blank" title="Visit Get IEN Home Live Site">
-                            <img class="w-full object-cover object-top overflow-hidden rounded-2xl shadow-vi mt-3" src="../images/projects/get_ien_home/get_ien_home_v2.jpg" alt="Get IEN Home Project Cover Photo">
+                            <img class="w-full object-cover object-top overflow-hidden rounded-xl shadow-vi mt-3" src="../images/projects/get_ien_home/get_ien_home_v2.jpg" alt="Get IEN Home Project Cover Photo">
                         </a>
                         <p class="leading-6 mt-4 md:px-20 lg:px-24 xl:px-40 text-left">IEN is an extra&dash;terrestrial being from a distant red planet&period; We are tasked to guide IEN toward the orbital position that will allow IEN to return home&period;</p>
                         <p class="leading-6 mt-4 md:px-20 lg:px-24 xl:px-40 text-left">To tell IEN when to teleport home&comma; we will use the controls in our spacecraft to tell him when to stop and go&period;</p>
@@ -34,8 +34,8 @@
                     </div>
                     <div class="mt-8 flex justify-center">
                         <a class="arrow-vi animate-bounce ease-in-out" href="#project-details" alt="Violet arrow pointing downward" title="Discover more below">
-                            <svg viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" title="Bouncing arrow">
-                                <path d="M34.2 17.0359L34.2 24.1159L25.24 32.8359L16.28 24.1159L16.28 17.0359L25.24 25.7959L34.2 17.0359Z" fill="#2b0462"/>
+                            <svg class="fill-dviolet dark:fill-ghost" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" title="Bouncing arrow">
+                                <path d="M34.2 17.0359L34.2 24.1159L25.24 32.8359L16.28 24.1159L16.28 17.0359L25.24 25.7959L34.2 17.0359Z"/>
                             </svg>
                         </a>
                     </div>
@@ -85,7 +85,7 @@
                         <img class="w-full object-cover object-top rounded-xl shadow-vi my-5" src="../images/projects/get_ien_home/get_ien_home_brainstorm.jpg" alt="Screenshot of the brainstorming for Get IEN Home project">
                         <p class="leading-6 my-4 md:px-20 lg:px-24 xl:px-40 text-left">I started organizing the interface with pen&dash;and&dash;paper to plan where IEN&apos;s character and the planet would be and how they would move&period;</p>
                         <p class="leading-6 my-4 md:px-20 lg:px-24 xl:px-40 text-left">For the development portion&comma; I read through the GSAP Timeline Documentation to determine how to determine a targeted position&period;</p>
-                        <p class="leading-6 my-4 md:px-20 lg:px-24 xl:px-40 text-left">I also researched more about <a class="border-b-4 border-dviolet border-solid xl:hover:border-dashed transition ease-in-out duration-600 delay-75" href="https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect" target="_blank" title="Link to Mozilla Developer Network's page on Element.getBoundingClientRect">Element&period;getBoundingClientRect&lpar; &rpar;</a> to help trigger a congratulations animation&period;</p>
+                        <p class="leading-6 my-4 md:px-20 lg:px-24 xl:px-40 text-left">I also researched more about <a class="border-b-4 border-dviolet border-solid xl:hover:border-dashed transition ease-in-out duration-600 delay-75 dark:border-ghost" href="https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect" target="_blank" title="Link to Mozilla Developer Network's page on Element.getBoundingClientRect">Element&period;getBoundingClientRect&lpar; &rpar;</a> to help trigger a congratulations animation&period;</p>
                     </div>
                     <div>
                         <h2 class="font-semibold text-xl xs:text-2xl lg:text-3xl">Phase 3&colon; Reviewing Problems &amp; Solutions</h2>

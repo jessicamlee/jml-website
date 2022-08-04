@@ -23,7 +23,7 @@
                         <div class="text-center">
                             <h1 class="font-semibold text-2xl xs:text-3xl lg:text-4xl leading-8 xs:leading-relaxed">LOCLO Homepage</h1>
                             <p class="mb-4 italic">A Responsive e&dash;Commerce Website</p>
-                            <p class="leading-6"><a href="#" target="_blank" title="Link to live site of LOCLO's Homepage"><b>Go to Live Site&colon;</b> <span class="border-b-4 border-dviolet border-solid xl:hover:border-dashed transition ease-in-out duration-600 delay-100">LOCLO Homepage</span></a></p>
+                            <p class="leading-6"><a href="#" target="_blank" title="Link to live site of LOCLO's Homepage"><b>Go to Live Site&colon;</b> <span class="border-b-4 border-dviolet border-solid xl:hover:border-dashed transition ease-in-out duration-600 delay-100 dark:border-ghost">LOCLO Homepage</span></a></p>
                         </div>
                         <a href="#" target="_blank" title="Visit the LOCLO's Homepage Live Site">
                             <img class="w-full object-cover object-top overflow-hidden rounded-xl shadow-vi mt-3" src="../images/projects/loclo_develop/loclo_developed_v2.jpg" alt="LOCLO Homepage Project Cover Photo">
@@ -64,7 +64,7 @@
                         </li>
                         <li>
                             <h3 class="font-semibold text-base sm:text-lg uppercase">Project Goal&colon;</h3>
-                            <p class="font-normal">Develop a responsive homepage website based on <a class="border-b-4 border-ghost border-solid xl:hover:border-dashed transition ease-in-out duration-600 delay-100" href="../projects/loclo-ux-design.php" title="Visit LOCLO Website and Mobile UX Project">LOCLO&apos;s website design&period;</a></p>
+                            <p class="font-normal">Develop a responsive homepage website based on <a class="border-b-4 border-ghost border-solid xl:hover:border-dashed transition ease-in-out duration-600 delay-100 dark:border-ghost" href="../projects/loclo-ux-design.php" title="Visit LOCLO Website and Mobile UX Project">LOCLO&apos;s website design&period;</a></p>
                         </li>
                     </ul>
                 </div>

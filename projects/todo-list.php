@@ -23,7 +23,7 @@
                         <div class="text-center">
                             <h1 class="font-semibold text-2xl xs:text-3xl lg:text-4xl leading-8 xs:leading-relaxed">To&dash;Do List</h1>
                             <p class="mb-6 sm:mb-8 italic">Let your worries go in a To&dash;Do List in Dark Mode&excl;</p>
-                            <p class="leading-6"><a href="#" target="_blank" title="Visit live site of To Do List with Dark Mode"><b>Go to Live Site&colon;</b> <span class="border-b-4 border-dviolet border-solid xl:hover:border-dashed transition ease-in-out duration-600 delay-100">To&dash;Do List with Dark Mode</span></a></p>
+                            <p class="leading-6"><a href="#" target="_blank" title="Visit live site of To Do List with Dark Mode"><b>Go to Live Site&colon;</b> <span class="border-b-4 border-dviolet border-solid xl:hover:border-dashed transition ease-in-out duration-600 delay-100 dark:border-ghost">To&dash;Do List with Dark Mode</span></a></p>
                         </div>
                         <a href="#" target="_blank" title="Visit live site of To-Do List Project">
                             <img class="w-full object-cover object-top overflow-hidden rounded-xl shadow-vi mt-3" src="../images/projects/todo_list/todo_list_both_modes.jpg" alt="To-Do List Cover Photo">
@@ -32,8 +32,8 @@
                     </div>
                     <div class="mt-8 flex justify-center">
                         <a class="arrow-vi animate-bounce ease-in-out" href="#project-details" alt="Violet arrow pointing downward" title="Discover more below">
-                            <svg viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" title="Bouncing arrow">
-                                <path d="M34.2 17.0359L34.2 24.1159L25.24 32.8359L16.28 24.1159L16.28 17.0359L25.24 25.7959L34.2 17.0359Z" fill="#2b0462"/>
+                            <svg class="fill-dviolet dark:fill-ghost" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" title="Bouncing arrow">
+                                <path d="M34.2 17.0359L34.2 24.1159L25.24 32.8359L16.28 24.1159L16.28 17.0359L25.24 25.7959L34.2 17.0359Z" />
                             </svg>
                         </a>
                     </div>
