@@ -19,7 +19,7 @@
                         <div>
                             <span class="font-semibold text-4xl leading-10 xl:text-5xl leading-relaxed mb-2 text-ghost">Hi&comma; I&apos;m <h1 class="inline mt-4">Jessica</h1></span>
                             <p class="leading-6 mb-6 text-ghost font-light mt-2">I&apos;m a curious storyteller and systematic problem&dash;solver&comma; currently pursuing a career in <span class="font-bold">Front&dash;End Development</span> in Vancouver&comma; British Columbia&period;</p>
-                            <div><a class="btn-gh xl:hover:bg-dviolet xl:hover:text-ghost transition ease-in-out duration-500 dark:border-ghost light:border-ghost dark:shadow-vindigo" href="#contact">Get in touch</a></div>
+                            <div><a class="btn-gh xl:hover:bg-dviolet xl:hover:text-ghost transition ease-in-out duration-500 border-ghost dark:border-ghost dark:shadow-vindigo" href="#contact">Get in touch</a></div>
                         </div>
                         <div class="hidden sm:block justify-self-center w-1/2 sm:w-3/4 overflow-visible">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960.32 936" alt="Jessica Lee Logo Animation"><defs></defs>
@@ -79,7 +79,7 @@
                         <p class="leading-6 mt-2 xs:mt-0 mb-6">I want to crafting user&dash;centered projects to share stories in immersive&comma; insightful&comma; and memorable experiences&period;</p>
                         <a class="btn-gh xl:hover:bg-dviolet xl:hover:text-ghost transition ease-in-out duration-500 dark:border-ghost dark:shadow-vindigo" href="about.php">About Me</a>
                     </div>
-                    <img class="rounded-full shadow-vi justify-self-center w-5/6 sm:w-full dark:shadow-vindigo" src="images/jessicalee_profilepicture.jpg" alt="Jessica Lee Profile Picture">
+                    <img class="rounded-full shadow-vi justify-self-center w-5/6 sm:w-4/6 dark:shadow-vindigo" src="images/jessicamlee_profilepicture.jpg" alt="Jessica Lee Profile Picture">
                 </div>
             </section>
         </main>
