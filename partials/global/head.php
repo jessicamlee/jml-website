@@ -10,6 +10,7 @@
     <link rel="icon" type="image/svg" href="images/jessicamlee_favicon.svg">
     <meta name="description" content="Jessica Lee | I develop experiences to share stories in immersive, insightful, and memorable ways.">
     <meta name="keywords" content="web developer, front end developer, Jessica Lee front end developer, Jessica Lee bcit new media portfolio, Jessica Lee vancouver starfish canada">
+    <meta name="author" content="Jessica Lee">
     <meta property="image" content="https://jessicamlee.dev/images/jessicamlee_home.png">
     <!-- OG Content -->
     <meta property="og:type" content="website">
