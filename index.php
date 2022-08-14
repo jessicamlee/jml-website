@@ -39,7 +39,7 @@
                     <div class="overflow-hidden rounded-2xl shadow-vi xl:hover:scale-105 transition ease-in-out duration-600 delay-75">
                         <a href="projects/loclo-homepage.php" title="Link to project">
                             <img class="w-full" src="images/projects/loclo_develop/loclo_developed_v2.jpg" alt="LOCLO Homepage Project Cover Photo">
-                            <div class="bg-dviolet text-ghost h-full p-6 xl:px-6 xl:py-8">
+                            <div class="bg-dviolet text-ghost h-full p-6 xl:px-6 xl:py-8 opacity-20">
                                 <h3 class="font-bold md:leading-5 text-lg lg:text-xl">LOCLO Homepage</h3>
                                 <p class="mt-2 font-normal text-sm">A Responsive e&dash;Commerce website experience&period;</p>
                             </div>
@@ -48,7 +48,7 @@
                     <div class="overflow-hidden rounded-2xl shadow-vi xl:hover:scale-105 transition ease-in-out duration-600 delay-75">
                         <a href="projects/todo-list.php" title="Link to project">
                             <img class="w-full" src="images/projects/todo_list/todo_list_both_modes.jpg" alt="To Do List Project Cover Photo">
-                            <div class="bg-dviolet text-ghost h-full p-6 xl:px-6 xl:py-8">
+                            <div class="bg-gray-300 text-ghost h-full p-6 xl:px-6 xl:py-8 opacity-20">
                                 <h3 class="font-bold md:leading-5 text-lg lg:text-xl">To&dash;Do List</h3>
                                 <p class="mt-2 font-normal text-sm">Let your worries go in a To&dash;Do List in Dark Mode&excl;</p>
                             </div>
