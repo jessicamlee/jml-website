@@ -8,9 +8,9 @@
             </div>
             <div class="basis-1/5 sm:basis-2/5 h-10"></div>
             <ul class="basis-1/5 text-center self-end xs:text-right text-base md:text-lg">
+                <li class="pb-1"><a class="font-semibold uppercase leading-3 xl:hover:border-dviolet xl:hover:border-b-4 transition ease-in-out duration-600 border-solid" href="../index.php" title="Home page of Jessica's Portfolio">Home</a></li>
                 <li class="pb-1"><a class="font-semibold uppercase leading-3 xl:hover:border-dviolet xl:hover:border-b-4 transition ease-in-out duration-600 border-solid" href="../about.php" title="About Jessica">About</a></li>
-                <li class="pb-1"><a class="font-semibold uppercase leading-3 xl:hover:border-dviolet xl:hover:border-b-4 transition ease-in-out duration-600 border-solid" href="../projects.php" title="Projects by Jessica">Projects</a></li>
-                <li class="pb-3"><a class="font-semibold uppercase leading-3 xl:hover:border-dviolet xl:hover:border-b-4 transition ease-in-out duration-600 border-solid" href="#contact" title="Contact Jessica">Contact</a></li>
+                <li class="pb-3"><a class="font-semibold uppercase leading-3 xl:hover:border-dviolet xl:hover:border-b-4 transition ease-in-out duration-600 border-solid" href="../projects.php" title="Projects by Jessica">Projects</a></li>
                 <li class="my-2">
                     <ol class="flex items-center justify-center xs:justify-end">
                         <li class="w-10 mr-2 xl:hover:scale-125 transition ease-in-out duration-600 delay-100">
