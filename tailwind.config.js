@@ -22,7 +22,7 @@ module.exports = {
         'vindigo': '#16042e',
       },
       boxShadow: {
-        'vi': '0px 3px 5px rgba(43,4,98,0.65)',
+        'vi': '0px 3px 7px -1px rgba(43,4,98,0.6)',
       },
       rotate: {
         '270': '270deg',
