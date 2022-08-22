@@ -39,8 +39,8 @@
                 </div>
             </section>
             <section id="projects" class="px-10 xs:px-14 sm:px-18 md:px-24 lg:px-28 xl:px-32 py-10 lg:py-14">
-                <h2 class="font-semibold text-2xl 2xs:text-3xl lg:text-4xl leading-8 xs:leading-relaxed lg:mb-2.5">Projects</h2>
                 <div class="container max-w-screen-xl mx-auto">
+                    <h2 class="font-semibold text-2xl 2xs:text-3xl lg:text-4xl leading-8 xs:leading-relaxed lg:mb-2.5">Projects</h2>
                     <div class="mt-2 grid grid-cols-1 xs:grid-cols-2 lg:grid-cols-3 gap-4">
                         <div class="overflow-hidden rounded-2xl shadow-vi xl:hover:scale-105 transition ease-in-out duration-600 delay-75">
                             <a href="projects/loclo-homepage.php" title="Link to project">
