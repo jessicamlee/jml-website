@@ -40,37 +40,39 @@
             </section>
             <section id="projects" class="px-10 xs:px-14 sm:px-18 md:px-24 lg:px-28 xl:px-32 py-10 lg:py-14">
                 <h2 class="font-semibold text-2xl 2xs:text-3xl lg:text-4xl leading-8 xs:leading-relaxed lg:mb-2.5">Projects</h2>
-                <div class="mt-2 grid grid-cols-1 xs:grid-cols-2 lg:grid-cols-3 gap-4">
-                    <div class="overflow-hidden rounded-2xl shadow-vi xl:hover:scale-105 transition ease-in-out duration-600 delay-75">
-                        <a href="projects/loclo-homepage.php" title="Link to project">
-                            <img class="w-full" src="images/projects/loclo_develop/loclo_developed_v2.jpg" alt="LOCLO Homepage Project Cover Photo">
-                            <div class="bg-dviolet text-ghost h-full p-6 xl:px-6 xl:py-8">
-                                <h3 class="font-bold md:leading-5 text-lg lg:text-xl">LOCLO Homepage</h3>
-                                <p class="mt-2 font-normal text-sm">A Responsive e&dash;Commerce website experience&period;</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="overflow-hidden rounded-2xl shadow-vi xl:hover:scale-105 transition ease-in-out duration-600 delay-75">
-                        <a href="projects/todo-list.php" title="Link to project">
-                            <img class="w-full" src="images/projects/todo_list/todo_list_both_modes.jpg" alt="To Do List Project Cover Photo">
-                            <div class="bg-dviolet text-ghost h-full p-6 xl:px-6 xl:py-8">
-                                <h3 class="font-bold md:leading-5 text-lg lg:text-xl blur-none">To&dash;Do List</h3>
-                                <p class="mt-2 font-normal text-sm blur-none">Let your worries go in a To&dash;Do List in Dark Mode&excl;</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="overflow-hidden rounded-2xl shadow-vi xl:hover:scale-105 transition ease-in-out duration-600 delay-75">
-                        <a href="projects/get-ien-home.php" title="Link to project">
-                            <img class="w-full" src="images/projects/get_ien_home/get_ien_home_cover.jpg" alt="Get IEN the Alien Home Project Cover Photo">
-                            <div class="bg-dviolet text-ghost h-full p-6 xl:px-6 xl:py-8">
-                                <h3 class="font-bold md:leading-5 text-lg lg:text-xl">Get IEN Home&excl;</h3>
-                                <p class="mt-2 font-normal text-sm">A simple game to help IEN the alien return home&period;</p>
-                            </div>
-                        </a>
+                <div class="container max-w-screen-xl mx-auto">
+                    <div class="mt-2 grid grid-cols-1 xs:grid-cols-2 lg:grid-cols-3 gap-4">
+                        <div class="overflow-hidden rounded-2xl shadow-vi xl:hover:scale-105 transition ease-in-out duration-600 delay-75">
+                            <a href="projects/loclo-homepage.php" title="Link to project">
+                                <img class="w-full" src="images/projects/loclo_develop/loclo_developed_v2.jpg" alt="LOCLO Homepage Project Cover Photo">
+                                <div class="bg-dviolet text-ghost h-full p-6 xl:px-6 xl:py-8">
+                                    <h3 class="font-bold md:leading-5 text-lg lg:text-xl">LOCLO Homepage</h3>
+                                    <p class="mt-2 font-normal text-sm">A Responsive e&dash;Commerce website experience&period;</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="overflow-hidden rounded-2xl shadow-vi xl:hover:scale-105 transition ease-in-out duration-600 delay-75">
+                            <a href="projects/todo-list.php" title="Link to project">
+                                <img class="w-full" src="images/projects/todo_list/todo_list_both_modes.jpg" alt="To Do List Project Cover Photo">
+                                <div class="bg-dviolet text-ghost h-full p-6 xl:px-6 xl:py-8">
+                                    <h3 class="font-bold md:leading-5 text-lg lg:text-xl blur-none">To&dash;Do List</h3>
+                                    <p class="mt-2 font-normal text-sm blur-none">Let your worries go in a To&dash;Do List in Dark Mode&excl;</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="overflow-hidden rounded-2xl shadow-vi xl:hover:scale-105 transition ease-in-out duration-600 delay-75">
+                            <a href="projects/get-ien-home.php" title="Link to project">
+                                <img class="w-full" src="images/projects/get_ien_home/get_ien_home_cover.jpg" alt="Get IEN the Alien Home Project Cover Photo">
+                                <div class="bg-dviolet text-ghost h-full p-6 xl:px-6 xl:py-8">
+                                    <h3 class="font-bold md:leading-5 text-lg lg:text-xl">Get IEN Home&excl;</h3>
+                                    <p class="mt-2 font-normal text-sm">A simple game to help IEN the alien return home&period;</p>
+                                </div>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </section>
-            <section class="bg-gray-300 px-8 xs:px-12 sm:px-16 md:px-24 lg:px-28 xl:px-32 py-14 dark:bg-dviolet dark:text-ghost">
+            <section class="bg-gray-300 px-10 xs:px-14 sm:px-18 md:px-24 lg:px-28 xl:px-32 py-10 dark:bg-dviolet dark:text-ghost">
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-8 container max-w-screen-xl mx-auto">
                     <div>
                         <h2 class="font-semibold text-2xl 2xs:text-3xl lg:text-4xl leading-8 xs:leading-relaxed lg:mb-2.5">About</h2>
