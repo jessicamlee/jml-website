@@ -42,7 +42,7 @@
                 <div class="container max-w-screen-xl mx-auto">
                     <h2 class="font-semibold text-2xl 2xs:text-3xl lg:text-4xl leading-8 xs:leading-relaxed lg:mb-2.5">Projects</h2>
                     <div class="mt-2 grid grid-cols-1 xs:grid-cols-2 lg:grid-cols-3 gap-4">
-                        <div class="overflow-hidden rounded-2xl shadow-vi xl:hover:scale-105 transition ease-in-out duration-600 delay-75">
+                        <div class="overflow-hidden rounded-2xl shadow-vi xl:hover:scale-105 transition ease-in-out duration-600 delay-75 dark:border-ghost border-2 dark:border-solid dark:shadow-vindigo">
                             <a href="projects/loclo-homepage.php" title="Link to project">
                                 <img class="w-full" src="images/projects/loclo_develop/loclo_developed_v2.jpg" alt="LOCLO Homepage Project Cover Photo">
                                 <div class="bg-dviolet text-ghost h-full p-6 xl:px-6 xl:py-8">
@@ -51,7 +51,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="overflow-hidden rounded-2xl shadow-vi xl:hover:scale-105 transition ease-in-out duration-600 delay-75">
+                        <div class="overflow-hidden rounded-2xl shadow-vi xl:hover:scale-105 transition ease-in-out duration-600 delay-75 dark:border-ghost border-2 dark:border-solid dark:shadow-vindigo">
                             <a href="projects/todo-list.php" title="Link to project">
                                 <img class="w-full" src="images/projects/todo_list/todo_list_both_modes.jpg" alt="To Do List Project Cover Photo">
                                 <div class="bg-dviolet text-ghost h-full p-6 xl:px-6 xl:py-8">
@@ -60,7 +60,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="overflow-hidden rounded-2xl shadow-vi xl:hover:scale-105 transition ease-in-out duration-600 delay-75">
+                        <div class="overflow-hidden rounded-2xl shadow-vi xl:hover:scale-105 transition ease-in-out duration-600 delay-75 dark:border-ghost border-2 dark:border-solid dark:shadow-vindigo">
                             <a href="projects/get-ien-home.php" title="Link to project">
                                 <img class="w-full" src="images/projects/get_ien_home/get_ien_home_cover.jpg" alt="Get IEN the Alien Home Project Cover Photo">
                                 <div class="bg-dviolet text-ghost h-full p-6 xl:px-6 xl:py-8">
