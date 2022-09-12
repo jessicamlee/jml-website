@@ -76,7 +76,7 @@
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-8 container max-w-screen-xl mx-auto">
                     <div>
                         <h2 class="font-semibold text-2xl 2xs:text-3xl lg:text-4xl leading-8 xs:leading-relaxed lg:mb-2.5">About</h2>
-                        <p class="leading-6 mt-2 xs:mt-0 mb-6">I want to crafting user&dash;centered projects to share stories in immersive&comma; insightful&comma; and memorable experiences&period;</p>
+                        <p class="leading-6 mt-2 xs:mt-0 mb-6">I craft user&dash;centered projects to share stories in immersive&comma; insightful&comma; and memorable experiences&period;</p>
                         <a class="btn-gh xl:hover:bg-dviolet xl:hover:text-ghost transition ease-in-out duration-500 dark:border-ghost dark:shadow-vindigo" href="about.php">About Me</a>
                     </div>
                     <img class="rounded-full shadow-vi justify-self-center w-5/6 sm:w-4/6 dark:shadow-vindigo" src="images/jessicamlee_profilepicture.jpg" alt="Jessica Lee Profile Picture">
