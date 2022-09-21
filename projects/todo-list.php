@@ -23,11 +23,9 @@
                         <div class="text-center">
                             <h1 class="font-semibold text-2xl xs:text-3xl lg:text-4xl leading-8 xs:leading-relaxed">To&dash;Do List</h1>
                             <p class="mb-6 sm:mb-8 italic">Let your worries go in a To&dash;Do List in Dark Mode&excl;</p>
-                            <p class="leading-6"><a href="#" target="_blank" title="Visit live site of To Do List with Dark Mode"><b>Go to Live Site&colon;</b> <span class="border-b-4 border-dviolet border-solid xl:hover:border-dashed transition ease-in-out duration-600 delay-100 dark:border-ghost">To&dash;Do List with Dark Mode</span></a></p>
+                            <p class="leading-6"><a href="https://github.com/jessicamlee/todolist" target="_blank" title="Link to GitHub Repository"><b>Review the Code&colon;</b> <span class="border-b-4 border-dviolet border-solid xl:hover:border-dashed transition ease-in-out duration-600 delay-100 dark:border-ghost">To&dash;Do List with Dark Mode</span></a></p>
                         </div>
-                        <a href="#" target="_blank" title="Visit live site of To-Do List Project">
-                            <img class="w-full object-cover object-top overflow-hidden rounded-xl shadow-vi mt-3" src="../images/projects/todo_list/todo_list_both_modes.jpg" alt="To-Do List Cover Photo">
-                        </a>
+                        <img class="w-full object-cover object-top overflow-hidden rounded-xl shadow-vi mt-3" src="../images/projects/todo_list/todo_list_both_modes.jpg" alt="To-Do List Cover Photo">
                         <p class="leading-6 mt-4 md:px-20 lg:px-24 xl:px-40 text-left">The To&dash;Do List project reflects my passion for organization and challenges my current knowledge of basic JavaScript&period;</p>
                     </div>
                     <div class="mt-8 flex justify-center">

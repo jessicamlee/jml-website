@@ -23,11 +23,9 @@
                         <div class="text-center">
                             <h1 class="font-semibold text-2xl xs:text-3xl lg:text-4xl leading-8 xs:leading-relaxed">Get IEN Home&excl;</h1>
                             <p class="mb-6 sm:mb-8 italic">A simple game to help IEN the alien return home&period;</p>
-                            <p class="leading-6"><a href="#" target="_blank" title="Link to live site of Get IEN Home"><b>Go to Live Site&colon;</b> <span class="border-b-4 border-dviolet border-solid xl:hover:border-dashed transition ease-in-out duration-600 delay-100 dark:border-ghost">Get IEN Home&excl;</span></a></p>
+                            <p class="leading-6"><a href="https://github.com/jessicamlee/firstgame" target="_blank" title="Link to GitHub Repository"><b>Review the Code&colon;</b> <span class="border-b-4 border-dviolet border-solid xl:hover:border-dashed transition ease-in-out duration-600 delay-100 dark:border-ghost">Get IEN Home&excl;</span></a></p>
                         </div>
-                        <a href="#" target="_blank" title="Visit Get IEN Home Live Site">
-                            <img class="w-full object-cover object-top overflow-hidden rounded-xl shadow-vi mt-3" src="../images/projects/get_ien_home/get_ien_home_v2.jpg" alt="Get IEN Home Project Cover Photo">
-                        </a>
+                        <img class="w-full object-cover object-top overflow-hidden rounded-xl shadow-vi mt-3" src="../images/projects/get_ien_home/get_ien_home_v2.jpg" alt="Get IEN Home Project Cover Photo">
                         <p class="leading-6 mt-4 md:px-20 lg:px-24 xl:px-40 text-left">IEN is an extra&dash;terrestrial being from a distant red planet&period; We are tasked to guide IEN toward the orbital position that will allow IEN to return home&period;</p>
                         <p class="leading-6 mt-4 md:px-20 lg:px-24 xl:px-40 text-left">To tell IEN when to teleport home&comma; we will use the controls in our spacecraft to tell him when to stop and go&period;</p>
                         <p class="leading-6 mt-4 md:px-20 lg:px-24 xl:px-40 text-left">Are you ready to help IEN&quest;</p>
