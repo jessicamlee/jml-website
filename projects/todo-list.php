@@ -25,7 +25,7 @@
                             <p class="mb-6 sm:mb-8 italic">Let your worries go in a To&dash;Do List in Dark Mode&excl;</p>
                             <p class="leading-6"><a href="https://github.com/jessicamlee/todolist" target="_blank" title="Link to GitHub Repository"><b>Review the Code&colon;</b> <span class="border-b-4 border-dviolet border-solid xl:hover:border-dashed transition ease-in-out duration-600 delay-100 dark:border-ghost">To&dash;Do List with Dark Mode</span></a></p>
                         </div>
-                        <img class="w-full object-cover object-top overflow-hidden rounded-xl shadow-vi mt-3" src="../images/projects/todo_list/todo_list_both_modes.jpg" alt="To-Do List Cover Photo">
+                        <img class="w-full object-cover object-top overflow-hidden shadow-vi mt-3" src="../images/projects/todo_list/todo_list_both_modes.jpg" alt="To-Do List Cover Photo">
                         <p class="leading-6 mt-4 md:px-20 lg:px-24 xl:px-40 text-left">The To&dash;Do List project reflects my passion for organization and challenges my current knowledge of basic JavaScript&period;</p>
                     </div>
                     <div class="mt-8 flex justify-center">
@@ -71,7 +71,7 @@
                 <div class="container max-w-screen-xl mx-auto">
                     <div class="pb-10">
                         <h2 class="font-semibold text-xl xs:text-2xl lg:text-3xl">Phase 1&colon; Researching &amp; Planning</h2>
-                        <img class="w-full object-cover object-top rounded-xl shadow-vi my-5" src="../images/projects/todo_list/todo_list_brainstorm.jpg" alt="Screenshot of To-Do List Planning Process">
+                        <img class="w-full object-cover object-top shadow-vi my-5" src="../images/projects/todo_list/todo_list_brainstorm.jpg" alt="Screenshot of To-Do List Planning Process">
                         <p class="leading-6 my-4 md:px-20 lg:px-24 xl:px-40 text-left">I first conducted research to explore other ways to structure and style the to&dash;do list&period;</p>
                         <p class="leading-6 my-4 md:px-20 lg:px-24 xl:px-40 text-left">The primary target audience is students and workaholics who need an organizational system&period;</p>
                         <p class="leading-6 my-4 md:px-20 lg:px-24 xl:px-40 text-left">To resolve the targeted audience&apos;s pain points, the purpose of the to&dash;do list is to provide a single space to organize everything for the day&period;</p>
@@ -79,13 +79,13 @@
                     </div>
                     <div class="pb-10">
                         <h2 class="font-semibold text-xl xs:text-2xl lg:text-3xl">Phase 2&colon; Designing &amp; Developing</h2>
-                        <img class="w-full object-cover object-top rounded-xl shadow-vi my-5" src="../images/projects/todo_list/todo_list_experimenting.jpg" alt="Screenshot of Dark Mode Toggle and To Do List Experimenting files">
+                        <img class="w-full object-cover object-top shadow-vi my-5" src="../images/projects/todo_list/todo_list_experimenting.jpg" alt="Screenshot of Dark Mode Toggle and To Do List Experimenting files">
                         <p class="leading-6 my-4 md:px-20 lg:px-24 xl:px-40 text-left">In the design stage&comma; I considered the laws of interface design, specifically Law of Clarity&comma; Law of Preferred Action&comma; Law of Easting&comma; and&comma; most importantly&comma; Law of Feedback&period;</p>
                         <p class="leading-6 my-4 md:px-20 lg:px-24 xl:px-40 text-left">Integrating these design laws would help make the interface more intuitive for users to engage with&period;</p>
                     </div>
                     <div>
                         <h2 class="font-semibold text-xl xs:text-2xl lg:text-3xl">Phase 3&colon; Reviewing Problems &amp; Solutions</h2>
-                        <img class="w-full object-cover object-top rounded-xl shadow-vi my-5" src="../images/projects/todo_list/todo_list_problems.jpg" alt="Screenshot of Initial Problems on To-Do List interface">
+                        <img class="w-full object-cover object-top shadow-vi my-5" src="../images/projects/todo_list/todo_list_problems.jpg" alt="Screenshot of Initial Problems on To-Do List interface">
                         <p class="leading-6 my-4 md:px-20 lg:px-24 xl:px-40 text-left">The obstacles I faced were the to&dash;do list could not be centered&comma; the font colors had low color contrast ratios in both modes&comma; and the Dark Mode toggle overlapped content&period;</p>
                         <p class="leading-6 my-4 md:px-20 lg:px-24 xl:px-40 text-left">After reviewing the problematic areas&comma; I revised the affected by adding a &lt;div&gt; to apply a relative parent container to place the child elements at their intended positions&period;</p>
                     </div>
@@ -95,7 +95,7 @@
             <section class="px-10 xs:px-14 sm:px-18 md:px-24 lg:px-28 xl:px-32 py-10 dark:bg-vindigo dark:text-ghost">
                 <div class="container max-w-screen-xl mx-auto">
                     <h2 class="font-semibold text-2xl xs:text-3xl lg:text-4xl leading-8 xs:leading-relaxed">Outcome &amp; Next Steps</h2>
-                    <div class="my-5 b-dics rounded-xl shadow-vi w-full">
+                    <div class="my-5 b-dics shadow-vi w-full">
                         <img class="object-cover object-center overflow-hidden" src="../images/projects/todo_list/todo_list_light_mode.jpg" alt="Light Mode">
                         <img class="object-cover object-center overflow-hidden" src="../images/projects/todo_list/todo_list_dark_mode.jpg" alt="Dark Mode">
                     </div>

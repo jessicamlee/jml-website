@@ -25,7 +25,7 @@
                             <p class="mb-6 sm:mb-8 italic">A simple game to help IEN the alien return home&period;</p>
                             <p class="leading-6"><a href="https://github.com/jessicamlee/firstgame" target="_blank" title="Link to GitHub Repository"><b>Review the Code&colon;</b> <span class="border-b-4 border-dviolet border-solid xl:hover:border-dashed transition ease-in-out duration-600 delay-100 dark:border-ghost">Get IEN Home&excl;</span></a></p>
                         </div>
-                        <img class="w-full object-cover object-top overflow-hidden rounded-xl shadow-vi mt-3" src="../images/projects/get_ien_home/get_ien_home_v2.jpg" alt="Get IEN Home Project Cover Photo">
+                        <img class="w-full object-cover object-top overflow-hidden shadow-vi mt-3" src="../images/projects/get_ien_home/get_ien_home_v2.jpg" alt="Get IEN Home Project Cover Photo">
                         <p class="leading-6 mt-4 md:px-20 lg:px-24 xl:px-40 text-left">IEN is an extra&dash;terrestrial being from a distant red planet&period; We are tasked to guide IEN toward the orbital position that will allow IEN to return home&period;</p>
                         <p class="leading-6 mt-4 md:px-20 lg:px-24 xl:px-40 text-left">To tell IEN when to teleport home&comma; we will use the controls in our spacecraft to tell him when to stop and go&period;</p>
                         <p class="leading-6 mt-4 md:px-20 lg:px-24 xl:px-40 text-left">Are you ready to help IEN&quest;</p>
@@ -73,21 +73,21 @@
                 <div class="container max-w-screen-xl mx-auto">
                     <div class="pb-10">
                         <h2 class="font-semibold text-xl xs:text-2xl lg:text-3xl">Phase 1&colon; Researching &amp; Planning</h2>
-                        <img class="w-full object-cover object-top rounded-xl shadow-vi my-5" src="../images/projects/get_ien_home/get_ien_home_v1.jpg" alt="Screenshot of original CSS animation assignment of Get IEN Home">
+                        <img class="w-full object-cover object-top shadow-vi my-5" src="../images/projects/get_ien_home/get_ien_home_v1.jpg" alt="Screenshot of original CSS animation assignment of Get IEN Home">
                         <p class="leading-6 my-4 md:px-20 lg:px-24 xl:px-40 text-left">I was inspired by one of my CSS animation assignments using GSAP Timeline by GreenSock to control when and how quick an object moves on a path&period;</p>
                         <p class="leading-6 my-4 md:px-20 lg:px-24 xl:px-40 text-left">The language I wanted to learn how to integrate is JavaSript to congratulate users when they get IEN home successfully&period;</p>
                         <p class="leading-6 my-4 md:px-20 lg:px-24 xl:px-40 text-left">The questions I wanted to answer were&comma; &ldquo;How to use JavaScript to identify the targeted position to trigger a congratulations animation&quest;&rdquo; and &ldquo;How do I set the targeted position&quest;&rdquo;</p>
                     </div>
                     <div class="pb-10">
                         <h2 class="font-semibold text-xl xs:text-2xl lg:text-3xl">Phase 2&colon; Designing &amp; Developing</h2>
-                        <img class="w-full object-cover object-top rounded-xl shadow-vi my-5" src="../images/projects/get_ien_home/get_ien_home_brainstorm.jpg" alt="Screenshot of the brainstorming for Get IEN Home project">
+                        <img class="w-full object-cover object-top shadow-vi my-5" src="../images/projects/get_ien_home/get_ien_home_brainstorm.jpg" alt="Screenshot of the brainstorming for Get IEN Home project">
                         <p class="leading-6 my-4 md:px-20 lg:px-24 xl:px-40 text-left">I started organizing the interface with pen&dash;and&dash;paper to plan where IEN&apos;s character and the planet would be and how they would move&period;</p>
                         <p class="leading-6 my-4 md:px-20 lg:px-24 xl:px-40 text-left">For the development portion&comma; I read through the GSAP Timeline Documentation to determine how to determine a targeted position&period;</p>
                         <p class="leading-6 my-4 md:px-20 lg:px-24 xl:px-40 text-left">I also researched more about <a class="border-b-4 border-dviolet border-solid xl:hover:border-dashed transition ease-in-out duration-600 delay-75 dark:border-ghost" href="https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect" target="_blank" title="Link to Mozilla Developer Network's page on Element.getBoundingClientRect">Element&period;getBoundingClientRect&lpar; &rpar;</a> to help trigger a congratulations animation&period;</p>
                     </div>
                     <div>
                         <h2 class="font-semibold text-xl xs:text-2xl lg:text-3xl">Phase 3&colon; Reviewing Problems &amp; Solutions</h2>
-                        <img class="w-full object-cover object-top rounded-xl shadow-vi my-5" src="../images/projects/get_ien_home/get_ien_home_problems.jpg" alt="Screenshot of Problems the Get IEN Home project">
+                        <img class="w-full object-cover object-top shadow-vi my-5" src="../images/projects/get_ien_home/get_ien_home_problems.jpg" alt="Screenshot of Problems the Get IEN Home project">
                         <p class="leading-6 my-4 md:px-20 lg:px-24 xl:px-40 text-left">My original GSAP animation was entertaining but difficult to add interactions and feedback for the intended game experience&period;</p>
                         <p class="leading-6 my-4 md:px-20 lg:px-24 xl:px-40 text-left">My revision simiplified the animation to translating only along the x&dash;axis and only having one button&period;</p>
                         <p class="leading-6 my-4 md:px-20 lg:px-24 xl:px-40 text-left">With these changes&comma; the game was more replayable with a simple&comma; intuitive design and the project goal was achieved with fewer lines of JavaScript&period;</p>
@@ -97,7 +97,7 @@
             <section class="px-10 xs:px-14 sm:px-18 md:px-24 lg:px-28 xl:px-32 py-10 dark:bg-vindigo dark:text-ghost">
                 <div class="container max-w-screen-xl mx-auto">
                     <h2 class="font-semibold text-2xl xs:text-3xl lg:text-4xl leading-8 xs:leading-relaxed">Outcome</h2>
-                    <div class="my-5 b-dics rounded-xl shadow-vi w-full">
+                    <div class="my-5 b-dics shadow-vi w-full">
                         <img class="object-cover object-center overflow-hidden" src="../images/projects/get_ien_home/get_ien_home_v2.jpg" alt="Start">
                         <img class="object-cover object-center overflow-hidden" src="../images/projects/get_ien_home/get_ien_home_success.jpg" alt="Finish">
                     </div>
