@@ -25,7 +25,7 @@
                             <p class="mb-4 italic">A Responsive e&dash;Commerce Website</p>
                             <p class="leading-6"><a href="https://github.com/jessicamlee/loclo-clothing" target="_blank" title="Link to GitHub Repository"><b>Review the Code&colon;</b> <span class="border-b-4 border-dviolet border-solid xl:hover:border-dashed transition ease-in-out duration-600 delay-100 dark:border-ghost">LOCLO Homepage</span></a></p>
                         </div>
-                        <img class="w-full object-cover object-top overflow-hidden rounded-xl shadow-vi mt-3" src="../images/projects/loclo_develop/loclo_developed_v2.jpg" alt="LOCLO Homepage Project Cover Photo">
+                        <img class="w-full object-cover object-top overflow-hidden shadow-vi mt-3" src="../images/projects/loclo_develop/loclo_developed_v2.jpg" alt="LOCLO Homepage Project Cover Photo">
                         <p class="leading-6 mt-4 md:px-20 lg:px-24 xl:px-40 text-left">The LOCLO website was designed for a fictional client who is a one-woman entrepreneur&period; The client wants a simple website to sell her products to her target audience who are believed to be mostly mobile users&period;</p>
                     </div>
                     <div class="mt-8 flex justify-center">
@@ -71,7 +71,7 @@
                 <div class="container max-w-screen-xl mx-auto">
                     <div class="pb-10">
                         <h2 class="font-semibold text-xl xs:text-2xl lg:text-3xl">Phase 1&colon; Planning &amp; Designing</h2>
-                        <img class="w-full object-cover object-top rounded-xl shadow-vi my-5" src="../images/projects/loclo_develop/loclo_dev_responsive.jpg" alt="Screenshot of LOCLO Homepage Planning Process">
+                        <img class="w-full object-cover object-top shadow-vi my-5" src="../images/projects/loclo_develop/loclo_dev_responsive.jpg" alt="Screenshot of LOCLO Homepage Planning Process">
                         <p class="leading-6 my-4 md:px-20 lg:px-24 xl:px-40 text-left">To create a responsive&comma; mobile&dash;first website&comma; I first created high&dash;fidelity wireframes for the most popular screen size breakpoints&period;</p>
                         <p class="leading-6 my-4 md:px-20 lg:px-24 xl:px-40 text-left">Creating wireframes helps me work efficiently when developing a mobile&dash;friendly website&period; I start from a 280&dash;pixel wide screen and scale to a large screen size at 1200 pixels wide&period;</p>
                         <p class="leading-6 my-4 md:px-20 lg:px-24 xl:px-40 text-left">The next steps were to gather web copy&comma; fonts&comma; and images to be compressed for faster page load speed and a better use experience&period;</p>
@@ -79,13 +79,13 @@
                     </div>
                     <div class="pb-10">
                         <h2 class="font-semibold text-xl xs:text-2xl lg:text-3xl">Phase 2&colon; Developing the Basics</h2>
-                        <img class="w-full object-cover object-top rounded-xl shadow-vi my-5" src="../images/projects/loclo_develop/loclo_dev_v1.jpg" alt="Screenshot of Problems in LOCLO Homepage">
+                        <img class="w-full object-cover object-top shadow-vi my-5" src="../images/projects/loclo_develop/loclo_dev_v1.jpg" alt="Screenshot of Problems in LOCLO Homepage">
                         <p class="leading-6 my-4 md:px-20 lg:px-24 xl:px-40 text-left">The development phase began with a mobile&dash;friendly approach by structuring and styling the smallest size of 280&dash;pixels wide&period;</p>
                         <p class="leading-6 my-4 md:px-20 lg:px-24 xl:px-40 text-left">Mobile&dash;friendly websites are important since most users are navigating digital spaces from mobile devices with smalls screens nowadays&period;</p>
                     </div>
                     <div>
                         <h2 class="font-semibold text-xl xs:text-2xl lg:text-3xl">Phase 3&colon; Reviewing &amp; Resolving Errors</h2>
-                        <img class="w-full object-cover object-top rounded-xl shadow-vi my-5" src="../images/projects/loclo_develop/loclo_576px_comparison.jpg" alt="Screenshot of LOCLO Homepage Design">
+                        <img class="w-full object-cover object-top shadow-vi my-5" src="../images/projects/loclo_develop/loclo_576px_comparison.jpg" alt="Screenshot of LOCLO Homepage Design">
                         <p class="leading-6 my-4 md:px-20 lg:px-24 xl:px-40 text-left">As I styled each larger breakpoint&comma; I encountered problems with overlapping sections because of how I organized the content&period;</p>
                         <p class="leading-6 my-4 md:px-20 lg:px-24 xl:px-40 text-left">I first reviewed the styles for the sections at each screen size to ensure there were no syntax errors&period; I then reassigned the parent and child positions for each section to ensure smooth scalability for the larger screen sizes&period;</p>
                         <p class="leading-6 my-4 md:px-20 lg:px-24 xl:px-40 text-left">Next&comma; I tested the responsiveness from one breakpoint to another to check that the errors were fixed&period;</p>
@@ -96,7 +96,7 @@
             <section class="px-10 xs:px-14 sm:px-18 md:px-24 lg:px-28 xl:px-32 py-10 dark:bg-vindigo dark:text-ghost">
                 <div class="container max-w-screen-xl mx-auto">
                     <h2 class="font-semibold text-2xl xs:text-3xl lg:text-4xl leading-8 xs:leading-relaxed">Outcome</h2>
-                    <div class="my-5 b-dics rounded-xl shadow-vi w-full">
+                    <div class="my-5 b-dics shadow-vi w-full">
                         <img class="object-cover object-center overflow-hidden" src="../images/projects/loclo_develop/loclo_design_v2.jpg" alt="Before (Design)">
                         <img class="object-cover object-center overflow-hidden" src="../images/projects/loclo_develop/loclo_developed_v2.jpg" alt="After (Developed)">
                     </div>
