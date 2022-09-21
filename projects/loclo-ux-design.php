@@ -26,7 +26,7 @@
                             <p class="leading-6"><a href="#" target="_blank" title="Link to LOCLO Website Prototype"><b>Go to Prototype&colon;</b> <span class="border-b-4 border-dviolet border-solid xl:hover:border-dashed transition ease-in-out duration-600 delay-100 dark:border-ghost">LOCLO UX Design</span></a></p>
                         </div>
                         <a href="#" target="_blank" title="Link to LOCLO Website Prototype">
-                            <img class="w-full object-cover object-top overflow-hidden rounded-xl shadow-vi mt-3" src="../images/projects/loclo_design/loclo_ux_cover.jpg" alt="LOCLO Website and UX Design Project Cover Photo">
+                            <img class="w-full object-cover object-top overflow-hidden shadow-vi mt-3" src="../images/projects/loclo_design/loclo_ux_cover.jpg" alt="LOCLO Website and UX Design Project Cover Photo">
                         </a>
                         <p class="leading-6 mt-4 md:px-20 lg:px-24 xl:px-40 text-left">The LOCLO website was designed for a fictional client who is a one-woman entrepreneur&period; The client wants a simple website to sell her products to her target audience who are believed to be mostly mobile users&period;</p>
                     </div>
@@ -73,14 +73,14 @@
                 <div class="container max-w-screen-xl mx-auto">
                     <div class="pb-10">
                         <h2 class="font-semibold text-xl xs:text-2xl lg:text-3xl">Phase 1&colon; Researching &amp; Planning</h2>
-                        <img class="w-full object-cover object-top rounded-xl shadow-vi my-5" src="../images/projects/loclo_design/loclo_ux_app_overview.jpg" alt="Screenshot of LOCLO UX Design Planning Process">
+                        <img class="w-full object-cover object-top shadow-vi my-5" src="../images/projects/loclo_design/loclo_ux_app_overview.jpg" alt="Screenshot of LOCLO UX Design Planning Process">
                         <p class="leading-6 my-4 md:px-20 lg:px-24 xl:px-40 text-left">To gather ideas for the design&comma; I researched LOCLO&apos;s competitors&period; The keywords&comma; &ldquo;local&comma;&rdquo; &ldquo;sustainability&comma;&rdquo; and &ldquo;simplicity&rdquo; led to companies like Tentree&comma; Good for Sunday&comma; and Okay to Rest&period;</p>
                         <p class="leading-6 my-4 md:px-20 lg:px-24 xl:px-40 text-left">Learning about and understanding LOCLO&apos;s competitors and their users guided the design process to create intuitive interfaces and user&dash;centered experiences for each platform&period;</p>
                         <p class="leading-6 my-4 md:px-20 lg:px-24 xl:px-40 text-left">After the user and competitor research&comma; I assembled the user persona&comma; scenario&comma; and flowchart to begin planning the experience to design and test for&period;</p>
                     </div>
                     <div class="pb-10">
                         <h2 class="font-semibold text-xl xs:text-2xl lg:text-3xl">Phase 2&colon; Creating Sitemap &amp; Wireframes</h2>
-                        <img class="w-full object-cover object-top rounded-xl shadow-vi my-5" src="../images/projects/loclo_design/loclo_ux_app_wireframing.jpg" alt="Screenshot of LOCLO UX Design Wireframes">
+                        <img class="w-full object-cover object-top shadow-vi my-5" src="../images/projects/loclo_design/loclo_ux_app_wireframing.jpg" alt="Screenshot of LOCLO UX Design Wireframes">
                         <p class="leading-6 my-4 md:px-20 lg:px-24 xl:px-40 text-left">Creating a rough visual representation of the design and imagined experience helped me communicate my ideas in the quickest and easiest way to my fictional client&period;</p>
                         <p class="leading-6 my-4 md:px-20 lg:px-24 xl:px-40 text-left">I drafted a sitemap to outline the website&apos;s information architecture and gathered images to share the &ldquo;look and feel&rdquo; for how the product images would appear&period;</p>
                         <p class="leading-6 my-4 md:px-20 lg:px-24 xl:px-40 text-left">I then transformed the pen&dash;and&dash;paper wireframes to high&dash;fidelity wireframes for a more concrete exammple to test the experience&period;</p>
@@ -88,7 +88,7 @@
                     </div>
                     <div>
                         <h2 class="font-semibold text-xl xs:text-2xl lg:text-3xl">Phase 3&colon; Usability Study Findings &amp; Solutions</h2>
-                        <div class="my-5 b-dics rounded-xl shadow-vi w-full">
+                        <div class="my-5 b-dics shadow-vi w-full">
                             <img class="object-cover object-center overflow-hidden" src="../images/projects/loclo_design/loclo_ux_cart_pg_v1.jpg" alt="Before Usability Study">
                             <img class="object-cover object-center overflow-hidden" src="../images/projects/loclo_design/loclo_ux_cart_pg_v2.jpg" alt="After Usability Study">
                         </div>
@@ -104,7 +104,7 @@
                 <div class="container max-w-screen-xl mx-auto">
                     <h2 class="font-semibold text-2xl xs:text-3xl lg:text-4xl leading-8 xs:leading-relaxed">Revisions &amp; Next Step</h2>
                     <p class="leading-6"><a href="#" target="_blank" title="Link to live site of LOCLO's Homepage"><b>Go to Website Live Site&colon;</b> <span class="border-b-4 border-dviolet border-solid xl:hover:border-dashed transition ease-in-out duration-600 delay-100 dark:border-ghost">LOCLO Homepage</span></a></p>
-                    <img class="w-full object-cover object-top rounded-xl shadow-vi my-5" src="../images/projects/loclo_design/loclo_ux_compare.jpg" alt="Screenshot of LOCLO UX Design  and Developed page comparison">
+                    <img class="w-full object-cover object-top shadow-vi my-5" src="../images/projects/loclo_design/loclo_ux_compare.jpg" alt="Screenshot of LOCLO UX Design  and Developed page comparison">
                     <p class="leading-6 my-4 md:px-20 lg:px-24 xl:px-40 text-left">One noticeable change in the revised website design was reorganizing the content to fit above the fold&period; This change would limit an additional action by the user to scroll down the page to complete their task&period;</p>
                     <p class="leading-6 my-4 md:px-20 lg:px-24 xl:px-40 text-left">Another revision was a color scheme update across the website and mobile application wireframes and prototype for consistent branding&period;</p>
                     <p class="leading-6 my-4 md:px-20 lg:px-24 xl:px-40 text-left"><b>Next Step&colon;</b> To prepare for a future usability study for each platform&comma; I brainstormed new questions to answer and noted previous pain points to observe improvements for&period;</p>
