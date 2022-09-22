@@ -8,7 +8,7 @@
         <?php require('../partials/global/header_projects.php'); ?>
         <main>
             <div class="pt-6 xs:pt-8 px-10 xs:px-14 sm:px-18 md:px-24 lg:px-28 xl:px-32 dark:bg-vindigo dark:text-ghost">
-                <a class="flex content-center container max-w-screen-xl mx-auto" href="../projects.php" title="Back to Previous Page">
+                <a class="flex content-center container max-w-screen-lg mx-auto" href="../projects.php" title="Back to Previous Page">
                     <div class="rotate-90">
                         <svg class="arrow-vi animate-bounce ease-in-out fill-dviolet dark:fill-ghost dark:border-ghost" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg" alt="Violet arrow pointing downward" title="Bouncing arrow">
                             <path d="M34.2 17.0359L34.2 24.1159L25.24 32.8359L16.28 24.1159L16.28 17.0359L25.24 25.7959L34.2 17.0359Z"/>
@@ -18,12 +18,12 @@
                 </a>
             </div>
             <section class="px-10 xs:px-14 sm:px-18 md:px-24 lg:px-28 xl:px-32 py-10 lg:py-14 dark:bg-vindigo dark:text-ghost">
-                <div class="container max-w-screen-xl mx-auto">
+                <div class="container max-w-screen-lg mx-auto">
                     <div>
                         <div class="text-center">
                             <h1 class="font-semibold text-2xl xs:text-3xl lg:text-4xl leading-8 xs:leading-relaxed">Get IEN Home&excl;</h1>
                             <p class="mb-6 sm:mb-8 italic">A simple game to help IEN the alien return home&period;</p>
-                            <p class="leading-6"><a href="https://github.com/jessicamlee/firstgame" target="_blank" title="Link to GitHub Repository"><b>Review the Code&colon;</b> <span class="border-b-4 border-dviolet border-solid xl:hover:border-dashed transition ease-in-out duration-600 delay-100 dark:border-ghost">Get IEN Home&excl;</span></a></p>
+                            <p class="leading-6"><a href="https://github.com/jessicamlee/firstgame" target="_blank" title="Link to GitHub Repository"><b>Review the Code&colon;</b> <span class="border-b-4 border-dviolet border-solid xl:hover:border-dashed transition ease-in-out duration-700 delay-100 dark:border-ghost">Get IEN Home&excl;</span></a></p>
                         </div>
                         <img class="w-full object-cover object-top overflow-hidden shadow-vi mt-3" src="../images/projects/get_ien_home/get_ien_home_v2.jpg" alt="Get IEN Home Project Cover Photo">
                         <p class="leading-6 mt-4 md:px-20 lg:px-24 xl:px-40 text-left">IEN is an extra&dash;terrestrial being from a distant red planet&period; We are tasked to guide IEN toward the orbital position that will allow IEN to return home&period;</p>
@@ -40,7 +40,7 @@
                 </div>
             </section>
             <section class="bg-dviolet text-ghost px-10 xs:px-14 sm:px-18 md:px-24 lg:px-28 xl:px-32 py-10">
-                <div class="container max-w-screen-xl mx-auto">
+                <div class="container max-w-screen-lg mx-auto">
                     <ul class="xs:grid grid-rows-3 grid-flow-col gap-x-4 xs:gap-x-10 lg:gap-y-4">
                         <li class="mb-4 xs:mb-0">
                             <h3 class="font-semibold text-base lg:text-lg uppercase">Dates&colon;</h3>
@@ -64,13 +64,13 @@
                         </li>
                         <li>
                             <h3 class="font-semibold text-base sm:text-lg uppercase">Project Goal&colon;</h3>
-                            <p class="font-normal">Expand my JavaScript knowledge by creating a game inspired by <a class="border-b-4 border-dviolet border-solid xl:hover:border-dashed transition ease-in-out duration-600 delay-75" href="https://greensock.com/docs/v3/GSAP" target="_blank" title="Link to GSAP Timeline by GreenSock Documentation">GSAP Timeline by GreenSock</a>&period;</p>
+                            <p class="font-normal">Expand my JavaScript knowledge by creating a game inspired by <a class="border-b-4 border-dviolet border-solid xl:hover:border-dashed transition ease-in-out duration-700 delay-75" href="https://greensock.com/docs/v3/GSAP" target="_blank" title="Link to GSAP Timeline by GreenSock Documentation">GSAP Timeline by GreenSock</a>&period;</p>
                         </li>
                     </ul>
                 </div>
             </section>
             <section id="project-details" class="px-10 xs:px-14 sm:px-18 md:px-24 lg:px-28 xl:px-32 py-10 dark:bg-vindigo dark:text-ghost">
-                <div class="container max-w-screen-xl mx-auto">
+                <div class="container max-w-screen-lg mx-auto">
                     <div class="pb-10">
                         <h2 class="font-semibold text-xl xs:text-2xl lg:text-3xl">Phase 1&colon; Researching &amp; Planning</h2>
                         <img class="w-full object-cover object-top shadow-vi my-5" src="../images/projects/get_ien_home/get_ien_home_v1.jpg" alt="Screenshot of original CSS animation assignment of Get IEN Home">
@@ -83,7 +83,7 @@
                         <img class="w-full object-cover object-top shadow-vi my-5" src="../images/projects/get_ien_home/get_ien_home_brainstorm.jpg" alt="Screenshot of the brainstorming for Get IEN Home project">
                         <p class="leading-6 my-4 md:px-20 lg:px-24 xl:px-40 text-left">I started organizing the interface with pen&dash;and&dash;paper to plan where IEN&apos;s character and the planet would be and how they would move&period;</p>
                         <p class="leading-6 my-4 md:px-20 lg:px-24 xl:px-40 text-left">For the development portion&comma; I read through the GSAP Timeline Documentation to determine how to determine a targeted position&period;</p>
-                        <p class="leading-6 my-4 md:px-20 lg:px-24 xl:px-40 text-left">I also researched more about <a class="border-b-4 border-dviolet border-solid xl:hover:border-dashed transition ease-in-out duration-600 delay-75 dark:border-ghost" href="https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect" target="_blank" title="Link to Mozilla Developer Network's page on Element.getBoundingClientRect">Element&period;getBoundingClientRect&lpar; &rpar;</a> to help trigger a congratulations animation&period;</p>
+                        <p class="leading-6 my-4 md:px-20 lg:px-24 xl:px-40 text-left">I also researched more about <a class="border-b-4 border-dviolet border-solid xl:hover:border-dashed transition ease-in-out duration-700 delay-75 dark:border-ghost" href="https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect" target="_blank" title="Link to Mozilla Developer Network's page on Element.getBoundingClientRect">Element&period;getBoundingClientRect&lpar; &rpar;</a> to help trigger a congratulations animation&period;</p>
                     </div>
                     <div>
                         <h2 class="font-semibold text-xl xs:text-2xl lg:text-3xl">Phase 3&colon; Reviewing Problems &amp; Solutions</h2>
@@ -95,7 +95,7 @@
             </section>
             <div class="py-4 bg-dviolet"></div>
             <section class="px-10 xs:px-14 sm:px-18 md:px-24 lg:px-28 xl:px-32 py-10 dark:bg-vindigo dark:text-ghost">
-                <div class="container max-w-screen-xl mx-auto">
+                <div class="container max-w-screen-lg mx-auto">
                     <h2 class="font-semibold text-2xl xs:text-3xl lg:text-4xl leading-8 xs:leading-relaxed">Outcome</h2>
                     <div class="my-5 b-dics shadow-vi w-full">
                         <img class="object-cover object-center overflow-hidden" src="../images/projects/get_ien_home/get_ien_home_v2.jpg" alt="Start">
@@ -107,9 +107,9 @@
                 </div>
             </section>
             <section class="bg-gray-300 px-10 xs:px-14 sm:px-18 md:px-24 lg:px-28 xl:px-32 py-10 dark:bg-dviolet dark:text-ghost">
-                <div class="grid grid-cols-1 xs:grid-cols-2 md:grid-cols-3 gap-4 container max-w-screen-xl mx-auto">
+                <div class="grid grid-cols-1 xs:grid-cols-2 md:grid-cols-3 gap-4 container max-w-screen-lg mx-auto">
                     <h2 class="font-semibold text-xl xs:text-2xl lg:text-3xl mb-1 lg:mb-2.5 xs:col-span-2 md:col-span-1">More Projects <br class="hidden md:inline"> by Jessica</h2>
-                    <div class="overflow-hidden rounded-2xl shadow-vi xl:hover:scale-105 transition ease-in-out duration-600 delay-75 dark:border-ghost border-2 dark:border-solid dark:shadow-vindigo">
+                    <div class="overflow-hidden rounded-2xl shadow-vi xl:hover:scale-105 transition ease-in-out duration-700 delay-75 dark:border-ghost border-2 dark:border-solid dark:shadow-vindigo">
                         <a href="../projects/loclo-homepage.php" title="Go to My To-Do List Project">
                             <img class="w-full" src="../images/projects/loclo_develop/loclo_developed_v2.jpg" alt="LOCLO Homepage Project Cover Photo">
                             <div class="bg-dviolet text-ghost h-full p-6 xl:px-6 xl:py-8">
@@ -118,7 +118,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="overflow-hidden rounded-2xl shadow-vi xl:hover:scale-105 transition ease-in-out duration-600 delay-75 dark:border-ghost border-2 dark:border-solid dark:shadow-vindigo">
+                    <div class="overflow-hidden rounded-2xl shadow-vi xl:hover:scale-105 transition ease-in-out duration-700 delay-75 dark:border-ghost border-2 dark:border-solid dark:shadow-vindigo">
                         <a href="../projects/todo-list.php" title="Go to My To-Do List Project">
                             <img class="w-full" src="../images/projects/todo_list/todo_list_both_modes.jpg" alt="To Do List Project Cover Photo">
                             <div class="bg-dviolet text-ghost h-full p-6 xl:px-6 xl:py-8">
@@ -130,7 +130,8 @@
                 </div>
             </section>
         </main>
-        <?php require('../partials/global/footer_projects.php'); ?>
+        <?php require('../partials/global/contact.php'); ?>
+        <?php require('../partials/global/footer.php'); ?>
         <script src="../scripts/dics.js"></script>
         <script src="../scripts/main.js"></script>
     </body>
