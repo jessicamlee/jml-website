@@ -5,12 +5,14 @@ module.exports = {
   darkMode: 'class',
   theme: {
     screens: {
-      '2xs': '320px',
-      'xs': '500px',
+      '3xs': '320px',
+      '2xs': '500px',
+      'xs': '600px',
       'sm': '640px',
       'md': '768px',
       'lg': '992px',
-      'xl': '1200px'
+      'xl': '1024px',
+      '2xl': '1200px'
     },
     extend: {
       fontFamily: {
@@ -19,7 +21,6 @@ module.exports = {
       colors: {
         'dviolet': '#2b0462',
         'ghost': '#f7fcfe',
-        'vindigo': '#16042e',
       },
       boxShadow: {
         'vi': '0px 3px 7px -1px rgba(43,4,98,0.6)',
