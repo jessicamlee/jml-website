@@ -2,7 +2,7 @@
 
     $active_page = $active_page ?? '';
 
-?><header id="header" class="py-4 px-6 2xs:px-10 xs:px-14 sm:px-18 md:px-24 lg:px-28 xl:px-32 shadow-vi">
+?><header id="header" class="py-4 px-6 2xs:px-10 xs:px-14 sm:px-18 md:px-24 lg:px-28 xl:px-32 shadow-vi-light">
     <div class="flex container max-w-screen-xl mx-auto">
         <a class="basis-2/5 flex justify-start" href="index.php" title="Home Page">
             <div class="sm:block justify-self-center w-16 overflow-visible">
