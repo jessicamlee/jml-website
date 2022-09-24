@@ -19,11 +19,11 @@ module.exports = {
         'sans': ['Poppins', 'sans-serif']
       },
       colors: {
-        'dviolet': '#2b0462',
-        'ghost': '#f7fcfe',
+        'dviolet': '#2b0462'
       },
       boxShadow: {
         'vi': '0px 3px 7px -1px rgba(43,4,98,0.6)',
+        'vi-light': '0px 3px 7px -1px rgba(43,4,98,0.3)',
       },
       rotate: {
         '270': '270deg',
@@ -78,6 +78,9 @@ module.exports = {
         letterj: 'letterj 5s ease-in-out',
         letterl: 'letterl 5s ease-in-out',
       },
+      backgroundImage: {
+        'loclo-homepage-dev': "url('images/projects/loclo_develop/loclo_developed_v2.jpg"
+      }
     },
   },
   plugins: [],
