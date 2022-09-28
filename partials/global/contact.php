@@ -5,11 +5,6 @@
             <p class="leading-6 mb-6 text-sm 3xs:text-base">Searching for a supportive teammate&quest; <br> Let&apos;s collaborate on a project&excl;</p>
             <ul class="flex items-center justify-center space-x-4">
                 <li class="w-10 xl:hover:scale-125 transition ease-in-out duration-700">
-                    <a class="dark:border-white dark:border-2" href="mailto:jessicamlee@gmail.com" target="_blank" title="Email Jessica">
-                        <svg class="fill-dviolet dark:fill-white dark:border-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 262.73 262.73" title="Email Icon"><defs></defs><path d="M131.37,0A131.37,131.37,0,1,0,262.73,131.37,131.37,131.37,0,0,0,131.37,0Zm76.52,76.41-76.52,62-76.54-62Zm.1,109.47H54.74V92.78l76.63,62.1L208,92.79Z"/></svg>
-                    </a>
-                </li>
-                <li class="w-10 xl:hover:scale-125 transition ease-in-out duration-700">
                     <a class="w-auto" href="https://www.linkedin.com/in/jessicamlee-/" target="_blank" title="Visit Jessica's LinkedIn">
                         <svg class="fill-dviolet dark:fill-white dark:border-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 258.56 258.56" title="LinkedIn Icon"><defs></defs><path d="M129.28,0A129.28,129.28,0,1,0,258.56,129.28,129.28,129.28,0,0,0,129.28,0ZM107.73,172.37H86.19V107.73h21.54ZM97,98.13a11.95,11.95,0,1,1,11.85-11.94A11.89,11.89,0,0,1,97,98.13Zm86.18,74.24H161.62V141.55c0-20.27-21.57-18.55-21.57,0v30.82H118.5V107.73h21.55v11.78c9.39-17.41,43.09-18.71,43.09,16.67Z"/></svg>
                     </a>
