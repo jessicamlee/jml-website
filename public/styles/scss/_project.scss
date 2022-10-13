@@ -1,0 +1,233 @@
+.artifact-pg {
+    h2 {
+        @include fontstyles ($violet, $sm*1.25, $semibold, $base, $none);
+        margin-bottom: $sm*0.8;
+        text-align: left;
+    }
+
+    h3 {
+        @include fontstyles ($violet, $sm*1.1, $semibold, $base, $none);
+    }
+
+    p {
+        margin-bottom: $xs;
+        line-height: 1.75;
+    }
+
+    .img-container {
+        width: 100%;
+        max-height: $sm*25;
+        overflow: hidden;
+
+        .project-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .bg-forestgreen {
+        background-color: $forestgreen;
+    }
+
+    .bg-darkmodelist {
+        background-color: $darkmodelist;
+    }
+
+    .bg-cafebrown {
+        background-color: $cafebrown;
+    }
+    
+    .text-forestgreen {
+        color: $forestgreen;
+    }
+
+    .text-darkmodelist {
+        color: $darkmodelist;
+    }
+
+    .text-cafebrown {
+        color: $cafebrown;
+    }
+    
+    /* -----------------------------
+    ------- Project Summary --------
+    ------------------------------ */
+    .project-overview {
+        flex-direction: column;
+
+        .project-details {
+            .project-skills {
+                @include fontstyles ($white, $sm*0.9, $light, $base, $none);
+            }
+
+            .project-title {
+                @include fontstyles ($white, $sm*1.5, $semibold, $base, $none);
+                margin: $sm*0.35 0;
+                line-height: 1.25;
+            }
+    
+            .project-type {
+                @include fontstyles ($white, $sm*0.8, $light, $italic, $none);
+            }
+    
+            .project-description {
+                margin: $sm*1.1 0 $sm*2;
+            }
+
+            .code-link, .project-description {
+                @include fontstyles ($white, $sm*0.8, $light, $base, $none);
+            }
+    
+            .design-link {
+                color: $white;
+                padding-bottom: $sm*0.15;
+                border-bottom: $sm*0.15 $white solid;
+            }
+    
+            .links-btn-container {
+                justify-content: space-between;
+                margin: $sm*0.5 0 $sm*2;
+    
+                .code-link, .live-link {
+                    width: 48%;
+                    height: auto;
+                    padding: $sm*0.65 $sm*1;
+                    border: $sm*0.1 solid rgb(255 255 255);
+                    border-radius: $sm*1.5;
+                    text-align: center;
+                }
+
+                .code-link:hover {
+                    background-color: $white;
+                    color: $violet;
+                    transition: all 0.35s ease-in-out;
+                }
+        
+                .live-link {
+                    background-color: $white;
+                    font-size: $sm*0.8;
+
+                    &:hover {
+                        background-color: $violet;
+                        color: $white;
+                        transition: all 0.35s ease-in-out;
+                    }
+                }
+            }
+        }
+    }
+
+    /* -----------------------------
+    ------- Project Process --------
+    ------------------------------ */
+    .project-process {
+
+        .phase1 {
+            margin-top: $sm;
+        }
+    
+        .phase2, .phase3 {
+            margin-top: $sm*3;
+        }
+    
+        .img-container {
+            margin-bottom: $sm;
+        }
+
+        .phase-info {
+            flex-direction: column;
+        }
+    }
+
+    /* -----------------------------
+    ------- More Projects ----------
+    ------------------------------ */
+    .more-projects ul li a p {
+        @include fontstyles ($violet, $sm*1.2, $medium, $base, $none);
+    }
+    /* -----------------------------
+    ------- Media Queries ----------
+    ------------------------------ */
+    @media (min-width: 768px) {
+        .hidden-tablet {
+            display: none;
+        }
+
+        .project-overview .project-details {
+            
+            .project-skills, .project-description {
+                @include fontstyles ($white, $sm*0.9, $light, $base, $none);
+            }
+
+            .project-title {
+                @include fontstyles ($white, $sm*2, $semibold, $base, $none);
+                line-height: 1.25;
+            }
+
+            .project-type {
+                @include fontstyles ($white, $sm*0.9, $light, $italic, $none);
+            }
+
+            .project-description {
+                line-height: 1.7;
+                margin: $sm*1.1 0 $sm*1.5;
+            }
+
+            .links-btn-container {
+                justify-content: flex-start;
+
+                .code-link, .live-link {
+                    margin-right: $sm;
+                    padding: $sm*0.6 $sm*1;
+                    font-size: $sm*0.85;
+                }
+            }
+        }
+    }
+
+    @media (min-width: 900px) {
+
+        h2 {
+            font-size: $sm*1.5;
+            margin-bottom: $sm*0.5;
+        }
+
+        .project-overview {
+            flex-direction: row;
+            justify-content: space-between;
+            padding: $sm*3;
+
+            .project-details {
+                padding: 0;
+                margin-right: $sm*2;
+                width: 50%;
+
+                .feat-img-container {
+                    align-self: center;
+                }
+
+                .project-title {
+                    margin: $sm*0.2 0;
+                }
+
+                .project-description {
+                    margin: $sm*1.1 0 $sm*1.5;
+                }
+
+                .links-btn-container {
+                    margin: $sm*0.5 0 0;
+                }
+            }
+        }
+
+        .project-process .phase-info {
+            flex-direction: row-reverse;
+
+            .phases-desc {
+                margin-right: $sm*2;
+                width: 55%;
+            }
+        }
+    }
+}

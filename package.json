@@ -1,19 +1,6 @@
 {
-  "name": "portfolio",
-  "version": "1.0.0",
-  "description": "Jessica Lee's Front&dash;End Development Portfolio",
-  "main": "index.js",
-  "scripts": {
-    "start": "npx tailwindcss -i ./styles/main.css -o ./dist/output.css --watch",
-    "build": "npx tailwindcss -i ./styles/main.css -o ./dist/output.css"
-  },
-  "repository": {
-    "type": "git",
-    "url": "n"
-  },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "tailwindcss": "^3.1.4"
+  "dependencies": {
+    "aos": "^2.3.4",
+    "medium-zoom": "^1.0.6"
   }
 }
