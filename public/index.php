@@ -17,8 +17,6 @@
             <section class="intro section">
                 <div class="container intro-box">
                     <p class="career-goal flex" data-aos="fade-right" data-aos-delay="300">building web stories worth experiencing&period;</p>
-                    <img class="gradient-circle1" data-aos="fade-left" data-aos-delay="400" src="images/gradient_purple_blue.svg" alt="Gradient purple and blue circle2">
-                    <img class="gradient-circle2" data-aos="fade-right" data-aos-delay="400" src="images/gradient_purple_blue.svg" alt="Gradient purple and blue circle">
                 </div>
             </section>
             <section id="projects" class="projects section">
@@ -50,8 +48,8 @@
         </main>
         <?php require ('partials/global/footer.php'); ?>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-        <script src="../node_modules/aos/dist/aos.js"></script>
-        <script src="../node_modules/medium-zoom/dist/medium-zoom.min.js"></script>
+        <!-- <script src="../node_modules/aos/dist/aos.js"></script>
+        <script src="../node_modules/medium-zoom/dist/medium-zoom.min.js"></script> -->
         <script src="scripts/scroll-lock.js"></script>
         <script src="scripts/main.js"></script>
     </body>

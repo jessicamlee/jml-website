@@ -30,4 +30,6 @@
     <link rel="stylesheet" href="../node_modules/aos/dist/aos.css">
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/css/main.css">
+    <script src="../node_modules/aos/dist/aos.js"></script>
+    <script src="../node_modules/medium-zoom/dist/medium-zoom.min.js"></script>
 </head>
