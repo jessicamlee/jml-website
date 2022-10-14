@@ -1,6 +1,6 @@
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-import mediumZoom from 'medium-zoom';
+// import AOS from 'aos';
+// import 'aos/dist/aos.css';
+// import mediumZoom from 'medium-zoom';
 
 // ------ Burger Menu -------- //
 jQuery(function($) {
