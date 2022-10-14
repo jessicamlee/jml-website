@@ -109,22 +109,6 @@ p {
             justify-content: center;
             line-height: $sm*1.25;
         }
-
-        .gradient-circle1 {
-            position: absolute;
-            top: $sm*0.4375;
-            right: $sm*-3.875;
-            z-index: -3;
-            transform: rotate(65deg);
-        }
-
-        .gradient-circle2 {
-            position: absolute;
-            bottom: $sm*-8.625;
-            left: $sm*-8;
-            z-index: -3;
-            transform: rotate(264deg);
-        }
     }
 }
 

@@ -406,18 +406,6 @@ p {
     margin-top: 6em;
     justify-content: center;
     line-height: 1.25em; }
-  .intro .intro-box .gradient-circle1 {
-    position: absolute;
-    top: 0.4375em;
-    right: -3.875em;
-    z-index: -3;
-    transform: rotate(65deg); }
-  .intro .intro-box .gradient-circle2 {
-    position: absolute;
-    bottom: -8.625em;
-    left: -8em;
-    z-index: -3;
-    transform: rotate(264deg); }
 
 /* -----------------------------
 --------- Projects Section -----
