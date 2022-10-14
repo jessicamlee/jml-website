@@ -17,8 +17,8 @@
             <section class="intro section">
                 <div class="container intro-box">
                     <p class="career-goal flex" data-aos="fade-right" data-aos-delay="300">building web stories worth experiencing&period;</p>
-                    <!-- <img class="gradient-circle1" data-aos="fade-left" data-aos-delay="400" src="images/gradient_purple_blue.svg" alt="Gradient purple and blue circle2"> -->
-                    <!-- <img class="gradient-circle2" data-aos="fade-right" data-aos-delay="400" src="images/gradient_purple_blue.svg" alt="Gradient purple and blue circle"> -->
+                    <img class="gradient-circle1" data-aos="fade-left" data-aos-delay="400" src="images/gradient_purple_blue.svg" alt="Gradient purple and blue circle2">
+                    <img class="gradient-circle2" data-aos="fade-right" data-aos-delay="400" src="images/gradient_purple_blue.svg" alt="Gradient purple and blue circle">
                 </div>
             </section>
             <section id="projects" class="projects section">
