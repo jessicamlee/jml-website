@@ -1,0 +1,592 @@
+@use "color" as *;
+@use "size" as *;
+@use "fontweight" as *;
+@use "fontstyle" as *;
+@use "texttransform" as *;
+@use "mixin" as *;
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  align-items: center;
+  will-change: top;
+  transition: top 0.35s ease;
+  padding: 1em 2em;
+  background: white;
+  z-index: 2; }
+  header.header-up {
+    top: -6em;
+    box-shadow: none; }
+  header .header-bar {
+    align-items: center; }
+    header .header-bar .logo svg {
+      fill: #2b0462;
+      width: 4em;
+      height: 4em;
+      margin: 0 auto;
+      align-items: center; }
+    header .header-bar .logo .logo-name {
+      display: none; }
+    header .header-bar .gn-trigger {
+      position: relative;
+      width: 3em;
+      height: 3em;
+      border: none;
+      outline: 0;
+      background: transparent;
+      margin-left: auto;
+      cursor: pointer; }
+      header .header-bar .gn-trigger .burger-menu {
+        position: absolute;
+        width: 2.5em;
+        height: 0.025em;
+        border: 0.132em #2b0462 solid;
+        border-radius: 25px;
+        top: 35%;
+        right: 0;
+        box-shadow: 0px 3px 7px -1px rgba(43, 4, 98, 0.6); }
+        header .header-bar .gn-trigger .burger-menu:after {
+          display: block;
+          content: '';
+          position: absolute;
+          width: 2.5em;
+          height: 0.025em;
+          border: 0.132em #2b0462 solid;
+          border-radius: 25px;
+          top: 0.6em;
+          right: 0.5em;
+          box-shadow: 0px 3px 7px -1px rgba(43, 4, 98, 0.6); }
+      header .header-bar .gn-trigger .burger-menu,
+      header .header-bar .gn-trigger .burger-menu:after {
+        transition: transform top background;
+        transition-duration: 0.25s; }
+      header .header-bar .gn-trigger.is-active .burger-menu {
+        background-color: #2b0462;
+        transform: rotate(45deg);
+        top: 1.5em;
+        right: 0; }
+        header .header-bar .gn-trigger.is-active .burger-menu:after {
+          background-color: #2b0462;
+          transform: rotate(-90deg);
+          top: -0.1em;
+          right: -0.1em; }
+    header .header-bar .gn {
+      display: none;
+      position: absolute;
+      top: 5em;
+      left: 0;
+      width: 100%;
+      background: white; }
+      header .header-bar .gn ul {
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        background-color: white; }
+        header .header-bar .gn ul li {
+          padding: 2em; }
+          header .header-bar .gn ul li a {
+            color: #2b0462;
+            font-size: 1em;
+            font-weight: 500;
+            font-style: normal;
+            text-transform: none; }
+
+.contact {
+  text-align: center; }
+  .contact .contact-header {
+    text-align: center;
+    text-transform: none; }
+  .contact .contact-details p {
+    margin-bottom: 1em;
+    line-height: 1.75; }
+  .contact .contact-details .social-icons {
+    justify-content: center; }
+    .contact .contact-details .social-icons li svg {
+      width: 2.5em;
+      height: 2.5em;
+      fill: #2b0462;
+      margin: 0.25em 0.75em; }
+
+.artifact-pg {
+  /* -----------------------------
+    ----- Project Color Themes -----
+    ------------------------------ */
+  /* -----------------------------
+    ------- Project Summary --------
+    ------------------------------ */
+  /* -----------------------------
+    ------- Project Process --------
+    ------------------------------ */
+  /* -----------------------------
+    ------- More Projects ----------
+    ------------------------------ */
+  /* -----------------------------
+    ------- Media Queries ----------
+    ------------------------------ */ }
+  .artifact-pg h2 {
+    color: #2b0462;
+    font-size: 1.25em;
+    font-weight: 600;
+    font-style: normal;
+    text-transform: uppercase;
+    margin-bottom: 0.8em;
+    text-align: left; }
+  .artifact-pg p {
+    margin-bottom: 0.5em;
+    line-height: 1.75; }
+  .artifact-pg .img-container {
+    width: 100%;
+    max-height: 25em;
+    overflow: hidden; }
+    .artifact-pg .img-container .project-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+  .artifact-pg .bg-forestgreen {
+    background-color: #304c1c; }
+  .artifact-pg .bg-darkmodelist {
+    background-color: #292c35; }
+  .artifact-pg .bg-cafebrown {
+    background-color: #604330; }
+  .artifact-pg .text-forestgreen {
+    color: #304c1c; }
+  .artifact-pg .text-darkmodelist {
+    color: #292c35; }
+  .artifact-pg .text-cafebrown {
+    color: #604330; }
+  .artifact-pg .project-overview {
+    flex-direction: column; }
+    .artifact-pg .project-overview .project-details .project-skills {
+      color: white;
+      font-size: 0.9em;
+      font-weight: 300;
+      font-style: normal;
+      text-transform: none; }
+    .artifact-pg .project-overview .project-details .project-title {
+      color: white;
+      font-size: 1.5em;
+      font-weight: 600;
+      font-style: normal;
+      text-transform: none;
+      margin: 0.35em 0;
+      line-height: 1.25; }
+    .artifact-pg .project-overview .project-details .project-type {
+      color: white;
+      font-size: 0.8em;
+      font-weight: 300;
+      font-style: italic;
+      text-transform: none; }
+    .artifact-pg .project-overview .project-details .in-progress {
+      color: white;
+      font-size: 1em;
+      font-weight: 500;
+      font-style: italic;
+      text-transform: none; }
+    .artifact-pg .project-overview .project-details .project-description {
+      margin: 1.1em 0 2em; }
+    .artifact-pg .project-overview .project-details .project-description {
+      color: white;
+      font-size: 0.8em;
+      font-weight: 300;
+      font-style: normal;
+      text-transform: none; }
+    .artifact-pg .project-overview .project-details .design-link {
+      color: white;
+      padding-bottom: 0.15em;
+      border-bottom: 0.15em white solid; }
+    .artifact-pg .project-overview .project-details .links-btn-container {
+      justify-content: space-between;
+      margin: 0.5em 0 2em; }
+      .artifact-pg .project-overview .project-details .links-btn-container .code-link, .artifact-pg .project-overview .project-details .links-btn-container .live-link {
+        width: 48%;
+        height: auto;
+        padding: 0.65em 1em;
+        border: 0.1em solid white;
+        border-radius: 1.5em;
+        text-align: center;
+        font-size: 0.8em;
+        font-weight: 400; }
+      .artifact-pg .project-overview .project-details .links-btn-container .code-link {
+        color: white; }
+        .artifact-pg .project-overview .project-details .links-btn-container .code-link:hover {
+          background-color: white;
+          color: #2b0462;
+          transition: all 0.35s ease-in-out; }
+      .artifact-pg .project-overview .project-details .links-btn-container .live-link {
+        background-color: white; }
+        .artifact-pg .project-overview .project-details .links-btn-container .live-link:hover {
+          background-color: #2b0462;
+          color: white;
+          transition: all 0.35s ease-in-out; }
+  .artifact-pg .project-process .phase1 {
+    margin-top: 1em; }
+  .artifact-pg .project-process .phase2, .artifact-pg .project-process .phase3 {
+    margin-top: 3em; }
+  .artifact-pg .project-process .img-container {
+    margin-bottom: 1em; }
+  .artifact-pg .project-process .phase-info {
+    flex-direction: column; }
+  .artifact-pg .more-projects a {
+    color: #2b0462;
+    font-size: 1.03em;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: none;
+    margin: 0.9em 0; }
+  @media (min-width: 768px) {
+    .artifact-pg .hidden-tablet {
+      display: none; }
+    .artifact-pg .project-overview .project-details .project-skills, .artifact-pg .project-overview .project-details .project-description {
+      color: white;
+      font-size: 0.9em;
+      font-weight: 300;
+      font-style: normal;
+      text-transform: none; }
+    .artifact-pg .project-overview .project-details .project-title {
+      color: white;
+      font-size: 2em;
+      font-weight: 600;
+      font-style: normal;
+      text-transform: none;
+      line-height: 1.25; }
+    .artifact-pg .project-overview .project-details .project-type {
+      color: white;
+      font-size: 0.9em;
+      font-weight: 300;
+      font-style: italic;
+      text-transform: none; }
+    .artifact-pg .project-overview .project-details .project-description {
+      line-height: 1.7;
+      margin: 1.1em 0 1.5em; }
+    .artifact-pg .project-overview .project-details .links-btn-container {
+      justify-content: flex-start; }
+      .artifact-pg .project-overview .project-details .links-btn-container .code-link, .artifact-pg .project-overview .project-details .links-btn-container .live-link {
+        margin-right: 1em;
+        padding: 0.6em 1em;
+        font-size: 0.85em; } }
+  @media (min-width: 900px) {
+    .artifact-pg h2 {
+      font-size: 1.5em;
+      margin-bottom: 0.5em; }
+    .artifact-pg p {
+      color: #2b0462;
+      font-size: 1em;
+      font-weight: 400;
+      font-style: normal;
+      text-transform: none; }
+    .artifact-pg .project-overview {
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 3em; }
+      .artifact-pg .project-overview .project-details {
+        padding: 0;
+        margin-right: 2em;
+        width: 50%; }
+        .artifact-pg .project-overview .project-details .feat-img-container {
+          align-self: center; }
+        .artifact-pg .project-overview .project-details .project-title {
+          margin: 0.2em 0; }
+        .artifact-pg .project-overview .project-details .project-description {
+          margin: 1.1em 0 1.5em; }
+        .artifact-pg .project-overview .project-details .links-btn-container {
+          margin: 0.5em 0 0; }
+    .artifact-pg .project-process .phase-info {
+      flex-direction: row-reverse; }
+      .artifact-pg .project-process .phase-info .phases-desc {
+        margin-right: 2em;
+        width: 55%; } }
+
+/* -----------------------------
+--------- Global ---------------
+------------------------------ */
+body {
+  margin: 0 auto;
+  font-size: 16px !important;
+  font-family: 'Poppins', sans-serif;
+  background-color: white;
+  color: #2b0462;
+  font-size: 0.75em;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: none; }
+
+.wrapper {
+  max-width: 100%;
+  overflow-x: hidden; }
+
+.container {
+  margin: 0 auto;
+  max-width: 1024px;
+  position: relative; }
+
+main {
+  margin-top: 6em; }
+
+a {
+  text-decoration: none; }
+
+.section {
+  padding: 2em 1.5em; }
+
+.img-container {
+  width: 100%;
+  height: 100%;
+  max-height: 30em;
+  overflow: hidden; }
+  .img-container .img-thumb {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.6s ease-in-out; }
+
+/* -----------------------------
+--------- Helpers --------------
+------------------------------ */
+.flex {
+  display: flex; }
+
+.block {
+  display: block; }
+
+.box-shadow {
+  box-shadow: 0px 3px 7px -1px rgba(43, 4, 98, 0.6); }
+
+.box-shadow-light, .box-shadow-gn {
+  box-shadow: 0px 3px 7px -1px rgba(43, 4, 98, 0.3); }
+
+/* -----------------------------
+--------- Typography -----------
+------------------------------ */
+h1 {
+  color: #2b0462;
+  font-size: 3em;
+  font-weight: 600;
+  font-style: normal;
+  text-transform: none;
+  margin-top: 1.5em; }
+
+h2 {
+  color: #2b0462;
+  font-size: 1.75em;
+  font-weight: 600;
+  font-style: normal;
+  text-transform: uppercase;
+  margin-bottom: 0.3em;
+  text-align: center; }
+
+h3 {
+  color: #2b0462;
+  font-size: 1.25em;
+  font-weight: 600;
+  font-style: normal;
+  text-transform: none;
+  margin-bottom: 0.25em; }
+
+p {
+  color: #2b0462;
+  font-size: 0.9em;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: none;
+  line-height: 1.4em; }
+
+/* -----------------------------
+--------- Intro Section --------
+------------------------------ */
+.intro {
+  text-align: center;
+  height: 36em; }
+  .intro .intro-box .career-goal {
+    color: #2b0462;
+    font-size: 1.75em;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: none;
+    margin-top: 6em;
+    justify-content: center;
+    line-height: 1.25em; }
+  .intro .intro-box .gradient-circle1 {
+    position: absolute;
+    top: 0.4375em;
+    right: -3.875em;
+    z-index: -3;
+    transform: rotate(65deg); }
+  .intro .intro-box .gradient-circle2 {
+    position: absolute;
+    bottom: -8.625em;
+    left: -8em;
+    z-index: -3;
+    transform: rotate(264deg); }
+
+/* -----------------------------
+--------- Projects Section -----
+------------------------------ */
+.projects .projects-collection {
+  flex-direction: column; }
+  .projects .projects-collection .project-card {
+    width: 100%;
+    height: 100%;
+    border: solid 0.15em white;
+    border-radius: 0.625em;
+    margin-bottom: 3em; }
+    .projects .projects-collection .project-card .project-details {
+      padding-top: 1.65em; }
+
+/* -----------------------------
+--------- About Section --------
+------------------------------ */
+.about {
+  text-align: center; }
+  .about .name-title {
+    color: #2b0462;
+    font-size: 1.7em;
+    font-weight: 600;
+    font-style: normal;
+    text-transform: none; }
+  .about .career-role {
+    color: #2b0462;
+    font-size: 0.9em;
+    font-weight: 500;
+    font-style: italic;
+    text-transform: none; }
+  .about .bio {
+    text-align: left;
+    flex-direction: column; }
+    .about .bio img {
+      height: 70vw;
+      border-radius: 50%;
+      margin: 1.75em auto; }
+    .about .bio p {
+      margin: 1em 0;
+      line-height: 1.75em; }
+
+/* -----------------------------
+--------- Footer ---------------
+------------------------------ */
+footer {
+  margin-top: 2em;
+  padding: 1.5em 0;
+  background-color: #2b0462; }
+  footer p {
+    color: white;
+    font-size: 0.8em;
+    font-weight: 300;
+    font-style: normal;
+    text-transform: none;
+    text-align: center;
+    line-height: 1.75em; }
+
+/* -----------------------------
+--------- Keyframes ------------
+------------------------------ */
+@keyframes glow {
+  0% {
+    transform: scale(1); }
+  100% {
+    transform: scale(0.25); } }
+
+/* -----------------------------
+--------- Media Queries --------
+------------------------------ */
+@media (min-width: 420px) {
+  .about .bio img {
+    height: 50vw; } }
+
+@media (min-width: 500px) {
+  .about .bio img {
+    height: 40vw; }
+  .contact {
+    padding: 1.5em; }
+  footer p {
+    color: white;
+    font-size: 0.9em;
+    font-weight: 300;
+    font-style: normal;
+    text-transform: none; } }
+
+@media (min-width: 640px) {
+  h2 {
+    color: #2b0462;
+    font-size: 2em;
+    font-weight: 600;
+    font-style: normal;
+    text-transform: uppercase; }
+  h3 {
+    color: #2b0462;
+    font-size: 1.5em;
+    font-weight: 600;
+    font-style: normal;
+    text-transform: none; }
+  .projects p, .about p, .contact p {
+    color: #2b0462;
+    font-size: 1em;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: none; } }
+
+@media (min-width: 768px) {
+  .section {
+    padding: 3em; }
+  .box-shadow-gn {
+    box-shadow: none; }
+  header .header-bar .logo .logo-name {
+    color: #2b0462;
+    font-size: 1.2em;
+    font-weight: 600;
+    font-style: normal;
+    text-transform: none;
+    display: flex;
+    align-items: center;
+    margin-left: 0.5em;
+    white-space: nowrap; }
+  header .header-bar .gn-trigger {
+    display: none; }
+  header .header-bar .gn {
+    display: block;
+    position: static;
+    top: 0px;
+    height: auto;
+    box-shadow: 0; }
+    header .header-bar .gn ul {
+      flex-direction: row;
+      justify-content: flex-end;
+      gap: 1.5em; }
+      header .header-bar .gn ul li {
+        padding: 0; }
+  .projects .projects-collection {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    .projects .projects-collection .project-card {
+      flex-basis: 47%;
+      max-width: 47%;
+      margin-bottom: 4.5em;
+      flex-direction: column; }
+      .projects .projects-collection .project-card:nth-child(3n+1) {
+        flex-basis: 100%;
+        max-width: 100%; }
+      .projects .projects-collection .project-card:nth-child(3n+2) {
+        margin-top: 8em; }
+  .about .bio {
+    flex-direction: row;
+    column-gap: 3.5em;
+    margin-top: 2.25em; }
+    .about .bio img {
+      height: 17em;
+      margin: 0 0 0 auto; }
+    .about .bio .bio-desc {
+      width: 50%;
+      margin-right: auto; }
+  footer {
+    margin-top: 0; } }
+
+@media (min-width: 1024px) {
+  p {
+    color: #2b0462;
+    font-size: 1em;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: none; }
+  .img-container .img-thumb:hover {
+    transform: scale(1.05); } }
