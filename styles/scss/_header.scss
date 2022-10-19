@@ -1,0 +1,122 @@
+@use "color" as *;
+@use "size" as *;
+@use "fontweight" as *;
+@use "fontstyle" as *;
+@use "texttransform" as *;
+@use "mixin" as *;
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    align-items: center;
+    will-change: top;
+    transition: top 0.35s ease;
+    padding: $sm $lg;
+    background: $white;
+    z-index: 2;
+
+    &.header-up {
+        top: $sm*-6;
+        box-shadow: none;
+    }
+
+    .header-bar {
+        align-items: center;
+
+        .logo {
+            svg {
+                fill: $violet;
+                width: $sm*4;
+                height: $sm*4;
+                margin: 0 auto;
+                align-items: center;
+            }
+
+            .logo-name {
+                display: none;
+            }
+        }
+
+        .gn-trigger {
+            position: relative;
+            width: $md*2;
+            height: $md*2;
+            border: none;
+            outline: 0;
+            background: transparent;
+            margin-left: auto;
+            cursor: pointer;
+
+            .burger-menu {
+                position: absolute;
+                width: $xl;
+                height: $sm*0.025;
+                border: $sm*0.132 $violet solid;
+                border-radius: 25px;
+                top: 35%;
+                right: 0;
+                box-shadow: 0px 3px 7px -1px rgba(43,4,98,0.6);
+
+                &:after {
+                    display: block;
+                    content: '';
+                    position: absolute;
+                    width: $xl;
+                    height: $sm*0.025;
+                    border: $sm*0.132 $violet solid;
+                    border-radius: 25px;
+                    top: $sm*0.6;
+                    right: $xs;
+                    box-shadow: 0px 3px 7px -1px rgba(43,4,98,0.6);
+                }
+            }
+
+            .burger-menu,
+            .burger-menu:after {
+                transition: transform top background;
+                transition-duration: 0.25s;
+            }
+
+            &.is-active {
+                .burger-menu {
+                    background-color: $violet;
+                    transform: rotate(45deg);
+                    top: $md;
+                    right: 0;
+
+                    &:after {
+                        background-color: $violet;
+                        transform: rotate(-90deg);
+                        top: -$sm*0.1;
+                        right: -$sm*0.1;
+                    }
+                }
+            }
+        }
+
+        .gn {
+            display: none;
+            position: absolute;
+            top: $sm*5;
+            left: 0;
+            width: 100%;
+            background: $white;
+
+            ul {
+                justify-content: space-between;
+                align-items: center;
+                flex-direction: column;
+                background-color: $white;
+
+                li {
+                    padding: $lg;
+                    a {
+                        @include fontstyles($violet, $sm, $medium, $base, $none);
+                    }
+                }
+            }
+        }
+    }
+}
