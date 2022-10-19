@@ -1,5 +1,9 @@
 <?php
 
+<?php foreach($projects as $featproject): ?>
+    <?php include('partials/projects/featproject.php'); ?>
+<?php endforeach; ?>
+
     class FeatProject {
         
         public $image_url;
