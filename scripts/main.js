@@ -126,7 +126,7 @@ jQuery(function($) {
 // ------ Animate On Scroll (AOS) Library -------- //
 // https://michalsnik.github.io/aos/
 AOS.init({
-    duration: 1200
+    duration: 1000
 });
 
 // ------ Medium Zoom Library ---------- //
