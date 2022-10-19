@@ -1,6 +1,5 @@
 <?php 
     require('init.php');
-    require('partials/projects/project-data.php');
 ?>
 <!DOCTYPE html>
 <html lang="en-CA">
@@ -16,16 +15,46 @@
         <main data-aos-delay="800">
             <section class="intro section">
                 <div class="container intro-box">
-                    <p class="career-goal flex" data-aos="fade-right" data-aos-delay="300">building web stories worth experiencing&period;</p>
+                    <p class="career-goal flex" data-aos="fade-right" data-aos-delay="300">building interfaces worth experiencing&period;</p>
                 </div>
             </section>
             <section id="projects" class="projects section">
                 <div class="container">
                     <h2 data-aos="fade-right">Latest Projects</h2>
                     <ul class="projects-collection flex">
-                        <?php foreach($projects as $featproject): ?>
-                            <?php include('partials/projects/featproject.php'); ?>
-                        <?php endforeach; ?>
+                        <li class="project-card" data-aos="fade-right">
+                            <a href="projects/loclo-homepage.php" title="Link to project">
+                                <div class="img-container box-shadow">
+                                    <img class="img-thumb" src="images/projects/loclo_develop/loclo_developed_v2.jpg" alt="LOCLO Homepage Project Cover Photo">
+                                </div>
+                            </a>
+                            <div class="project-details">
+                                <a href="projects/loclo-homepage.php" title="Link to project"><h3>Spring Local 2022 by LOCLO</h3></a>
+                                <p>Responsive e&dash;Commerce Homepage</p>
+                            </div>
+                        </li>
+                        <li class="project-card" data-aos="fade-right">
+                            <a href="projects/todo-list.php" title="Link to project">
+                                <div class="img-container box-shadow">
+                                    <img class="img-thumb" src="images/projects/todo_list/todo_list_both_modes.jpg" alt="To Do List Project Cover Photo">
+                                </div>
+                            </a>
+                            <div class="project-details">
+                                <a href="projects/todo-list.php" title="Link to project"><h3>My To&dash;Do List</h3></a>
+                                <p>Temporary JavaScript To&dash;Do List</p>
+                            </div>
+                        </li>
+                        <li class="project-card" data-aos="fade-right">
+                            <a href="projects/cafehop.php" title="Link to project">
+                                <div class="img-container box-shadow">
+                                    <img class="img-thumb" src="images/projects/cafehop/cafehop_cover.jpg" alt="Cafe Hop App Cover Photo">
+                                </div>
+                            </a>
+                            <div class="project-details">
+                                <a href="projects/cafehop.php" title="Link to project"><h3>Caf&eacute; Hop App</h3></a>
+                                <p>Android&dash;based Mobile Application</p>
+                            </div>
+                        </li>
                     </ul>
                 </div>
             </section>
@@ -48,8 +77,8 @@
         </main>
         <?php require ('partials/global/footer.php'); ?>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-        <script src="../node_modules/aos/dist/aos.js"></script>
-        <script src="../node_modules/medium-zoom/dist/medium-zoom.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="scripts/medium-zoom.min.js"></script>
         <script src="scripts/scroll-lock.js"></script>
         <script src="scripts/main.js"></script>
     </body>

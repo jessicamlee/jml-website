@@ -76,8 +76,8 @@
         </main>
         <?php require('../partials/global/footer.php'); ?>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-        <script src="../../node_modules/aos/dist/aos.js"></script>
-        <script src="../../node_modules/medium-zoom/dist/medium-zoom.min.js"></script>
+        <<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="../scripts/medium-zoom.min.js"></script>
         <script src="../scripts/scroll-lock.js"></script>
         <script src="../scripts/main.js"></script>
     </body>
