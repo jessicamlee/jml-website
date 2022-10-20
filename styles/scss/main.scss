@@ -1,7 +1,8 @@
 @import '../scss/variables';
 @import '../scss/header';
-@import '../scss/contact';
+@import '../scss/ienanim';
 @import '../scss/project';
+@import '../scss/contact';
 
 /* -----------------------------
 --------- Global ---------------
@@ -101,27 +102,20 @@ p {
     height: $lg*18;
 
     .intro-box {
+        .name-title {
+            @include fontstyles ($violet, $sm*2.5, $semibold, $base, $none);
+            margin-top: $sm;
+        }
+    
+        .career-role {
+            @include fontstyles ($violet, $sm*1.05, $medium, $italic, $none);
+        }
+
         .career-goal {
-            @include fontstyles($violet, $sm*1.75, $normal, $base, $none);
-            margin-top: $sm*6;
+            @include fontstyles($violet, $sm*1.25, $normal, $base, $none);
             justify-content: center;
             line-height: $sm*1.25;
-        }
-
-        .gradient-circle1 {
-            position: absolute;
-            top: $sm*0.4375;
-            right: $sm*-3.875;
-            z-index: -3;
-            transform: rotate(65deg);
-        }
-
-        .gradient-circle2 {
-            position: absolute;
-            bottom: $sm*-8.625;
-            left: $sm*-8;
-            z-index: -3;
-            transform: rotate(264deg);
+            margin: $sm*1.5 0;
         }
     }
 }
@@ -206,6 +200,22 @@ footer {
 
 @media (min-width:500px) {
 
+    .intro .intro-box {
+
+        .name-title {
+            @include fontstyles ($violet, $sm*3, $semibold, $base, $none);
+            margin-top: $xs;
+        }
+
+        .career-role {
+            @include fontstyles ($violet, $sm*1.25, $medium, $italic, $none); 
+        }
+
+        .career-goal {
+            margin: $sm*1.25 0;
+        }
+    }
+
     .about .bio img {
         height: 40vw;
     }
@@ -246,14 +256,6 @@ footer {
     }
 
     header .header-bar {
-        .logo .logo-name {
-            @include fontstyles ($violet, $sm*1.2, $semibold, $base, $none);
-            display: flex;
-            align-items: center;
-            margin-left: $xs;
-            white-space: nowrap;
-        }
-    
         .gn-trigger {
             display: none;
         }

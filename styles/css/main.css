@@ -101,30 +101,57 @@ header .header-bar .gn ul li a {
   text-transform: none;
 }
 
-.contact {
-  text-align: center;
-}
-.contact .contact-header {
-  text-align: center;
-  text-transform: none;
-}
-.contact .contact-details p {
-  margin-bottom: 1em;
-  line-height: 1.75;
-}
-.contact .contact-details .social-icons {
-  justify-content: center;
-}
-.contact .contact-details .social-icons li {
-  transition: all 0.35s ease-in-out;
-}
-.contact .contact-details .social-icons li svg {
-  width: 2.5em;
-  height: 2.5em;
-  fill: rgb(43, 4, 98);
-  margin: 0.25em 0.75em;
+.blobwindow {
+  width: 13.125em;
+  height: 13.125em;
+  background-image: url(../../images/starsinspace_byjessica.png);
+  border: rgb(43, 4, 98) solid 2px;
+  border-radius: 57% 43% 70% 30%/48% 33% 67% 52%;
+  overflow: hidden;
+  cursor: pointer;
+  background-position: cover;
+  position: relative;
+  margin: 0 auto;
+  animation: spaceAlien 20s ease-in-out infinite;
+  box-shadow: 0px 3px 7px -1px rgba(43, 4, 98, 0.3);
 }
 
+.alien {
+  width: 1.875em;
+  height: 1.875em;
+  background-image: url(../../images/ienthealien_byjessica.png);
+  position: absolute;
+}
+
+@keyframes spaceAlien {
+  0% {
+    border-radius: 57% 43% 70% 30%/48% 33% 67% 52%;
+    background-position: 50% 0%;
+  }
+  25% {
+    border-radius: 54% 46% 59% 41%/70% 26% 74% 30%;
+  }
+  50% {
+    border-radius: 35% 65% 57% 43%/28% 60% 40% 72%;
+    background-position: 0% 0%;
+  }
+  75% {
+    border-radius: 29% 71% 21% 79%/74% 51% 49% 26%;
+  }
+  100% {
+    border-radius: 57% 43% 70% 30%/48% 33% 67% 52%;
+    background-position: 50% 0%;
+  }
+}
+/* -----------------------------
+--------- Media Queries --------
+------------------------------ */
+@media (min-width: 500px) {
+  .blobwindow {
+    width: 19.125em;
+    height: 19.125em;
+  }
+}
 .artifact-pg {
   /* -----------------------------
   ----- Project Color Themes -----
@@ -363,6 +390,30 @@ header .header-bar .gn ul li a {
   }
 }
 
+.contact {
+  text-align: center;
+}
+.contact .contact-header {
+  text-align: center;
+  text-transform: none;
+}
+.contact .contact-details p {
+  margin-bottom: 1em;
+  line-height: 1.75;
+}
+.contact .contact-details .social-icons {
+  justify-content: center;
+}
+.contact .contact-details .social-icons li {
+  transition: all 0.35s ease-in-out;
+}
+.contact .contact-details .social-icons li svg {
+  width: 2.5em;
+  height: 2.5em;
+  fill: rgb(43, 4, 98);
+  margin: 0.25em 0.75em;
+}
+
 /* -----------------------------
 --------- Global ---------------
 ------------------------------ */
@@ -479,29 +530,30 @@ p {
   text-align: center;
   height: 36em;
 }
+.intro .intro-box .name-title {
+  color: rgb(43, 4, 98);
+  font-size: 2.5em;
+  font-weight: 600;
+  font-style: normal;
+  text-transform: none;
+  margin-top: 1em;
+}
+.intro .intro-box .career-role {
+  color: rgb(43, 4, 98);
+  font-size: 1.05em;
+  font-weight: 500;
+  font-style: italic;
+  text-transform: none;
+}
 .intro .intro-box .career-goal {
   color: rgb(43, 4, 98);
-  font-size: 1.75em;
+  font-size: 1.25em;
   font-weight: 400;
   font-style: normal;
   text-transform: none;
-  margin-top: 6em;
   justify-content: center;
   line-height: 1.25em;
-}
-.intro .intro-box .gradient-circle1 {
-  position: absolute;
-  top: 0.4375em;
-  right: -3.875em;
-  z-index: -3;
-  transform: rotate(65deg);
-}
-.intro .intro-box .gradient-circle2 {
-  position: absolute;
-  bottom: -8.625em;
-  left: -8em;
-  z-index: -3;
-  transform: rotate(264deg);
+  margin: 1.5em 0;
 }
 
 /* -----------------------------
@@ -583,6 +635,24 @@ footer p {
   }
 }
 @media (min-width: 500px) {
+  .intro .intro-box .name-title {
+    color: rgb(43, 4, 98);
+    font-size: 3em;
+    font-weight: 600;
+    font-style: normal;
+    text-transform: none;
+    margin-top: 0.5em;
+  }
+  .intro .intro-box .career-role {
+    color: rgb(43, 4, 98);
+    font-size: 1.25em;
+    font-weight: 500;
+    font-style: italic;
+    text-transform: none;
+  }
+  .intro .intro-box .career-goal {
+    margin: 1.25em 0;
+  }
   .about .bio img {
     height: 40vw;
   }
@@ -626,17 +696,6 @@ footer p {
   }
   .box-shadow-gn {
     box-shadow: none;
-  }
-  header .header-bar .logo .logo-name {
-    color: rgb(43, 4, 98);
-    font-size: 1.2em;
-    font-weight: 600;
-    font-style: normal;
-    text-transform: none;
-    display: flex;
-    align-items: center;
-    margin-left: 0.5em;
-    white-space: nowrap;
   }
   header .header-bar .gn-trigger {
     display: none;
