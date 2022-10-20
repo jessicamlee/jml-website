@@ -16,7 +16,41 @@
             <main data-aos-delay="800">
                 <section class="intro section">
                     <div class="container intro-box">
-                        <p class="career-goal flex" data-aos="fade-right" data-aos-delay="300">building interfaces worth experiencing&period;</p>
+                        <h1 class="name-title" data-aos="fade-right">Jessica Lee</h1>
+                        <p class="career-role" data-aos="fade-right" data-aos-delay="300">Front&dash;End Development</p>
+                        <p class="career-goal flex" data-aos="fade-right" data-aos-delay="500">building interfaces worth experiencing&period;</p>
+                    </div>
+                    <div class="blobwindow" data-aos="fade-up-left" data-aos-delay="700">
+                        <div class="alien"></div>
+                        <div class="alien"></div>
+                        <div class="alien"></div>
+                        <div class="alien"></div>
+                        <div class="alien"></div>
+                        <div class="alien"></div>
+                        <div class="alien"></div>
+                        <div class="alien"></div>
+                        <div class="alien"></div>
+                        <div class="alien"></div>
+                        <div class="alien"></div>
+                        <div class="alien"></div>
+                        <div class="alien"></div>
+                        <div class="alien"></div>
+                        <div class="alien"></div>
+                        <div class="alien"></div>
+                        <div class="alien"></div>
+                        <div class="alien"></div>
+                        <div class="alien"></div>
+                        <div class="alien"></div>
+                        <div class="alien"></div>
+                        <div class="alien"></div>
+                        <div class="alien"></div>
+                        <div class="alien"></div>
+                        <div class="alien"></div>
+                        <div class="alien"></div>
+                        <div class="alien"></div>
+                        <div class="alien"></div>
+                        <div class="alien"></div>
+                        <div class="alien"></div>
                     </div>
                 </section>
                 <section id="projects" class="projects section">

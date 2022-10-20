@@ -11,16 +11,15 @@
                 <path data-aos="fade-down" data-aos-delay="400"d="M469.34,0c1.88,298.54,1.88,527.76,1.88,712,0,.44,0,.88,0,1.31C465.78,817.7,378.28,914.1,272,932.74A214.9,214.9,0,0,1,234.85,936c-41.16,0-81.28-12.09-117.74-35.71C70.52,870.11,31.21,822.34,0,758.08l40.94-32.45c53,115.51,133.42,172.6,222.28,157,83.69-14.67,152.6-89.88,157.16-171.39,0-184,0-412.93-1.88-710.95Z"/>
                 <path data-aos="fade-down" data-aos-delay="400" d="M402.59.13c.62,211.91.43,387.84.27,543.06-.07,62.48-.13,120.73-.13,175.35,0,.32,0,.64,0,1-2.51,27.65-18.28,58.56-43.28,84.8-26.83,28.17-60.48,46.86-94.75,52.61a135.41,135.41,0,0,1-22.52,1.89c-48,0-119.3-25.49-177.71-151.79l17-13.49.08,0C128.21,797,192,847.63,261.14,836c29.79-5,59.24-21.46,82.93-46.33,21.3-22.35,35.28-49.09,37.48-71.64,0-54.48.06-112.58.13-174.87.16-155.2.35-331.11-.28-543Z"/>
             </svg>
-            <span class="logo-name" data-aos="fade-down" data-aos-delay="800">Jessica Lee</span>
         </a>
-        <button class="gn-trigger">
+        <button class="gn-trigger" data-aos="fade-down" data-aos-delay="200">
             <div class="burger-menu"></div>
         </button>
         <nav class="gn box-shadow-gn">
             <ul class="flex">
-                <li class=" <?php if($active_page == "development") { echo "active"; } ?>" data-aos="fade-down" data-aos-delay="1000"><a href="#projects" title="Projects by Jessica">Projects</a></li>
-                <li class=" <?php if($active_page == "about") { echo "active"; } ?>" data-aos="fade-down" data-aos-delay="1200"><a href="#about" title="Who is Jessica?">About</a></li>
-                <li class=" <?php if($active_page == "contact") { echo "active"; } ?>" data-aos="fade-down" data-aos-delay="1400"><a href="#contact" title="Contact Jessica">Contact</a></li>
+                <li class=" <?php if($active_page == "development") { echo "active"; } ?>" data-aos="fade-down" data-aos-delay="600"><a href="#projects" title="Projects by Jessica">Projects</a></li>
+                <li class=" <?php if($active_page == "about") { echo "active"; } ?>" data-aos="fade-down" data-aos-delay="800"><a href="#about" title="Who is Jessica?">About</a></li>
+                <li class=" <?php if($active_page == "contact") { echo "active"; } ?>" data-aos="fade-down" data-aos-delay="1000"><a href="#contact" title="Contact Jessica">Contact</a></li>
             </ul>
         </nav>
     </div>

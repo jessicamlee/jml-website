@@ -143,3 +143,48 @@ mediumZoom('.zoom-cafebrown', {
     background: 'rgba(96, 67, 48 0.8)',
     margin: 15
 });
+
+// ------ IEN the Alien Animation ---------- //
+var character = document.querySelectorAll(".alien");
+var container = document.querySelector(".blobwindow");
+
+for (var i = 0; i < 30; i++){
+    let ien = character[i];
+    animateAllCharacters(ien);
+}
+    
+function animateAllCharacters(ien){
+
+    var xMax = 306;
+    var yMax = 306;
+
+    ien.keyframes =[
+        {
+            transform: "translate(" + xMax * Math.random() + "px," + yMax * Math.random() + "px)",
+            offset:0
+        },
+        {
+            transform: "translate(" + xMax * Math.random() + "px," + yMax * Math.random() + "px)" + "rotate(" + Math.random()*360 + "deg)"  + "scale(" + Math.random() * 1.75 + ")",
+            opacity:Math.random(),
+            offset:Math.random()
+
+        },
+        {
+            transform: "translate(" + xMax * Math.random() + "px," + yMax * Math.random() + "px)",
+            offset:1
+        }
+    ];
+
+    ien.options ={
+        duration: 3000 + 1000 * i,
+        easing: "ease",
+        iterations: Infinity,
+        direction:"alternate",
+        fill:"both"
+    }
+
+    var animateCharacter = ien.animate(ien.keyframes, ien.options);
+
+}
+
+container.addEventListener("click", function(){location.reload()});
