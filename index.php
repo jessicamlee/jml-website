@@ -60,7 +60,7 @@
                             <li class="project-card" data-aos="fade-right">
                                 <div class="project-thumb box-shadow">
                                     <div class="img-container">
-                                        <img class="img-thumb" src="images/projects/loclo_develop/loclo_developed_v2.jpg" alt="LOCLO Homepage Project Cover Photo">
+                                        <img class="img-thumb" src="images/projects/loclo_cover.jpg" alt="LOCLO Homepage Project Cover Photo">
                                     </div>
                                     <div class="links-container flex">
                                         <div class="project-details">
@@ -79,7 +79,7 @@
                             <li class="project-card" data-aos="fade-right" data-aos-delay="150">
                                 <div class="project-thumb box-shadow">
                                     <div class="img-container">
-                                        <img class="img-thumb" src="images/projects/cafehop/cafehop_cover.jpg" alt="Cafe Hop App Cover Photo">
+                                        <img class="img-thumb" src="images/projects/cafehop_cover.jpg" alt="Cafe Hop App Cover Photo">
                                     </div>
                                     <div class="links-container flex">
                                         <div class="project-details">
@@ -98,7 +98,7 @@
                             <li class="project-card" data-aos="fade-right" data-aos-delay="300">
                                 <div class="project-thumb box-shadow">
                                     <div class="img-container">
-                                        <img class="img-thumb" src="images/projects/todo_list/todo_list_both_modes.jpg" alt="To Do List Project Cover Photo">
+                                        <img class="img-thumb" src="images/projects/todo_cover.jpg" alt="To Do List Project Cover Photo">
                                     </div>
                                     <div class="links-container flex">
                                         <div class="project-details">

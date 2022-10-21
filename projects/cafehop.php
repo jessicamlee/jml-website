@@ -8,8 +8,8 @@
         <div class="wrapper">
             <?php require('../partials/global/header_projects.php'); ?>
             <main class="artifact-pg">
-                <section class="section container project-overview flex bg-cafebrown" data-aos="fade-right" data-aos-delay="100">
-                <div class="project-details" data-aos="fade-right" data-aos-delay="300">
+                <section class="section container project-overview flex bg-violet" data-aos="fade-right" data-aos-delay="100">
+                    <div class="project-details" data-aos="fade-right" data-aos-delay="300">
                         <p class="project-skills">React Native &vert; Android Studio</p>
                         <h1 class="project-title">Caf&eacute; Hop</h1>
                         <p class="project-type">Android&dash;based Mobile Application</p>
@@ -17,7 +17,7 @@
                         <p class="in-progress">Status&colon; Development in Progress&excl;</p>
                     </div>
                     <div class="img-container box-shadow" data-aos="fade-left" data-aos-delay="600">
-                        <img class="project-img zoom-cafebrown" src="../images/projects/cafehop/cafehop_cover.jpg" alt="Cafe Hop App Cover Photo">
+                        <img class="project-img" src="../images/projects/cafehop_cover.jpg" alt="Cafe Hop App Cover Photo">
                     </div>
                 </section>
                 <section class="section more-projects">
