@@ -253,41 +253,6 @@ header .header-bar .gn ul li a {
   font-style: normal;
   text-transform: none;
 }
-.artifact-pg .project-overview .project-details .design-link {
-  color: rgb(255, 255, 255);
-  padding-bottom: 0.15em;
-  border-bottom: 0.15em rgb(255, 255, 255) solid;
-}
-.artifact-pg .project-overview .project-details .links-btn-container {
-  justify-content: space-between;
-  margin: 0.5em 0 2em;
-}
-.artifact-pg .project-overview .project-details .links-btn-container .code-link, .artifact-pg .project-overview .project-details .links-btn-container .live-link {
-  width: 48%;
-  height: auto;
-  padding: 0.65em 1em;
-  border: 0.1em solid rgb(255, 255, 255);
-  border-radius: 1.5em;
-  text-align: center;
-  font-size: 0.8em;
-  font-weight: 400;
-}
-.artifact-pg .project-overview .project-details .links-btn-container .code-link {
-  color: rgb(255, 255, 255);
-}
-.artifact-pg .project-overview .project-details .links-btn-container .code-link:hover {
-  background-color: rgb(255, 255, 255);
-  color: rgb(43, 4, 98);
-  transition: all 0.35s ease-in-out;
-}
-.artifact-pg .project-overview .project-details .links-btn-container .live-link {
-  background-color: rgb(255, 255, 255);
-}
-.artifact-pg .project-overview .project-details .links-btn-container .live-link:hover {
-  background-color: rgb(43, 4, 98);
-  color: rgb(255, 255, 255);
-  transition: all 0.35s ease-in-out;
-}
 .artifact-pg .project-process .phase1 {
   margin-top: 1em;
 }
@@ -489,7 +454,7 @@ a {
 h1 {
   color: rgb(43, 4, 98);
   font-size: 3em;
-  font-weight: 600;
+  font-weight: 500;
   font-style: normal;
   text-transform: none;
   margin-top: 1.5em;
@@ -506,9 +471,9 @@ h2 {
 }
 
 h3 {
-  color: rgb(43, 4, 98);
-  font-size: 1.25em;
-  font-weight: 600;
+  color: rgb(255, 255, 255);
+  font-size: 1em;
+  font-weight: 500;
   font-style: normal;
   text-transform: none;
   margin-bottom: 0.25em;
@@ -533,7 +498,7 @@ p {
 .intro .intro-box .name-title {
   color: rgb(43, 4, 98);
   font-size: 2.5em;
-  font-weight: 600;
+  font-weight: 500;
   font-style: normal;
   text-transform: none;
   margin-top: 1em;
@@ -564,14 +529,60 @@ p {
   margin-top: 1.25em;
 }
 .projects .projects-collection .project-card {
-  width: 100%;
-  height: 100%;
-  border: solid 0.15em rgb(255, 255, 255);
-  border-radius: 0.625em;
   margin-bottom: 3em;
 }
+.projects .projects-collection .project-card .project-thumb {
+  position: relative;
+  overflow: hidden;
+}
+.projects .projects-collection .project-card .project-thumb .links-container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(9, 0, 21, 0.62);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 0.5em;
+}
+.projects .projects-collection .project-card .project-thumb .links-container .btn-container {
+  column-gap: 1em;
+}
+.projects .projects-collection .project-card .project-thumb .links-container .btn-container .live-link, .projects .projects-collection .project-card .project-thumb .links-container .btn-container .code-link {
+  padding: 0.6em 0.7em;
+  border: 0.15em solid rgb(255, 255, 255);
+  border-radius: 1.5em;
+  text-align: center;
+}
+.projects .projects-collection .project-card .project-thumb .links-container .btn-container .live-link {
+  background-color: rgb(255, 255, 255);
+  color: rgb(43, 4, 98);
+  font-size: 0.8em;
+  font-weight: 500;
+  font-style: normal;
+  text-transform: none;
+}
+.projects .projects-collection .project-card .project-thumb .links-container .btn-container .code-link {
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  font-size: 0.8em;
+  font-weight: 500;
+  font-style: normal;
+  text-transform: none;
+}
 .projects .projects-collection .project-card .project-details {
-  padding-top: 1.65em;
+  padding: 1.25em 2.2em 0;
+  margin-bottom: 0.75em;
+  text-align: center;
+}
+.projects .projects-collection .project-card .project-details p {
+  color: rgb(255, 255, 255);
+  font-size: 0.8em;
+  font-weight: 300;
+  font-style: normal;
+  text-transform: none;
 }
 
 /* -----------------------------
@@ -630,6 +641,23 @@ footer p {
 --------- Media Queries --------
 ------------------------------ */
 @media (min-width: 420px) {
+  .projects .projects-collection .project-card .project-thumb .links-container {
+    row-gap: 0.7em;
+  }
+  .projects .projects-collection .project-card .project-thumb .links-container .project-details h3 {
+    color: rgb(255, 255, 255);
+    font-size: 1.5em;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: none;
+  }
+  .projects .projects-collection .project-card .project-thumb .links-container .project-details p {
+    color: rgb(255, 255, 255);
+    font-size: 0.85em;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: none;
+  }
   .about .bio img {
     height: 50vw;
   }
@@ -638,7 +666,7 @@ footer p {
   .intro .intro-box .name-title {
     color: rgb(43, 4, 98);
     font-size: 3em;
-    font-weight: 600;
+    font-weight: 500;
     font-style: normal;
     text-transform: none;
     margin-top: 0.5em;
@@ -652,6 +680,34 @@ footer p {
   }
   .intro .intro-box .career-goal {
     margin: 1.25em 0;
+  }
+  .projects .projects-collection .project-card .project-thumb .links-container .project-details h3 {
+    color: rgb(255, 255, 255);
+    font-size: 1.75em;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: none;
+  }
+  .projects .projects-collection .project-card .project-thumb .links-container .project-details p {
+    color: rgb(255, 255, 255);
+    font-size: 0.9em;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: none;
+  }
+  .projects .projects-collection .project-card .project-thumb .links-container .live-link {
+    color: rgb(255, 255, 255);
+    font-size: 0.85em;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: none;
+  }
+  .projects .projects-collection .project-card .project-thumb .links-container .code-link {
+    color: rgb(43, 4, 98);
+    font-size: 0.85em;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: none;
   }
   .about .bio img {
     height: 40vw;
@@ -674,13 +730,6 @@ footer p {
     font-weight: 600;
     font-style: normal;
     text-transform: uppercase;
-  }
-  h3 {
-    color: rgb(43, 4, 98);
-    font-size: 1.5em;
-    font-weight: 600;
-    font-style: normal;
-    text-transform: none;
   }
   .projects p, .about p, .contact p {
     color: rgb(43, 4, 98);
@@ -723,7 +772,6 @@ footer p {
   .projects .projects-collection .project-card {
     flex-basis: 47%;
     max-width: 47%;
-    margin-bottom: 4.5em;
     flex-direction: column;
   }
   .projects .projects-collection .project-card:nth-child(3n+1) {
@@ -732,6 +780,13 @@ footer p {
   }
   .projects .projects-collection .project-card:nth-child(3n+2) {
     margin-top: 8em;
+  }
+  .projects .projects-collection .project-card .project-thumb .links-container .project-details h3 {
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: none;
   }
   .about .bio {
     flex-direction: row;
@@ -753,6 +808,25 @@ footer p {
 @media (min-width: 1024px) {
   p {
     color: rgb(43, 4, 98);
+    font-size: 1em;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: none;
+  }
+  .projects .projects-collection .project-card .project-thumb .links-container .btn-container .live-link, .projects .projects-collection .project-card .project-thumb .links-container .btn-container .code-link {
+    color: rgb(43, 4, 98);
+    font-size: 1em;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: none;
+  }
+  .projects .projects-collection .project-card .project-thumb .links-container .btn-container .live-link:hover, .projects .projects-collection .project-card .project-thumb .links-container .btn-container .code-link:hover {
+    background-color: rgb(43, 4, 98);
+    color: rgb(255, 255, 255);
+    transition: all 0.35s ease-in-out;
+  }
+  .projects .projects-collection .project-card .project-thumb .links-container .btn-container .code-link {
+    color: rgb(255, 255, 255);
     font-size: 1em;
     font-weight: 400;
     font-style: normal;

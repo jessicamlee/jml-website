@@ -129,21 +129,6 @@ AOS.init({
     duration: 1000
 });
 
-// ------ Medium Zoom Library ---------- //
-// https://medium-zoom.francoischalifour.com/
-mediumZoom('.zoom-forestgreen', {
-    background: 'rgba(48, 76, 28, 0.8)',
-    margin: 15
-});
-mediumZoom('.zoom-darkmodelist', {
-    background: 'rgba(41, 44, 53, 0.8)',
-    margin: 15
-});
-mediumZoom('.zoom-cafebrown', {
-    background: 'rgba(96, 67, 48 0.8)',
-    margin: 15
-});
-
 // ------ IEN the Alien Animation ---------- //
 var character = document.querySelectorAll(".alien");
 var container = document.querySelector(".blobwindow");
@@ -186,5 +171,3 @@ function animateAllCharacters(ien){
     var animateCharacter = ien.animate(ien.keyframes, ien.options);
 
 }
-
-container.addEventListener("click", function(){location.reload()});

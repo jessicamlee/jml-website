@@ -58,36 +58,58 @@
                         <h2 data-aos="fade-right">Latest Projects</h2>
                         <ul class="projects-collection flex">
                             <li class="project-card" data-aos="fade-right">
-                                <a href="projects/loclo-homepage.php" title="Link to project">
-                                    <div class="img-container box-shadow">
+                                <div class="project-thumb box-shadow">
+                                    <div class="img-container">
                                         <img class="img-thumb" src="images/projects/loclo_develop/loclo_developed_v2.jpg" alt="LOCLO Homepage Project Cover Photo">
                                     </div>
-                                </a>
-                                <div class="project-details">
-                                    <a href="projects/loclo-homepage.php" title="Link to project"><h3>Spring Local 2022 by LOCLO</h3></a>
-                                    <p>Responsive e&dash;Commerce Homepage</p>
-                                </div>
-                            </li>
-                            <li class="project-card" data-aos="fade-right">
-                                <a href="projects/todo-list.php" title="Link to project">
-                                    <div class="img-container box-shadow">
-                                        <img class="img-thumb" src="images/projects/todo_list/todo_list_both_modes.jpg" alt="To Do List Project Cover Photo">
+                                    <div class="links-container flex">
+                                        <div class="project-details">
+                                            <a href="projects/loclo-homepage.php" title="Link to project">
+                                                <h3>Spring Local 2022 by LOCLO</h3>
+                                                <p>Responsive e&dash;Commerce Homepage</p>
+                                            </a>
+                                        </div>
+                                        <div class="btn-container flex">
+                                            <a class="live-link box-shadow-light" data-aos="fade-right"  data-aos-delay="300" href="#" target="_blank" title="Link to Live Site">Visit Site</a>
+                                            <a class="code-link box-shadow-light" data-aos="fade-right" href="https://github.com/jessicamlee/loclo-clothing" target="_blank" title="Link to GitHub Repository">Review Code</a>
+                                        </div>
                                     </div>
-                                </a>
-                                <div class="project-details">
-                                    <a href="projects/todo-list.php" title="Link to project"><h3>My To&dash;Do List</h3></a>
-                                    <p>Temporary JavaScript To&dash;Do List</p>
                                 </div>
                             </li>
-                            <li class="project-card" data-aos="fade-right">
-                                <a href="projects/cafehop.php" title="Link to project">
-                                    <div class="img-container box-shadow">
+                            <li class="project-card" data-aos="fade-right" data-aos-delay="150">
+                                <div class="project-thumb box-shadow">
+                                    <div class="img-container">
                                         <img class="img-thumb" src="images/projects/cafehop/cafehop_cover.jpg" alt="Cafe Hop App Cover Photo">
                                     </div>
-                                </a>
-                                <div class="project-details">
-                                    <a href="projects/cafehop.php" title="Link to project"><h3>Caf&eacute; Hop App</h3></a>
-                                    <p>Android&dash;based Mobile Application</p>
+                                    <div class="links-container flex">
+                                        <div class="project-details">
+                                            <a href="projects/cafehop.php" title="Link to project">
+                                                <h3>Caf&eacute; Hop App</h3>
+                                                <p>Android&dash;based Mobile Application</p>
+                                            </a>
+                                        </div>
+                                        <div class="btn-container flex">
+                                            <a class="live-link box-shadow-light" data-aos="fade-right"  data-aos-delay="300" href="#" target="_blank" title="Link to Live Site">Visit Site</a>
+                                            <a class="code-link box-shadow-light" data-aos="fade-right" href="#" target="_blank" title="Link to GitHub Repository">Review Code</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="project-card" data-aos="fade-right" data-aos-delay="300">
+                                <div class="project-thumb box-shadow">
+                                    <div class="img-container">
+                                        <img class="img-thumb" src="images/projects/todo_list/todo_list_both_modes.jpg" alt="To Do List Project Cover Photo">
+                                    </div>
+                                    <div class="links-container flex">
+                                        <div class="project-details">
+                                            <a href="projects/todo-list.php" title="Link to project"><h3>My To&dash;Do List</h3></a>
+                                            <p>Temporary JavaScript To&dash;Do List</p>
+                                        </div>
+                                        <div class="btn-container flex">
+                                            <a class="live-link box-shadow-light" data-aos="fade-right"  data-aos-delay="300" href="#" target="_blank" title="Link to Live Site">Visit Site</a>
+                                            <a class="code-link box-shadow-light" data-aos="fade-right" href="#" target="_blank" title="Link to GitHub Repository">Review Code</a>
+                                        </div>
+                                    </div>
                                 </div>
                             </li>
                         </ul>
@@ -114,7 +136,6 @@
         </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <script src="scripts/medium-zoom.min.js"></script>
         <script src="scripts/scroll-lock.js"></script>
         <script src="scripts/main.js"></script>
     </body>
