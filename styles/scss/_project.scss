@@ -83,47 +83,41 @@
                 @include fontstyles ($white, $sm*0.8, $light, $base, $none);
             }
     
-            .design-link {
-                color: $white;
-                padding-bottom: $sm*0.15;
-                border-bottom: $sm*0.15 $white solid;
-            }
+            // .links-btn-container {
+            //     justify-content: space-between;
+            //     margin: $sm*0.5 0 $sm*2;
     
-            .links-btn-container {
-                justify-content: space-between;
-                margin: $sm*0.5 0 $sm*2;
-    
-                .code-link, .live-link {
-                    width: 48%;
-                    height: auto;
-                    padding: $sm*0.65 $sm*1;
-                    border: $sm*0.1 solid $white;
-                    border-radius: $sm*1.5;
-                    text-align: center;
-                    font-size: $sm*0.8;
-                    font-weight: 400;
-                }
+            //     .code-link, .live-link {
+            //         width: 48%;
+            //         height: auto;
+            //         padding: $sm*0.65 $sm*1;
+            //         border: $sm*0.1 solid $white;
+            //         border-radius: $sm*1.5;
+            //         text-align: center;
+            //         font-size: $sm*0.8;
+            //         font-weight: 400;
+            //     }
 
-                .code-link {
-                    color: $white;
+            //     .code-link {
+            //         color: $white;
                     
-                    &:hover {
-                        background-color: $white;
-                        color: $violet;
-                        transition: all 0.35s ease-in-out;
-                    }
-                }
+            //         &:hover {
+            //             background-color: $white;
+            //             color: $violet;
+            //             transition: all 0.35s ease-in-out;
+            //         }
+            //     }
         
-                .live-link {
-                    background-color: $white;
+            //     .live-link {
+            //         background-color: $white;
 
-                    &:hover {
-                        background-color: $violet;
-                        color: $white;
-                        transition: all 0.35s ease-in-out;
-                    }
-                }
-            }
+            //         &:hover {
+            //             background-color: $violet;
+            //             color: $white;
+            //             transition: all 0.35s ease-in-out;
+            //         }
+            //     }
+            // }
         }
     }
 

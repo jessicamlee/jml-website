@@ -15,8 +15,8 @@
                         <p class="project-type">Responsive e&dash;Commerce Homepage</p>
                         <p class="project-description">LOCLO was in need of a landing page for its Spring Local 2022 collection&period; Featuring refreshing&comma; timeless pieces&comma; users can browse the new landing page on mobile&comma; tablet&comma; and desktop screens&period;</p>
                         <div class="links-btn-container flex">
-                            <a class="code-link box-shadow-light" data-aos="fade-right" data-aos-delay="500" href="https://github.com/jessicamlee/loclo-clothing" target="_blank" title="Link to GitHub Repository">Review Code</a>
-                            <a class="live-link text-forestgreen box-shadow-light" data-aos="fade-right" data-aos-delay="300" href="#" target="_blank" title="Link to GitHub Repository">Visit Site</a>
+                            <a class="live-link text-forestgreen box-shadow-light" data-aos="fade-right" data-aos-delay="500" href="#" target="_blank" title="Link to Live Site">Visit Site</a>
+                            <a class="code-link box-shadow-light" data-aos="fade-right" data-aos-delay="300" href="https://github.com/jessicamlee/loclo-clothing" target="_blank" title="Link to GitHub Repository">Review Code</a>
                         </div>
                     </div>
                     <div class="img-container box-shadow" data-aos="fade-left" data-aos-delay="600">
@@ -77,7 +77,6 @@
         </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <script src="../scripts/medium-zoom.min.js"></script>
         <script src="../scripts/scroll-lock.js"></script>
         <script src="../scripts/main.js"></script>
     </body>

@@ -74,7 +74,7 @@ a {
 --------- Typography -----------
 ------------------------------ */
 h1 {
-    @include fontstyles ($violet,$md*2, $semibold, $base, $none);
+    @include fontstyles ($violet,$md*2, $medium, $base, $none);
     margin-top: $md;
 }
 
@@ -85,7 +85,7 @@ h2 {
 }
 
 h3 {
-    @include fontstyles ($violet, $sm*1.25, $semibold, $base, $none);
+    @include fontstyles ($white, $sm, $medium, $base, $none);
     margin-bottom: $sm*0.25;
 }
 
@@ -103,7 +103,7 @@ p {
 
     .intro-box {
         .name-title {
-            @include fontstyles ($violet, $sm*2.5, $semibold, $base, $none);
+            @include fontstyles ($violet, $sm*2.5, $medium, $base, $none);
             margin-top: $sm;
         }
     
@@ -129,14 +129,55 @@ p {
         margin-top: $sm*1.25;
 
         .project-card {
-            width: 100%;
-            height: 100%;
-            border: solid $xs*0.3 $white;
-            border-radius: $xs*1.25;
             margin-bottom: $sm*3;
+
+            .project-thumb {
+                position: relative;
+                overflow: hidden;
+
+                .links-container {
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    background: rgba(9, 0, 21, 0.62);
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    padding-bottom: $sm*0.5;
+                
+                    .btn-container {
+                        column-gap: $sm;
+
+                        .live-link, .code-link {
+                            padding: $sm*0.6 $sm*0.7;
+                            border: $sm*0.15 solid $white;
+                            border-radius: $sm*1.5;
+                            text-align: center;
+                        }
+
+                        .live-link {
+                            background-color: $white;
+                            @include fontstyles ($violet, $sm*0.8, $medium, $base, $none);
+                        }
+                    
+                        .code-link {
+                            background-color: transparent;
+                            @include fontstyles ($white, $sm*0.8, $medium, $base, $none);
+                        }
+                    }
+                }
+            }
     
             .project-details {
-                padding-top: $sm*1.65;
+                padding: $sm*1.25 $sm*2.2 0;
+                margin-bottom: $sm*0.75;
+                text-align: center;
+                
+                p {
+                    @include fontstyles ($white, $sm*0.8, $light, $base, $none);
+                }
             }
         }
     }
@@ -193,6 +234,20 @@ footer {
 ------------------------------ */
 @media (min-width:420px) {
 
+    .projects .projects-collection .project-card .project-thumb .links-container {
+        row-gap: $sm*0.7;
+
+        .project-details {
+            h3 {
+                @include fontstyles ($white, $sm*1.5, $medium, $base, $none);
+            }
+    
+            p {
+                @include fontstyles ($white, $sm*0.85, $normal, $base, $none);
+            }
+        }
+    }
+
     .about .bio img {
         height: 50vw;
     }
@@ -203,7 +258,7 @@ footer {
     .intro .intro-box {
 
         .name-title {
-            @include fontstyles ($violet, $sm*3, $semibold, $base, $none);
+            @include fontstyles ($violet, $sm*3, $medium, $base, $none);
             margin-top: $xs;
         }
 
@@ -213,6 +268,27 @@ footer {
 
         .career-goal {
             margin: $sm*1.25 0;
+        }
+    }
+
+    .projects .projects-collection .project-card .project-thumb .links-container {
+
+        .project-details {
+            h3 {
+                @include fontstyles ($white, $sm*1.75, $medium, $base, $none);
+            }
+
+            p {
+                @include fontstyles ($white, $sm*0.9, $normal, $base, $none);
+            }
+        }
+
+        .live-link {
+            @include fontstyles ($white, $sm*0.85, $normal, $base, $none);
+        }
+
+        .code-link {
+            @include fontstyles ($violet, $sm*0.85, $normal, $base, $none);
         }
     }
 
@@ -232,10 +308,6 @@ footer {
 @media (min-width:640px) {
     h2 {
         @include fontstyles ($violet, $sm*2, $semibold, $base, $uppercase);
-    }
-
-    h3 {
-        @include fontstyles ($violet, $sm*1.5, $semibold, $base, $none);
     }
 
     .projects, .about, .contact {
@@ -287,7 +359,6 @@ footer {
         .project-card {
             flex-basis: 47%;
             max-width: 47%;
-            margin-bottom: $sm*4.5;
             flex-direction: column;
 
             &:nth-child(3n+1){
@@ -297,6 +368,10 @@ footer {
     
             &:nth-child(3n+2){
                 margin-top: $sm*8;
+            }
+
+            .project-thumb .links-container .project-details h3 {
+                @include fontstyles ($white, $sm*2, $medium, $base, $none);
             }
         }
     }
@@ -325,6 +400,22 @@ footer {
 @media (min-width:1024px) {
     p {
         @include fontstyles ($violet, $sm, $normal, $base, $none);
+    }
+
+    .projects .projects-collection .project-card .project-thumb .links-container .btn-container {
+            .live-link, .code-link {
+                @include fontstyles ($violet, $sm, $normal, $base, $none);
+
+                &:hover {
+                    background-color: $violet;
+                    color: $white;
+                    transition: all 0.35s ease-in-out;
+                }
+            }
+            
+            .code-link {
+                @include fontstyles ($white, $sm, $normal, $base, $none);
+            }
     }
     
     .img-container .img-thumb:hover {
