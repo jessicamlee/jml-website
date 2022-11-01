@@ -1,11 +1,7 @@
 .artifact-pg {
-    h2 {
-        @include fontstyles ($violet, $sm*1.25, $semibold, $base, $uppercase);
-        margin-bottom: $sm*0.8;
-        text-align: left;
-    }
 
     p {
+        @include fontstyles ($violet, $sm*0.9, $normal, $base, $none);
         margin-bottom: $xs;
         line-height: 1.75;
     }
@@ -21,50 +17,39 @@
             object-fit: cover;
         }
     }
-
-    /* -----------------------------
-    ----- Project Color Themes -----
-    ------------------------------ */
-
-    .bg-violet {
-        background-color: $violet;
-    }
-
-    .text-violet {
-        color: $violet;
-    }
     
     /* -----------------------------
     ------- Project Summary --------
     ------------------------------ */
     .project-overview {
         flex-direction: column;
+        padding: $sm*3 $sm*1;
+        height: 80vh;
 
         .project-details {
             .project-skills {
-                @include fontstyles ($white, $sm*0.9, $light, $base, $none);
+                @include fontstyles ($violet, $sm*0.9, $normal, $base, $none);
             }
 
             .project-title {
-                @include fontstyles ($white, $sm*1.5, $semibold, $base, $none);
-                margin: $sm*0.35 0;
+                @include fontstyles ($violet, $sm*2.5, $medium, $base, $none);
+                margin: $sm*0.25 0 $sm*0.15;
                 line-height: 1.25;
             }
     
             .project-type {
-                @include fontstyles ($white, $sm*0.8, $light, $italic, $none);
+                @include fontstyles ($violet, $sm*0.9, $normal, $italic, $none);
             }
 
             .in-progress {
-                @include fontstyles ($white, $sm, $medium, $italic, $none);
-            }
-    
-            .project-description {
-                margin: $sm*1.1 0 $sm*2;
+                @include fontstyles ($violet, $sm, $medium, $italic, $none);
+                text-align: center;
+                margin: $sm*3 0 $sm*2;
             }
 
             .project-description {
-                @include fontstyles ($white, $sm*0.8, $light, $base, $none);
+                @include fontstyles ($violet, $sm*0.9, $normal, $base, $none);
+                margin: $sm*1.1 0 $sm*2;
             }
     
             .links-btn-container {
@@ -75,7 +60,7 @@
                     width: 48%;
                     height: auto;
                     padding: $sm*0.65 $sm*1;
-                    border: $sm*0.1 solid $white;
+                    border: $sm*0.1 solid $violet;
                     border-radius: $sm*1.5;
                     text-align: center;
                     font-size: $sm*0.8;
@@ -83,21 +68,22 @@
                 }
 
                 .code-link {
-                    color: $white;
+                    color: $violet;
                     
                     &:hover {
-                        background-color: $white;
-                        color: $violet;
+                        background-color: $violet;
+                        color: $white;
                         transition: all 0.35s ease-in-out;
                     }
                 }
         
                 .live-link {
-                    background-color: $white;
+                    background-color: $violet;
+                    color: $white;
 
                     &:hover {
-                        background-color: $violet;
-                        color: $white;
+                        background-color: $white;
+                        color: $violet;
                         transition: all 0.35s ease-in-out;
                     }
                 }
@@ -108,9 +94,21 @@
     /* -----------------------------
     ------- More Projects ----------
     ------------------------------ */
-    .more-projects a {
-        @include fontstyles ($violet, $sm*1.03, $medium, $base, $none);
-        margin: $sm*0.9 0;
+    .more-projects {
+        margin: $sm*2 0;
+        padding: $xl $md $lg;
+        text-align: center;
+        background-color: $violet;
+
+        h2 {
+            @include fontstyles ($white, $sm*1.25, $semibold, $base, $uppercase);
+            text-align: center;
+        }
+
+        a {
+            @include fontstyles ($white, $sm*1.03, $normal, $base, $none);
+            margin: $sm*0.9 0;
+        }
     }
     
     /* -----------------------------
@@ -124,16 +122,16 @@
         .project-overview .project-details {
             
             .project-skills, .project-description {
-                @include fontstyles ($white, $sm*0.9, $light, $base, $none);
+                @include fontstyles ($violet, $sm*0.9, $normal, $base, $none);
             }
 
             .project-title {
-                @include fontstyles ($white, $sm*2, $semibold, $base, $none);
+                @include fontstyles ($violet, $sm*2, $semibold, $base, $none);
                 line-height: 1.25;
             }
 
             .project-type {
-                @include fontstyles ($white, $sm*0.9, $light, $italic, $none);
+                @include fontstyles ($violet, $sm*0.9, $normal, $italic, $none);
             }
 
             .project-description {
@@ -167,10 +165,12 @@
         .project-overview {
             flex-direction: row;
             justify-content: space-between;
-            padding: $sm*3;
+            height: 60vh;
+            align-items: center;
+            padding: $sm*3 0;
 
             .project-details {
-                padding: 0;
+                padding: $lg 0 $lg $sm;
                 margin-right: $sm*2;
                 width: 50%;
 
@@ -189,6 +189,14 @@
                 .links-btn-container {
                     margin: $sm*0.5 0 0;
                 }
+
+                .in-progress {
+                    text-align: left;
+                }
+            }
+
+            .img-container {
+                margin-right: $sm;
             }
         }
     }

@@ -8,12 +8,12 @@
         <div class="wrapper">
             <?php require('../partials/global/header_projects.php'); ?>
             <main class="artifact-pg">
-                <section class="section container project-overview flex bg-violet" data-aos="fade-right" data-aos-delay="100">
+                <section class="container project-overview flex bg-violet" data-aos="fade-right" data-aos-delay="100">
                     <div class="project-details" data-aos="fade-right" data-aos-delay="300">
-                        <p class="project-skills">HTML &vert; SASS &vert; JavaScript</p>
+                        <p class="project-skills">HTML5 &vert; SASS &vert; JavaScript</p>
                         <h1 class="project-title">My To&dash;Do List<br class="hidden-tablet"> with Dark Mode&excl;</h1>
                         <p class="project-type">Temporary JavaScript To&dash;Do List</p>
-                        <p class="project-description">A pain point I observed amongst my peers is procrastinating on existing tasks on their to&dash;do lists&period; When combining the temporary My To&dash;Do List with an engaging alarm clock&comma; users are encouraged to begin and complete their task within their session&period;</p>
+                        <p class="project-description">Beat procrastination with this temporary to&dash;do list&period; Combined with its own engaging alarm clock&comma; become empowered to begin and complete your tasks within the same session&period;</p>
                         <div class="links-btn-container flex">
                             <a class="live-link text-violet box-shadow-light" data-aos="fade-right" data-aos-delay="500" href="#" target="_blank" title="Link to Live Site">Visit Site</a>
                             <a class="code-link box-shadow-light" data-aos="fade-right" data-aos-delay="300" href="https://github.com/jessicamlee/todolist" target="_blank" title="Link to GitHub Repository">Review Code</a>
@@ -23,7 +23,7 @@
                         <img class="project-img" src="../images/projects/todo_cover.jpg" alt="To-Do List Cover Photo">
                     </div>
                 </section>
-                <section class="section more-projects">
+                <section class="more-projects">
                     <div class="container">
                         <h2 data-aos="fade-right">More Projects&colon;</h2>
                         <a class="block" data-aos="fade-right" data-aos-delay="150" href="../projects/cafehop.php" title="Cafe Hop Mobile App">Caf&eacute; Hop App</a>
