@@ -154,9 +154,6 @@ header .header-bar .gn ul li a {
 }
 .artifact-pg {
   /* -----------------------------
-  ----- Project Color Themes -----
-  ------------------------------ */
-  /* -----------------------------
   ------- Project Summary --------
   ------------------------------ */
   /* -----------------------------
@@ -166,16 +163,12 @@ header .header-bar .gn ul li a {
   ------- Media Queries ----------
   ------------------------------ */
 }
-.artifact-pg h2 {
-  color: rgb(28, 0, 68);
-  font-size: 1.25em;
-  font-weight: 600;
-  font-style: normal;
-  text-transform: uppercase;
-  margin-bottom: 0.8em;
-  text-align: left;
-}
 .artifact-pg p {
+  color: rgb(28, 0, 68);
+  font-size: 0.9em;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: none;
   margin-bottom: 0.5em;
   line-height: 1.75;
 }
@@ -189,54 +182,50 @@ header .header-bar .gn ul li a {
   height: 100%;
   object-fit: cover;
 }
-.artifact-pg .bg-violet {
-  background-color: rgb(28, 0, 68);
-}
-.artifact-pg .text-violet {
-  color: rgb(28, 0, 68);
-}
 .artifact-pg .project-overview {
   flex-direction: column;
+  padding: 3em 1em;
+  height: 80vh;
 }
 .artifact-pg .project-overview .project-details .project-skills {
-  color: rgb(255, 255, 255);
+  color: rgb(28, 0, 68);
   font-size: 0.9em;
-  font-weight: 300;
+  font-weight: 400;
   font-style: normal;
   text-transform: none;
 }
 .artifact-pg .project-overview .project-details .project-title {
-  color: rgb(255, 255, 255);
-  font-size: 1.5em;
-  font-weight: 600;
+  color: rgb(28, 0, 68);
+  font-size: 2.5em;
+  font-weight: 500;
   font-style: normal;
   text-transform: none;
-  margin: 0.35em 0;
+  margin: 0.25em 0 0.15em;
   line-height: 1.25;
 }
 .artifact-pg .project-overview .project-details .project-type {
-  color: rgb(255, 255, 255);
-  font-size: 0.8em;
-  font-weight: 300;
+  color: rgb(28, 0, 68);
+  font-size: 0.9em;
+  font-weight: 400;
   font-style: italic;
   text-transform: none;
 }
 .artifact-pg .project-overview .project-details .in-progress {
-  color: rgb(255, 255, 255);
+  color: rgb(28, 0, 68);
   font-size: 1em;
   font-weight: 500;
   font-style: italic;
   text-transform: none;
+  text-align: center;
+  margin: 3em 0 2em;
 }
 .artifact-pg .project-overview .project-details .project-description {
-  margin: 1.1em 0 2em;
-}
-.artifact-pg .project-overview .project-details .project-description {
-  color: rgb(255, 255, 255);
-  font-size: 0.8em;
-  font-weight: 300;
+  color: rgb(28, 0, 68);
+  font-size: 0.9em;
+  font-weight: 400;
   font-style: normal;
   text-transform: none;
+  margin: 1.1em 0 2em;
 }
 .artifact-pg .project-overview .project-details .links-btn-container {
   justify-content: space-between;
@@ -246,32 +235,47 @@ header .header-bar .gn ul li a {
   width: 48%;
   height: auto;
   padding: 0.65em 1em;
-  border: 0.1em solid rgb(255, 255, 255);
+  border: 0.1em solid rgb(28, 0, 68);
   border-radius: 1.5em;
   text-align: center;
   font-size: 0.8em;
   font-weight: 400;
 }
 .artifact-pg .project-overview .project-details .links-btn-container .code-link {
-  color: rgb(255, 255, 255);
+  color: rgb(28, 0, 68);
 }
 .artifact-pg .project-overview .project-details .links-btn-container .code-link:hover {
-  background-color: rgb(255, 255, 255);
-  color: rgb(28, 0, 68);
-  transition: all 0.35s ease-in-out;
-}
-.artifact-pg .project-overview .project-details .links-btn-container .live-link {
-  background-color: rgb(255, 255, 255);
-}
-.artifact-pg .project-overview .project-details .links-btn-container .live-link:hover {
   background-color: rgb(28, 0, 68);
   color: rgb(255, 255, 255);
   transition: all 0.35s ease-in-out;
 }
-.artifact-pg .more-projects a {
+.artifact-pg .project-overview .project-details .links-btn-container .live-link {
+  background-color: rgb(28, 0, 68);
+  color: rgb(255, 255, 255);
+}
+.artifact-pg .project-overview .project-details .links-btn-container .live-link:hover {
+  background-color: rgb(255, 255, 255);
   color: rgb(28, 0, 68);
+  transition: all 0.35s ease-in-out;
+}
+.artifact-pg .more-projects {
+  margin: 2em 0;
+  padding: 2.5em 1.5em 2em;
+  text-align: center;
+  background-color: rgb(28, 0, 68);
+}
+.artifact-pg .more-projects h2 {
+  color: rgb(255, 255, 255);
+  font-size: 1.25em;
+  font-weight: 600;
+  font-style: normal;
+  text-transform: uppercase;
+  text-align: center;
+}
+.artifact-pg .more-projects a {
+  color: rgb(255, 255, 255);
   font-size: 1.03em;
-  font-weight: 500;
+  font-weight: 400;
   font-style: normal;
   text-transform: none;
   margin: 0.9em 0;
@@ -281,14 +285,14 @@ header .header-bar .gn ul li a {
     display: none;
   }
   .artifact-pg .project-overview .project-details .project-skills, .artifact-pg .project-overview .project-details .project-description {
-    color: rgb(255, 255, 255);
+    color: rgb(28, 0, 68);
     font-size: 0.9em;
-    font-weight: 300;
+    font-weight: 400;
     font-style: normal;
     text-transform: none;
   }
   .artifact-pg .project-overview .project-details .project-title {
-    color: rgb(255, 255, 255);
+    color: rgb(28, 0, 68);
     font-size: 2em;
     font-weight: 600;
     font-style: normal;
@@ -296,9 +300,9 @@ header .header-bar .gn ul li a {
     line-height: 1.25;
   }
   .artifact-pg .project-overview .project-details .project-type {
-    color: rgb(255, 255, 255);
+    color: rgb(28, 0, 68);
     font-size: 0.9em;
-    font-weight: 300;
+    font-weight: 400;
     font-style: italic;
     text-transform: none;
   }
@@ -330,10 +334,12 @@ header .header-bar .gn ul li a {
   .artifact-pg .project-overview {
     flex-direction: row;
     justify-content: space-between;
-    padding: 3em;
+    height: 60vh;
+    align-items: center;
+    padding: 3em 0;
   }
   .artifact-pg .project-overview .project-details {
-    padding: 0;
+    padding: 2em 0 2em 1em;
     margin-right: 2em;
     width: 50%;
   }
@@ -348,6 +354,12 @@ header .header-bar .gn ul li a {
   }
   .artifact-pg .project-overview .project-details .links-btn-container {
     margin: 0.5em 0 0;
+  }
+  .artifact-pg .project-overview .project-details .in-progress {
+    text-align: left;
+  }
+  .artifact-pg .project-overview .img-container {
+    margin-right: 1em;
   }
 }
 

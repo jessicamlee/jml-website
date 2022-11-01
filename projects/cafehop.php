@@ -8,7 +8,7 @@
         <div class="wrapper">
             <?php require('../partials/global/header_projects.php'); ?>
             <main class="artifact-pg">
-                <section class="section container project-overview flex bg-violet" data-aos="fade-right" data-aos-delay="100">
+                <section class="container project-overview flex" data-aos="fade-right" data-aos-delay="100">
                     <div class="project-details" data-aos="fade-right" data-aos-delay="300">
                         <p class="project-skills">React Native &vert; Android Studio</p>
                         <h1 class="project-title">Caf&eacute; Hop</h1>
@@ -20,7 +20,7 @@
                         <img class="project-img" src="../images/projects/cafehop_cover.jpg" alt="Cafe Hop App Cover Photo">
                     </div>
                 </section>
-                <section class="section more-projects">
+                <section class="more-projects">
                     <div class="container">
                         <h2 data-aos="fade-right">More Projects&colon;</h2>
                         <a class="block" data-aos="fade-right" data-aos-delay="150" href="../projects/loclo-homepage.php" title="LOCLO Responsive Homepage">LOCLO Responsive Homepage</a>
