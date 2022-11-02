@@ -16,11 +16,11 @@
             <main data-aos-delay="800">
                 <section class="intro section">
                     <div class="container intro-box">
-                        <h1 class="name-title" data-aos="fade-right">Jessica Lee</h1>
+                        <h1 data-aos="fade-right">Jessica Lee</h1>
                         <p class="career-role" data-aos="fade-right" data-aos-delay="300">Front&dash;End Development</p>
                         <p class="career-goal flex" data-aos="fade-right" data-aos-delay="500">building interfaces worth experiencing&period;</p>
                     </div>
-                    <div class="blobwindow" data-aos="fade-up-left" data-aos-delay="700">
+                    <div class="blobwindow" data-aos="fade-up-left" data-aos-delay="500">
                         <div class="alien"></div>
                         <div class="alien"></div>
                         <div class="alien"></div>
@@ -118,14 +118,14 @@
                 <section id="about" class="about section">
                     <div class="container">
                         <h2 data-aos="fade-right">About</h2>
-                        <p class="name-title" data-aos="fade-right" data-aos-delay="300">Jessica Lee</p>
-                        <p class="career-role" data-aos="fade-left" data-aos-delay="600">Front&dash;End Development</p>
+                        <p class="name-title" data-aos="fade-right" data-aos-delay="100">Jessica Lee</p>
+                        <p class="career-role" data-aos="fade-left" data-aos-delay="200">Front&dash;End Development</p>
                         <div class="bio flex">
-                            <img class="box-shadow"  data-aos="fade-right" data-aos-delay="400"src="images/jessicamlee_profilepicture.jpg" alt="Profile picture of Jessica">
+                            <img class="box-shadow"  data-aos="fade-right" data-aos-delay="300"src="images/jessicamlee_profilepicture.jpg" alt="Profile picture of Jessica">
                             <div class="bio-desc">
                                 <p data-aos="fade-left" data-aos-delay="400">I&apos;m a curious storyteller and systematic problem&dash;solver with a background in English Literature and Creative Writing&period;</p>
-                                <p data-aos="fade-left" data-aos-delay="400">My hobby of analyzing stories led me to past experiences as a content writer&comma; and managing editor&period; I now want to develop interfaces to share captivating stories and experiences&period;</p>
-                                <p data-aos="fade-left" data-aos-delay="400">Besides unwinding with a cup of matcha&comma; I spend time either reading manga&comma; dissecting films and anime&comma; trying a new yoga workout video&comma; or getting my steps exploring the city&period;</p>
+                                <p data-aos="fade-left" data-aos-delay="500">My hobby of analyzing stories led me to past experiences as a content writer&comma; and managing editor&period; I now want to develop interfaces to share captivating stories and experiences&period;</p>
+                                <p data-aos="fade-left" data-aos-delay="600">Besides unwinding with a cup of matcha&comma; I spend time either reading manga&comma; dissecting films and anime&comma; trying a new yoga workout video&comma; or getting my steps exploring the city&period;</p>
                             </div>
                         </div>
                     </div>
