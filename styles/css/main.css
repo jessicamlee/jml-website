@@ -8,6 +8,7 @@ header {
   transition: top 0.35s ease;
   padding: 1em 2em;
   background: rgb(255, 255, 255);
+  color: rgb(28, 0, 68);
   z-index: 2;
 }
 header.header-up {
@@ -23,9 +24,6 @@ header .header-bar .logo svg {
   height: 4em;
   margin: 0 auto;
   align-items: center;
-}
-header .header-bar .logo .logo-name {
-  display: none;
 }
 header .header-bar .gn-trigger {
   position: relative;
@@ -62,17 +60,17 @@ header .header-bar .gn-trigger .burger-menu:after {
 header .header-bar .gn-trigger .burger-menu,
 header .header-bar .gn-trigger .burger-menu:after {
   transition: transform top background;
-  transition-duration: 0.25s;
+  transition-duration: 0.5s;
 }
 header .header-bar .gn-trigger.is-active .burger-menu {
-  background-color: rgb(28, 0, 68);
-  transform: rotate(45deg);
+  background-color: rgb(255, 255, 255);
+  transform: rotate(405deg);
   top: 1.5em;
   right: 0;
 }
 header .header-bar .gn-trigger.is-active .burger-menu:after {
-  background-color: rgb(28, 0, 68);
-  transform: rotate(-90deg);
+  background-color: rgb(255, 255, 255);
+  transform: rotate(-450deg);
   top: -0.1em;
   right: -0.1em;
 }
@@ -82,7 +80,7 @@ header .header-bar .gn {
   top: 5em;
   left: 0;
   width: 100%;
-  background: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
 }
 header .header-bar .gn ul {
   justify-content: space-between;
@@ -111,7 +109,7 @@ header .header-bar .gn ul li a {
   cursor: pointer;
   background-position: cover;
   position: relative;
-  margin: 0 auto;
+  margin: 1.5em auto 0;
   animation: spaceAlien 20s ease-in-out infinite;
   box-shadow: 0px 3px 7px -1px rgba(43, 4, 98, 0.3);
 }
@@ -146,6 +144,12 @@ header .header-bar .gn ul li a {
 /* -----------------------------
 --------- Media Queries --------
 ------------------------------ */
+@media (min-width: 420px) {
+  .blobwindow {
+    width: 18.125em;
+    height: 18.125em;
+  }
+}
 @media (min-width: 500px) {
   .blobwindow {
     width: 19.125em;
@@ -162,15 +166,6 @@ header .header-bar .gn ul li a {
   /* -----------------------------
   ------- Media Queries ----------
   ------------------------------ */
-}
-.artifact-pg p {
-  color: rgb(28, 0, 68);
-  font-size: 0.9em;
-  font-weight: 400;
-  font-style: normal;
-  text-transform: none;
-  margin-bottom: 0.5em;
-  line-height: 1.75;
 }
 .artifact-pg .img-container {
   width: 100%;
@@ -231,7 +226,7 @@ header .header-bar .gn ul li a {
   justify-content: space-between;
   margin: 0.5em 0 2em;
 }
-.artifact-pg .project-overview .project-details .links-btn-container .code-link, .artifact-pg .project-overview .project-details .links-btn-container .live-link {
+.artifact-pg .project-overview .project-details .links-btn-container .live-link, .artifact-pg .project-overview .project-details .links-btn-container .code-link {
   width: 48%;
   height: auto;
   padding: 0.65em 1em;
@@ -241,14 +236,6 @@ header .header-bar .gn ul li a {
   font-size: 0.8em;
   font-weight: 400;
 }
-.artifact-pg .project-overview .project-details .links-btn-container .code-link {
-  color: rgb(28, 0, 68);
-}
-.artifact-pg .project-overview .project-details .links-btn-container .code-link:hover {
-  background-color: rgb(28, 0, 68);
-  color: rgb(255, 255, 255);
-  transition: all 0.35s ease-in-out;
-}
 .artifact-pg .project-overview .project-details .links-btn-container .live-link {
   background-color: rgb(28, 0, 68);
   color: rgb(255, 255, 255);
@@ -256,6 +243,15 @@ header .header-bar .gn ul li a {
 .artifact-pg .project-overview .project-details .links-btn-container .live-link:hover {
   background-color: rgb(255, 255, 255);
   color: rgb(28, 0, 68);
+  transition: all 0.35s ease-in-out;
+}
+.artifact-pg .project-overview .project-details .links-btn-container .code-link {
+  background-color: rgb(255, 255, 255);
+  color: rgb(28, 0, 68);
+}
+.artifact-pg .project-overview .project-details .links-btn-container .code-link:hover {
+  background-color: rgb(28, 0, 68);
+  color: rgb(255, 255, 255);
   transition: all 0.35s ease-in-out;
 }
 .artifact-pg .more-projects {
@@ -438,6 +434,215 @@ a {
 }
 
 /* -----------------------------
+--------- Dark/Light Mode ------
+------------------------------ */
+.dark-mode {
+  background-color: rgb(20, 19, 21);
+}
+.dark-mode h1, .dark-mode h3 {
+  color: rgb(217, 215, 215);
+}
+.dark-mode h2 {
+  color: rgb(217, 215, 215);
+  font-size: 1.75em;
+  font-weight: 500;
+  font-style: normal;
+  text-transform: uppercase;
+}
+.dark-mode p {
+  color: rgb(217, 215, 215);
+  font-size: 0.9em;
+  font-weight: 300;
+  font-style: normal;
+  text-transform: none;
+}
+.dark-mode .box-shadow, .dark-mode .box-shadow-light, .dark-mode .box-shadow-gn {
+  box-shadow: none;
+}
+.dark-mode header {
+  background: rgb(28, 0, 68);
+  color: rgb(255, 255, 255);
+}
+.dark-mode header .header-bar .logo svg {
+  fill: rgb(217, 215, 215);
+}
+.dark-mode header .header-bar .gn-trigger .burger-menu {
+  border: 0.132em rgb(217, 215, 215) solid;
+  box-shadow: none;
+}
+.dark-mode header .header-bar .gn-trigger .burger-menu:after {
+  border: 0.132em rgb(217, 215, 215) solid;
+  box-shadow: none;
+}
+.dark-mode header .header-bar .gn-trigger .burger-menu.is-active .burger-menu {
+  background-color: rgb(28, 0, 68);
+}
+.dark-mode header .header-bar .gn-trigger .burger-menu.is-active .burger-menu:after {
+  background-color: rgb(28, 0, 68);
+}
+.dark-mode header .header-bar .gn {
+  background-color: rgb(28, 0, 68);
+}
+.dark-mode header .header-bar .gn ul {
+  background-color: rgb(28, 0, 68);
+}
+.dark-mode header .header-bar .gn ul li a {
+  color: rgb(217, 215, 215);
+}
+.dark-mode .intro .intro-box .career-role, .dark-mode .intro .intro-box .career-goal {
+  color: rgb(217, 215, 215);
+}
+.dark-mode .intro .blobwindow {
+  border: rgb(20, 19, 21) solid 2px;
+  box-shadow: none;
+}
+.dark-mode .about .name-title, .dark-mode .about .career-role, .dark-mode .about p {
+  color: rgb(217, 215, 215);
+}
+.dark-mode .contact .contact-details p {
+  color: rgb(217, 215, 215);
+}
+.dark-mode .contact .contact-details .social-icons li svg {
+  fill: rgb(217, 215, 215);
+}
+.dark-mode .artifact-pg p {
+  color: rgb(217, 215, 215);
+  font-size: 0.9em;
+  font-weight: 300;
+  font-style: normal;
+  text-transform: none;
+}
+.dark-mode .artifact-pg .project-overview .project-details .project-skills, .dark-mode .artifact-pg .project-overview .project-details .project-title, .dark-mode .artifact-pg .project-overview .project-details .project-type, .dark-mode .artifact-pg .project-overview .project-details .in-progress, .dark-mode .artifact-pg .project-overview .project-details .project-description {
+  color: rgb(217, 215, 215);
+}
+.dark-mode .artifact-pg .project-overview .project-details .links-btn-container .live-link, .dark-mode .artifact-pg .project-overview .project-details .links-btn-container .code-link {
+  border: 0.1em solid rgb(217, 215, 215);
+}
+.dark-mode .artifact-pg .project-overview .project-details .links-btn-container .live-link {
+  background-color: rgb(217, 215, 215);
+  color: rgb(20, 19, 21);
+}
+.dark-mode .artifact-pg .project-overview .project-details .links-btn-container .live-link:hover {
+  background-color: rgb(20, 19, 21);
+  color: rgb(217, 215, 215);
+}
+.dark-mode .artifact-pg .project-overview .project-details .links-btn-container .code-link {
+  background-color: rgb(20, 19, 21);
+  color: rgb(217, 215, 215);
+}
+.dark-mode .artifact-pg .project-overview .project-details .links-btn-container .code-link:hover {
+  background-color: rgb(217, 215, 215);
+  color: rgb(20, 19, 21);
+}
+
+.light-mode {
+  background-color: rgb(255, 255, 255);
+}
+.light-mode h1, .light-mode h2, .light-mode h3, .light-mode p {
+  color: rgb(28, 0, 68);
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: rgb(20, 19, 21);
+  }
+  body h1, body h3 {
+    color: rgb(217, 215, 215);
+  }
+  body h2 {
+    color: rgb(217, 215, 215);
+    font-size: 1.75em;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: uppercase;
+  }
+  body p {
+    color: rgb(217, 215, 215);
+    font-size: 0.9em;
+    font-weight: 300;
+    font-style: normal;
+    text-transform: none;
+  }
+  body .box-shadow, body .box-shadow-light, body .box-shadow-gn {
+    box-shadow: none;
+  }
+  body header {
+    background: rgb(28, 0, 68);
+    color: rgb(255, 255, 255);
+  }
+  body header .header-bar .logo svg {
+    fill: rgb(217, 215, 215);
+  }
+  body header .header-bar .gn-trigger .burger-menu {
+    border: 0.132em rgb(217, 215, 215) solid;
+    box-shadow: none;
+  }
+  body header .header-bar .gn-trigger .burger-menu:after {
+    border: 0.132em rgb(217, 215, 215) solid;
+    box-shadow: none;
+  }
+  body header .header-bar .gn-trigger .burger-menu.is-active .burger-menu {
+    background-color: rgb(28, 0, 68);
+  }
+  body header .header-bar .gn-trigger .burger-menu.is-active .burger-menu:after {
+    background-color: rgb(28, 0, 68);
+  }
+  body header .header-bar .gn {
+    background-color: rgb(28, 0, 68);
+  }
+  body header .header-bar .gn ul {
+    background-color: rgb(28, 0, 68);
+  }
+  body header .header-bar .gn ul li a {
+    color: rgb(217, 215, 215);
+  }
+  body .intro .intro-box .career-role, body .intro .intro-box .career-goal {
+    color: rgb(217, 215, 215);
+  }
+  body .intro .blobwindow {
+    border: rgb(20, 19, 21) solid 2px;
+    box-shadow: none;
+  }
+  body .about .name-title, body .about .career-role, body .about p {
+    color: rgb(217, 215, 215);
+  }
+  body .contact .contact-details p {
+    color: rgb(217, 215, 215);
+  }
+  body .contact .contact-details .social-icons li svg {
+    fill: rgb(217, 215, 215);
+  }
+  body .artifact-pg p {
+    color: rgb(217, 215, 215);
+    font-size: 0.9em;
+    font-weight: 300;
+    font-style: normal;
+    text-transform: none;
+  }
+  body .artifact-pg .project-overview .project-details .project-skills, body .artifact-pg .project-overview .project-details .project-title, body .artifact-pg .project-overview .project-details .project-type, body .artifact-pg .project-overview .project-details .in-progress, body .artifact-pg .project-overview .project-details .project-description {
+    color: rgb(217, 215, 215);
+  }
+  body .artifact-pg .project-overview .project-details .links-btn-container .live-link, body .artifact-pg .project-overview .project-details .links-btn-container .code-link {
+    border: 0.1em solid rgb(217, 215, 215);
+  }
+  body .artifact-pg .project-overview .project-details .links-btn-container .live-link {
+    background-color: rgb(217, 215, 215);
+    color: rgb(20, 19, 21);
+  }
+  body .artifact-pg .project-overview .project-details .links-btn-container .live-link:hover {
+    background-color: rgb(20, 19, 21);
+    color: rgb(217, 215, 215);
+  }
+  body .artifact-pg .project-overview .project-details .links-btn-container .code-link {
+    background-color: rgb(20, 19, 21);
+    color: rgb(217, 215, 215);
+  }
+  body .artifact-pg .project-overview .project-details .links-btn-container .code-link:hover {
+    background-color: rgb(217, 215, 215);
+    color: rgb(20, 19, 21);
+  }
+}
+/* -----------------------------
 --------- Helpers --------------
 ------------------------------ */
 .flex {
@@ -461,11 +666,11 @@ a {
 ------------------------------ */
 h1 {
   color: rgb(28, 0, 68);
-  font-size: 3em;
-  font-weight: 500;
+  font-size: 2.5em;
+  font-weight: 600;
   font-style: normal;
   text-transform: none;
-  margin-top: 1.5em;
+  margin-top: 1em;
 }
 
 h2 {
@@ -501,22 +706,16 @@ p {
 ------------------------------ */
 .intro {
   text-align: center;
-  height: 36em;
-}
-.intro .intro-box .name-title {
-  color: rgb(28, 0, 68);
-  font-size: 2.5em;
-  font-weight: 500;
-  font-style: normal;
-  text-transform: none;
-  margin-top: 1em;
+  height: 70vh;
+  padding-top: 5em;
 }
 .intro .intro-box .career-role {
   color: rgb(28, 0, 68);
-  font-size: 1.05em;
+  font-size: 0.9em;
   font-weight: 500;
   font-style: italic;
   text-transform: none;
+  margin-top: 0.25em;
 }
 .intro .intro-box .career-goal {
   color: rgb(28, 0, 68);
@@ -671,17 +870,13 @@ footer p {
   }
 }
 @media (min-width: 500px) {
-  .intro .intro-box .name-title {
-    color: rgb(28, 0, 68);
+  .intro .intro-box h1 {
     font-size: 3em;
-    font-weight: 500;
-    font-style: normal;
-    text-transform: none;
     margin-top: 0.5em;
   }
   .intro .intro-box .career-role {
     color: rgb(28, 0, 68);
-    font-size: 1.25em;
+    font-size: 1em;
     font-weight: 500;
     font-style: italic;
     text-transform: none;
@@ -771,6 +966,9 @@ footer p {
   }
   header .header-bar .gn ul li {
     padding: 0;
+  }
+  .intro {
+    padding-top: 7em;
   }
   .projects .projects-collection {
     flex-direction: row;

@@ -1,8 +1,8 @@
 // Colors
-$violet: rgba(28, 0, 68, 1);
-$lightviolet: rgba(43, 4, 98, 1);
-$pianoblack: rgba(20, 19, 22, 1);
-$white: rgba(255, 255, 255, 1);
+$color-primary: rgba(255, 255, 255, 1);
+$color-primary--dark: rgb(20, 19, 21);
+$color-secondary: rgba(28, 0, 68, 1);
+$color-secondary--dark: rgb(217, 215, 215);
 
 // Sizes
 $xs: 0.5em;
@@ -36,4 +36,145 @@ $lowercase: lowercase;
     font-weight: $fontweight;
     font-style: $fontstyle;
     text-transform: $texttransform;
+}
+
+@mixin dark-mode {
+    background-color: $color-primary--dark;
+
+    h1, h3 {
+        color: $color-secondary--dark;
+    }
+
+    h2 {
+        @include fontstyles ($color-secondary--dark, $sm*1.75, $medium, $base, $uppercase);
+    }
+
+    p {
+        @include fontstyles ($color-secondary--dark, $sm*0.9, $light, $base, $none);
+    }
+
+    .box-shadow, .box-shadow-light, .box-shadow-gn {
+        box-shadow: none;
+    }
+
+    header {
+        background: $color-secondary;
+        color: $color-primary;
+        
+        .header-bar {
+
+            .logo svg {
+                fill: $color-secondary--dark;
+            }
+
+            .gn-trigger .burger-menu {
+                border: $sm*0.132 $color-secondary--dark solid;
+                box-shadow: none;
+
+                &:after {
+                    border: $sm*0.132 $color-secondary--dark solid;
+                    box-shadow: none;
+                }
+
+                &.is-active {
+                    .burger-menu {
+                        background-color: $color-secondary;
+    
+                        &:after {
+                            background-color: $color-secondary;
+                        }
+                    }
+                }
+            }
+
+            .gn {
+                background-color: $color-secondary;
+
+                ul {
+                    background-color: $color-secondary;
+
+                    li a {
+                        color: $color-secondary--dark;
+                    }
+                }
+            }
+        }
+    }
+
+    .intro {
+
+        .intro-box {
+            .career-role, .career-goal {
+                color: $color-secondary--dark;
+            }
+        }
+
+        .blobwindow {
+            border: $color-primary--dark solid 2px;
+            box-shadow: none;
+        }
+    }
+
+    .about {
+        .name-title, .career-role, p {
+            color: $color-secondary--dark;
+        }
+    }
+
+    .contact .contact-details {
+        p {
+            color: $color-secondary--dark;
+        }
+
+        .social-icons li svg {
+            fill: $color-secondary--dark;
+        }
+    }
+
+    .artifact-pg {
+        
+        p {
+            @include fontstyles ($color-secondary--dark, $sm*0.9, $light, $base, $none);
+        }
+
+        .project-overview .project-details {
+            .project-skills, .project-title, .project-type, .in-progress, .project-description {
+                color: $color-secondary--dark;
+            }
+
+            .links-btn-container {
+                .live-link, .code-link {
+                    border: $sm*0.1 solid $color-secondary--dark;
+                }
+
+                .live-link {
+                    background-color: $color-secondary--dark;
+                    color: $color-primary--dark;
+
+                    &:hover {
+                        background-color: $color-primary--dark;
+                        color: $color-secondary--dark;
+                    }
+                }
+
+                .code-link {
+                    background-color: $color-primary--dark;
+                    color: $color-secondary--dark;
+
+                    &:hover {
+                        background-color: $color-secondary--dark;
+                        color: $color-primary--dark;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@mixin light-mode {
+    background-color: $color-primary;
+    
+    h1, h2, h3, p {
+        color: $color-secondary;
+    }
 }

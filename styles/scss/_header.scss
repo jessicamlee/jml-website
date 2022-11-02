@@ -7,7 +7,8 @@ header {
     will-change: top;
     transition: top 0.35s ease;
     padding: $sm $lg;
-    background: $white;
+    background: $color-primary;
+    color: $color-secondary;
     z-index: 2;
 
     &.header-up {
@@ -20,15 +21,11 @@ header {
 
         .logo {
             svg {
-                fill: $violet;
+                fill: $color-secondary;
                 width: $sm*4;
                 height: $sm*4;
                 margin: 0 auto;
                 align-items: center;
-            }
-
-            .logo-name {
-                display: none;
             }
         }
 
@@ -46,7 +43,7 @@ header {
                 position: absolute;
                 width: $xl;
                 height: $sm*0.025;
-                border: $sm*0.132 $violet solid;
+                border: $sm*0.132 $color-secondary solid;
                 border-radius: 25px;
                 top: 35%;
                 right: 0;
@@ -58,7 +55,7 @@ header {
                     position: absolute;
                     width: $xl;
                     height: $sm*0.025;
-                    border: $sm*0.132 $violet solid;
+                    border: $sm*0.132 $color-secondary solid;
                     border-radius: 25px;
                     top: $sm*0.6;
                     right: $xs;
@@ -69,19 +66,19 @@ header {
             .burger-menu,
             .burger-menu:after {
                 transition: transform top background;
-                transition-duration: 0.25s;
+                transition-duration: 0.5s;
             }
 
             &.is-active {
                 .burger-menu {
-                    background-color: $violet;
-                    transform: rotate(45deg);
+                    background-color: $color-primary;
+                    transform: rotate(405deg);
                     top: $md;
                     right: 0;
 
                     &:after {
-                        background-color: $violet;
-                        transform: rotate(-90deg);
+                        background-color: $color-primary;
+                        transform: rotate(-450deg);
                         top: -$sm*0.1;
                         right: -$sm*0.1;
                     }
@@ -95,18 +92,18 @@ header {
             top: $sm*5;
             left: 0;
             width: 100%;
-            background: $white;
+            background-color: $color-primary;
 
             ul {
                 justify-content: space-between;
                 align-items: center;
                 flex-direction: column;
-                background-color: $white;
+                background-color: $color-primary;
 
                 li {
                     padding: $lg;
                     a {
-                        @include fontstyles($violet, $sm, $medium, $base, $none);
+                        @include fontstyles($color-secondary, $sm, $medium, $base, $none);
                     }
                 }
             }

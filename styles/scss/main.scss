@@ -11,8 +11,8 @@ body {
     margin: 0 auto;
     font-size: 16px!important;
     font-family: 'Poppins', sans-serif;
-    background-color: $white;
-    @include fontstyles($violet, $sm*0.75, $normal, $base, $none);
+    background-color: $color-primary;
+    @include fontstyles($color-secondary, $sm*0.75, $normal, $base, $none);
 }
 
 .wrapper {
@@ -52,6 +52,23 @@ a {
 }
 
 /* -----------------------------
+--------- Dark/Light Mode ------
+------------------------------ */
+.dark-mode {
+    @include dark-mode;
+}
+
+.light-mode {
+    @include light-mode;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        @include dark-mode;
+    }
+}
+
+/* -----------------------------
 --------- Helpers --------------
 ------------------------------ */
 .flex {
@@ -74,23 +91,23 @@ a {
 --------- Typography -----------
 ------------------------------ */
 h1 {
-    @include fontstyles ($violet,$md*2, $medium, $base, $none);
-    margin-top: $md;
+    @include fontstyles ($color-secondary, $sm*2.5, $semibold, $base, $none);
+    margin-top: $sm;
 }
 
 h2 {
-    @include fontstyles ($violet, $sm*1.75, $semibold, $base, $uppercase);
+    @include fontstyles ($color-secondary, $sm*1.75, $semibold, $base, $uppercase);
     margin-bottom: $sm*0.3;
     text-align: center;
 }
 
 h3 {
-    @include fontstyles ($white, $sm, $medium, $base, $none);
+    @include fontstyles ($color-primary, $sm, $medium, $base, $none);
     margin-bottom: $sm*0.25;
 }
 
 p {
-    @include fontstyles ($violet, $sm*0.9, $normal, $base, $none);
+    @include fontstyles ($color-secondary, $sm*0.9, $normal, $base, $none);
     line-height: $sm*1.4;
 }
 
@@ -99,20 +116,17 @@ p {
 ------------------------------ */
 .intro {
     text-align: center;
-    height: $lg*18;
+    height: 70vh;
+    padding-top: $sm*5;
 
-    .intro-box {
-        .name-title {
-            @include fontstyles ($violet, $sm*2.5, $medium, $base, $none);
-            margin-top: $sm;
-        }
-    
+    .intro-box {    
         .career-role {
-            @include fontstyles ($violet, $sm*1.05, $medium, $italic, $none);
+            @include fontstyles ($color-secondary, $sm*0.9, $medium, $italic, $none);
+            margin-top: $sm*0.25;
         }
 
         .career-goal {
-            @include fontstyles($violet, $sm*1.25, $normal, $base, $none);
+            @include fontstyles($color-secondary, $sm*1.25, $normal, $base, $none);
             justify-content: center;
             line-height: $sm*1.25;
             margin: $sm*1.5 0;
@@ -152,19 +166,19 @@ p {
 
                         .live-link, .code-link {
                             padding: $sm*0.6 $sm*0.7;
-                            border: $sm*0.15 solid $white;
+                            border: $sm*0.15 solid $color-primary;
                             border-radius: $sm*1.5;
                             text-align: center;
                         }
 
                         .live-link {
-                            background-color: $white;
-                            @include fontstyles ($violet, $sm*0.8, $medium, $base, $none);
+                            background-color: $color-primary;
+                            @include fontstyles ($color-secondary, $sm*0.8, $medium, $base, $none);
                         }
                     
                         .code-link {
                             background-color: transparent;
-                            @include fontstyles ($white, $sm*0.8, $medium, $base, $none);
+                            @include fontstyles ($color-primary, $sm*0.8, $medium, $base, $none);
                         }
                     }
                 }
@@ -176,7 +190,7 @@ p {
                 text-align: center;
                 
                 p {
-                    @include fontstyles ($white, $sm*0.8, $light, $base, $none);
+                    @include fontstyles ($color-primary, $sm*0.8, $light, $base, $none);
                 }
             }
         }
@@ -190,11 +204,11 @@ p {
     text-align: center;
 
     .name-title {
-        @include fontstyles ($violet, $sm*1.7, $semibold, $base, $none);
+        @include fontstyles ($color-secondary, $sm*1.7, $semibold, $base, $none);
     }
 
     .career-role {
-        @include fontstyles ($violet, $sm*0.9, $medium, $italic, $none);
+        @include fontstyles ($color-secondary, $sm*0.9, $medium, $italic, $none);
     }
 
     .bio {
@@ -220,10 +234,10 @@ p {
 footer {
     margin-top: $sm*2;
     padding: $md 0;
-    background-color: $violet;
+    background-color: $color-secondary;
     
     p {
-        @include fontstyles($white, $sm*0.8, $light, $base, $none);
+        @include fontstyles($color-primary, $sm*0.8, $light, $base, $none);
         text-align: center;
         line-height: $sm*1.75;
     }
@@ -239,11 +253,11 @@ footer {
 
         .project-details {
             h3 {
-                @include fontstyles ($white, $sm*1.5, $medium, $base, $none);
+                @include fontstyles ($color-primary, $sm*1.5, $medium, $base, $none);
             }
     
             p {
-                @include fontstyles ($white, $sm*0.85, $normal, $base, $none);
+                @include fontstyles ($color-primary, $sm*0.85, $normal, $base, $none);
             }
         }
     }
@@ -257,13 +271,13 @@ footer {
 
     .intro .intro-box {
 
-        .name-title {
-            @include fontstyles ($violet, $sm*3, $medium, $base, $none);
+        h1 {
+            font-size: $sm*3;
             margin-top: $xs;
         }
 
         .career-role {
-            @include fontstyles ($violet, $sm*1.25, $medium, $italic, $none); 
+            @include fontstyles ($color-secondary, $sm, $medium, $italic, $none); 
         }
 
         .career-goal {
@@ -275,20 +289,20 @@ footer {
 
         .project-details {
             h3 {
-                @include fontstyles ($white, $sm*1.75, $medium, $base, $none);
+                @include fontstyles ($color-primary, $sm*1.75, $medium, $base, $none);
             }
 
             p {
-                @include fontstyles ($white, $sm*0.9, $normal, $base, $none);
+                @include fontstyles ($color-primary, $sm*0.9, $normal, $base, $none);
             }
         }
 
         .live-link {
-            @include fontstyles ($white, $sm*0.85, $normal, $base, $none);
+            @include fontstyles ($color-primary, $sm*0.85, $normal, $base, $none);
         }
 
         .code-link {
-            @include fontstyles ($violet, $sm*0.85, $normal, $base, $none);
+            @include fontstyles ($color-secondary, $sm*0.85, $normal, $base, $none);
         }
     }
 
@@ -301,18 +315,18 @@ footer {
     }
 
     footer p {
-        @include fontstyles($white, $sm*0.9, $light, $base, $none);
+        @include fontstyles($color-primary, $sm*0.9, $light, $base, $none);
     }
 }
 
 @media (min-width:640px) {
     h2 {
-        @include fontstyles ($violet, $sm*2, $semibold, $base, $uppercase);
+        @include fontstyles ($color-secondary, $sm*2, $semibold, $base, $uppercase);
     }
 
     .projects, .about, .contact {
         p {
-            @include fontstyles ($violet, $sm, $normal, $base, $none);
+            @include fontstyles ($color-secondary, $sm, $normal, $base, $none);
         }
     }
 }
@@ -351,6 +365,10 @@ footer {
         }
     }
 
+    .intro {
+        padding-top: $sm*7;
+    }
+
     .projects .projects-collection {
         flex-direction: row;
         flex-wrap: wrap;
@@ -371,7 +389,7 @@ footer {
             }
 
             .project-thumb .links-container .project-details h3 {
-                @include fontstyles ($white, $sm*2, $medium, $base, $none);
+                @include fontstyles ($color-primary, $sm*2, $medium, $base, $none);
             }
         }
     }
@@ -399,22 +417,22 @@ footer {
 
 @media (min-width:1024px) {
     p {
-        @include fontstyles ($violet, $sm, $normal, $base, $none);
+        @include fontstyles ($color-secondary, $sm, $normal, $base, $none);
     }
 
     .projects .projects-collection .project-card .project-thumb .links-container .btn-container {
             .live-link, .code-link {
-                @include fontstyles ($violet, $sm, $normal, $base, $none);
+                @include fontstyles ($color-secondary, $sm, $normal, $base, $none);
 
                 &:hover {
-                    background-color: $violet;
-                    color: $white;
+                    background-color: $color-secondary;
+                    color: $color-primary;
                     transition: all 0.35s ease-in-out;
                 }
             }
             
             .code-link {
-                @include fontstyles ($white, $sm, $normal, $base, $none);
+                @include fontstyles ($color-primary, $sm, $normal, $base, $none);
             }
     }
     
