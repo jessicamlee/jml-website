@@ -167,15 +167,6 @@ header .header-bar .gn ul li a {
   ------- Media Queries ----------
   ------------------------------ */
 }
-.artifact-pg p {
-  color: rgb(28, 0, 68);
-  font-size: 0.9em;
-  font-weight: 400;
-  font-style: normal;
-  text-transform: none;
-  margin-bottom: 0.5em;
-  line-height: 1.75;
-}
 .artifact-pg .img-container {
   width: 100%;
   max-height: 25em;
@@ -235,7 +226,7 @@ header .header-bar .gn ul li a {
   justify-content: space-between;
   margin: 0.5em 0 2em;
 }
-.artifact-pg .project-overview .project-details .links-btn-container .code-link, .artifact-pg .project-overview .project-details .links-btn-container .live-link {
+.artifact-pg .project-overview .project-details .links-btn-container .live-link, .artifact-pg .project-overview .project-details .links-btn-container .code-link {
   width: 48%;
   height: auto;
   padding: 0.65em 1em;
@@ -245,14 +236,6 @@ header .header-bar .gn ul li a {
   font-size: 0.8em;
   font-weight: 400;
 }
-.artifact-pg .project-overview .project-details .links-btn-container .code-link {
-  color: rgb(28, 0, 68);
-}
-.artifact-pg .project-overview .project-details .links-btn-container .code-link:hover {
-  background-color: rgb(28, 0, 68);
-  color: rgb(255, 255, 255);
-  transition: all 0.35s ease-in-out;
-}
 .artifact-pg .project-overview .project-details .links-btn-container .live-link {
   background-color: rgb(28, 0, 68);
   color: rgb(255, 255, 255);
@@ -260,6 +243,15 @@ header .header-bar .gn ul li a {
 .artifact-pg .project-overview .project-details .links-btn-container .live-link:hover {
   background-color: rgb(255, 255, 255);
   color: rgb(28, 0, 68);
+  transition: all 0.35s ease-in-out;
+}
+.artifact-pg .project-overview .project-details .links-btn-container .code-link {
+  background-color: rgb(255, 255, 255);
+  color: rgb(28, 0, 68);
+}
+.artifact-pg .project-overview .project-details .links-btn-container .code-link:hover {
+  background-color: rgb(28, 0, 68);
+  color: rgb(255, 255, 255);
   transition: all 0.35s ease-in-out;
 }
 .artifact-pg .more-projects {
@@ -458,9 +450,9 @@ a {
   text-transform: uppercase;
 }
 .dark-mode p {
-  color: rgb(28, 0, 68);
+  color: rgb(217, 215, 215);
   font-size: 0.9em;
-  font-weight: 200;
+  font-weight: 300;
   font-style: normal;
   text-transform: none;
 }
@@ -513,6 +505,35 @@ a {
 .dark-mode .contact .contact-details .social-icons li svg {
   fill: rgb(217, 215, 215);
 }
+.dark-mode .artifact-pg p {
+  color: rgb(217, 215, 215);
+  font-size: 0.9em;
+  font-weight: 300;
+  font-style: normal;
+  text-transform: none;
+}
+.dark-mode .artifact-pg .project-overview .project-details .project-skills, .dark-mode .artifact-pg .project-overview .project-details .project-title, .dark-mode .artifact-pg .project-overview .project-details .project-type, .dark-mode .artifact-pg .project-overview .project-details .in-progress, .dark-mode .artifact-pg .project-overview .project-details .project-description {
+  color: rgb(217, 215, 215);
+}
+.dark-mode .artifact-pg .project-overview .project-details .links-btn-container .live-link, .dark-mode .artifact-pg .project-overview .project-details .links-btn-container .code-link {
+  border: 0.1em solid rgb(217, 215, 215);
+}
+.dark-mode .artifact-pg .project-overview .project-details .links-btn-container .live-link {
+  background-color: rgb(217, 215, 215);
+  color: rgb(20, 19, 21);
+}
+.dark-mode .artifact-pg .project-overview .project-details .links-btn-container .live-link:hover {
+  background-color: rgb(20, 19, 21);
+  color: rgb(217, 215, 215);
+}
+.dark-mode .artifact-pg .project-overview .project-details .links-btn-container .code-link {
+  background-color: rgb(20, 19, 21);
+  color: rgb(217, 215, 215);
+}
+.dark-mode .artifact-pg .project-overview .project-details .links-btn-container .code-link:hover {
+  background-color: rgb(217, 215, 215);
+  color: rgb(20, 19, 21);
+}
 
 .light-mode {
   background-color: rgb(255, 255, 255);
@@ -536,9 +557,9 @@ a {
     text-transform: uppercase;
   }
   body p {
-    color: rgb(28, 0, 68);
+    color: rgb(217, 215, 215);
     font-size: 0.9em;
-    font-weight: 200;
+    font-weight: 300;
     font-style: normal;
     text-transform: none;
   }
@@ -590,6 +611,35 @@ a {
   }
   body .contact .contact-details .social-icons li svg {
     fill: rgb(217, 215, 215);
+  }
+  body .artifact-pg p {
+    color: rgb(217, 215, 215);
+    font-size: 0.9em;
+    font-weight: 300;
+    font-style: normal;
+    text-transform: none;
+  }
+  body .artifact-pg .project-overview .project-details .project-skills, body .artifact-pg .project-overview .project-details .project-title, body .artifact-pg .project-overview .project-details .project-type, body .artifact-pg .project-overview .project-details .in-progress, body .artifact-pg .project-overview .project-details .project-description {
+    color: rgb(217, 215, 215);
+  }
+  body .artifact-pg .project-overview .project-details .links-btn-container .live-link, body .artifact-pg .project-overview .project-details .links-btn-container .code-link {
+    border: 0.1em solid rgb(217, 215, 215);
+  }
+  body .artifact-pg .project-overview .project-details .links-btn-container .live-link {
+    background-color: rgb(217, 215, 215);
+    color: rgb(20, 19, 21);
+  }
+  body .artifact-pg .project-overview .project-details .links-btn-container .live-link:hover {
+    background-color: rgb(20, 19, 21);
+    color: rgb(217, 215, 215);
+  }
+  body .artifact-pg .project-overview .project-details .links-btn-container .code-link {
+    background-color: rgb(20, 19, 21);
+    color: rgb(217, 215, 215);
+  }
+  body .artifact-pg .project-overview .project-details .links-btn-container .code-link:hover {
+    background-color: rgb(217, 215, 215);
+    color: rgb(20, 19, 21);
   }
 }
 /* -----------------------------

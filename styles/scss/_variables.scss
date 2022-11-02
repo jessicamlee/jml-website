@@ -50,7 +50,7 @@ $lowercase: lowercase;
     }
 
     p {
-        @include fontstyles ($color-secondary, $sm*0.9, $xlight, $base, $none);
+        @include fontstyles ($color-secondary--dark, $sm*0.9, $light, $base, $none);
     }
 
     .box-shadow, .box-shadow-light, .box-shadow-gn {
@@ -128,6 +128,45 @@ $lowercase: lowercase;
 
         .social-icons li svg {
             fill: $color-secondary--dark;
+        }
+    }
+
+    .artifact-pg {
+        
+        p {
+            @include fontstyles ($color-secondary--dark, $sm*0.9, $light, $base, $none);
+        }
+
+        .project-overview .project-details {
+            .project-skills, .project-title, .project-type, .in-progress, .project-description {
+                color: $color-secondary--dark;
+            }
+
+            .links-btn-container {
+                .live-link, .code-link {
+                    border: $sm*0.1 solid $color-secondary--dark;
+                }
+
+                .live-link {
+                    background-color: $color-secondary--dark;
+                    color: $color-primary--dark;
+
+                    &:hover {
+                        background-color: $color-primary--dark;
+                        color: $color-secondary--dark;
+                    }
+                }
+
+                .code-link {
+                    background-color: $color-primary--dark;
+                    color: $color-secondary--dark;
+
+                    &:hover {
+                        background-color: $color-secondary--dark;
+                        color: $color-primary--dark;
+                    }
+                }
+            }
         }
     }
 }

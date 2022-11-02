@@ -1,10 +1,10 @@
 .artifact-pg {
 
-    p {
-        @include fontstyles ($color-secondary, $sm*0.9, $normal, $base, $none);
-        margin-bottom: $xs;
-        line-height: 1.75;
-    }
+    // p {
+    //     @include fontstyles ($color-secondary, $sm*0.9, $normal, $base, $none);
+    //     margin-bottom: $xs;
+    //     line-height: 1.75;
+    // }
 
     .img-container {
         width: 100%;
@@ -56,7 +56,7 @@
                 justify-content: space-between;
                 margin: $sm*0.5 0 $sm*2;
     
-                .code-link, .live-link {
+                .live-link, .code-link {
                     width: 48%;
                     height: auto;
                     padding: $sm*0.65 $sm*1;
@@ -66,16 +66,6 @@
                     font-size: $sm*0.8;
                     font-weight: 400;
                 }
-
-                .code-link {
-                    color: $color-secondary;
-                    
-                    &:hover {
-                        background-color: $color-secondary;
-                        color: $color-primary;
-                        transition: all 0.35s ease-in-out;
-                    }
-                }
         
                 .live-link {
                     background-color: $color-secondary;
@@ -84,6 +74,17 @@
                     &:hover {
                         background-color: $color-primary;
                         color: $color-secondary;
+                        transition: all 0.35s ease-in-out;
+                    }
+                }
+
+                .code-link {
+                    background-color: $color-primary;
+                    color: $color-secondary;
+                    
+                    &:hover {
+                        background-color: $color-secondary;
+                        color: $color-primary;
                         transition: all 0.35s ease-in-out;
                     }
                 }
