@@ -96,14 +96,15 @@ h1 {
 }
 
 h2 {
-    @include fontstyles ($color-secondary, $sm*1.75, $semibold, $base, $uppercase);
+    @include fontstyles ($color-secondary, $sm*1.75, $medium, $base, $uppercase);
     margin-bottom: $sm*0.3;
     text-align: center;
 }
 
 h3 {
-    @include fontstyles ($color-primary, $sm, $medium, $base, $none);
+    @include fontstyles ($color-primary, $sm*1.4, $medium, $base, $none);
     margin-bottom: $sm*0.25;
+    line-height: $sm*1.15;
 }
 
 p {
@@ -155,7 +156,7 @@ p {
                     position: absolute;
                     top: 0;
                     left: 0;
-                    background: rgba(9, 0, 21, 0.62);
+                    background: rgba(6, 0, 15, 0.64);
                     justify-content: center;
                     align-items: center;
                     flex-direction: column;
@@ -246,7 +247,13 @@ footer {
 /* -----------------------------
 --------- Media Queries --------
 ------------------------------ */
-@media (min-width:420px) {
+@media (min-width:320px) {
+    h3 {
+        @include fontstyles ($color-primary, $sm*1.85, $medium, $base, $none);
+    }
+}
+
+@media (min-width:400px) {
 
     .projects .projects-collection .project-card .project-thumb .links-container {
         row-gap: $sm*0.7;

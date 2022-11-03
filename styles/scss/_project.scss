@@ -1,12 +1,5 @@
 .artifact-pg {
-
-    // p {
-    //     @include fontstyles ($color-secondary, $sm*0.9, $normal, $base, $none);
-    //     margin-bottom: $xs;
-    //     line-height: 1.75;
-    // }
-
-    .img-container {
+    .proj-img-container {
         width: 100%;
         max-height: $sm*25;
         overflow: hidden;
@@ -23,7 +16,7 @@
     ------------------------------ */
     .project-overview {
         flex-direction: column;
-        padding: $sm*3 $sm*1;
+        padding: $sm*3 $sm*1.8;
         height: 80vh;
 
         .project-details {
@@ -96,7 +89,7 @@
     ------- More Projects ----------
     ------------------------------ */
     .more-projects {
-        margin: $sm*2 0;
+        margin: $sm*0.5 0 $sm*2.5;
         padding: $xl $md $lg;
         text-align: center;
         background-color: $color-secondary;

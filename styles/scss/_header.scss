@@ -6,15 +6,10 @@ header {
     align-items: center;
     will-change: top;
     transition: top 0.35s ease;
-    padding: $sm $lg;
+    padding: $sm*0.9 $sm*1.8;
     background: $color-primary;
     color: $color-secondary;
     z-index: 2;
-
-    &.header-up {
-        top: $sm*-6;
-        box-shadow: none;
-    }
 
     .header-bar {
         align-items: center;
@@ -103,7 +98,7 @@ header {
                 li {
                     padding: $lg;
                     a {
-                        @include fontstyles($color-secondary, $sm, $medium, $base, $none);
+                        @include fontstyles($color-secondary, $sm, $normal, $base, $uppercase);
                     }
                 }
             }
