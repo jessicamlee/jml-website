@@ -12,7 +12,7 @@
             <?php 
                 require ('partials/global/header.php'); 
             ?>
-            <main class="main" data-aos-delay="800">
+            <main data-aos-delay="800">
                 <section class="intro section">
                     <div class="container intro-box">
                         <h1 data-aos="fade-right">Jessica Lee</h1>
@@ -57,7 +57,7 @@
                         <h2 data-aos="fade-right">Latest Projects</h2>
                         <ul class="projects-collection flex">
                             <li class="project-card" data-aos="fade-right">
-                                <div class="project-thumb box-shadow">
+                                <div class="project-thumb">
                                     <div class="img-container">
                                         <img class="img-thumb" src="images/projects/loclo_cover.jpg" alt="LOCLO Homepage Project Cover Photo">
                                     </div>
@@ -76,7 +76,7 @@
                                 </div>
                             </li>
                             <li class="project-card" data-aos="fade-right" data-aos-delay="150">
-                                <div class="project-thumb box-shadow">
+                                <div class="project-thumb">
                                     <div class="img-container">
                                         <img class="img-thumb" src="images/projects/cafehop_cover.jpg" alt="Cafe Hop App Cover Photo">
                                     </div>
@@ -95,7 +95,7 @@
                                 </div>
                             </li>
                             <li class="project-card" data-aos="fade-right" data-aos-delay="300">
-                                <div class="project-thumb box-shadow">
+                                <div class="project-thumb">
                                     <div class="img-container">
                                         <img class="img-thumb" src="images/projects/todo_cover.jpg" alt="To Do List Project Cover Photo">
                                     </div>
@@ -116,9 +116,7 @@
                 </section>
                 <section id="about" class="about section">
                     <div class="container">
-                        <h2 data-aos="fade-right">About</h2>
-                        <p class="name-title" data-aos="fade-right" data-aos-delay="100">Jessica Lee</p>
-                        <p class="career-role" data-aos="fade-left" data-aos-delay="200">Front&dash;End Development</p>
+                        <h2 data-aos="fade-right">About Jessica</h2>
                         <div class="bio flex">
                             <img class="box-shadow"  data-aos="fade-right" data-aos-delay="300"src="images/jessicamlee_profilepicture.jpg" alt="Profile picture of Jessica">
                             <div class="bio-desc">
