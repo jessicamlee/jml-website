@@ -1,8 +1,17 @@
-@import '../scss/variables';
-@import '../scss/header';
-@import '../scss/ienanim';
-@import '../scss/project';
-@import '../scss/contact';
+@use 'abstracts' as *;
+
+@use '../scss/partials/header';
+@use '../scss/partials/contact';
+@use '../scss/partials/footer';
+
+@use '../scss/ienanim';
+@use '../scss/pages/project';
+
+@use '../scss/queries/320px' as *;
+@use '../scss/queries/480px' as *;
+@use '../scss/queries/640px' as *;
+@use '../scss/queries/768px' as *;
+@use '../scss/queries/1024px' as *;
 
 /* -----------------------------
 --------- Global ---------------
@@ -152,7 +161,7 @@ p {
                     padding-bottom: $sm*0.5;
 
                     .project-details {
-                        padding: $sm*1.25 $sm*2.2 0;
+                        padding: $sm*1.25 $sm 0;
                         margin-bottom: $sm*0.75;
                         text-align: center;
                         
@@ -162,7 +171,7 @@ p {
                     }
                     
                     .proj-in-progress {
-                        @include fontstyles ($color-primary, $sm, $medium, $italic, $none);
+                        @include fontstyles ($color-primary, $sm*0.8, $medium, $italic, $none);
                     }
                 
                     .btn-container {
@@ -212,219 +221,5 @@ p {
             margin: $sm 0;
             line-height: $sm*1.75;
         }
-    }
-}
-
-/* -----------------------------
---------- Footer ---------------
------------------------------- */
-footer {
-    margin-top: $sm*2;
-    padding: $md 0;
-    background-color: $color-primary;
-    
-    p {
-        @include fontstyles($color-secondary, $sm*0.8, $normal, $base, $none);
-        text-align: center;
-        line-height: $sm*1.75;
-    }
-}
-
-/* -----------------------------
---------- Media Queries --------
------------------------------- */
-@media (min-width:320px) {
-    h3 {
-        @include fontstyles ($color-primary, $sm*1.85, $medium, $base, $none);
-    }
-}
-
-@media (min-width:400px) {
-
-    .projects .projects-collection .project-card .project-thumb .links-container {
-        row-gap: $sm*0.7;
-
-        .project-details {
-            h3 {
-                @include fontstyles ($color-primary, $sm*1.5, $medium, $base, $none);
-            }
-    
-            p {
-                @include fontstyles ($color-primary, $sm*0.85, $normal, $base, $none);
-            }
-        }
-    }
-
-    .about .bio img {
-        height: 50vw;
-    }
-}
-
-@media (min-width:500px) {
-
-    .intro .intro-box {
-
-        h1 {
-            font-size: $sm*3;
-            margin-top: $xs;
-        }
-
-        .career-role {
-            @include fontstyles ($color-primary, $sm, $medium, $italic, $none); 
-        }
-
-        .career-goal {
-            margin: $sm*1.25 0;
-        }
-    }
-
-    .projects .projects-collection .project-card .project-thumb .links-container {
-
-        .project-details {
-            h3 {
-                @include fontstyles ($color-primary, $sm*1.75, $medium, $base, $none);
-            }
-
-            p {
-                @include fontstyles ($color-primary, $sm*0.9, $normal, $base, $none);
-            }
-        }
-    }
-
-    .about .bio img {
-        height: 40vw;
-    }
-
-    .contact {
-        padding: $sm*1.5;
-    }
-}
-
-@media (min-width:640px) {
-
-    .projects, .about, .contact p {
-        @include fontstyles ($color-primary, $sm, $normal, $base, $none);
-    }
-
-    footer p {
-        @include fontstyles ($color-secondary, $sm*0.9, $normal, $base, $none);
-    }
-}
-
-@media (min-width:768px) {
-
-    .section {
-        padding: $sm*3;
-    }
-
-    header {
-        padding: $sm*0.9 $sm*3;
-
-        .header-bar {
-            .gn-trigger {
-                display: none;
-            }
-        
-            .gn {
-                display: block;
-                position: static;
-                top: 0px;
-                height: auto;
-                box-shadow: 0;
-            
-                ul {
-                    flex-direction: row;
-                    justify-content: flex-end;
-                    gap: $sm*1.5;
-        
-                    li {
-                        padding: 0;
-                    }
-                }
-            }
-        }
-    }
-
-    .intro {
-        padding-top: $sm*7;
-    }
-
-    .projects .projects-collection {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
-
-        .project-card {
-            flex-basis: 47%;
-            max-width: 47%;
-            flex-direction: column;
-
-            &:nth-child(3n+1){
-                flex-basis: 100%;
-                max-width: 100%;
-            }
-    
-            &:nth-child(3n+2){
-                margin-top: $sm*8;
-            }
-
-            .project-thumb .links-container .project-details h3 {
-                @include fontstyles ($color-primary, $sm*2, $medium, $base, $none);
-            }
-        }
-    }
-
-    .about .bio {
-        flex-direction: row;
-        column-gap: $sm*3.5;
-        margin-top: $sm*2.25;
-
-        img {
-            height: $sm*17;
-            margin: 0 0 0 auto;
-        }
-
-        .bio-desc {
-            width: 50%;
-            margin-right: auto;
-        }
-    }
-    
-    footer {
-        margin-top: 0;
-    }
-}
-
-@media (min-width:1024px) {
-
-    p {
-        @include fontstyles ($color-primary, $sm, $normal, $base, $none);
-    }
-
-    header .header-bar .gn ul li a:hover {
-        border-bottom: $sm*0.2 solid $color-primary;
-    }
-
-    .projects .projects-collection .project-card .project-thumb .links-container .btn-container {
-        .live-link:hover {
-            color: $color-primary;
-            background-color: $color-secondary;
-            border: $sm*0.15 solid $color-secondary;
-            transition: 0.5s ease-in-out;
-        }
-            
-        .code-link:hover {
-            color: $color-secondary;
-            background-color: $color-primary;
-            transition: 0.5s ease-in-out;
-        }
-    }
-
-    .contact .contact-details .social-icons li:hover {
-        transform: scale(1.2);
-    }
-
-    footer p {
-        @include fontstyles ($color-secondary, $sm, $normal, $base, $none);
     }
 }

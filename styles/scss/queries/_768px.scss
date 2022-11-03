@@ -1,0 +1,85 @@
+@use '../abstracts' as *;
+
+@media (min-width:768px) {
+
+    .section {
+        padding: $sm*3;
+    }
+
+    header {
+        padding: $sm*0.9 $sm*3;
+
+        .header-bar {
+            .gn-trigger {
+                display: none;
+            }
+        
+            .gn {
+                display: block;
+                position: static;
+                top: 0px;
+                height: auto;
+                box-shadow: 0;
+            
+                ul {
+                    flex-direction: row;
+                    justify-content: flex-end;
+                    gap: $sm*1.5;
+        
+                    li {
+                        padding: 0;
+                    }
+                }
+            }
+        }
+    }
+
+    .intro {
+        padding-top: $sm*7;
+    }
+
+    .projects .projects-collection {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        .project-card {
+            flex-basis: 47%;
+            max-width: 47%;
+            flex-direction: column;
+
+            &:nth-child(3n+1){
+                flex-basis: 100%;
+                max-width: 100%;
+            }
+    
+            &:nth-child(3n+2){
+                margin-top: $sm*8;
+            }
+
+            .project-thumb .links-container .project-details h3 {
+                @include fontstyles ($color-primary, $sm*2, $medium, $base, $none);
+            }
+        }
+    }
+
+    .about .bio {
+        flex-direction: row;
+        column-gap: $sm*3.5;
+        margin-top: $sm*2.25;
+
+        img {
+            height: $sm*17;
+            margin: 0 0 0 auto;
+        }
+
+        .bio-desc {
+            width: 50%;
+            margin-right: auto;
+        }
+    }
+    
+    footer p {
+        @include fontstyles ($color-secondary, $sm, $normal, $base, $none);
+    }
+}

@@ -1,0 +1,14 @@
+@use '../abstracts' as *;
+
+@media (min-width:320px) {
+
+    .projects .projects-collection .project-card .project-thumb .links-container .project-details {
+        h3 {
+            @include fontstyles ($color-primary, $sm*1.85, $medium, $base, $none);
+        }
+    
+        p {
+            @include fontstyles ($color-primary, $sm, $normal, $base, $none);
+        }
+    }
+}

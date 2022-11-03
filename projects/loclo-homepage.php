@@ -6,7 +6,7 @@
     ?>
     <body>
         <div class="wrapper">
-            <?php require('../partials/global/header_projects.php'); ?>
+            <?php require('../partials/global/header.php'); ?>
             <main class="artifact-pg">
                 <section class="container project-overview flex bg-violet" data-aos="fade-right" data-aos-delay="100">
                     <div class="project-details" data-aos="fade-right" data-aos-delay="300">

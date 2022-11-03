@@ -1,0 +1,113 @@
+@use '../abstracts' as *;
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    align-items: center;
+    will-change: top;
+    transition: top 0.35s ease;
+    padding: $sm*0.9 $sm*1.8;
+    background: $color-bg;
+    color: $color-primary;
+    z-index: 2;
+
+    &.header-up {
+        top: $sm*-6.25;
+        box-shadow: none;
+    }
+
+    .header-bar {
+        align-items: center;
+
+        .logo {
+            svg {
+                fill: $color-primary;
+                width: $sm*4;
+                height: $sm*4;
+                margin: 0 auto;
+                align-items: center;
+            }
+        }
+
+        .gn-trigger {
+            position: relative;
+            width: $md*2;
+            height: $md*2;
+            border: none;
+            outline: 0;
+            background: transparent;
+            margin-left: auto;
+            cursor: pointer;
+
+            .burger-menu {
+                position: absolute;
+                width: $xl;
+                height: $sm*0.025;
+                border: $sm*0.132 $color-primary solid;
+                border-radius: 25px;
+                top: 35%;
+                right: 0;
+
+                &:after {
+                    display: block;
+                    content: '';
+                    position: absolute;
+                    width: $xl;
+                    height: $sm*0.025;
+                    border: $sm*0.132 $color-primary solid;
+                    border-radius: 25px;
+                    top: $sm*0.6;
+                    right: $xs;
+                    box-shadow: 0px 3px 7px -1px box-shadow;
+                }
+            }
+
+            .burger-menu,
+            .burger-menu:after {
+                transition: transform top background;
+                transition-duration: 0.5s;
+            }
+
+            &.is-active {
+                .burger-menu {
+                    background-color: $color-bg;
+                    transform: rotate(405deg);
+                    top: $md;
+                    right: 0;
+
+                    &:after {
+                        background-color: $color-bg;
+                        transform: rotate(-450deg);
+                        top: -$sm*0.1;
+                        right: -$sm*0.1;
+                    }
+                }
+            }
+        }
+
+        .gn {
+            display: none;
+            position: absolute;
+            top: $sm*4.5;
+            left: 0;
+            width: 100%;
+            background-color: $color-bg;
+
+            ul {
+                justify-content: space-between;
+                align-items: center;
+                flex-direction: column;
+                background-color: $color-bg;
+
+                li {
+                    padding: $lg;
+                    a {
+                        @include fontstyles($color-primary, $sm, $normal, $base, $uppercase);
+                    }
+                }
+            }
+        }
+    }
+}

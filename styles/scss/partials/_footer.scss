@@ -1,0 +1,13 @@
+@use '../abstracts' as *;
+
+footer {
+    margin-top: $sm*2;
+    padding: $md 0;
+    background-color: $color-primary;
+    
+    p {
+        @include fontstyles($color-secondary, $sm*0.8, $normal, $base, $none);
+        text-align: center;
+        line-height: $sm*1.75;
+    }
+}

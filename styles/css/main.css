@@ -98,6 +98,45 @@ header .header-bar .gn ul li a {
   text-transform: uppercase;
 }
 
+.contact {
+  text-align: center;
+}
+.contact .contact-header {
+  text-align: center;
+  text-transform: none;
+}
+.contact .contact-details p {
+  margin-bottom: 1em;
+  line-height: 1.75;
+}
+.contact .contact-details .social-icons {
+  justify-content: center;
+}
+.contact .contact-details .social-icons li {
+  transition: all 0.35s ease-in-out;
+}
+.contact .contact-details .social-icons li svg {
+  width: 2.5em;
+  height: 2.5em;
+  fill: rgb(196, 206, 255);
+  margin: 0.25em 0.75em;
+}
+
+footer {
+  margin-top: 2em;
+  padding: 1.5em 0;
+  background-color: rgb(196, 206, 255);
+}
+footer p {
+  color: rgb(60, 35, 255);
+  font-size: 0.8em;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: none;
+  text-align: center;
+  line-height: 1.75em;
+}
+
 .blobwindow {
   width: 13.125em;
   height: 13.125em;
@@ -137,21 +176,6 @@ header .header-bar .gn ul li a {
   100% {
     border-radius: 57% 43% 70% 30%/48% 33% 67% 52%;
     background-position: 50% 0%;
-  }
-}
-/* -----------------------------
---------- Media Queries --------
------------------------------- */
-@media (min-width: 420px) {
-  .blobwindow {
-    width: 18.125em;
-    height: 18.125em;
-  }
-}
-@media (min-width: 500px) {
-  .blobwindow {
-    width: 19.125em;
-    height: 19.125em;
   }
 }
 ::-moz-selection {
@@ -373,30 +397,174 @@ header .header-bar .gn ul li a {
   }
 }
 
-.contact {
-  text-align: center;
+@media (min-width: 320px) {
+  .projects .projects-collection .project-card .project-thumb .links-container .project-details h3 {
+    color: rgb(196, 206, 255);
+    font-size: 1.85em;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: none;
+  }
+  .projects .projects-collection .project-card .project-thumb .links-container .project-details p {
+    color: rgb(196, 206, 255);
+    font-size: 1em;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: none;
+  }
 }
-.contact .contact-header {
-  text-align: center;
-  text-transform: none;
+@media (min-width: 480px) {
+  .intro .intro-box h1 {
+    font-size: 3em;
+    margin-top: 0.5em;
+  }
+  .intro .intro-box .career-role {
+    color: rgb(196, 206, 255);
+    font-size: 1em;
+    font-weight: 500;
+    font-style: italic;
+    text-transform: none;
+  }
+  .intro .intro-box .career-goal {
+    margin: 1.25em 0;
+  }
+  .intro .blobwindow {
+    width: 18.125em;
+    height: 18.125em;
+  }
+  .projects .projects-collection .project-card .project-thumb .links-container {
+    row-gap: 0.7em;
+  }
+  .projects .projects-collection .project-card .project-thumb .links-container .proj-in-progress {
+    color: rgb(196, 206, 255);
+    font-size: 0.9em;
+    font-weight: 500;
+    font-style: italic;
+    text-transform: none;
+  }
+  .about .bio img {
+    height: 50vw;
+  }
+  footer p {
+    color: rgb(60, 35, 255);
+    font-size: 0.9em;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: none;
+  }
 }
-.contact .contact-details p {
-  margin-bottom: 1em;
-  line-height: 1.75;
+@media (min-width: 640px) {
+  .intro .blobwindow {
+    width: 19.125em;
+    height: 19.125em;
+  }
+  .projects, .about, .contact p {
+    color: rgb(196, 206, 255);
+    font-size: 1em;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: none;
+  }
 }
-.contact .contact-details .social-icons {
-  justify-content: center;
+@media (min-width: 768px) {
+  .section {
+    padding: 3em;
+  }
+  header {
+    padding: 0.9em 3em;
+  }
+  header .header-bar .gn-trigger {
+    display: none;
+  }
+  header .header-bar .gn {
+    display: block;
+    position: static;
+    top: 0px;
+    height: auto;
+    box-shadow: 0;
+  }
+  header .header-bar .gn ul {
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 1.5em;
+  }
+  header .header-bar .gn ul li {
+    padding: 0;
+  }
+  .intro {
+    padding-top: 7em;
+  }
+  .projects .projects-collection {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .projects .projects-collection .project-card {
+    flex-basis: 47%;
+    max-width: 47%;
+    flex-direction: column;
+  }
+  .projects .projects-collection .project-card:nth-child(3n+1) {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+  .projects .projects-collection .project-card:nth-child(3n+2) {
+    margin-top: 8em;
+  }
+  .projects .projects-collection .project-card .project-thumb .links-container .project-details h3 {
+    color: rgb(196, 206, 255);
+    font-size: 2em;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: none;
+  }
+  .about .bio {
+    flex-direction: row;
+    column-gap: 3.5em;
+    margin-top: 2.25em;
+  }
+  .about .bio img {
+    height: 17em;
+    margin: 0 0 0 auto;
+  }
+  .about .bio .bio-desc {
+    width: 50%;
+    margin-right: auto;
+  }
+  footer p {
+    color: rgb(60, 35, 255);
+    font-size: 1em;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: none;
+  }
 }
-.contact .contact-details .social-icons li {
-  transition: all 0.35s ease-in-out;
+@media (min-width: 1024px) {
+  p {
+    color: rgb(196, 206, 255);
+    font-size: 1em;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: none;
+  }
+  header .header-bar .gn ul li a:hover {
+    border-bottom: 0.2em solid rgb(196, 206, 255);
+  }
+  .projects .projects-collection .project-card .project-thumb .links-container .btn-container .live-link:hover {
+    color: rgb(196, 206, 255);
+    background-color: rgb(60, 35, 255);
+    border: 0.15em solid rgb(60, 35, 255);
+    transition: 0.5s ease-in-out;
+  }
+  .projects .projects-collection .project-card .project-thumb .links-container .btn-container .code-link:hover {
+    color: rgb(60, 35, 255);
+    background-color: rgb(196, 206, 255);
+    transition: 0.5s ease-in-out;
+  }
+  .contact .contact-details .social-icons li:hover {
+    transform: scale(1.2);
+  }
 }
-.contact .contact-details .social-icons li svg {
-  width: 2.5em;
-  height: 2.5em;
-  fill: rgb(196, 206, 255);
-  margin: 0.25em 0.75em;
-}
-
 /* -----------------------------
 --------- Global ---------------
 ------------------------------ */
@@ -567,7 +735,7 @@ p {
   padding-bottom: 0.5em;
 }
 .projects .projects-collection .project-card .project-thumb .links-container .project-details {
-  padding: 1.25em 2.2em 0;
+  padding: 1.25em 1em 0;
   margin-bottom: 0.75em;
   text-align: center;
 }
@@ -580,7 +748,7 @@ p {
 }
 .projects .projects-collection .project-card .project-thumb .links-container .proj-in-progress {
   color: rgb(196, 206, 255);
-  font-size: 1em;
+  font-size: 0.8em;
   font-weight: 500;
   font-style: italic;
   text-transform: none;
@@ -630,213 +798,6 @@ p {
 .about .bio p {
   margin: 1em 0;
   line-height: 1.75em;
-}
-
-/* -----------------------------
---------- Footer ---------------
------------------------------- */
-footer {
-  margin-top: 2em;
-  padding: 1.5em 0;
-  background-color: rgb(196, 206, 255);
-}
-footer p {
-  color: rgb(60, 35, 255);
-  font-size: 0.8em;
-  font-weight: 400;
-  font-style: normal;
-  text-transform: none;
-  text-align: center;
-  line-height: 1.75em;
-}
-
-/* -----------------------------
---------- Media Queries --------
------------------------------- */
-@media (min-width: 320px) {
-  h3 {
-    color: rgb(196, 206, 255);
-    font-size: 1.85em;
-    font-weight: 500;
-    font-style: normal;
-    text-transform: none;
-  }
-}
-@media (min-width: 400px) {
-  .projects .projects-collection .project-card .project-thumb .links-container {
-    row-gap: 0.7em;
-  }
-  .projects .projects-collection .project-card .project-thumb .links-container .project-details h3 {
-    color: rgb(196, 206, 255);
-    font-size: 1.5em;
-    font-weight: 500;
-    font-style: normal;
-    text-transform: none;
-  }
-  .projects .projects-collection .project-card .project-thumb .links-container .project-details p {
-    color: rgb(196, 206, 255);
-    font-size: 0.85em;
-    font-weight: 400;
-    font-style: normal;
-    text-transform: none;
-  }
-  .about .bio img {
-    height: 50vw;
-  }
-}
-@media (min-width: 500px) {
-  .intro .intro-box h1 {
-    font-size: 3em;
-    margin-top: 0.5em;
-  }
-  .intro .intro-box .career-role {
-    color: rgb(196, 206, 255);
-    font-size: 1em;
-    font-weight: 500;
-    font-style: italic;
-    text-transform: none;
-  }
-  .intro .intro-box .career-goal {
-    margin: 1.25em 0;
-  }
-  .projects .projects-collection .project-card .project-thumb .links-container .project-details h3 {
-    color: rgb(196, 206, 255);
-    font-size: 1.75em;
-    font-weight: 500;
-    font-style: normal;
-    text-transform: none;
-  }
-  .projects .projects-collection .project-card .project-thumb .links-container .project-details p {
-    color: rgb(196, 206, 255);
-    font-size: 0.9em;
-    font-weight: 400;
-    font-style: normal;
-    text-transform: none;
-  }
-  .about .bio img {
-    height: 40vw;
-  }
-  .contact {
-    padding: 1.5em;
-  }
-}
-@media (min-width: 640px) {
-  .projects, .about, .contact p {
-    color: rgb(196, 206, 255);
-    font-size: 1em;
-    font-weight: 400;
-    font-style: normal;
-    text-transform: none;
-  }
-  footer p {
-    color: rgb(60, 35, 255);
-    font-size: 0.9em;
-    font-weight: 400;
-    font-style: normal;
-    text-transform: none;
-  }
-}
-@media (min-width: 768px) {
-  .section {
-    padding: 3em;
-  }
-  header {
-    padding: 0.9em 3em;
-  }
-  header .header-bar .gn-trigger {
-    display: none;
-  }
-  header .header-bar .gn {
-    display: block;
-    position: static;
-    top: 0px;
-    height: auto;
-    box-shadow: 0;
-  }
-  header .header-bar .gn ul {
-    flex-direction: row;
-    justify-content: flex-end;
-    gap: 1.5em;
-  }
-  header .header-bar .gn ul li {
-    padding: 0;
-  }
-  .intro {
-    padding-top: 7em;
-  }
-  .projects .projects-collection {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-  .projects .projects-collection .project-card {
-    flex-basis: 47%;
-    max-width: 47%;
-    flex-direction: column;
-  }
-  .projects .projects-collection .project-card:nth-child(3n+1) {
-    flex-basis: 100%;
-    max-width: 100%;
-  }
-  .projects .projects-collection .project-card:nth-child(3n+2) {
-    margin-top: 8em;
-  }
-  .projects .projects-collection .project-card .project-thumb .links-container .project-details h3 {
-    color: rgb(196, 206, 255);
-    font-size: 2em;
-    font-weight: 500;
-    font-style: normal;
-    text-transform: none;
-  }
-  .about .bio {
-    flex-direction: row;
-    column-gap: 3.5em;
-    margin-top: 2.25em;
-  }
-  .about .bio img {
-    height: 17em;
-    margin: 0 0 0 auto;
-  }
-  .about .bio .bio-desc {
-    width: 50%;
-    margin-right: auto;
-  }
-  footer {
-    margin-top: 0;
-  }
-}
-@media (min-width: 1024px) {
-  p {
-    color: rgb(196, 206, 255);
-    font-size: 1em;
-    font-weight: 400;
-    font-style: normal;
-    text-transform: none;
-  }
-  header .header-bar .gn ul li a:hover {
-    border-bottom: 0.2em solid rgb(196, 206, 255);
-  }
-  .projects .projects-collection .project-card .project-thumb .links-container .btn-container .live-link:hover {
-    color: rgb(196, 206, 255);
-    background-color: rgb(60, 35, 255);
-    border: 0.15em solid rgb(60, 35, 255);
-    transition: 0.5s ease-in-out;
-  }
-  .projects .projects-collection .project-card .project-thumb .links-container .btn-container .code-link:hover {
-    color: rgb(60, 35, 255);
-    background-color: rgb(196, 206, 255);
-    transition: 0.5s ease-in-out;
-  }
-  .contact .contact-details .social-icons li:hover {
-    transform: scale(1.2);
-  }
-  footer p {
-    color: rgb(60, 35, 255);
-    font-size: 1em;
-    font-weight: 400;
-    font-style: normal;
-    text-transform: none;
-  }
 }
 
 /*# sourceMappingURL=main.css.map */

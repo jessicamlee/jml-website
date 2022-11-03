@@ -1,0 +1,44 @@
+@use '../abstracts' as *;
+
+@media (min-width:480px) {
+
+    .intro {
+
+        .intro-box {
+
+            h1 {
+                font-size: $sm*3;
+                margin-top: $xs;
+            }
+    
+            .career-role {
+                @include fontstyles ($color-primary, $sm, $medium, $italic, $none); 
+            }
+    
+            .career-goal {
+                margin: $sm*1.25 0;
+            }
+        }
+
+        .blobwindow {
+            width: $sm*18.125;
+            height: $sm*18.125;
+        }
+    }
+
+    .projects .projects-collection .project-card .project-thumb .links-container {
+        row-gap: $sm*0.7;
+
+        .proj-in-progress {
+            @include fontstyles ($color-primary, $sm*0.9, $medium, $italic, $none);
+        }
+    }
+
+    .about .bio img {
+        height: 50vw;
+    }
+
+    footer p {
+        @include fontstyles ($color-secondary, $sm*0.9, $normal, $base, $none);
+    }
+}
