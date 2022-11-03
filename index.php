@@ -87,10 +87,7 @@
                                                 <p>Android&dash;based Mobile Application</p>
                                             </a>
                                         </div>
-                                        <div class="btn-container flex">
-                                            <a class="live-link box-shadow-light" data-aos="fade-right"  data-aos-delay="300" href="#" target="_blank" title="Link to Live Site">Visit Site</a>
-                                            <a class="code-link box-shadow-light" data-aos="fade-right" href="#" target="_blank" title="Link to GitHub Repository">Review Code</a>
-                                        </div>
+                                        <p class="proj-in-progress">Status&colon; Development in Progress&excl;</p>
                                     </div>
                                 </div>
                             </li>
