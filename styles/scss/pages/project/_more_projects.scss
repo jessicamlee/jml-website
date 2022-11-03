@@ -1,0 +1,17 @@
+@use '../../abstracts' as *;
+
+.more-projects {
+    margin: $sm*0.5 0 $sm*2.5;
+    padding: $xl $md $lg;
+    text-align: center;
+    background-color: $color-primary;
+
+    h2 {
+        @include fontstyles ($color-secondary, $sm*1.25, $semibold, $base, $uppercase);
+    }
+
+    a {
+        @include fontstyles ($color-secondary, $sm*1.03, $normal, $base, $none);
+        margin: $sm*0.9 0;
+    }
+}

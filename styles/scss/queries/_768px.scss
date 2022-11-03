@@ -28,6 +28,10 @@
         
                     li {
                         padding: 0;
+
+                        a {
+                            @include fontstyles($color-primary, $sm*1.1, $normal, $base, $uppercase);
+                        }
                     }
                 }
             }
@@ -81,5 +85,36 @@
     
     footer p {
         @include fontstyles ($color-secondary, $sm, $normal, $base, $none);
+    }
+
+    .artifact-pg .project-overview .project-details {
+            
+        .project-skills, .project-description {
+            @include fontstyles ($color-primary, $sm*0.9, $normal, $base, $none);
+        }
+
+        .project-title {
+            @include fontstyles ($color-primary, $sm*2, $semibold, $base, $none);
+            line-height: 1.25;
+        }
+
+        .project-type {
+            @include fontstyles ($color-primary, $sm*0.9, $normal, $italic, $none);
+        }
+
+        .project-description {
+            line-height: 1.7;
+            margin: $sm*1.1 0 $sm*1.5;
+        }
+
+        .links-btn-container {
+            justify-content: flex-start;
+
+            .code-link, .live-link {
+                margin-right: $sm;
+                padding: $sm*0.6 $sm*1;
+                font-size: $sm*0.85;
+            }
+        }
     }
 }

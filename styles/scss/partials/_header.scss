@@ -104,7 +104,7 @@ header {
                 li {
                     padding: $lg;
                     a {
-                        @include fontstyles($color-primary, $sm, $normal, $base, $uppercase);
+                        @include fontstyles($color-primary, $sm*1.4, $normal, $base, $uppercase);
                     }
                 }
             }

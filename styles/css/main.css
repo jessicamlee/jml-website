@@ -1,3 +1,105 @@
+body {
+  margin: 0 auto;
+  font-size: 16px !important;
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(21, 21, 21);
+}
+
+.wrapper {
+  overflow-x: hidden;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1024px;
+  position: relative;
+}
+
+main {
+  margin-top: 6em;
+}
+
+a {
+  text-decoration: none;
+}
+
+.section {
+  padding: 2em 1.5em;
+}
+
+.img-container {
+  width: 100%;
+  height: 100%;
+  max-height: 30em;
+  overflow: hidden;
+}
+.img-container .img-thumb {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.35s ease-in-out;
+}
+
+::-moz-selection {
+  color: rgb(60, 35, 255);
+  background: rgb(196, 206, 255);
+}
+
+::selection {
+  color: rgb(60, 35, 255);
+  background: rgb(196, 206, 255);
+}
+
+.flex {
+  display: flex;
+}
+
+.block {
+  display: block;
+}
+
+.box-shadow-light {
+  box-shadow: 0px 3px 7px -1px rgba(43, 4, 98, 0.3);
+}
+
+h1 {
+  color: rgb(196, 206, 255);
+  font-size: 2.5em;
+  font-weight: 500;
+  font-style: normal;
+  text-transform: none;
+  margin-top: 1em;
+}
+
+h2 {
+  color: rgb(196, 206, 255);
+  font-size: 1.75em;
+  font-weight: 500;
+  font-style: normal;
+  text-transform: uppercase;
+  margin-bottom: 0.3em;
+  text-align: center;
+}
+
+h3 {
+  color: rgb(196, 206, 255);
+  font-size: 1.4em;
+  font-weight: 500;
+  font-style: normal;
+  text-transform: none;
+  margin-bottom: 0.25em;
+  line-height: 1.15em;
+}
+
+p {
+  color: rgb(196, 206, 255);
+  font-size: 0.9em;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: none;
+  line-height: 1.4em;
+}
+
 header {
   position: fixed;
   top: 0;
@@ -92,7 +194,7 @@ header .header-bar .gn ul li {
 }
 header .header-bar .gn ul li a {
   color: rgb(196, 206, 255);
-  font-size: 1em;
+  font-size: 1.4em;
   font-weight: 400;
   font-style: normal;
   text-transform: uppercase;
@@ -137,6 +239,30 @@ footer p {
   line-height: 1.75em;
 }
 
+.intro {
+  text-align: center;
+  height: 70vh;
+  padding-top: 5em;
+}
+.intro .intro-box .career-role {
+  color: rgb(196, 206, 255);
+  font-size: 0.9em;
+  font-weight: 500;
+  font-style: italic;
+  text-transform: none;
+  margin-top: 0.25em;
+}
+.intro .intro-box .career-goal {
+  color: rgb(196, 206, 255);
+  font-size: 1.25em;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: none;
+  justify-content: center;
+  line-height: 1.25em;
+  margin: 1.5em 0;
+}
+
 .blobwindow {
   width: 13.125em;
   height: 13.125em;
@@ -178,94 +304,57 @@ footer p {
     background-position: 50% 0%;
   }
 }
-::-moz-selection {
-  color: rgb(60, 35, 255);
-  background: rgb(196, 206, 255);
+.projects .projects-collection {
+  flex-direction: column;
+  margin-top: 1.25em;
 }
-
-::selection {
-  color: rgb(60, 35, 255);
-  background: rgb(196, 206, 255);
+.projects .projects-collection .project-card {
+  margin-bottom: 3em;
 }
-
-.artifact-pg {
-  /* -----------------------------
-  ------- Project Summary --------
-  ------------------------------ */
-  /* -----------------------------
-  ------- More Projects ----------
-  ------------------------------ */
-  /* -----------------------------
-  ------- Media Queries ----------
-  ------------------------------ */
-}
-.artifact-pg .proj-img-container {
-  width: 100%;
-  max-height: 25em;
+.projects .projects-collection .project-card .project-thumb {
+  position: relative;
   overflow: hidden;
 }
-.artifact-pg .proj-img-container .project-img {
+.projects .projects-collection .project-card .project-thumb .links-container {
   width: 100%;
   height: 100%;
-  object-fit: cover;
-}
-.artifact-pg .project-overview {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(6, 0, 15, 0.75);
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
-  padding: 3em 1.8em;
-  height: 80vh;
+  padding-bottom: 0.5em;
 }
-.artifact-pg .project-overview .project-details .project-skills {
-  color: rgb(196, 206, 255);
-  font-size: 0.9em;
-  font-weight: 400;
-  font-style: normal;
-  text-transform: none;
-}
-.artifact-pg .project-overview .project-details .project-title {
-  color: rgb(196, 206, 255);
-  font-size: 2.5em;
-  font-weight: 500;
-  font-style: normal;
-  text-transform: none;
-  margin: 0.25em 0 0.15em;
-  line-height: 1.25;
-}
-.artifact-pg .project-overview .project-details .project-type {
-  color: rgb(196, 206, 255);
-  font-size: 0.9em;
-  font-weight: 400;
-  font-style: italic;
-  text-transform: none;
-}
-.artifact-pg .project-overview .project-details .in-progress {
-  color: rgb(196, 206, 255);
-  font-size: 1em;
-  font-weight: 500;
-  font-style: italic;
-  text-transform: none;
+.projects .projects-collection .project-card .project-thumb .links-container .project-details {
+  padding: 1.25em 1em 0;
+  margin-bottom: 0.75em;
   text-align: center;
-  margin: 3em 0 2em;
 }
-.artifact-pg .project-overview .project-details .project-description {
+.projects .projects-collection .project-card .project-thumb .links-container .project-details p {
   color: rgb(196, 206, 255);
-  font-size: 0.9em;
-  font-weight: 400;
+  font-size: 0.8em;
+  font-weight: 300;
   font-style: normal;
   text-transform: none;
-  margin: 1.1em 0 2em;
 }
-.artifact-pg .project-overview .project-details .links-btn-container {
-  justify-content: space-between;
-  margin: 0.5em 0 2em;
+.projects .projects-collection .project-card .project-thumb .links-container .proj-in-progress {
+  color: rgb(196, 206, 255);
+  font-size: 0.8em;
+  font-weight: 500;
+  font-style: italic;
+  text-transform: none;
 }
-.artifact-pg .project-overview .project-details .links-btn-container .live-link, .artifact-pg .project-overview .project-details .links-btn-container .code-link {
-  width: 48%;
-  height: auto;
-  padding: 0.65em 1em;
+.projects .projects-collection .project-card .project-thumb .links-container .btn-container {
+  column-gap: 1em;
+}
+.projects .projects-collection .project-card .project-thumb .links-container .btn-container .live-link, .projects .projects-collection .project-card .project-thumb .links-container .btn-container .code-link {
+  padding: 0.6em 0.7em;
   border-radius: 1.5em;
   text-align: center;
 }
-.artifact-pg .project-overview .project-details .links-btn-container .live-link {
+.projects .projects-collection .project-card .project-thumb .links-container .btn-container .live-link {
   background-color: rgb(196, 206, 255);
   border: 0.15em solid rgb(196, 206, 255);
   color: rgb(60, 35, 255);
@@ -274,7 +363,7 @@ footer p {
   font-style: normal;
   text-transform: none;
 }
-.artifact-pg .project-overview .project-details .links-btn-container .code-link {
+.projects .projects-collection .project-card .project-thumb .links-container .btn-container .code-link {
   background-color: transparent;
   border: 0.15em solid rgb(196, 206, 255);
   color: rgb(196, 206, 255);
@@ -283,118 +372,129 @@ footer p {
   font-style: normal;
   text-transform: none;
 }
-.artifact-pg .more-projects {
+
+.about {
+  text-align: center;
+}
+.about .bio {
+  text-align: left;
+  flex-direction: column;
+}
+.about .bio img {
+  height: 70vw;
+  border-radius: 50%;
+  margin: 1.75em auto;
+}
+.about .bio p {
+  margin: 1em 0;
+  line-height: 1.75em;
+}
+
+.project-overview {
+  flex-direction: column;
+  padding: 3em 1.8em;
+  height: 80vh;
+}
+.project-overview .project-details .project-skills {
+  color: rgb(196, 206, 255);
+  font-size: 0.9em;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: none;
+}
+.project-overview .project-details .project-title {
+  color: rgb(196, 206, 255);
+  font-size: 2.5em;
+  font-weight: 500;
+  font-style: normal;
+  text-transform: none;
+  margin: 0.25em 0 0.15em;
+  line-height: 1.25;
+}
+.project-overview .project-details .project-type {
+  color: rgb(196, 206, 255);
+  font-size: 0.9em;
+  font-weight: 400;
+  font-style: italic;
+  text-transform: none;
+}
+.project-overview .project-details .in-progress {
+  color: rgb(196, 206, 255);
+  font-size: 1em;
+  font-weight: 500;
+  font-style: italic;
+  text-transform: none;
+  text-align: center;
+  margin: 3em 0 2em;
+}
+.project-overview .project-details .project-description {
+  color: rgb(196, 206, 255);
+  font-size: 0.9em;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: none;
+  margin: 1.1em 0 2em;
+}
+.project-overview .project-details .links-btn-container {
+  justify-content: space-between;
+  margin: 0.5em 0 2em;
+}
+.project-overview .project-details .links-btn-container .live-link, .project-overview .project-details .links-btn-container .code-link {
+  width: 48%;
+  height: auto;
+  padding: 0.65em 1em;
+  border-radius: 1.5em;
+  text-align: center;
+}
+.project-overview .project-details .links-btn-container .live-link {
+  background-color: rgb(196, 206, 255);
+  border: 0.15em solid rgb(196, 206, 255);
+  color: rgb(60, 35, 255);
+  font-size: 0.9em;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: none;
+}
+.project-overview .project-details .links-btn-container .code-link {
+  background-color: transparent;
+  border: 0.15em solid rgb(196, 206, 255);
+  color: rgb(196, 206, 255);
+  font-size: 0.9em;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: none;
+}
+.project-overview .proj-img-container {
+  width: 100%;
+  max-height: 25em;
+  overflow: hidden;
+}
+.project-overview .proj-img-container .project-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.more-projects {
   margin: 0.5em 0 2.5em;
   padding: 2.5em 1.5em 2em;
   text-align: center;
   background-color: rgb(196, 206, 255);
 }
-.artifact-pg .more-projects h2 {
+.more-projects h2 {
   color: rgb(60, 35, 255);
   font-size: 1.25em;
   font-weight: 600;
   font-style: normal;
   text-transform: uppercase;
-  text-align: center;
 }
-.artifact-pg .more-projects a {
+.more-projects a {
   color: rgb(60, 35, 255);
   font-size: 1.03em;
   font-weight: 400;
   font-style: normal;
   text-transform: none;
   margin: 0.9em 0;
-}
-@media (min-width: 768px) {
-  .artifact-pg .hidden-tablet {
-    display: none;
-  }
-  .artifact-pg .project-overview .project-details .project-skills, .artifact-pg .project-overview .project-details .project-description {
-    color: rgb(196, 206, 255);
-    font-size: 0.9em;
-    font-weight: 400;
-    font-style: normal;
-    text-transform: none;
-  }
-  .artifact-pg .project-overview .project-details .project-title {
-    color: rgb(196, 206, 255);
-    font-size: 2em;
-    font-weight: 600;
-    font-style: normal;
-    text-transform: none;
-    line-height: 1.25;
-  }
-  .artifact-pg .project-overview .project-details .project-type {
-    color: rgb(196, 206, 255);
-    font-size: 0.9em;
-    font-weight: 400;
-    font-style: italic;
-    text-transform: none;
-  }
-  .artifact-pg .project-overview .project-details .project-description {
-    line-height: 1.7;
-    margin: 1.1em 0 1.5em;
-  }
-  .artifact-pg .project-overview .project-details .links-btn-container {
-    justify-content: flex-start;
-  }
-  .artifact-pg .project-overview .project-details .links-btn-container .code-link, .artifact-pg .project-overview .project-details .links-btn-container .live-link {
-    margin-right: 1em;
-    padding: 0.6em 1em;
-    font-size: 0.85em;
-  }
-}
-@media (min-width: 900px) {
-  .artifact-pg p {
-    color: rgb(196, 206, 255);
-    font-size: 1em;
-    font-weight: 400;
-    font-style: normal;
-    text-transform: none;
-  }
-  .artifact-pg .project-overview {
-    flex-direction: row;
-    justify-content: space-between;
-    height: 60vh;
-    align-items: center;
-    padding: 3em 0;
-  }
-  .artifact-pg .project-overview .project-details {
-    padding: 2em 0 2em 1em;
-    margin-right: 2em;
-    width: 50%;
-  }
-  .artifact-pg .project-overview .project-details .feat-img-container {
-    align-self: center;
-  }
-  .artifact-pg .project-overview .project-details .project-title {
-    margin: 0.2em 0;
-  }
-  .artifact-pg .project-overview .project-details .project-description {
-    margin: 1.1em 0 1.5em;
-  }
-  .artifact-pg .project-overview .project-details .links-btn-container {
-    margin: 0.5em 0 0;
-  }
-  .artifact-pg .project-overview .project-details .in-progress {
-    text-align: left;
-  }
-  .artifact-pg .project-overview .img-container {
-    margin-right: 1em;
-  }
-}
-@media (min-width: 1024px) {
-  .artifact-pg .project-details .links-btn-container .live-link:hover {
-    color: rgb(196, 206, 255);
-    background-color: rgb(60, 35, 255);
-    border: 0.15em solid rgb(60, 35, 255);
-    transition: 0.5s ease-in-out;
-  }
-  .artifact-pg .project-details .links-btn-container .code-link:hover {
-    color: rgb(60, 35, 255);
-    background-color: rgb(196, 206, 255);
-    transition: 0.5s ease-in-out;
-  }
 }
 
 @media (min-width: 320px) {
@@ -491,6 +591,13 @@ footer p {
   header .header-bar .gn ul li {
     padding: 0;
   }
+  header .header-bar .gn ul li a {
+    color: rgb(196, 206, 255);
+    font-size: 1.1em;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+  }
   .intro {
     padding-top: 7em;
   }
@@ -538,7 +645,72 @@ footer p {
     font-style: normal;
     text-transform: none;
   }
+  .artifact-pg .project-overview .project-details .project-skills, .artifact-pg .project-overview .project-details .project-description {
+    color: rgb(196, 206, 255);
+    font-size: 0.9em;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: none;
+  }
+  .artifact-pg .project-overview .project-details .project-title {
+    color: rgb(196, 206, 255);
+    font-size: 2em;
+    font-weight: 600;
+    font-style: normal;
+    text-transform: none;
+    line-height: 1.25;
+  }
+  .artifact-pg .project-overview .project-details .project-type {
+    color: rgb(196, 206, 255);
+    font-size: 0.9em;
+    font-weight: 400;
+    font-style: italic;
+    text-transform: none;
+  }
+  .artifact-pg .project-overview .project-details .project-description {
+    line-height: 1.7;
+    margin: 1.1em 0 1.5em;
+  }
+  .artifact-pg .project-overview .project-details .links-btn-container {
+    justify-content: flex-start;
+  }
+  .artifact-pg .project-overview .project-details .links-btn-container .code-link, .artifact-pg .project-overview .project-details .links-btn-container .live-link {
+    margin-right: 1em;
+    padding: 0.6em 1em;
+    font-size: 0.85em;
+  }
 }
+.artifact-pg .project-overview {
+  flex-direction: row;
+  justify-content: space-between;
+  height: 60vh;
+  align-items: center;
+  padding: 3em 0;
+}
+.artifact-pg .project-overview .project-details {
+  padding: 2em 0 2em 1em;
+  margin-right: 2em;
+  width: 50%;
+}
+.artifact-pg .project-overview .project-details .feat-img-container {
+  align-self: center;
+}
+.artifact-pg .project-overview .project-details .project-title {
+  margin: 0.2em 0;
+}
+.artifact-pg .project-overview .project-details .project-description {
+  margin: 1.1em 0 1.5em;
+}
+.artifact-pg .project-overview .project-details .links-btn-container {
+  margin: 0.5em 0 0;
+}
+.artifact-pg .project-overview .project-details .in-progress {
+  text-align: left;
+}
+.artifact-pg .project-overview .img-container {
+  margin-right: 1em;
+}
+
 @media (min-width: 1024px) {
   p {
     color: rgb(196, 206, 255);
@@ -564,240 +736,17 @@ footer p {
   .contact .contact-details .social-icons li:hover {
     transform: scale(1.2);
   }
-}
-/* -----------------------------
---------- Global ---------------
------------------------------- */
-body {
-  margin: 0 auto;
-  font-size: 16px !important;
-  font-family: "Poppins", sans-serif;
-  background-color: rgb(21, 21, 21);
-  color: rgb(196, 206, 255);
-  font-size: 0.75em;
-  font-weight: 400;
-  font-style: normal;
-  text-transform: none;
-}
-
-.wrapper {
-  overflow-x: hidden;
-}
-
-.container {
-  margin: 0 auto;
-  max-width: 1024px;
-  position: relative;
-}
-
-main {
-  margin-top: 6em;
-}
-
-a {
-  text-decoration: none;
-}
-
-.section {
-  padding: 2em 1.5em;
-}
-
-.img-container {
-  width: 100%;
-  height: 100%;
-  max-height: 30em;
-  overflow: hidden;
-}
-.img-container .img-thumb {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: all 0.35s ease-in-out;
-}
-
-::-moz-selection {
-  color: rgb(60, 35, 255);
-  background: rgb(196, 206, 255);
-}
-
-::selection {
-  color: rgb(60, 35, 255);
-  background: rgb(196, 206, 255);
-}
-
-/* -----------------------------
---------- Helpers --------------
------------------------------- */
-.flex {
-  display: flex;
-}
-
-.block {
-  display: block;
-}
-
-.box-shadow-light {
-  box-shadow: 0px 3px 7px -1px rgba(43, 4, 98, 0.3);
-}
-
-/* -----------------------------
---------- Typography -----------
------------------------------- */
-h1 {
-  color: rgb(196, 206, 255);
-  font-size: 2.5em;
-  font-weight: 500;
-  font-style: normal;
-  text-transform: none;
-  margin-top: 1em;
-}
-
-h2 {
-  color: rgb(196, 206, 255);
-  font-size: 1.75em;
-  font-weight: 500;
-  font-style: normal;
-  text-transform: uppercase;
-  margin-bottom: 0.3em;
-  text-align: center;
-}
-
-h3 {
-  color: rgb(196, 206, 255);
-  font-size: 1.4em;
-  font-weight: 500;
-  font-style: normal;
-  text-transform: none;
-  margin-bottom: 0.25em;
-  line-height: 1.15em;
-}
-
-p {
-  color: rgb(196, 206, 255);
-  font-size: 0.9em;
-  font-weight: 400;
-  font-style: normal;
-  text-transform: none;
-  line-height: 1.4em;
-}
-
-/* -----------------------------
---------- Intro Section --------
------------------------------- */
-.intro {
-  text-align: center;
-  height: 70vh;
-  padding-top: 5em;
-}
-.intro .intro-box .career-role {
-  color: rgb(196, 206, 255);
-  font-size: 0.9em;
-  font-weight: 500;
-  font-style: italic;
-  text-transform: none;
-  margin-top: 0.25em;
-}
-.intro .intro-box .career-goal {
-  color: rgb(196, 206, 255);
-  font-size: 1.25em;
-  font-weight: 400;
-  font-style: normal;
-  text-transform: none;
-  justify-content: center;
-  line-height: 1.25em;
-  margin: 1.5em 0;
-}
-
-/* -----------------------------
---------- Projects Section -----
------------------------------- */
-.projects .projects-collection {
-  flex-direction: column;
-  margin-top: 1.25em;
-}
-.projects .projects-collection .project-card {
-  margin-bottom: 3em;
-}
-.projects .projects-collection .project-card .project-thumb {
-  position: relative;
-  overflow: hidden;
-}
-.projects .projects-collection .project-card .project-thumb .links-container {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: rgba(6, 0, 15, 0.75);
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding-bottom: 0.5em;
-}
-.projects .projects-collection .project-card .project-thumb .links-container .project-details {
-  padding: 1.25em 1em 0;
-  margin-bottom: 0.75em;
-  text-align: center;
-}
-.projects .projects-collection .project-card .project-thumb .links-container .project-details p {
-  color: rgb(196, 206, 255);
-  font-size: 0.8em;
-  font-weight: 300;
-  font-style: normal;
-  text-transform: none;
-}
-.projects .projects-collection .project-card .project-thumb .links-container .proj-in-progress {
-  color: rgb(196, 206, 255);
-  font-size: 0.8em;
-  font-weight: 500;
-  font-style: italic;
-  text-transform: none;
-}
-.projects .projects-collection .project-card .project-thumb .links-container .btn-container {
-  column-gap: 1em;
-}
-.projects .projects-collection .project-card .project-thumb .links-container .btn-container .live-link, .projects .projects-collection .project-card .project-thumb .links-container .btn-container .code-link {
-  padding: 0.6em 0.7em;
-  border-radius: 1.5em;
-  text-align: center;
-}
-.projects .projects-collection .project-card .project-thumb .links-container .btn-container .live-link {
-  background-color: rgb(196, 206, 255);
-  border: 0.15em solid rgb(196, 206, 255);
-  color: rgb(60, 35, 255);
-  font-size: 0.9em;
-  font-weight: 400;
-  font-style: normal;
-  text-transform: none;
-}
-.projects .projects-collection .project-card .project-thumb .links-container .btn-container .code-link {
-  background-color: transparent;
-  border: 0.15em solid rgb(196, 206, 255);
-  color: rgb(196, 206, 255);
-  font-size: 0.9em;
-  font-weight: 400;
-  font-style: normal;
-  text-transform: none;
-}
-
-/* -----------------------------
---------- About Section --------
------------------------------- */
-.about {
-  text-align: center;
-}
-.about .bio {
-  text-align: left;
-  flex-direction: column;
-}
-.about .bio img {
-  height: 70vw;
-  border-radius: 50%;
-  margin: 1.75em auto;
-}
-.about .bio p {
-  margin: 1em 0;
-  line-height: 1.75em;
+  .artifact-pg .project-details .links-btn-container .live-link:hover {
+    color: rgb(196, 206, 255);
+    background-color: rgb(60, 35, 255);
+    border: 0.15em solid rgb(60, 35, 255);
+    transition: 0.5s ease-in-out;
+  }
+  .artifact-pg .project-details .links-btn-container .code-link:hover {
+    color: rgb(60, 35, 255);
+    background-color: rgb(196, 206, 255);
+    transition: 0.5s ease-in-out;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,23 @@
+@use '../abstracts' as *;
+
+h1 {
+    @include fontstyles ($color-primary, $sm*2.5, $medium, $base, $none);
+    margin-top: $sm;
+}
+
+h2 {
+    @include fontstyles ($color-primary, $sm*1.75, $medium, $base, $uppercase);
+    margin-bottom: $sm*0.3;
+    text-align: center;
+}
+
+h3 {
+    @include fontstyles ($color-primary, $sm*1.4, $medium, $base, $none);
+    margin-bottom: $sm*0.25;
+    line-height: $sm*1.15;
+}
+
+p {
+    @include fontstyles ($color-primary, $sm*0.9, $normal, $base, $none);
+    line-height: $sm*1.4;
+}

@@ -2,11 +2,11 @@
 <html lang="en-CA">
     <?php 
         $project_title = "Caf&eacute; Hop App &vert; Jessica Lee";
-        require('../partials/global/head_projects.php'); 
+        require('../partials/project/head_projects.php');
     ?>
     <body>
         <div class="wrapper">
-            <?php require('../partials/global/header.php'); ?>
+            <?php require('../partials/project/header_projects.php'); ?>
             <main class="artifact-pg">
                 <section class="container project-overview flex" data-aos="fade-right" data-aos-delay="100">
                     <div class="project-details" data-aos="fade-right" data-aos-delay="300">
