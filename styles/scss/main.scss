@@ -11,8 +11,8 @@ body {
     margin: 0 auto;
     font-size: 16px!important;
     font-family: 'Poppins', sans-serif;
-    background-color: $color-primary;
-    @include fontstyles($color-secondary, $sm*0.75, $normal, $base, $none);
+    background-color: $color-bg;
+    @include fontstyles($color-primary, $sm*0.75, $normal, $base, $none);
 }
 
 .wrapper {
@@ -51,21 +51,14 @@ a {
     }
 }
 
-/* -----------------------------
---------- Dark/Light Mode ------
------------------------------- */
-.dark-mode {
-    @include dark-mode;
+::-moz-selection {
+    color: $color-primary;
+    background: $color-primary;
 }
-
-.light-mode {
-    @include light-mode;
-}
-
-@media (prefers-color-scheme: dark) {
-    body {
-        @include dark-mode;
-    }
+  
+::selection {
+    color: $color-primary;
+    background: $color-primary;
 }
 
 /* -----------------------------
@@ -79,24 +72,20 @@ a {
     display: block;
 }
 
-.box-shadow {
-    box-shadow: 0px 3px 7px -1px rgba(43,4,98,0.6);
-}
-
-.box-shadow-light, .box-shadow-gn {
-    box-shadow: 0px 3px 7px -1px rgba(43,4,98,0.3);
+.box-shadow-light {
+    box-shadow: 0px 3px 7px -1px $box-shadow-light;
 }
 
 /* -----------------------------
 --------- Typography -----------
 ------------------------------ */
 h1 {
-    @include fontstyles ($color-secondary, $sm*2.5, $semibold, $base, $none);
+    @include fontstyles ($color-primary, $sm*2.5, $medium, $base, $none);
     margin-top: $sm;
 }
 
 h2 {
-    @include fontstyles ($color-secondary, $sm*1.75, $medium, $base, $uppercase);
+    @include fontstyles ($color-primary, $sm*1.75, $medium, $base, $uppercase);
     margin-bottom: $sm*0.3;
     text-align: center;
 }
@@ -108,7 +97,7 @@ h3 {
 }
 
 p {
-    @include fontstyles ($color-secondary, $sm*0.9, $normal, $base, $none);
+    @include fontstyles ($color-primary, $sm*0.9, $normal, $base, $none);
     line-height: $sm*1.4;
 }
 
@@ -122,12 +111,12 @@ p {
 
     .intro-box {    
         .career-role {
-            @include fontstyles ($color-secondary, $sm*0.9, $medium, $italic, $none);
+            @include fontstyles ($color-primary, $sm*0.9, $medium, $italic, $none);
             margin-top: $sm*0.25;
         }
 
         .career-goal {
-            @include fontstyles($color-secondary, $sm*1.25, $normal, $base, $none);
+            @include fontstyles($color-primary, $sm*1.25, $normal, $base, $none);
             justify-content: center;
             line-height: $sm*1.25;
             margin: $sm*1.5 0;
@@ -156,7 +145,7 @@ p {
                     position: absolute;
                     top: 0;
                     left: 0;
-                    background: rgba(6, 0, 15, 0.64);
+                    background: rgba(6, 0, 15, 0.75);
                     justify-content: center;
                     align-items: center;
                     flex-direction: column;
@@ -167,19 +156,20 @@ p {
 
                         .live-link, .code-link {
                             padding: $sm*0.6 $sm*0.7;
-                            border: $sm*0.15 solid $color-primary;
                             border-radius: $sm*1.5;
                             text-align: center;
                         }
 
                         .live-link {
                             background-color: $color-primary;
-                            @include fontstyles ($color-secondary, $sm*0.8, $medium, $base, $none);
+                            border: $sm*0.15 solid $color-primary;
+                            @include fontstyles($color-secondary, $sm*0.9, $normal, $base, $none);
                         }
                     
                         .code-link {
                             background-color: transparent;
-                            @include fontstyles ($color-primary, $sm*0.8, $medium, $base, $none);
+                            border: $sm*0.15 solid $color-primary;
+                            @include fontstyles($color-primary, $sm*0.9, $normal, $base, $none);
                         }
                     }
                 }
@@ -204,14 +194,6 @@ p {
 .about {
     text-align: center;
 
-    .name-title {
-        @include fontstyles ($color-secondary, $sm*1.7, $semibold, $base, $none);
-    }
-
-    .career-role {
-        @include fontstyles ($color-secondary, $sm*0.9, $medium, $italic, $none);
-    }
-
     .bio {
         text-align: left;
         flex-direction: column;
@@ -235,10 +217,10 @@ p {
 footer {
     margin-top: $sm*2;
     padding: $md 0;
-    background-color: $color-secondary;
+    background-color: $color-primary;
     
     p {
-        @include fontstyles($color-primary, $sm*0.8, $light, $base, $none);
+        @include fontstyles($color-secondary, $sm*0.8, $normal, $base, $none);
         text-align: center;
         line-height: $sm*1.75;
     }
@@ -284,7 +266,7 @@ footer {
         }
 
         .career-role {
-            @include fontstyles ($color-secondary, $sm, $medium, $italic, $none); 
+            @include fontstyles ($color-primary, $sm, $medium, $italic, $none); 
         }
 
         .career-goal {
@@ -303,14 +285,6 @@ footer {
                 @include fontstyles ($color-primary, $sm*0.9, $normal, $base, $none);
             }
         }
-
-        .live-link {
-            @include fontstyles ($color-primary, $sm*0.85, $normal, $base, $none);
-        }
-
-        .code-link {
-            @include fontstyles ($color-secondary, $sm*0.85, $normal, $base, $none);
-        }
     }
 
     .about .bio img {
@@ -322,19 +296,14 @@ footer {
     }
 
     footer p {
-        @include fontstyles($color-primary, $sm*0.9, $light, $base, $none);
+        font-size: $sm*0.9;
     }
 }
 
 @media (min-width:640px) {
-    h2 {
-        @include fontstyles ($color-secondary, $sm*2, $semibold, $base, $uppercase);
-    }
 
-    .projects, .about, .contact {
-        p {
-            @include fontstyles ($color-secondary, $sm, $normal, $base, $none);
-        }
+    .projects, .about, .contact p {
+        @include fontstyles ($color-primary, $sm, $normal, $base, $none);
     }
 }
 
@@ -344,29 +313,29 @@ footer {
         padding: $sm*3;
     }
 
-    .box-shadow-gn {
-        box-shadow: none;
-    }
+    header {
+        padding: $sm*0.9 $sm*3;
 
-    header .header-bar {
-        .gn-trigger {
-            display: none;
-        }
-    
-        .gn {
-            display: block;
-            position: static;
-            top: 0px;
-            height: auto;
-            box-shadow: 0;
+        .header-bar {
+            .gn-trigger {
+                display: none;
+            }
         
-            ul {
-                flex-direction: row;
-                justify-content: flex-end;
-                gap: $sm*1.5;
-    
-                li {
-                    padding: 0;
+            .gn {
+                display: block;
+                position: static;
+                top: 0px;
+                height: auto;
+                box-shadow: 0;
+            
+                ul {
+                    flex-direction: row;
+                    justify-content: flex-end;
+                    gap: $sm*1.5;
+        
+                    li {
+                        padding: 0;
+                    }
                 }
             }
         }
@@ -423,28 +392,28 @@ footer {
 }
 
 @media (min-width:1024px) {
+
     p {
-        @include fontstyles ($color-secondary, $sm, $normal, $base, $none);
+        @include fontstyles ($color-primary, $sm, $normal, $base, $none);
+    }
+
+    header .header-bar .gn ul li a:hover {
+        border-bottom: $sm*0.2 solid $color-primary;
     }
 
     .projects .projects-collection .project-card .project-thumb .links-container .btn-container {
-            .live-link, .code-link {
-                @include fontstyles ($color-secondary, $sm, $normal, $base, $none);
-
-                &:hover {
-                    background-color: $color-secondary;
-                    color: $color-primary;
-                    transition: all 0.35s ease-in-out;
-                }
-            }
+        .live-link:hover {
+            color: $color-primary;
+            background-color: $color-secondary;
+            border: $sm*0.15 solid $color-secondary;
+            transition: 0.5s ease-in-out;
+        }
             
-            .code-link {
-                @include fontstyles ($color-primary, $sm, $normal, $base, $none);
-            }
-    }
-    
-    .img-container .img-thumb:hover {
-        transform: scale(1.05);
+        .code-link:hover {
+            color: $color-secondary;
+            background-color: $color-primary;
+            transition: 0.5s ease-in-out;
+        }
     }
 
     .contact .contact-details .social-icons li:hover {

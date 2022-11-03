@@ -21,27 +21,27 @@
 
         .project-details {
             .project-skills {
-                @include fontstyles ($color-secondary, $sm*0.9, $normal, $base, $none);
+                @include fontstyles ($color-primary, $sm*0.9, $normal, $base, $none);
             }
 
             .project-title {
-                @include fontstyles ($color-secondary, $sm*2.5, $medium, $base, $none);
+                @include fontstyles ($color-primary, $sm*2.5, $medium, $base, $none);
                 margin: $sm*0.25 0 $sm*0.15;
                 line-height: 1.25;
             }
     
             .project-type {
-                @include fontstyles ($color-secondary, $sm*0.9, $normal, $italic, $none);
+                @include fontstyles ($color-primary, $sm*0.9, $normal, $italic, $none);
             }
 
             .in-progress {
-                @include fontstyles ($color-secondary, $sm, $medium, $italic, $none);
+                @include fontstyles ($color-primary, $sm, $medium, $italic, $none);
                 text-align: center;
                 margin: $sm*3 0 $sm*2;
             }
 
             .project-description {
-                @include fontstyles ($color-secondary, $sm*0.9, $normal, $base, $none);
+                @include fontstyles ($color-primary, $sm*0.9, $normal, $base, $none);
                 margin: $sm*1.1 0 $sm*2;
             }
     
@@ -53,33 +53,20 @@
                     width: 48%;
                     height: auto;
                     padding: $sm*0.65 $sm*1;
-                    border: $sm*0.1 solid $color-secondary;
                     border-radius: $sm*1.5;
                     text-align: center;
-                    font-size: $sm*0.8;
-                    font-weight: 400;
                 }
         
                 .live-link {
-                    background-color: $color-secondary;
-                    color: $color-primary;
-
-                    &:hover {
-                        background-color: $color-primary;
-                        color: $color-secondary;
-                        transition: all 0.35s ease-in-out;
-                    }
+                    background-color: $color-primary;
+                    border: $sm*0.15 solid $color-primary;
+                    @include fontstyles($color-secondary, $sm*0.9, $normal, $base, $none);
                 }
 
                 .code-link {
-                    background-color: $color-primary;
-                    color: $color-secondary;
-                    
-                    &:hover {
-                        background-color: $color-secondary;
-                        color: $color-primary;
-                        transition: all 0.35s ease-in-out;
-                    }
+                    background-color: transparent;
+                    border: $sm*0.15 solid $color-primary;
+                    @include fontstyles($color-primary, $sm*0.9, $normal, $base, $none);
                 }
             }
         }
@@ -92,15 +79,15 @@
         margin: $sm*0.5 0 $sm*2.5;
         padding: $xl $md $lg;
         text-align: center;
-        background-color: $color-secondary;
+        background-color: $color-primary;
 
         h2 {
-            @include fontstyles ($color-primary, $sm*1.25, $semibold, $base, $uppercase);
+            @include fontstyles ($color-secondary, $sm*1.25, $semibold, $base, $uppercase);
             text-align: center;
         }
 
         a {
-            @include fontstyles ($color-primary, $sm*1.03, $normal, $base, $none);
+            @include fontstyles ($color-secondary, $sm*1.03, $normal, $base, $none);
             margin: $sm*0.9 0;
         }
     }
@@ -116,16 +103,16 @@
         .project-overview .project-details {
             
             .project-skills, .project-description {
-                @include fontstyles ($color-secondary, $sm*0.9, $normal, $base, $none);
+                @include fontstyles ($color-primary, $sm*0.9, $normal, $base, $none);
             }
 
             .project-title {
-                @include fontstyles ($color-secondary, $sm*2, $semibold, $base, $none);
+                @include fontstyles ($color-primary, $sm*2, $semibold, $base, $none);
                 line-height: 1.25;
             }
 
             .project-type {
-                @include fontstyles ($color-secondary, $sm*0.9, $normal, $italic, $none);
+                @include fontstyles ($color-primary, $sm*0.9, $normal, $italic, $none);
             }
 
             .project-description {
@@ -147,13 +134,8 @@
 
     @media (min-width: 900px) {
 
-        h2 {
-            font-size: $sm*1.5;
-            margin-bottom: $sm*0.5;
-        }
-
         p {
-            @include fontstyles ($color-secondary, $sm, $normal, $base, $none);
+            @include fontstyles ($color-primary, $sm, $normal, $base, $none);
         }
 
         .project-overview {
@@ -191,6 +173,25 @@
 
             .img-container {
                 margin-right: $sm;
+            }
+        }
+    }
+
+    @media (min-width: 1024px) {
+        
+        .project-details .links-btn-container {
+
+            .live-link:hover {
+                color: $color-primary;
+                background-color: $color-secondary;
+                border: $sm*0.15 solid $color-secondary;
+                transition: 0.5s ease-in-out;
+            }
+            
+            .code-link:hover {
+                color: $color-secondary;
+                background-color: $color-primary;
+                transition: 0.5s ease-in-out;
             }
         }
     }
