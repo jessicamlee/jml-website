@@ -11,10 +11,6 @@ header {
   color: rgb(28, 0, 68);
   z-index: 2;
 }
-header.header-up {
-  top: -6em;
-  box-shadow: none;
-}
 header .header-bar {
   align-items: center;
 }
@@ -94,9 +90,9 @@ header .header-bar .gn ul li {
 header .header-bar .gn ul li a {
   color: rgb(28, 0, 68);
   font-size: 1em;
-  font-weight: 500;
+  font-weight: 400;
   font-style: normal;
-  text-transform: none;
+  text-transform: uppercase;
 }
 
 .blobwindow {
@@ -437,7 +433,7 @@ a {
 --------- Dark/Light Mode ------
 ------------------------------ */
 .dark-mode {
-  background-color: rgb(20, 19, 21);
+  background-color: rgb(22, 22, 22);
 }
 .dark-mode h1, .dark-mode h3 {
   color: rgb(217, 215, 215);
@@ -445,7 +441,7 @@ a {
 .dark-mode h2 {
   color: rgb(217, 215, 215);
   font-size: 1.75em;
-  font-weight: 500;
+  font-weight: 400;
   font-style: normal;
   text-transform: uppercase;
 }
@@ -460,7 +456,7 @@ a {
   box-shadow: none;
 }
 .dark-mode header {
-  background: rgb(28, 0, 68);
+  background: rgb(22, 22, 22);
   color: rgb(255, 255, 255);
 }
 .dark-mode header .header-bar .logo svg {
@@ -481,10 +477,10 @@ a {
   background-color: rgb(28, 0, 68);
 }
 .dark-mode header .header-bar .gn {
-  background-color: rgb(28, 0, 68);
+  background-color: rgb(22, 22, 22);
 }
 .dark-mode header .header-bar .gn ul {
-  background-color: rgb(28, 0, 68);
+  background-color: rgb(22, 22, 22);
 }
 .dark-mode header .header-bar .gn ul li a {
   color: rgb(217, 215, 215);
@@ -493,7 +489,7 @@ a {
   color: rgb(217, 215, 215);
 }
 .dark-mode .intro .blobwindow {
-  border: rgb(20, 19, 21) solid 2px;
+  border: rgb(22, 22, 22) solid 2px;
   box-shadow: none;
 }
 .dark-mode .about .name-title, .dark-mode .about .career-role, .dark-mode .about p {
@@ -520,19 +516,19 @@ a {
 }
 .dark-mode .artifact-pg .project-overview .project-details .links-btn-container .live-link {
   background-color: rgb(217, 215, 215);
-  color: rgb(20, 19, 21);
+  color: rgb(22, 22, 22);
 }
 .dark-mode .artifact-pg .project-overview .project-details .links-btn-container .live-link:hover {
-  background-color: rgb(20, 19, 21);
+  background-color: rgb(22, 22, 22);
   color: rgb(217, 215, 215);
 }
 .dark-mode .artifact-pg .project-overview .project-details .links-btn-container .code-link {
-  background-color: rgb(20, 19, 21);
+  background-color: rgb(22, 22, 22);
   color: rgb(217, 215, 215);
 }
 .dark-mode .artifact-pg .project-overview .project-details .links-btn-container .code-link:hover {
   background-color: rgb(217, 215, 215);
-  color: rgb(20, 19, 21);
+  color: rgb(22, 22, 22);
 }
 
 .light-mode {
@@ -544,7 +540,7 @@ a {
 
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: rgb(20, 19, 21);
+    background-color: rgb(22, 22, 22);
   }
   body h1, body h3 {
     color: rgb(217, 215, 215);
@@ -552,7 +548,7 @@ a {
   body h2 {
     color: rgb(217, 215, 215);
     font-size: 1.75em;
-    font-weight: 500;
+    font-weight: 400;
     font-style: normal;
     text-transform: uppercase;
   }
@@ -567,7 +563,7 @@ a {
     box-shadow: none;
   }
   body header {
-    background: rgb(28, 0, 68);
+    background: rgb(22, 22, 22);
     color: rgb(255, 255, 255);
   }
   body header .header-bar .logo svg {
@@ -588,10 +584,10 @@ a {
     background-color: rgb(28, 0, 68);
   }
   body header .header-bar .gn {
-    background-color: rgb(28, 0, 68);
+    background-color: rgb(22, 22, 22);
   }
   body header .header-bar .gn ul {
-    background-color: rgb(28, 0, 68);
+    background-color: rgb(22, 22, 22);
   }
   body header .header-bar .gn ul li a {
     color: rgb(217, 215, 215);
@@ -600,7 +596,7 @@ a {
     color: rgb(217, 215, 215);
   }
   body .intro .blobwindow {
-    border: rgb(20, 19, 21) solid 2px;
+    border: rgb(22, 22, 22) solid 2px;
     box-shadow: none;
   }
   body .about .name-title, body .about .career-role, body .about p {
@@ -627,19 +623,19 @@ a {
   }
   body .artifact-pg .project-overview .project-details .links-btn-container .live-link {
     background-color: rgb(217, 215, 215);
-    color: rgb(20, 19, 21);
+    color: rgb(22, 22, 22);
   }
   body .artifact-pg .project-overview .project-details .links-btn-container .live-link:hover {
-    background-color: rgb(20, 19, 21);
+    background-color: rgb(22, 22, 22);
     color: rgb(217, 215, 215);
   }
   body .artifact-pg .project-overview .project-details .links-btn-container .code-link {
-    background-color: rgb(20, 19, 21);
+    background-color: rgb(22, 22, 22);
     color: rgb(217, 215, 215);
   }
   body .artifact-pg .project-overview .project-details .links-btn-container .code-link:hover {
     background-color: rgb(217, 215, 215);
-    color: rgb(20, 19, 21);
+    color: rgb(22, 22, 22);
   }
 }
 /* -----------------------------
@@ -676,7 +672,7 @@ h1 {
 h2 {
   color: rgb(28, 0, 68);
   font-size: 1.75em;
-  font-weight: 600;
+  font-weight: 500;
   font-style: normal;
   text-transform: uppercase;
   margin-bottom: 0.3em;
@@ -685,11 +681,12 @@ h2 {
 
 h3 {
   color: rgb(255, 255, 255);
-  font-size: 1em;
+  font-size: 1.4em;
   font-weight: 500;
   font-style: normal;
   text-transform: none;
   margin-bottom: 0.25em;
+  line-height: 1.15em;
 }
 
 p {
@@ -748,7 +745,7 @@ p {
   position: absolute;
   top: 0;
   left: 0;
-  background: rgba(9, 0, 21, 0.62);
+  background: rgba(6, 0, 15, 0.64);
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -847,7 +844,16 @@ footer p {
 /* -----------------------------
 --------- Media Queries --------
 ------------------------------ */
-@media (min-width: 420px) {
+@media (min-width: 320px) {
+  h3 {
+    color: rgb(255, 255, 255);
+    font-size: 1.85em;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: none;
+  }
+}
+@media (min-width: 400px) {
   .projects .projects-collection .project-card .project-thumb .links-container {
     row-gap: 0.7em;
   }

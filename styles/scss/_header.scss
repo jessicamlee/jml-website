@@ -11,11 +11,6 @@ header {
     color: $color-secondary;
     z-index: 2;
 
-    &.header-up {
-        top: $sm*-6;
-        box-shadow: none;
-    }
-
     .header-bar {
         align-items: center;
 
@@ -103,7 +98,7 @@ header {
                 li {
                     padding: $lg;
                     a {
-                        @include fontstyles($color-secondary, $sm, $medium, $base, $none);
+                        @include fontstyles($color-secondary, $sm, $normal, $base, $uppercase);
                     }
                 }
             }
