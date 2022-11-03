@@ -52,12 +52,12 @@ a {
 }
 
 ::-moz-selection {
-    color: $color-primary;
+    color: $color-secondary;
     background: $color-primary;
 }
   
 ::selection {
-    color: $color-primary;
+    color: $color-secondary;
     background: $color-primary;
 }
 
@@ -150,6 +150,20 @@ p {
                     align-items: center;
                     flex-direction: column;
                     padding-bottom: $sm*0.5;
+
+                    .project-details {
+                        padding: $sm*1.25 $sm*2.2 0;
+                        margin-bottom: $sm*0.75;
+                        text-align: center;
+                        
+                        p {
+                            @include fontstyles ($color-primary, $sm*0.8, $light, $base, $none);
+                        }
+                    }
+                    
+                    .proj-in-progress {
+                        @include fontstyles ($color-primary, $sm, $medium, $italic, $none);
+                    }
                 
                     .btn-container {
                         column-gap: $sm;
@@ -172,16 +186,6 @@ p {
                             @include fontstyles($color-primary, $sm*0.9, $normal, $base, $none);
                         }
                     }
-                }
-            }
-    
-            .project-details {
-                padding: $sm*1.25 $sm*2.2 0;
-                margin-bottom: $sm*0.75;
-                text-align: center;
-                
-                p {
-                    @include fontstyles ($color-primary, $sm*0.8, $light, $base, $none);
                 }
             }
         }
@@ -294,16 +298,16 @@ footer {
     .contact {
         padding: $sm*1.5;
     }
-
-    footer p {
-        font-size: $sm*0.9;
-    }
 }
 
 @media (min-width:640px) {
 
     .projects, .about, .contact p {
         @include fontstyles ($color-primary, $sm, $normal, $base, $none);
+    }
+
+    footer p {
+        @include fontstyles ($color-secondary, $sm*0.9, $normal, $base, $none);
     }
 }
 
@@ -418,5 +422,9 @@ footer {
 
     .contact .contact-details .social-icons li:hover {
         transform: scale(1.2);
+    }
+
+    footer p {
+        @include fontstyles ($color-secondary, $sm, $normal, $base, $none);
     }
 }

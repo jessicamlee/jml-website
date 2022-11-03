@@ -1,3 +1,13 @@
+::-moz-selection {
+    color: $color-secondary;
+    background: $color-primary;
+}
+  
+::selection {
+    color: $color-secondary;
+    background: $color-primary;
+}
+
 .artifact-pg {
     .proj-img-container {
         width: 100%;
