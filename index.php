@@ -10,10 +10,9 @@
     <body>
         <div class="wrapper">
             <?php 
-                $active_page = "home";
                 require ('partials/global/header.php'); 
             ?>
-            <main data-aos-delay="800">
+            <main class="main" data-aos-delay="800">
                 <section class="intro section">
                     <div class="container intro-box">
                         <h1 data-aos="fade-right">Jessica Lee</h1>

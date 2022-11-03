@@ -19,15 +19,15 @@
                             <a class="code-link box-shadow-light" data-aos="fade-right" data-aos-delay="300" href="https://github.com/jessicamlee/todolist" target="_blank" title="Link to GitHub Repository">Review Code</a>
                         </div>
                     </div>
-                    <div class="img-container box-shadow" data-aos="fade-left" data-aos-delay="600">
+                    <div class="proj-img-container box-shadow" data-aos="fade-left" data-aos-delay="600">
                         <img class="project-img" src="../images/projects/todo_cover.jpg" alt="To-Do List Cover Photo">
                     </div>
                 </section>
                 <section class="more-projects">
                     <div class="container">
                         <h2 data-aos="fade-right">More Projects&colon;</h2>
-                        <a class="block" data-aos="fade-right" data-aos-delay="150" href="../projects/cafehop.php" title="Cafe Hop Mobile App">Caf&eacute; Hop App</a>
-                        <a class="block" data-aos="fade-right" data-aos-delay="300" href="../projects/loclo-homepage.php" title="LOCLO Responsive Homepage">LOCLO Responsive Homepage</a>
+                        <a class="block" data-aos="fade-right" data-aos-delay="100" href="../projects/cafehop.php" title="Cafe Hop Mobile App">Caf&eacute; Hop App</a>
+                        <a class="block" data-aos="fade-right" data-aos-delay="200" href="../projects/loclo-homepage.php" title="LOCLO Responsive Homepage">LOCLO Responsive Homepage</a>
                     </div>
                 </section>
                 <?php require ('../partials/global/contact.php'); ?>

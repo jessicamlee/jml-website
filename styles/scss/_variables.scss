@@ -1,6 +1,7 @@
 // Colors
 $color-primary: rgba(255, 255, 255, 1);
-$color-primary--dark: rgba(22, 22, 22, 1);
+$color-primary--dark: rgba(21, 21, 21, 1);
+$color-primary-hnf--dark: rgba(14, 14, 14, 1);
 $color-secondary: rgba(28, 0, 68, 1);
 $color-secondary--dark: rgba(217, 215, 215, 1);
 
@@ -169,6 +170,10 @@ $lowercase: lowercase;
             }
         }
     }
+
+    // footer {
+    //     background-color: $color-primary-hnf--dark;
+    // }
 }
 
 @mixin light-mode {

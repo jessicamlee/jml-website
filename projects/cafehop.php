@@ -16,15 +16,15 @@
                         <p class="project-description">Track your next productivity spot to study or work with reliable wifi&comma; charging outlets&comma; and yummy snacks with Caf&eacute; Hop&excl;</p>
                         <p class="in-progress">Status&colon; Development in Progress&excl;</p>
                     </div>
-                    <div class="img-container box-shadow" data-aos="fade-left" data-aos-delay="600">
+                    <div class="proj-img-container box-shadow" data-aos="fade-left" data-aos-delay="600">
                         <img class="project-img" src="../images/projects/cafehop_cover.jpg" alt="Cafe Hop App Cover Photo">
                     </div>
                 </section>
                 <section class="more-projects">
                     <div class="container">
                         <h2 data-aos="fade-right">More Projects&colon;</h2>
-                        <a class="block" data-aos="fade-right" data-aos-delay="150" href="../projects/loclo-homepage.php" title="LOCLO Responsive Homepage">LOCLO Responsive Homepage</a>
-                        <a class="block" data-aos="fade-right" data-aos-delay="300" href="../projects/todo-list.php" title="To-Do List with Dark Mode">To&dash;Do List with Dark Mode</a>
+                        <a class="block" data-aos="fade-right" data-aos-delay="100" href="../projects/loclo-homepage.php" title="LOCLO Responsive Homepage">LOCLO Responsive Homepage</a>
+                        <a class="block" data-aos="fade-right" data-aos-delay="200" href="../projects/todo-list.php" title="To-Do List with Dark Mode">To&dash;Do List with Dark Mode</a>
                     </div>
                 </section>
                 <?php require ('../partials/global/contact.php'); ?>

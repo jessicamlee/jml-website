@@ -1,7 +1,7 @@
 // ------ Burger Menu -------- //
 jQuery(function($) {
 
-    // 3) Adjust the Header Settings so it resets when you shrink back from a larger to smaller screen size
+    // Adjust the Header Settings so it resets when you shrink back from a larger to smaller screen size
 
     var windowWidth = $('body').width();
     // console.log(windowWidth);
@@ -55,16 +55,16 @@ jQuery(function($) {
     |-----------------------------------------
     */
 
-    // 2) TO PREVENT BURGER MENU FROM STAYING OPENED WHEN USER SCROLLS -> scroll-lock.js. 
+    // TO PREVENT BURGER MENU FROM STAYING OPENED WHEN USER SCROLLS -> scroll-lock.js. 
     // 'overlay: hidden' is not applicable for iOS devices -> need JS solution
 
-    // 2a) Start with the basics: 
+    // Start with the basics: 
     const targetElement = document.querySelector('.gn');
     bodyScrollLock.disableBodyScroll(targetElement);
     bodyScrollLock.enableBodyScroll(targetElement);
+    
 
-
-    // 1) need to target the button via the $
+    // Target the button via the $
     $('.gn-trigger').on('click', function(e){
         e.preventDefault();
         // Act on the event (e) 'on-click'
@@ -76,13 +76,18 @@ jQuery(function($) {
         // Adds the 'is-active' class in Inspector when you select it. 
         // Change the styles in CSS for 'is-active' to animate the transition from a burger stack to an X for example.
 
+        // const darkenMain = document.getElementsByClassName('.main');
+
         // If statement instead: 
         if($(this).hasClass('is-active')) {
 
             $(this).removeClass('is-active');
             $('.gn').slideUp();
             bodyScrollLock.enableBodyScroll(targetElement);
+
         // When the burger menu is closed, users are allowed to scroll, ENABLEBODYSCROLL
+
+            jQuery('.main').css('opacity', '1');
 
         } else {
 
@@ -100,10 +105,12 @@ jQuery(function($) {
 
             bodyScrollLock.disableBodyScroll(targetElement);
         // When the menu is open and active, we don't want them to scroll anymore -> add the DISABLEBODYSCROLL line
+
+            jQuery('.main').css('opacity', '0.2');
         }
     });
 
-    // 3a) Test and begin adjusting for Hiding/Revealing the Header
+    // Test and begin adjusting for Hiding/Revealing the Header
 
     $(window).resize(function() {
         windowWidth = $('body').width();
@@ -113,10 +120,10 @@ jQuery(function($) {
             setTimeout(function(){
                 $('.gn-trigger').removeClass('is-active');
                 $('.gn').slideUp(0);
-            }, 200);
+            }, 300);
             // Added this to provide smoother transition from larger to smaller screen sizes for burger menu closing 
-            // $('.gn-trigger').removeClass('is-active')
-            // $('.gn').slideUp();
+            $('.gn-trigger').removeClass('is-active')
+            $('.gn').slideUp();
             bodyScrollLock.enableBodyScroll(targetElement);
             // Don't want to repeat this for dryness for JS optimization
         }
@@ -171,3 +178,5 @@ function animateAllCharacters(ien){
     var animateCharacter = ien.animate(ien.keyframes, ien.options);
 
 }
+
+// ------ Dark/Light Mode Toggle ---------- //
