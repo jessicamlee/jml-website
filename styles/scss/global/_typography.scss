@@ -1,4 +1,4 @@
-@use '../abstracts' as *;
+@use '../utilities' as *;
 
 h1 {
     @include fontstyles ($color-primary, $sm*2.5, $medium, $base, $none);

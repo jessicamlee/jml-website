@@ -1,6 +1,6 @@
-@use '../../abstracts' as *;
+@use '../../utilities' as *;
 
-.project-overview {
+.artifact-pg .project-overview {
     flex-direction: column;
     padding: $sm*3 $sm*1.8;
     height: 80vh;

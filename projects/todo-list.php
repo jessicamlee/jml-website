@@ -2,11 +2,11 @@
 <html lang="en-CA">
     <?php 
         $project_title = "To&dash;Do List &vert; Jessica Lee";
-        require('../partials/project/head_projects.php');
+        require('../partials/projects/head_projects.php');
     ?>
     <body>
         <div class="wrapper">
-            <?php require('../partials/project/header_projects.php'); ?>
+            <?php require('../partials/projects/header_projects.php'); ?>
             <main class="artifact-pg">
                 <section class="container project-overview flex" data-aos="fade-right" data-aos-delay="100">
                     <div class="project-details" data-aos="fade-right" data-aos-delay="300">

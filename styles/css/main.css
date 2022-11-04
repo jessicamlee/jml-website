@@ -194,7 +194,7 @@ header .header-bar .gn ul li {
 }
 header .header-bar .gn ul li a {
   color: rgb(196, 206, 255);
-  font-size: 1.4em;
+  font-size: 1em;
   font-weight: 400;
   font-style: normal;
   text-transform: uppercase;
@@ -390,19 +390,19 @@ footer p {
   line-height: 1.75em;
 }
 
-.project-overview {
+.artifact-pg .project-overview {
   flex-direction: column;
   padding: 3em 1.8em;
   height: 80vh;
 }
-.project-overview .project-details .project-skills {
+.artifact-pg .project-overview .project-details .project-skills {
   color: rgb(196, 206, 255);
   font-size: 0.9em;
   font-weight: 400;
   font-style: normal;
   text-transform: none;
 }
-.project-overview .project-details .project-title {
+.artifact-pg .project-overview .project-details .project-title {
   color: rgb(196, 206, 255);
   font-size: 2.5em;
   font-weight: 500;
@@ -411,14 +411,14 @@ footer p {
   margin: 0.25em 0 0.15em;
   line-height: 1.25;
 }
-.project-overview .project-details .project-type {
+.artifact-pg .project-overview .project-details .project-type {
   color: rgb(196, 206, 255);
   font-size: 0.9em;
   font-weight: 400;
   font-style: italic;
   text-transform: none;
 }
-.project-overview .project-details .in-progress {
+.artifact-pg .project-overview .project-details .in-progress {
   color: rgb(196, 206, 255);
   font-size: 1em;
   font-weight: 500;
@@ -427,7 +427,7 @@ footer p {
   text-align: center;
   margin: 3em 0 2em;
 }
-.project-overview .project-details .project-description {
+.artifact-pg .project-overview .project-details .project-description {
   color: rgb(196, 206, 255);
   font-size: 0.9em;
   font-weight: 400;
@@ -435,18 +435,18 @@ footer p {
   text-transform: none;
   margin: 1.1em 0 2em;
 }
-.project-overview .project-details .links-btn-container {
+.artifact-pg .project-overview .project-details .links-btn-container {
   justify-content: space-between;
   margin: 0.5em 0 2em;
 }
-.project-overview .project-details .links-btn-container .live-link, .project-overview .project-details .links-btn-container .code-link {
+.artifact-pg .project-overview .project-details .links-btn-container .live-link, .artifact-pg .project-overview .project-details .links-btn-container .code-link {
   width: 48%;
   height: auto;
   padding: 0.65em 1em;
   border-radius: 1.5em;
   text-align: center;
 }
-.project-overview .project-details .links-btn-container .live-link {
+.artifact-pg .project-overview .project-details .links-btn-container .live-link {
   background-color: rgb(196, 206, 255);
   border: 0.15em solid rgb(196, 206, 255);
   color: rgb(60, 35, 255);
@@ -455,7 +455,7 @@ footer p {
   font-style: normal;
   text-transform: none;
 }
-.project-overview .project-details .links-btn-container .code-link {
+.artifact-pg .project-overview .project-details .links-btn-container .code-link {
   background-color: transparent;
   border: 0.15em solid rgb(196, 206, 255);
   color: rgb(196, 206, 255);
@@ -464,31 +464,31 @@ footer p {
   font-style: normal;
   text-transform: none;
 }
-.project-overview .proj-img-container {
+.artifact-pg .project-overview .proj-img-container {
   width: 100%;
   max-height: 25em;
   overflow: hidden;
 }
-.project-overview .proj-img-container .project-img {
+.artifact-pg .project-overview .proj-img-container .project-img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.more-projects {
+.artifact-pg .more-projects {
   margin: 0.5em 0 2.5em;
   padding: 2.5em 1.5em 2em;
   text-align: center;
   background-color: rgb(196, 206, 255);
 }
-.more-projects h2 {
+.artifact-pg .more-projects h2 {
   color: rgb(60, 35, 255);
   font-size: 1.25em;
   font-weight: 600;
   font-style: normal;
   text-transform: uppercase;
 }
-.more-projects a {
+.artifact-pg .more-projects a {
   color: rgb(60, 35, 255);
   font-size: 1.03em;
   font-weight: 400;
@@ -680,37 +680,38 @@ footer p {
     font-size: 0.85em;
   }
 }
-.artifact-pg .project-overview {
-  flex-direction: row;
-  justify-content: space-between;
-  height: 60vh;
-  align-items: center;
-  padding: 3em 0;
+@media (min-width: 900px) {
+  .artifact-pg .project-overview {
+    flex-direction: row;
+    justify-content: space-between;
+    height: 60vh;
+    align-items: center;
+    padding: 3em 0;
+  }
+  .artifact-pg .project-overview .project-details {
+    padding: 2em 0 2em 1em;
+    margin-right: 2em;
+    width: 50%;
+  }
+  .artifact-pg .project-overview .project-details .feat-img-container {
+    align-self: center;
+  }
+  .artifact-pg .project-overview .project-details .project-title {
+    margin: 0.2em 0;
+  }
+  .artifact-pg .project-overview .project-details .project-description {
+    margin: 1.1em 0 1.5em;
+  }
+  .artifact-pg .project-overview .project-details .links-btn-container {
+    margin: 0.5em 0 0;
+  }
+  .artifact-pg .project-overview .project-details .in-progress {
+    text-align: left;
+  }
+  .artifact-pg .proj-img-container {
+    margin-right: 1em;
+  }
 }
-.artifact-pg .project-overview .project-details {
-  padding: 2em 0 2em 1em;
-  margin-right: 2em;
-  width: 50%;
-}
-.artifact-pg .project-overview .project-details .feat-img-container {
-  align-self: center;
-}
-.artifact-pg .project-overview .project-details .project-title {
-  margin: 0.2em 0;
-}
-.artifact-pg .project-overview .project-details .project-description {
-  margin: 1.1em 0 1.5em;
-}
-.artifact-pg .project-overview .project-details .links-btn-container {
-  margin: 0.5em 0 0;
-}
-.artifact-pg .project-overview .project-details .in-progress {
-  text-align: left;
-}
-.artifact-pg .project-overview .img-container {
-  margin-right: 1em;
-}
-
 @media (min-width: 1024px) {
   p {
     color: rgb(196, 206, 255);
