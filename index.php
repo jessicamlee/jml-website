@@ -64,8 +64,8 @@
                                     <div class="links-container flex">
                                         <div class="project-details">
                                             <a href="projects/loclo-homepage.php" title="Link to project">
-                                                <h3>Spring Local 2022 by LOCLO</h3>
-                                                <p>Responsive e&dash;Commerce Homepage</p>
+                                                <h3>Spring Local 2022</h3>
+                                                <p>Responsive Homepage</p>
                                             </a>
                                         </div>
                                         <div class="btn-container flex">
@@ -99,7 +99,7 @@
                                     <div class="links-container flex">
                                         <div class="project-details">
                                             <a href="projects/todo-list.php" title="Link to project"><h3>My To&dash;Do List</h3></a>
-                                            <p>Temporary JavaScript To&dash;Do List</p>
+                                            <p>Temporary To&dash;Do List</p>
                                         </div>
                                         <div class="btn-container flex">
                                             <a class="live-link box-shadow-light" data-aos="fade-right"  data-aos-delay="300" href="#" target="_blank" title="Link to Live Site">Visit Site</a>

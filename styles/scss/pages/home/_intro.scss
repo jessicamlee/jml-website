@@ -1,0 +1,21 @@
+@use '../../utilities' as *;
+
+.intro {
+    text-align: center;
+    height: 70vh;
+    padding-top: $sm*5;
+
+    .intro-box {    
+        .career-role {
+            @include fontstyles ($color-primary, $sm*0.9, $medium, $italic, $none);
+            margin-top: $sm*0.25;
+        }
+
+        .career-goal {
+            @include fontstyles($color-primary, $sm*1.25, $normal, $base, $none);
+            justify-content: center;
+            line-height: $sm*1.25;
+            margin: $sm*1.5 0;
+        }
+    }
+}

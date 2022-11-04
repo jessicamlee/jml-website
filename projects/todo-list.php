@@ -2,18 +2,18 @@
 <html lang="en-CA">
     <?php 
         $project_title = "To&dash;Do List &vert; Jessica Lee";
-        require('../partials/global/head_projects.php'); 
+        require('../partials/projects/head_projects.php');
     ?>
     <body>
         <div class="wrapper">
-            <?php require('../partials/global/header_projects.php'); ?>
+            <?php require('../partials/projects/header_projects.php'); ?>
             <main class="artifact-pg">
-                <section class="container project-overview flex bg-violet" data-aos="fade-right" data-aos-delay="100">
+                <section class="container project-overview flex" data-aos="fade-right" data-aos-delay="100">
                     <div class="project-details" data-aos="fade-right" data-aos-delay="300">
                         <p class="project-skills">HTML5 &vert; SASS &vert; JavaScript</p>
-                        <h1 class="project-title">My To&dash;Do List<br class="hidden-tablet"> with Dark Mode&excl;</h1>
-                        <p class="project-type">Temporary JavaScript To&dash;Do List</p>
-                        <p class="project-description">Beat procrastination with this temporary to&dash;do list&period; Combined with its own engaging alarm clock&comma; become empowered to begin and complete your tasks within the same session&period;</p>
+                        <h1 class="project-title">My To&dash;Do List</h1>
+                        <p class="project-type">Temporary To&dash;Do List</p>
+                        <p class="project-description">Beat procrastination with this temporary to&dash;do list&period; Combined with its own engaging alarm clock and Dark Mode option&comma; become empowered to begin and complete your tasks within the same session&period;</p>
                         <div class="links-btn-container flex">
                             <a class="live-link text-violet box-shadow-light" data-aos="fade-right" data-aos-delay="500" href="#" target="_blank" title="Link to Live Site">Visit Site</a>
                             <a class="code-link box-shadow-light" data-aos="fade-right" data-aos-delay="300" href="https://github.com/jessicamlee/todolist" target="_blank" title="Link to GitHub Repository">Review Code</a>
