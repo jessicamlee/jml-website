@@ -15,7 +15,7 @@
                         <p class="project-type">Responsive Homepage</p>
                         <p class="project-description">Featuring refreshing&comma; timeless pieces&comma; check out LOCLO&apos;s new landing&comma; shop&comma; and contact pages on mobile&comma; tablet&comma; and desktop screens for their latest Spring Local 2022 Collection&excl;</p>
                         <div class="links-btn-container flex">
-                            <a class="live-link box-shadow-light text-violet" data-aos="fade-right" data-aos-delay="500" href="#" target="_blank" title="Link to Live Site">Visit Site</a>
+                            <a class="live-link box-shadow-light text-violet" data-aos="fade-right" data-aos-delay="500" href="https://locloclothing.jessicamlee.dev/" target="_blank" title="Link to Live Site">Visit Site</a>
                             <a class="code-link box-shadow-light" data-aos="fade-right" data-aos-delay="300" href="https://github.com/jessicamlee/loclo-clothing" target="_blank" title="Link to GitHub Repository">Review Code</a>
                         </div>
                     </div>

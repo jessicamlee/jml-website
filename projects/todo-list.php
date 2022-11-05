@@ -15,7 +15,7 @@
                         <p class="project-type">Temporary To&dash;Do List</p>
                         <p class="project-description">Beat procrastination with this temporary to&dash;do list&period; Combined with its own engaging alarm clock and Dark Mode option&comma; become empowered to begin and complete your tasks within the same session&period;</p>
                         <div class="links-btn-container flex">
-                            <a class="live-link text-violet box-shadow-light" data-aos="fade-right" data-aos-delay="500" href="#" target="_blank" title="Link to Live Site">Visit Site</a>
+                            <a class="live-link text-violet box-shadow-light" data-aos="fade-right" data-aos-delay="500" href="https://mytodolist.jessicamlee.dev/" target="_blank" title="Link to Live Site">Visit Site</a>
                             <a class="code-link box-shadow-light" data-aos="fade-right" data-aos-delay="300" href="https://github.com/jessicamlee/todolist" target="_blank" title="Link to GitHub Repository">Review Code</a>
                         </div>
                     </div>
