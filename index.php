@@ -69,7 +69,7 @@
                                             </a>
                                         </div>
                                         <div class="btn-container flex">
-                                            <a class="live-link box-shadow-light" data-aos="fade-right"  data-aos-delay="300" href="#" target="_blank" title="Link to Live Site">Visit Site</a>
+                                            <a class="live-link box-shadow-light" data-aos="fade-right"  data-aos-delay="300" href="https://locloclothing.jessicamlee.dev/" target="_blank" title="Link to Live Site">Visit Site</a>
                                             <a class="code-link box-shadow-light" data-aos="fade-right" href="https://github.com/jessicamlee/loclo-clothing" target="_blank" title="Link to GitHub Repository">Review Code</a>
                                         </div>
                                     </div>
@@ -102,7 +102,7 @@
                                             <p>Temporary To&dash;Do List</p>
                                         </div>
                                         <div class="btn-container flex">
-                                            <a class="live-link box-shadow-light" data-aos="fade-right"  data-aos-delay="300" href="#" target="_blank" title="Link to Live Site">Visit Site</a>
+                                            <a class="live-link box-shadow-light" data-aos="fade-right"  data-aos-delay="300" href="https://mytodolist.jessicamlee.dev/" target="_blank" title="Link to Live Site">Visit Site</a>
                                             <a class="code-link box-shadow-light" data-aos="fade-right" href="#" target="_blank" title="Link to GitHub Repository">Review Code</a>
                                         </div>
                                     </div>
