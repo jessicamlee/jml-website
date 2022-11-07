@@ -2,3 +2,9 @@
 
 @use 'overview';
 @use 'more_projects';
+
+.in-progress {
+    @include fontstyles ($color-primary, $sm, $medium, $italic, $none);
+    text-align: center;
+    margin: $sm*3 0 $sm*2;
+}
