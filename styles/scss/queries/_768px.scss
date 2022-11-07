@@ -6,7 +6,7 @@
         padding: $sm*3;
     }
 
-    header {
+    .header {
         padding: $sm*0.9 $sm*3;
 
         .header-bar {
@@ -83,7 +83,7 @@
         }
     }
     
-    footer p {
+    .footer p {
         @include fontstyles ($color-secondary, $sm, $normal, $base, $none);
     }
 
