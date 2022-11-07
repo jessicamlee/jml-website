@@ -20,12 +20,6 @@
             @include fontstyles ($color-primary, $sm*0.9, $normal, $italic, $none);
         }
 
-        .in-progress {
-            @include fontstyles ($color-primary, $sm, $medium, $italic, $none);
-            text-align: center;
-            margin: $sm*3 0 $sm*2;
-        }
-
         .project-description {
             @include fontstyles ($color-primary, $sm*0.9, $normal, $base, $none);
             margin: $sm*1.1 0 $sm*2;

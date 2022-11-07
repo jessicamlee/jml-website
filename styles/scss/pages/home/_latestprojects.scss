@@ -33,10 +33,6 @@
                             @include fontstyles ($color-primary, $sm*0.8, $light, $base, $none);
                         }
                     }
-                    
-                    .proj-in-progress {
-                        @include fontstyles ($color-primary, $sm*0.8, $medium, $italic, $none);
-                    }
                 
                     .btn-container {
                         column-gap: $sm;
