@@ -38,7 +38,7 @@
         height: 50vw;
     }
 
-    footer p {
+    .footer p {
         @include fontstyles ($color-secondary, $sm*0.9, $normal, $base, $none);
     }
 }
