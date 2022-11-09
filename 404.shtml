@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jessica Lee &vert; Front&dash;End Developer</title>
+        <link rel="icon" type="image/svg" href="images/jessicamlee_favicon.svg">
+        <meta name="description" content="Project in progress. Come back later!">
+        <meta name="author" content="Jessica Lee">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,500&display=swap">
+        <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                color: rgb(196, 206, 255);
+                font-family: "Poppins", sans-serif;
+                font-size: 16px;
+                font-weight: 400;
+                background: rgb(0, 6, 35);
+            }
+            .is-flex {
+                display: flex;
+            }
+            .is-center {
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+            p {
+                margin: 0;
+            }
+            .space-bg {
+                background: 100% 0 url(../images/starsinspace_byjessica.jpg);
+                animation: galaxyBg 55s alternate-reverse infinite;
+                overflow: hidden;
+                height: 100vh;
+            }
+            .space-bg .content {
+                text-align: center;
+                margin-bottom: 10em;
+            }
+            .space-bg .content .error-container {
+                align-items: center;
+                justify-content: center;
+            }
+            .space-bg .content .error-container .title {
+                font-size: 8em;
+                font-weight: 400;
+                text-transform: uppercase;
+                line-height: 1.2em;
+                margin-bottom: 0.25em;
+            }
+            .space-bg .content .error-container .title-left {
+                margin-right: -0.15em;
+            }
+            .space-bg .content .error-container .title-right {
+                margin-left: -0.5em;
+            }
+            .space-bg .content .error-container .alien {
+                width: 20em;
+                height: 18em;
+                animation: alienFly 2s linear infinite;
+            }
+            .space-bg .content .caption {
+                font-size: 2em;
+                font-weight: 500;
+                text-transform: uppercase;
+                font-style: italic;
+                margin-top: -2em;
+            }
+            .space-bg .content .error-desc {
+                font-size: 1em;
+                font-weight: 300;
+                margin: 1em 0;
+                line-height: 1.5em;
+            }
+            .space-bg .content .btn {
+                font-weight: 500;
+                color: rgb(60, 35, 255);
+                background-color: rgb(196, 206, 255);
+                border: 0.15em solid rgb(196, 206, 255);
+                text-transform: uppercase;
+                padding: 0.6em 1.7em;
+                border-radius: 1.5em;
+                text-decoration: none;
+                margin-top: 1em;
+            }
+            @keyframes galaxyBg {
+                0% {
+                    background-position: 100% 0%;
+                }
+                100% {
+                    background-position: 0% 0%;
+                }
+            }
+            @keyframes alienFly {
+                0% {
+                    transform: translate(-25px, 0px);
+                }
+                50% {
+                    transform: translate(25px, 0px);
+                }
+                100% {
+                    transform: translate(-25px, 0px);
+                }
+            }
+            @media (min-width: 1024px) {
+                .space-bg .content .btn:hover {
+                    color: rgb(196, 206, 255);
+                    background-color: rgb(60, 35, 255);
+                    border: 0.15em solid rgb(60, 35, 255);
+                    transition: 0.5s ease-in-out;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="space-bg is-flex is-center">
+            <div class="content is-flex is-center">
+                <div class="error-container is-flex">
+                    <p data-aos="fade-down" class="title title-left">4</p>
+                    <!-- <img data-aos="fade-down" data-aos-delay="250" class="alien" src="images/ienthealien_byjessica.svg" alt="IEN the Turquoise Alien"> -->
+                    <div data-aos="fade-down" data-aos-delay="250" class="alien">
+                        <svg id="Alien" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1224 792"><defs><style>.cls-1{stroke:#1bead6;fill:url(#linear-gradient);}.cls-1,.cls-3{stroke-miterlimit:10;stroke-width:1.65px;}.cls-2{fill:#004f44;}.cls-3{fill:#eefffd;stroke:#d8d8d8;}.cls-4{fill:#32a59a;}</style><linearGradient id="linear-gradient" x1="230.24" y1="454.08" x2="816.46" y2="297" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#125b51"/><stop offset="0.13" stop-color="#2c7970"/><stop offset="0.37" stop-color="#65bbb3"/><stop offset="0.42" stop-color="#66c9c0"/><stop offset="0.51" stop-color="#67dcd3"/><stop offset="0.62" stop-color="#68eadf"/><stop offset="0.75" stop-color="#69f2e7"/><stop offset="1" stop-color="#69f4e9"/></linearGradient></defs><path class="cls-1" d="M839,411.84c0,146.47-112.06,164.89-319.1,164.89-206,0-291.35-18.42-291.35-164.89S365.2,146.63,533.77,146.63,839,265.37,839,411.84Z"/><path class="cls-2" d="M466.58,234C417,245.61,425.09,320.6,363.47,321.7c-75.13,6.61-74.44,282.87-102.2,123.44C236.14,300.84,365,179.94,493,179.94,597.82,179.94,609.22,200.74,466.58,234Z"/><g id="Left_Eye" data-name="Left Eye"><path class="cls-3" d="M727.62,333.8c0,31.13-23.82,35.05-67.84,35.05-43.79,0-61.94-3.92-61.94-35.05s29-56.38,64.89-56.38S727.62,302.66,727.62,333.8Z"/><path class="cls-2" d="M720.07,324.43c.45,17.09-12.57,19.58-36.73,20.21s-34-1.25-34.49-18.34,15.13-31.36,34.8-31.87S719.62,307.34,720.07,324.43Z"/></g><g id="Right_Eye" data-name="Right Eye"><path class="cls-3" d="M615.83,344.21c0,31.14-23.83,35.05-67.84,35.05-43.79,0-61.94-3.91-61.94-35.05s29.05-56.38,64.89-56.38S615.83,313.07,615.83,344.21Z"/><path class="cls-2" d="M608.27,334.85c.45,17.08-12.56,19.57-36.72,20.21s-34-1.26-34.49-18.35,15.13-31.35,34.79-31.87S607.83,317.76,608.27,334.85Z"/></g><g id="Mouth"><ellipse class="cls-4" cx="620.71" cy="452.28" rx="40.25" ry="21.23"/><path class="cls-2" d="M659.78,457.4c-4,8.27-16.84,16.11-39.07,16.11-19.71,0-33.6-7.51-37.51-13.52,6.58-7.51,30.8-6.16,37-6.66C623.72,453.5,652.83,451.39,659.78,457.4Z" alt="IEN the Turquoise Alien"/></g>
+                        </svg>
+                    </div>
+                    <p data-aos="fade-down" data-aos-delay="500" class="title title-right">4</p>
+                </div>
+                <p data-aos="fade-right" data-aos-delay="650" class="caption">error&excl;</p>
+                <p data-aos="fade-left" data-aos-delay="1000" class="error-desc">Try again later or return to Jessica&apos;s Home Page&period;</p>
+                <a data-aos="fade-up" data-aos-delay="1200" class="btn" href="https://jessicamlee.dev/" target="_blank" title="Go back to Jessica's homepage">Go back</a>
+            </div>
+        </div>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init({
+                duration: 1200
+            });
+        </script>
+    </body>
+</html>
