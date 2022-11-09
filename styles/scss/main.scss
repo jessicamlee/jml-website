@@ -2,19 +2,9 @@
 @use 'utilities' as *;
 
 @use '../scss/global/global';
-@use '../scss/global/helpers';
-@use '../scss/global/typography';
-
-@use '../scss/partials/header';
-@use '../scss/partials/contact';
-@use '../scss/partials/footer';
+@use '../scss/partials/partials' as *;
 
 @use '../scss/pages/home/home';
 @use '../scss/pages/project/project';
 
-@use '../scss/queries/320px' as *;
-@use '../scss/queries/480px' as *;
-@use '../scss/queries/640px' as *;
-@use '../scss/queries/768px' as *;
-@use '../scss/queries/900px' as *;
-@use '../scss/queries/1024px' as *;
+@use '../scss/queries/queries' as *;
