@@ -66,11 +66,11 @@
             flex-direction: row;
             column-gap: $sm*3.5;
             margin-top: $sm*2.25;
-        }
 
-        img {
-            height: $sm*17;
-            margin: 0 0 0 auto;
+            img {
+                height: $sm*17;
+                margin: 0 0 0 auto;
+            }
         }
 
         .bio-desc {
