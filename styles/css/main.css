@@ -346,58 +346,6 @@ textarea {
   padding: 0.2em 0;
 }
 
-body {
-  margin: 0 auto;
-  font-size: 16px !important;
-  font-family: "Poppins", sans-serif;
-  background-color: rgb(21, 21, 21);
-}
-
-.wrapper {
-  overflow-x: hidden;
-}
-
-.container {
-  margin: 0 auto;
-  max-width: 1024px;
-  position: relative;
-}
-
-main {
-  margin-top: 6em;
-}
-
-a {
-  text-decoration: none;
-}
-
-.section {
-  padding: 2em 1.5em;
-}
-
-.img-container {
-  width: 100%;
-  height: 100%;
-  max-height: 30em;
-  overflow: hidden;
-}
-.img-container .img-thumb {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: all 0.35s ease-in-out;
-}
-
-::-moz-selection {
-  color: rgb(60, 35, 255);
-  background: rgb(196, 206, 255);
-}
-
-::selection {
-  color: rgb(60, 35, 255);
-  background: rgb(196, 206, 255);
-}
-
 .flex {
   display: flex;
 }
@@ -448,6 +396,63 @@ p {
   line-height: 1.4em;
 }
 
+body {
+  margin: 0 auto;
+  font-size: 16px !important;
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(21, 21, 21);
+}
+
+.wrapper {
+  overflow-x: hidden;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1024px;
+  position: relative;
+}
+
+main {
+  margin-top: 6em;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+  list-style-type: none;
+}
+
+.section {
+  padding: 2em 1.5em;
+}
+
+.img-container {
+  width: 100%;
+  height: 100%;
+  max-height: 30em;
+  overflow: hidden;
+}
+.img-container .img-thumb {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.35s ease-in-out;
+}
+
+::-moz-selection {
+  color: rgb(60, 35, 255);
+  background: rgb(196, 206, 255);
+}
+
+::selection {
+  color: rgb(60, 35, 255);
+  background: rgb(196, 206, 255);
+}
+
 header {
   position: fixed;
   top: 0;
@@ -475,7 +480,8 @@ header .header-bar .logo svg {
   margin: 0 auto;
   align-items: center;
 }
-header .header-bar .gn-trigger {
+
+.gn-trigger {
   position: relative;
   width: 3em;
   height: 3em;
@@ -485,7 +491,7 @@ header .header-bar .gn-trigger {
   margin-left: auto;
   cursor: pointer;
 }
-header .header-bar .gn-trigger .burger-menu {
+.gn-trigger .burger-menu {
   position: absolute;
   width: 2.5em;
   height: 0.025em;
@@ -494,7 +500,7 @@ header .header-bar .gn-trigger .burger-menu {
   top: 35%;
   right: 0;
 }
-header .header-bar .gn-trigger .burger-menu:after {
+.gn-trigger .burger-menu:after {
   display: block;
   content: "";
   position: absolute;
@@ -506,41 +512,42 @@ header .header-bar .gn-trigger .burger-menu:after {
   right: 0.5em;
   box-shadow: 0px 3px 7px -1px box-shadow;
 }
-header .header-bar .gn-trigger .burger-menu,
-header .header-bar .gn-trigger .burger-menu:after {
+.gn-trigger .burger-menu,
+.gn-trigger .burger-menu:after {
   transition: transform top background;
   transition-duration: 0.5s;
 }
-header .header-bar .gn-trigger.is-active .burger-menu {
+.gn-trigger.is-active .burger-menu {
   background-color: rgb(21, 21, 21);
   transform: rotate(405deg);
   top: 1.5em;
   right: 0;
 }
-header .header-bar .gn-trigger.is-active .burger-menu:after {
+.gn-trigger.is-active .burger-menu:after {
   background-color: rgb(21, 21, 21);
   transform: rotate(-450deg);
   top: -0.1em;
   right: -0.1em;
 }
-header .header-bar .gn {
+
+.gn {
   display: none;
   position: absolute;
   top: 4.5em;
-  left: 0;
-  width: 100%;
+  left: -2em;
+  width: 100vw;
   background-color: rgb(21, 21, 21);
 }
-header .header-bar .gn ul {
+.gn ul {
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
   background-color: rgb(21, 21, 21);
 }
-header .header-bar .gn ul li {
+.gn li {
   padding: 2em;
 }
-header .header-bar .gn ul li a {
+.gn a {
   color: rgb(196, 206, 255);
   font-size: 1em;
   font-weight: 400;
@@ -555,17 +562,17 @@ header .header-bar .gn ul li a {
   text-align: center;
   text-transform: none;
 }
-.contact .contact-details p {
+.contact p {
   margin-bottom: 1em;
   line-height: 1.75;
 }
-.contact .contact-details .social-icons {
+.contact ul {
   justify-content: center;
 }
-.contact .contact-details .social-icons li {
+.contact li {
   transition: all 0.35s ease-in-out;
 }
-.contact .contact-details .social-icons li svg {
+.contact li svg {
   width: 2.5em;
   height: 2.5em;
   fill: rgb(196, 206, 255);
@@ -592,7 +599,7 @@ footer p {
   height: 70vh;
   padding-top: 2em;
 }
-.intro .intro-box .career-role {
+.intro .career-role {
   color: rgb(196, 206, 255);
   font-size: 0.9em;
   font-weight: 500;
@@ -600,7 +607,7 @@ footer p {
   text-transform: none;
   margin-top: 0.25em;
 }
-.intro .intro-box .career-goal {
+.intro .career-goal {
   color: rgb(196, 206, 255);
   font-size: 1.25em;
   font-weight: 400;
@@ -656,14 +663,14 @@ footer p {
   flex-direction: column;
   margin-top: 1.25em;
 }
-.projects .projects-collection .project-card {
+.projects .project-card {
   margin-bottom: 3em;
 }
-.projects .projects-collection .project-card .project-thumb {
+.projects .project-thumb {
   position: relative;
   overflow: hidden;
 }
-.projects .projects-collection .project-card .project-thumb .links-container {
+.projects .links-container {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -675,27 +682,27 @@ footer p {
   flex-direction: column;
   padding-bottom: 0.5em;
 }
-.projects .projects-collection .project-card .project-thumb .links-container .project-details {
+.projects .project-details {
   padding: 1.25em 1em 0;
   margin-bottom: 0.75em;
   text-align: center;
 }
-.projects .projects-collection .project-card .project-thumb .links-container .project-details p {
+.projects .project-details p {
   color: rgb(196, 206, 255);
   font-size: 0.8em;
   font-weight: 300;
   font-style: normal;
   text-transform: none;
 }
-.projects .projects-collection .project-card .project-thumb .links-container .btn-container {
+.projects .btn-container {
   column-gap: 1em;
 }
-.projects .projects-collection .project-card .project-thumb .links-container .btn-container .live-link, .projects .projects-collection .project-card .project-thumb .links-container .btn-container .code-link {
+.projects .btn-container .live-link, .projects .btn-container .code-link {
   padding: 0.6em 0.7em;
   border-radius: 1.5em;
   text-align: center;
 }
-.projects .projects-collection .project-card .project-thumb .links-container .btn-container .live-link {
+.projects .btn-container .live-link {
   background-color: rgb(196, 206, 255);
   border: 0.15em solid rgb(196, 206, 255);
   color: rgb(60, 35, 255);
@@ -704,7 +711,7 @@ footer p {
   font-style: normal;
   text-transform: none;
 }
-.projects .projects-collection .project-card .project-thumb .links-container .btn-container .code-link {
+.projects .btn-container .code-link {
   background-color: transparent;
   border: 0.15em solid rgb(196, 206, 255);
   color: rgb(196, 206, 255);
@@ -721,12 +728,12 @@ footer p {
   text-align: left;
   flex-direction: column;
 }
-.about .bio img {
+.about img {
   height: 70vw;
   border-radius: 50%;
   margin: 1.75em auto;
 }
-.about .bio p {
+.about p {
   margin: 1em 0;
   line-height: 1.75em;
 }
@@ -736,14 +743,14 @@ footer p {
   padding: 3em 1.8em;
   height: 80vh;
 }
-.artifact-pg .project-overview .project-details .project-skills {
+.artifact-pg .project-overview .project-skills {
   color: rgb(196, 206, 255);
   font-size: 0.9em;
   font-weight: 400;
   font-style: normal;
   text-transform: none;
 }
-.artifact-pg .project-overview .project-details .project-title {
+.artifact-pg .project-overview .project-title {
   color: rgb(196, 206, 255);
   font-size: 2.5em;
   font-weight: 500;
@@ -752,14 +759,14 @@ footer p {
   margin: 0.25em 0 0.15em;
   line-height: 1.25;
 }
-.artifact-pg .project-overview .project-details .project-type {
+.artifact-pg .project-overview .project-type {
   color: rgb(196, 206, 255);
   font-size: 0.9em;
   font-weight: 400;
   font-style: italic;
   text-transform: none;
 }
-.artifact-pg .project-overview .project-details .project-description {
+.artifact-pg .project-overview .project-description {
   color: rgb(196, 206, 255);
   font-size: 0.9em;
   font-weight: 400;
@@ -767,18 +774,18 @@ footer p {
   text-transform: none;
   margin: 1.1em 0 2em;
 }
-.artifact-pg .project-overview .project-details .links-btn-container {
+.artifact-pg .project-overview .links-btn-container {
   justify-content: space-between;
   margin: 0.5em 0 2em;
 }
-.artifact-pg .project-overview .project-details .links-btn-container .live-link, .artifact-pg .project-overview .project-details .links-btn-container .code-link {
+.artifact-pg .project-overview .links-btn-container .live-link, .artifact-pg .project-overview .links-btn-container .code-link {
   width: 48%;
   height: auto;
   padding: 0.65em 1em;
   border-radius: 1.5em;
   text-align: center;
 }
-.artifact-pg .project-overview .project-details .links-btn-container .live-link {
+.artifact-pg .project-overview .links-btn-container .live-link {
   background-color: rgb(196, 206, 255);
   border: 0.15em solid rgb(196, 206, 255);
   color: rgb(60, 35, 255);
@@ -787,7 +794,7 @@ footer p {
   font-style: normal;
   text-transform: none;
 }
-.artifact-pg .project-overview .project-details .links-btn-container .code-link {
+.artifact-pg .project-overview .links-btn-container .code-link {
   background-color: transparent;
   border: 0.15em solid rgb(196, 206, 255);
   color: rgb(196, 206, 255);
@@ -840,14 +847,14 @@ footer p {
 }
 
 @media (min-width: 320px) {
-  .projects .projects-collection .project-card .project-thumb .links-container .project-details h3 {
+  .projects h3 {
     color: rgb(196, 206, 255);
     font-size: 1.85em;
     font-weight: 500;
     font-style: normal;
     text-transform: none;
   }
-  .projects .projects-collection .project-card .project-thumb .links-container .project-details p {
+  .projects p {
     color: rgb(196, 206, 255);
     font-size: 1em;
     font-weight: 400;
@@ -856,33 +863,23 @@ footer p {
   }
 }
 @media (min-width: 480px) {
-  .intro .intro-box h1 {
+  .intro h1 {
     font-size: 3em;
     margin-top: 0.5em;
   }
-  .intro .intro-box .career-role {
+  .intro .career-role {
     color: rgb(196, 206, 255);
     font-size: 1em;
     font-weight: 500;
     font-style: italic;
     text-transform: none;
   }
-  .intro .intro-box .career-goal {
+  .intro .career-goal {
     margin: 1.25em 0;
   }
   .intro .blobwindow {
     width: 18.125em;
     height: 18.125em;
-  }
-  .projects .projects-collection .project-card .project-thumb .links-container {
-    row-gap: 0.7em;
-  }
-  .projects .projects-collection .project-card .project-thumb .links-container .proj-in-progress {
-    color: rgb(196, 206, 255);
-    font-size: 0.9em;
-    font-weight: 500;
-    font-style: italic;
-    text-transform: none;
   }
   .about .bio img {
     height: 50vw;
@@ -912,36 +909,33 @@ footer p {
   .section {
     padding: 3em;
   }
-  .header {
-    padding: 0.9em 3em;
-  }
-  .header .header-bar .gn-trigger {
-    display: none;
-  }
-  .header .header-bar .gn {
+  .gn {
     display: block;
     position: static;
     top: 0px;
     height: auto;
     box-shadow: 0;
   }
-  .header .header-bar .gn ul {
+  .gn ul {
     flex-direction: row;
     justify-content: flex-end;
     gap: 1.5em;
   }
-  .header .header-bar .gn ul li {
+  .gn li {
     padding: 0;
   }
-  .header .header-bar .gn ul li a {
+  .gn a {
     color: rgb(196, 206, 255);
     font-size: 1.1em;
     font-weight: 400;
     font-style: normal;
     text-transform: uppercase;
   }
+  .gn-trigger {
+    display: none;
+  }
   .intro {
-    padding-top: 7em;
+    padding-top: 4em;
   }
   .projects .projects-collection {
     flex-direction: row;
@@ -960,7 +954,7 @@ footer p {
   .projects .projects-collection .project-card:nth-child(3n+2) {
     margin-top: 8em;
   }
-  .projects .projects-collection .project-card .project-thumb .links-container .project-details h3 {
+  .projects .projects-collection .project-details h3 {
     color: rgb(196, 206, 255);
     font-size: 2em;
     font-weight: 500;
@@ -972,11 +966,11 @@ footer p {
     column-gap: 3.5em;
     margin-top: 2.25em;
   }
-  .about .bio img {
+  .about img {
     height: 17em;
     margin: 0 0 0 auto;
   }
-  .about .bio .bio-desc {
+  .about .bio-desc {
     width: 50%;
     margin-right: auto;
   }
@@ -987,14 +981,14 @@ footer p {
     font-style: normal;
     text-transform: none;
   }
-  .artifact-pg .project-overview .project-details .project-skills, .artifact-pg .project-overview .project-details .project-description {
+  .artifact-pg .project-overview .project-skills, .artifact-pg .project-overview .project-description {
     color: rgb(196, 206, 255);
     font-size: 0.9em;
     font-weight: 400;
     font-style: normal;
     text-transform: none;
   }
-  .artifact-pg .project-overview .project-details .project-title {
+  .artifact-pg .project-overview .project-title {
     color: rgb(196, 206, 255);
     font-size: 2em;
     font-weight: 600;
@@ -1002,21 +996,21 @@ footer p {
     text-transform: none;
     line-height: 1.25;
   }
-  .artifact-pg .project-overview .project-details .project-type {
+  .artifact-pg .project-overview .project-type {
     color: rgb(196, 206, 255);
     font-size: 0.9em;
     font-weight: 400;
     font-style: italic;
     text-transform: none;
   }
-  .artifact-pg .project-overview .project-details .project-description {
+  .artifact-pg .project-overview .project-description {
     line-height: 1.7;
     margin: 1.1em 0 1.5em;
   }
-  .artifact-pg .project-overview .project-details .links-btn-container {
+  .artifact-pg .project-overview .links-btn-container {
     justify-content: flex-start;
   }
-  .artifact-pg .project-overview .project-details .links-btn-container .code-link, .artifact-pg .project-overview .project-details .links-btn-container .live-link {
+  .artifact-pg .project-overview .links-btn-container .code-link, .artifact-pg .project-overview .links-btn-container .live-link {
     margin-right: 1em;
     padding: 0.6em 1em;
     font-size: 0.85em;
@@ -1030,24 +1024,24 @@ footer p {
     align-items: center;
     padding: 3em 0;
   }
-  .artifact-pg .project-overview .project-details {
+  .artifact-pg .project-details {
     padding: 2em 0 2em 1em;
     margin-right: 2em;
     width: 50%;
   }
-  .artifact-pg .project-overview .project-details .feat-img-container {
+  .artifact-pg .project-details .feat-img-container {
     align-self: center;
   }
-  .artifact-pg .project-overview .project-details .project-title {
+  .artifact-pg .project-details .project-title {
     margin: 0.2em 0;
   }
-  .artifact-pg .project-overview .project-details .project-description {
+  .artifact-pg .project-details .project-description {
     margin: 1.1em 0 1.5em;
   }
-  .artifact-pg .project-overview .project-details .links-btn-container {
+  .artifact-pg .project-details .links-btn-container {
     margin: 0.5em 0 0;
   }
-  .artifact-pg .project-overview .project-details .in-progress {
+  .artifact-pg .project-details .in-progress {
     text-align: left;
   }
   .artifact-pg .proj-img-container {

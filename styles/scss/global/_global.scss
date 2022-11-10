@@ -1,5 +1,8 @@
 @use '../utilities' as *;
 
+@use 'helpers';
+@use 'typography';
+
 body {
     margin: 0 auto;
     font-size: 16px!important;
@@ -23,6 +26,11 @@ main {
 
 a {
     text-decoration: none;
+}
+
+li {
+    list-style: none;
+    list-style-type: none;
 }
 
 .section {
@@ -52,6 +60,3 @@ a {
     color: $color-secondary;
     background: $color-primary;
 }
-
-@use 'helpers';
-@use 'typography';

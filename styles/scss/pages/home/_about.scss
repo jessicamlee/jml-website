@@ -6,16 +6,16 @@
     .bio {
         text-align: left;
         flex-direction: column;
+    }
 
-        img {
-            height: 70vw;
-            border-radius: 50%;
-            margin: $sm*1.75 auto;
-        }
+    img {
+        height: 70vw;
+        border-radius: 50%;
+        margin: $sm*1.75 auto;
+    }
 
-        p {
-            margin: $sm 0;
-            line-height: $sm*1.75;
-        }
+    p {
+        margin: $sm 0;
+        line-height: $sm*1.75;
     }
 }

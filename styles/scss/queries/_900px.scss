@@ -9,31 +9,31 @@
             height: 60vh;
             align-items: center;
             padding: $sm*3 0;
-        
-            .project-details {
-                padding: $lg 0 $lg $sm;
-                margin-right: $sm*2;
-                width: 50%;
-        
-                .feat-img-container {
-                    align-self: center;
-                }
-        
-                .project-title {
-                    margin: $sm*0.2 0;
-                }
-        
-                .project-description {
-                    margin: $sm*1.1 0 $sm*1.5;
-                }
-        
-                .links-btn-container {
-                    margin: $sm*0.5 0 0;
-                }
-        
-                .in-progress {
-                    text-align: left;
-                }
+        }
+
+        .project-details {
+            padding: $lg 0 $lg $sm;
+            margin-right: $sm*2;
+            width: 50%;
+    
+            .feat-img-container {
+                align-self: center;
+            }
+    
+            .project-title {
+                margin: $sm*0.2 0;
+            }
+    
+            .project-description {
+                margin: $sm*1.1 0 $sm*1.5;
+            }
+    
+            .links-btn-container {
+                margin: $sm*0.5 0 0;
+            }
+    
+            .in-progress {
+                text-align: left;
             }
         }
     
