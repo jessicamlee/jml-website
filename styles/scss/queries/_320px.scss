@@ -2,7 +2,7 @@
 
 @media (min-width:320px) {
 
-    .projects .projects-collection .project-card .project-thumb .links-container .project-details {
+    .projects {
         h3 {
             @include fontstyles ($color-primary, $sm*1.85, $medium, $base, $none);
         }

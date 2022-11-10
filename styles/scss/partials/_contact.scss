@@ -8,25 +8,23 @@
         text-transform: none;
     }
 
-    .contact-details {
-        p {
-            margin-bottom: $sm;
-            line-height: 1.75;
-        }
+    p {
+        margin-bottom: $sm;
+        line-height: 1.75;
+    }
 
-        .social-icons {
-            justify-content: center;
+    ul {
+        justify-content: center;
+    }
 
-            li {
-                transition: all 0.35s ease-in-out;
-                
-                svg {
-                    width: $sm*2.5;
-                    height: $sm*2.5;
-                    fill: $color-primary;
-                    margin: $sm*0.25 $sm*0.75;
-                }
-            }
+    li {
+        transition: all 0.35s ease-in-out;
+        
+        svg {
+            width: $sm*2.5;
+            height: $sm*2.5;
+            fill: $color-primary;
+            margin: $sm*0.25 $sm*0.75;
         }
     }
 }

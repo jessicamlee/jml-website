@@ -6,40 +6,34 @@
         padding: $sm*3;
     }
 
-    .header {
-        padding: $sm*0.9 $sm*3;
+    .gn {
+        display: block;
+        position: static;
+        top: 0px;
+        height: auto;
+        box-shadow: 0;
+    
+        ul {
+            flex-direction: row;
+            justify-content: flex-end;
+            gap: $sm*1.5;
+        }
 
-        .header-bar {
-            .gn-trigger {
-                display: none;
-            }
-        
-            .gn {
-                display: block;
-                position: static;
-                top: 0px;
-                height: auto;
-                box-shadow: 0;
-            
-                ul {
-                    flex-direction: row;
-                    justify-content: flex-end;
-                    gap: $sm*1.5;
-        
-                    li {
-                        padding: 0;
+        li {
+            padding: 0;
+        }
 
-                        a {
-                            @include fontstyles($color-primary, $sm*1.1, $normal, $base, $uppercase);
-                        }
-                    }
-                }
-            }
+        a {
+            @include fontstyles($color-primary, $sm*1.1, $normal, $base, $uppercase);
         }
     }
 
+    .gn-trigger {
+        display: none;
+    }
+
     .intro {
-        padding-top: $sm*7;
+        padding-top: $sm*4;
     }
 
     .projects .projects-collection {
@@ -60,17 +54,19 @@
             &:nth-child(3n+2){
                 margin-top: $sm*8;
             }
+        }
 
-            .project-thumb .links-container .project-details h3 {
-                @include fontstyles ($color-primary, $sm*2, $medium, $base, $none);
-            }
+        .project-details h3 {
+            @include fontstyles ($color-primary, $sm*2, $medium, $base, $none);
         }
     }
 
-    .about .bio {
-        flex-direction: row;
-        column-gap: $sm*3.5;
-        margin-top: $sm*2.25;
+    .about {
+        .bio {
+            flex-direction: row;
+            column-gap: $sm*3.5;
+            margin-top: $sm*2.25;
+        }
 
         img {
             height: $sm*17;
@@ -87,7 +83,7 @@
         @include fontstyles ($color-secondary, $sm, $normal, $base, $none);
     }
 
-    .artifact-pg .project-overview .project-details {
+    .artifact-pg .project-overview {
             
         .project-skills, .project-description {
             @include fontstyles ($color-primary, $sm*0.9, $normal, $base, $none);
