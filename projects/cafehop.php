@@ -14,7 +14,7 @@
                     $project_description = 'Track your next productivity spot to study or work with reliable wifi&comma; charging outlets&comma; and yummy snacks with Caf&eacute; Hop&excl;';
                     $project_skills = 'React Native &vert; Android Studio';
                     $live_link = 'https://cafehop.jessicamlee.dev/';
-                    $code_link = 'https://github.com/jessicamlee/';
+                    $code_link = 'https://github.com/jessicamlee/cafehop';
                     $project_img_src = 'cafehop_cover';
                     $project_img_alt = 'Cafe Hop App Cover Photo';
                     include('../partials/projects/artifact_overview.php');
