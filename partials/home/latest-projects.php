@@ -19,7 +19,7 @@
                 $project_img_src = 'cafehop_cover.jpg';
                 $project_img_alt = 'Cafe Hop App Cover Photo';
                 $live_link = 'https://cafehop.jessicamlee.dev/';
-                $code_link = 'https://github.com/jessicamlee/';
+                $code_link = 'https://github.com/jessicamlee/cafehop';
                 include('partials/home/project-card.php');
             ?>
             <?php
@@ -28,8 +28,8 @@
                 $project_pg_link = 'mytodo';
                 $project_img_src = 'todo_cover.jpg';
                 $project_img_alt = 'My To-Do List Cover Photo';
-                $live_link = 'https://cafehop.jessicamlee.dev/';
-                $code_link = 'https://github.com/jessicamlee/';
+                $live_link = 'https://mytodolist.jessicamlee.dev/';
+                $code_link = 'https://github.com/jessicamlee/todolist';
                 include('partials/home/project-card.php');
             ?>
         </ul>
