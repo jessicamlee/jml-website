@@ -1,0 +1,5 @@
+@use '../utilities' as *;
+
+@forward 'header';
+@forward 'contact';
+@forward 'footer';
