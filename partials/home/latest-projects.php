@@ -34,7 +34,7 @@
             ?>
             <?php
                 $project_title = 'CMJSH Agency';
-                $project_type = 'Responsive Agency Landing Page';
+                $project_type = 'Responsive Landing Page';
                 $project_pg_link = 'cmjshagency';
                 $project_img_src = 'default_cover';
                 $project_img_alt = 'CMJSH Agency Website Cover Photo';
