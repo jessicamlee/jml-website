@@ -1,7 +1,7 @@
 @use '../../utilities' as *;
 
-@use 'overview';
-@use 'more_projects';
+@forward 'overview';
+@forward 'more_projects';
 
 .in-progress {
     @include fontstyles ($color-primary, $sm, $medium, $italic, $none);
