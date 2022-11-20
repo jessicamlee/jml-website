@@ -34,7 +34,7 @@
         text-align: center;
         
         p {
-            @include fontstyles ($color-primary, $sm*0.8, $light, $base, $none);
+            @include fontstyles ($color-primary, $sm*0.85, $light, $base, $none);
         }
     }
 

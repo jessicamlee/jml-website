@@ -23,6 +23,10 @@
         }
     }
 
+    .projects .project-details p {
+        @include fontstyles ($color-primary, $sm, $light, $base, $none);
+    }
+
     .about .bio img {
         height: 50vw;
     }
