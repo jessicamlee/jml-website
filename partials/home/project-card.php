@@ -11,7 +11,7 @@
 ?><li class="project-card" data-aos="fade-right">
     <div class="project-thumb">
         <div class="img-container">
-            <img class="img-thumb" src="images/projects/<?php echo $project_img_src; ?>" alt="<?php echo $project_img_alt; ?>">
+            <img class="img-thumb" src="images/projects/<?php echo $project_img_src; ?>.jpg" alt="<?php echo $project_img_alt; ?>">
         </div>
         <div class="links-container flex">
             <div class="project-details">

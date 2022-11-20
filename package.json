@@ -8,8 +8,5 @@
     "url": "n"
   },
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "aos": "^2.3.4"
-  }
+  "license": "ISC"
 }
