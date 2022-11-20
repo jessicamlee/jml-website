@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+    <?php 
+        $project_title = "CMJSH Agency &vert; Jessica Lee";
+        include('../partials/projects/head_projects.php');
+    ?>
+    <body>
+        <div class="wrapper">
+            <?php include('../partials/projects/header_projects.php'); ?>
+            <main class="artifact-pg">
+                <?php
+                    $project_title = 'CMJSH Agency';
+                    $project_type = 'Responsive Agency Landing Page';
+                    $project_description = 'CMJSH Agency is a fictional&comma; digital marketing agency focused on designing&comma; developing&comma; and marketing accessible business solutions in the forms of responsive website interfaces&period;';
+                    $project_skills = 'PHP &vert; Tailwind CSS &vert; BrowserStack';
+                    $live_link = 'https://github.com/jessicamlee/CMJSH-agency';
+                    $code_link = 'https://github.com/jessicamlee/CMJSH-agency';
+                    $project_img_src = 'default_cover';
+                    $project_img_alt = 'CMJSH Agency Website Cover Photo';
+                    include('../partials/projects/artifact_overview.php');
+                ?>
+                <section class="more-projects">
+                    <div class="container">
+                        <h2 data-aos="fade-right">More Projects&colon;</h2>
+                        <a class="block" data-aos="fade-right" data-aos-delay="100" href="../projects/locloclothing.php" title="LOCLO Responsive Homepage">LOCLO Responsive Homepage</a>
+                        <a class="block" data-aos="fade-right" data-aos-delay="200" href="../projects/cafehop.php" title="Caf&eacute; Hop Mobile App">Caf&eacute; Hop App</a>
+                    </div>
+                </section>
+                <?php include('../partials/global/contact.php'); ?>
+            </main>
+            <?php include('../partials/global/footer.php'); ?>
+        </div>
+        <?php include('../partials/projects/footer_links.php'); ?>
+    </body>
+</html>
