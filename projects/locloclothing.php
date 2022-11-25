@@ -10,7 +10,7 @@
             <main class="artifact-pg">
                 <?php
                     $project_title = 'Spring Local 2022';
-                    $project_type = 'Responsive e&dash;commerce Website';
+                    $project_type = 'Responsive e&dash;Commerce Experience';
                     $project_description = 'Featuring refreshing&comma; timeless pieces&comma; check out LOCLO&apos;s new landing and Shop pages on mobile&comma; tablet&comma; and desktop screens for their latest Spring Local 2022 Collection&excl;';
                     $project_skills = 'PHP &vert; MySQL &vert; SASS &vert; HTML5';
                     $live_link = 'https://locloclothing.jessicamlee.dev/';

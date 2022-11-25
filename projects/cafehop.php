@@ -10,7 +10,7 @@
             <main class="artifact-pg">
                 <?php
                     $project_title = 'Caf&eacute; Hop';
-                    $project_type = 'Android&dash;based Mobile Application';
+                    $project_type = 'Android Mobile Application';
                     $project_description = 'Track your next productivity spot to study or work with reliable wifi&comma; charging outlets&comma; and yummy snacks with Caf&eacute; Hop&excl;';
                     $project_skills = 'React Native &vert; Android Studio';
                     $live_link = 'https://cafehop.jessicamlee.dev/';

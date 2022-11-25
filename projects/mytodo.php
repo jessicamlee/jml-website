@@ -11,7 +11,7 @@
                 <?php
                     $project_title = 'My To&dash;Do List';
                     $project_type = 'Temporary To&dash;Do List';
-                    $project_description = 'Beat procrastination with this temporary to&dash;do list&period; Combined with its own engaging alarm clock and Dark Mode option&comma; become empowered to begin and complete your tasks within the same session&period;';
+                    $project_description = 'Beat procrastination with this temporary to&dash;do list&period; Combined with its own Dark Mode Theme and Pomodoro Timer&comma; become empowered to begin and complete your tasks within the same session&period;';
                     $project_skills = 'HTML5 &vert; SASS &vert; JavaScript';
                     $live_link = 'https://mytodolist.jessicamlee.dev/';
                     $code_link = 'https://github.com/jessicamlee/todolist';
