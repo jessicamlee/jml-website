@@ -4,7 +4,7 @@
         <ul class="projects-collection flex">
             <?php
                 $project_title = 'Spring Local 2022';
-                $project_type = 'Responsive e&dash;commerce Website';
+                $project_type = 'Responsive e&dash;Commerce Experience';
                 $project_pg_link = 'locloclothing';
                 $project_img_src = 'loclo_cover';
                 $project_img_alt = 'LOCLO Homepage Project Cover Photo';
@@ -14,7 +14,7 @@
             ?>
             <?php
                 $project_title = 'Caf&eacute; Hop App';
-                $project_type = 'Android&dash;based Mobile Application';
+                $project_type = 'Android Mobile Application';
                 $project_pg_link = 'cafehop';
                 $project_img_src = 'cafehop_cover';
                 $project_img_alt = 'Cafe Hop App Cover Photo';
@@ -34,7 +34,7 @@
             ?>
             <?php
                 $project_title = 'CMJSH Agency';
-                $project_type = 'Responsive Landing Page';
+                $project_type = 'Responsive React Landing Page';
                 $project_pg_link = 'cmjshagency';
                 $project_img_src = 'default_cover';
                 $project_img_alt = 'CMJSH Agency Website Cover Photo';

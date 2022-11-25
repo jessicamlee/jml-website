@@ -10,7 +10,7 @@
             <main class="artifact-pg">
                 <?php
                     $project_title = 'CMJSH Agency';
-                    $project_type = 'Responsive Landing Page';
+                    $project_type = 'Responsive React Landing Page';
                     $project_description = 'CMJSH Agency is a fictional&comma; digital marketing agency focused on designing&comma; developing&comma; and marketing accessible business solutions in the forms of responsive website interfaces&period;';
                     $project_skills = 'PHP &vert; Tailwind CSS &vert; BrowserStack';
                     $live_link = 'https://github.com/jessicamlee/CMJSH-agency';
