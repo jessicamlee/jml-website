@@ -34,11 +34,11 @@
             ?>
             <?php
                 $project_title = 'CMJSH Agency';
-                $project_type = 'Responsive React Landing Page';
+                $project_type = 'Responsive React Landing pages';
                 $project_pg_link = 'cmjshagency';
-                $project_img_src = 'default_cover';
+                $project_img_src = 'cmjsh_cover';
                 $project_img_alt = 'CMJSH Agency Website Cover Photo';
-                $live_link = 'https://github.com/jessicamlee/CMJSH-agency';
+                $live_link = 'https://jessicamlee.github.io/CMJSH-agency';
                 $code_link = 'https://github.com/jessicamlee/CMJSH-agency';
                 include('partials/home/project-card.php');
             ?>
