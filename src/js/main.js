@@ -63,13 +63,13 @@ jQuery(function($) {
 
     $(window).resize(function() {
         windowWidth = $('body').width();
-        if(windowWidth > 676 && $($burger).hasClass('is-active')) {
-            // If screen > 676px wide
+        if(windowWidth > 768 && $($burger).hasClass('is-active')) {
+            // If screen > 768px wide
             setTimeout(function(){
                 $($burger).removeClass('is-active');
                 $($gnav).slideUp(0);
             }, 300);
-            $($burger).removeClass('is-active')
+            $($burger).removeClass('is-active');
             $($gnav).slideUp();
             $($gnav).style.display = "block";
             bodyScrollLock.enableBodyScroll(targetElement);

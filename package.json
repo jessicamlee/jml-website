@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "The making of my portfolio website, jessicamlee.dev.",
   "main": "gulpfile.js",
+  "scripts": {
+    "gulp": "gulp"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jessicamlee/jml-website.git"
