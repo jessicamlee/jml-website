@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-CA">
     <?php 
-        $project_title = "Caf&eacute; Hop App &vert; Jessica Lee";
+        $project_title = "Hack the Break 2023 &vert; Jessica Lee";
         include('../partials/projects/head_projects.php');
     ?>
     <body>
@@ -9,22 +9,21 @@
             <?php include('../partials/projects/header_projects.php'); ?>
             <main class="artifact-pg">
                 <?php
-                    $project_title = 'Caf&eacute; Hop';
-                    $project_type = 'Android Mobile Application';
-                    $project_description = 'Track your next productivity spot to study or work with reliable wifi&comma; charging outlets&comma; and yummy snacks with Caf&eacute; Hop&excl;';
-                    $project_skills = 'React Native &vert; Android Studio';
-                    $live_link = 'https://cafehop.jessicamlee.dev/';
-                    $code_link = 'https://github.com/jessicamlee/cafehop';
-                    $project_img_src = 'cafehop_cover';
-                    $project_img_alt = 'Cafe Hop App Cover Photo';
+                    $project_title = 'BCIT Hack the Break 2023 Website';
+                    $project_type = 'Responsive React Landing Page';
+                    $project_description = 'Anxious about securing a job&quest; We feel that&comma; too&period; Hack the Break 2023 focuses on addressing the challenging job market and fluctuating workforce since the pandemic&period;';
+                    $project_skills = 'Typescript &vert; React &vert; CSS Modules';
+                    $live_link = 'https://hackthebreak2023.com/';
+                    $code_link = 'https://github.com/jmc37/HackTheBreak';
+                    $project_img_src = 'htb2023_cover';
+                    $project_img_alt = 'Hack the Break 2023 Cover Photo';
                     include('../partials/projects/artifact_overview.php');
                 ?>
-                <p class="in-progress">Status&colon; Development in Progress&excl;</p>
                 <section class="more-projects">
                     <div class="container">
                         <h2 data-aos="fade-right">More Projects&colon;</h2>
                         <a class="block" data-aos="fade-right" data-aos-delay="100" href="../projects/locloclothing.php" title="LOCLO Responsive Homepage">LOCLO Responsive Homepage</a>
-                        <a class="block" data-aos="fade-right" data-aos-delay="200" href="../projects/mytodo.php" title="My To&dash;Do List with Dark Mode">To&dash;Do List with Dark Mode</a>
+                        <a class="block" data-aos="fade-right" data-aos-delay="200" href="../projects/cmjshagency.php" title="CMJSH Agency">CMJSH Agency Landing page</a>
                     </div>
                 </section>
                 <?php include('../partials/global/contact.php'); ?>
