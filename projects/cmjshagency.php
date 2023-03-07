@@ -22,8 +22,8 @@
                 <section class="more-projects">
                     <div class="container">
                         <h2 data-aos="fade-right">More Projects&colon;</h2>
-                        <a class="block" data-aos="fade-right" data-aos-delay="100" href="../projects/locloclothing.php" title="LOCLO Responsive Homepage">LOCLO Responsive Homepage</a>
-                        <a class="block" data-aos="fade-right" data-aos-delay="200" href="../projects/cafehop.php" title="Caf&eacute; Hop Mobile App">Caf&eacute; Hop App</a>
+                        <a class="block" data-aos="fade-right" data-aos-delay="100" href="../projects/hackthebreak2023.php" title="BCIT Hack the Break 2023 Website">BCIT Hack the Break 2023 Website</a>
+                        <a class="block" data-aos="fade-right" data-aos-delay="200" href="../projects/mytodo.php" title="My To&dash;Do List with Dark Mode">To&dash;Do List with Dark Mode</a>
                     </div>
                 </section>
                 <?php include('../partials/global/contact.php'); ?>

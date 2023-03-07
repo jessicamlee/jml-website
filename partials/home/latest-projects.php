@@ -3,6 +3,16 @@
         <h2 data-aos="fade-right">Latest Projects</h2>
         <ul class="projects-collection flex">
             <?php
+                $project_title = 'BCIT Hack the Break 2023';
+                $project_type = 'Responsive Hackathon Landing page';
+                $project_pg_link = 'hackthebreak2023';
+                $project_img_src = 'htb2023_cover';
+                $project_img_alt = 'Hack the Break 2023 Cover Photo';
+                $live_link = 'https://hackthebreak2023.com/';
+                $code_link = 'https://github.com/jmc37/HackTheBreak';
+                include('partials/home/project-card.php');
+            ?>
+            <?php
                 $project_title = 'Spring Local 2022';
                 $project_type = 'Responsive e&dash;Commerce Experience';
                 $project_pg_link = 'locloclothing';
@@ -13,13 +23,13 @@
                 include('partials/home/project-card.php');
             ?>
             <?php
-                $project_title = 'Caf&eacute; Hop App';
-                $project_type = 'Android Mobile Application';
-                $project_pg_link = 'cafehop';
-                $project_img_src = 'cafehop_cover';
-                $project_img_alt = 'Cafe Hop App Cover Photo';
-                $live_link = 'https://cafehop.jessicamlee.dev/';
-                $code_link = 'https://github.com/jessicamlee/cafehop';
+                $project_title = 'CMJSH Agency';
+                $project_type = 'Responsive React Landing pages';
+                $project_pg_link = 'cmjshagency';
+                $project_img_src = 'cmjsh_cover';
+                $project_img_alt = 'CMJSH Agency Website Cover Photo';
+                $live_link = 'https://jessicamlee.github.io/CMJSH-agency';
+                $code_link = 'https://github.com/jessicamlee/CMJSH-agency';
                 include('partials/home/project-card.php');
             ?>
             <?php
@@ -30,16 +40,6 @@
                 $project_img_alt = 'My To-Do List Cover Photo';
                 $live_link = 'https://mytodolist.jessicamlee.dev/';
                 $code_link = 'https://github.com/jessicamlee/todolist';
-                include('partials/home/project-card.php');
-            ?>
-            <?php
-                $project_title = 'CMJSH Agency';
-                $project_type = 'Responsive React Landing pages';
-                $project_pg_link = 'cmjshagency';
-                $project_img_src = 'cmjsh_cover';
-                $project_img_alt = 'CMJSH Agency Website Cover Photo';
-                $live_link = 'https://jessicamlee.github.io/CMJSH-agency';
-                $code_link = 'https://github.com/jessicamlee/CMJSH-agency';
                 include('partials/home/project-card.php');
             ?>
         </ul>
