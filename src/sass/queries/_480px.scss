@@ -5,16 +5,17 @@
     .intro {
 
         h1 {
-            font-size: $sm*3;
+            font-size: $sm*3.25;
             margin-top: $xs;
         }
 
         .career-role {
-            @include fontstyles ($color-primary, $sm, $medium, $italic, $none); 
+            @include fontstyles ($color-primary, $sm*1.25, $normal, $italic, $none); 
         }
 
         .career-goal {
             margin: $sm*1.25 0;
+            font-size: $sm*1.5;
         }
 
         .blobwindow {
@@ -24,7 +25,7 @@
     }
 
     .projects .project-details p {
-        @include fontstyles ($color-primary, $sm, $light, $base, $none);
+        @include fontstyles ($color-primary, $sm*1.125, $light, $base, $none);
     }
 
     .about .bio img {
@@ -32,6 +33,6 @@
     }
 
     .footer p {
-        @include fontstyles ($color-secondary, $sm*0.9, $normal, $base, $none);
+        @include fontstyles ($color-secondary, $sm, $normal, $base, $none);
     }
 }

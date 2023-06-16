@@ -3,11 +3,11 @@
 @media (min-width:768px) {
 
     .section {
-        padding: $sm*3;
+        padding: $sm*7 $sm*2 $sm*3;
     }
 
     header .gn {
-        display: block;
+        display: block!important;
         position: static;
         top: 0px;
         height: auto;
@@ -33,7 +33,21 @@
     }
 
     .intro {
-        padding-top: $sm*4;
+        padding: $sm*2 $sm*4 $sm*4;
+
+        h1 {
+            font-size: $sm*3.5;
+            margin-top: $xs;
+        }
+
+        .career-role {
+            @include fontstyles ($color-primary, $sm*1.35, $normal, $italic, $none); 
+        }
+
+        .career-goal {
+            margin: $sm*1.75 0;
+            font-size: $sm*1.75;
+        }
     }
 
     .projects .projects-collection {
@@ -58,6 +72,10 @@
 
         .project-details h3 {
             @include fontstyles ($color-primary, $sm*2, $medium, $base, $none);
+        }
+
+        p {
+            @include fontstyles ($color-primary, $sm*1.2, $light, $base, $none);
         }
     }
 

@@ -6,7 +6,7 @@
     padding-top: $sm*2;
 
     .career-role {
-        @include fontstyles ($color-primary, $sm*0.9, $medium, $italic, $none);
+        @include fontstyles ($color-primary, $sm, $normal, $italic, $none);
         margin-top: $sm*0.25;
     }
 

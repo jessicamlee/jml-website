@@ -2,6 +2,30 @@
 
 @media (min-width:900px) {
 
+    h2 {
+        @include fontstyles ($color-primary, $sm*1.95, $normal, $base, $uppercase);
+        margin-bottom: $sm*0.5;
+    }
+
+    h3 {
+        @include fontstyles ($color-primary, $sm*2, $medium, $base, $none);
+    }
+
+    header .gn a {
+        @include fontstyles($color-primary, $sm*1.125, $normal, $base, $uppercase);
+    }
+
+    .intro {
+        h1 {
+            font-size: $sm*3.75;
+            margin-top: $xs;
+        }
+
+        .career-role {
+            @include fontstyles ($color-primary, $sm*1.35, $normal, $italic, $none); 
+        }
+    }
+
     .artifact-pg {
         .project-overview {
             flex-direction: row;
