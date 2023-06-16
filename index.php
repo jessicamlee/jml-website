@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html lang="en-CA">
     <?php 
-        $title_text = "Jessica Lee &vert; Front&dash;End Development";
+        $title_text = "Jessica Lee &vert; Front&dash;End Developer";
         include('partials/global/head.php'); 
     ?>
     <body>
