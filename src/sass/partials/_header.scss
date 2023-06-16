@@ -104,4 +104,15 @@ header {
     a {
         @include fontstyles($color-primary, $sm*1.25, $normal, $base, $uppercase);
     }
+
+    svg {
+        width: $sm*2.5;
+        height: $sm*2.5;
+        fill: $color-primary;
+        margin: $sm*0.25 $sm*0.75;
+    }
+
+    .header-icons {
+        padding: $sm*0.5 $sm*1 $sm*1.5;
+    }
 }

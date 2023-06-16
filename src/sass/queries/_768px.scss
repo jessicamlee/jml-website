@@ -26,6 +26,10 @@
         a {
             @include fontstyles($color-primary, $sm, $normal, $base, $uppercase);
         }
+
+        .header-icons {
+            display: none;
+        }
     }
 
     .gn-trigger {
