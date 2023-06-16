@@ -8,6 +8,8 @@
         <div class="wrapper">
             <?php include('../partials/projects/header_projects.php'); ?>
             <main class="artifact-pg">
+            <h1>Jessica&apos;s Toolkit</h1>
+            <p>A collection of Full&dash;stack and Front&dash;end Development Personal Projects&comma; UX Design Case Studies&comma; and articles and blog posts reflecting Jessica&apos;s interests and skills&period;</p>
                 <?php
                     $project_title = 'BCIT Hack the Break 2023 Website';
                     $project_type = 'Responsive React Landing Page';

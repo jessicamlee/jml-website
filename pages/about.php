@@ -8,6 +8,8 @@
         <div class="wrapper">
             <?php include('../partials/projects/header_projects.php'); ?>
             <main class="artifact-pg">
+                <h1>About Jessica</h1>
+                <p>Who is this creative&comma; curious learner&comma; team&dash;player and problem&dash;solver&quest;</p>
                 <?php
                     $project_title = 'My To&dash;Do List';
                     $project_type = 'Temporary To&dash;Do List';

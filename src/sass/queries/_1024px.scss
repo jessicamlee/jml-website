@@ -3,7 +3,7 @@
 @media (min-width:1024px) {
 
     p {
-        @include fontstyles ($color-primary, $sm, $normal, $base, $none);
+        @include fontstyles ($color-primary, $sm*1.125, $normal, $base, $none);
     }
 
     header .header-bar .gn ul li a:hover {
