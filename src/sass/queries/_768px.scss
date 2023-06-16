@@ -20,7 +20,11 @@
         }
 
         li {
-            padding: 0;
+            padding: $sm;
+
+            &:nth-child(3) {
+                padding: $sm 0 $sm $sm;
+            }
         }
 
         a {
