@@ -3,12 +3,11 @@
 @media (min-width:900px) {
 
     h2 {
-        @include fontstyles ($color-primary, $sm*1.95, $normal, $base, $uppercase);
-        margin-bottom: $sm*0.5;
+        @include fontstyles ($color-primary, $sm*2, $normal, $base, $uppercase);
     }
 
     h3 {
-        @include fontstyles ($color-primary, $sm*2, $medium, $base, $none);
+        @include fontstyles ($color-primary, $sm*1.85, $normal, $base, $none);
     }
 
     header .gn a {
@@ -26,43 +25,18 @@
         }
     }
 
-    .artifact-pg {
-        .project-overview {
-            flex-direction: row;
-            justify-content: space-between;
-            height: 60vh;
-            align-items: center;
-            padding: $sm*3 0;
+    .proud-moments {
+        h2 {
+            line-height: $sm*1.6;
         }
 
-        .project-details {
-            padding: $lg 0 $lg $sm;
-            margin-right: $sm*2;
-            width: 50%;
-    
-            .feat-img-container {
-                align-self: center;
-            }
-    
-            .project-title {
-                margin: $sm*0.2 0;
-            }
-    
-            .project-description {
-                margin: $sm*1.1 0 $sm*1.5;
-            }
-    
-            .links-btn-container {
-                margin: $sm*0.5 0 0;
-            }
-    
-            .in-progress {
-                text-align: left;
-            }
+        .about-highlight {
+            font-size: $sm*1.25;
+            line-height: $sm*1.7;
         }
-    
-        .proj-img-container {
-            margin-right: $sm;
+
+        .highlight-date {
+            margin-bottom: $sm*0.4;
         }
     }
 }

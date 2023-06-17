@@ -2,6 +2,10 @@
 
 @media (min-width:640px) {
 
+    .hide-tablet {
+        display: none;
+    }
+
     .intro .blobwindow {
         width: $sm*19.125;
         height: $sm*19.125;

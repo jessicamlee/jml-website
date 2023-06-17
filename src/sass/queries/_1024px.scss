@@ -29,20 +29,4 @@
     .contact .contact-details .social-icons li:hover {
         transform: scale(1.2);
     }
-
-    .artifact-pg .project-details .links-btn-container {
-
-        .live-link:hover {
-            color: $color-primary;
-            background-color: $color-secondary;
-            border: $sm*0.15 solid $color-secondary;
-            transition: 0.5s ease-in-out;
-        }
-        
-        .code-link:hover {
-            color: $color-secondary;
-            background-color: $color-primary;
-            transition: 0.5s ease-in-out;
-        }
-    }
 }
