@@ -1,0 +1,70 @@
+@use '../utilities' as *;
+
+.about {
+    text-align: center;
+
+    .about-subtitle {
+        font-size: $sm*1.06;
+        line-height: $sm*1.4;
+        font-style: italic;
+    }
+
+    .bio {
+        text-align: left;
+        flex-direction: column;
+    }
+
+    img {
+        height: 70vw;
+        border-radius: 50%;
+        margin: $sm*1.75 auto;
+    }
+    
+    p {
+        margin: $sm 0;
+        line-height: $sm*1.75;
+
+        &:first-child {
+            margin-top: 0;
+        }
+    }
+}
+
+.proud-moments {
+    h2 {
+        text-align: center;
+        font-weight: 400;
+        text-transform: none;
+        line-height: $sm*1.3;
+        margin-bottom: $sm*0.75;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        gap: $sm*0.25;
+        margin: 0 auto;
+        max-width: 550px;
+    }
+
+    li {
+        margin-top: $sm*0.65;
+    }
+
+    .about-highlight {
+        font-weight: 600;
+        font-size: $sm*1.125;
+        line-height: $sm*1.2;
+        margin-bottom: $sm*0.2;
+    }
+
+    .highlight-date {
+        font-weight: 400;
+        font-size: $sm*0.9;
+        margin-bottom: $sm*0.3;
+    }
+
+    .highlight-desc {
+        font-size: $sm;
+    }
+}

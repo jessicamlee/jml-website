@@ -5,6 +5,7 @@
     .projects {
         h3 {
             @include fontstyles ($color-primary, $sm*1.85, $medium, $base, $none);
+            margin: $sm*0.15 0;
         }
     
         p {

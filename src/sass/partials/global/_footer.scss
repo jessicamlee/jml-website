@@ -1,0 +1,12 @@
+@use '../../utilities' as *;
+
+footer {
+    padding: $md 0;
+    background-color: $color-primary;
+    
+    p {
+        @include fontstyles($color-secondary, $sm*0.9, $normal, $base, $none);
+        text-align: center;
+        line-height: $sm*1.5;
+    }
+}

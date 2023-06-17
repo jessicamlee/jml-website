@@ -1,7 +1,8 @@
 <?php
 
     $project_title = $project_title ?? '';
-    $project_type = $project_type ?? '';
+    $project_desc = $project_desc ?? '';
+    $project_skills = $project_skills ?? '';
     $project_img_src = $project_img_src ?? '';
     $project_img_alt = $project_img_alt ?? '';
     $live_link = $live_link ?? '';
@@ -14,8 +15,9 @@
         </div>
         <div class="links-container flex">
             <div class="project-details">
+                <p><?php echo $project_skills; ?></p>
                 <h3><?php echo $project_title; ?></h3>
-                <p><?php echo $project_type; ?></p>
+                <p><?php echo $project_desc; ?></p>
             </div>
             <div class="btn-container flex">
                 <a class="live-link box-shadow-light" data-aos="fade-right"  data-aos-delay="300" href="<?php echo $live_link; ?>" target="_blank" title="Visit Live Site">Visit Site</a>
