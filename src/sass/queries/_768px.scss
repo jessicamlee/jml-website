@@ -91,7 +91,7 @@
         .bio {
             flex-direction: row;
             column-gap: $sm*3.5;
-            margin-top: $sm*2.25;
+            margin-top: $sm*3;
 
             img {
                 height: $sm*17;
@@ -107,36 +107,5 @@
     
     .footer p {
         @include fontstyles ($color-secondary, $sm, $normal, $base, $none);
-    }
-
-    .artifact-pg .project-overview {
-            
-        .project-skills, .project-description {
-            @include fontstyles ($color-primary, $sm*0.9, $normal, $base, $none);
-        }
-
-        .project-title {
-            @include fontstyles ($color-primary, $sm*2, $semibold, $base, $none);
-            line-height: 1.25;
-        }
-
-        .project-type {
-            @include fontstyles ($color-primary, $sm*0.9, $normal, $italic, $none);
-        }
-
-        .project-description {
-            line-height: 1.7;
-            margin: $sm*1.1 0 $sm*1.5;
-        }
-
-        .links-btn-container {
-            justify-content: flex-start;
-
-            .code-link, .live-link {
-                margin-right: $sm;
-                padding: $sm*0.6 $sm*1;
-                font-size: $sm*0.85;
-            }
-        }
     }
 }

@@ -13,7 +13,6 @@
             <main data-aos-delay="800">
                 <?php include('partials/home/intro-banner.php'); ?>
                 <?php include('partials/home/latest-projects.php'); ?>
-                <?php include('partials/home/about-jessica.php'); ?>
                 <?php include('partials/global/contact.php'); ?>
             </main>
             <?php include('partials/global/footer.php'); ?>

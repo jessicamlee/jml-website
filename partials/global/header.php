@@ -1,6 +1,6 @@
 <header id="header" data-aos="fade-down">
     <div class="container header-bar flex">
-        <a class="logo flex" href="index.php" title="Home Page">
+        <a class="logo flex" href="https://jessicamlee.dev/" title="Home Page">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960.32 936" alt="Jessica Lee Logo"><defs></defs>
                 <path data-aos="fade-down" data-aos-delay="600"d="M960.32,446l-63.41,50.27c-45-.47-101.54-1.13-156.86-1.77-77.9-.91-151.48-1.76-183-2l-25.25-.16V467.16c0-38.22-.72-297.82-1.77-466.84L580.92,0c.91,147.29,1.56,363.36,1.72,441.94,37.61.36,96.45,1,158,1.76C827.13,444.71,916.56,445.74,960.32,446Z"/>
                 <path data-aos="fade-down" data-aos-delay="600"d="M878.3,511.06l-26.45,21c-46.49-.39-110.07-1-172.16-1.59-76.19-.72-148.16-1.41-179.86-1.62l-10.52-.07V518.23c0-7.76.05-26.9.11-53.91.24-106.51.74-328.15-.11-464.09L510.49.09c.85,136,.34,357.74.1,464.28,0,18.54-.07,33.36-.09,43.34,35.44.27,100.7.89,169.39,1.55C754.69,510,831.73,510.7,878.3,511.06Z"/>
@@ -13,9 +13,9 @@
         </button>
         <nav class="gn">
             <ul class="flex">
-                <li data-aos="fade-down" data-aos-delay="550"><a href="index.php#featuredwork" title="Featured Work by Jessica">Work</a></li>
-                <li data-aos="fade-down" data-aos-delay="600"><a href="./pages/toolkit.php" title="Personal Projects by Jessica">Toolkit</a></li>
-                <li data-aos="fade-down" data-aos-delay="800"><a href="./pages/about.php" title="Who is Jessica?">About</a></li>
+                <li data-aos="fade-down" data-aos-delay="550"><a href="index.php" title="Featured Work by Jessica">Work</a></li>
+                <li data-aos="fade-down" data-aos-delay="600"><a href="toolkit.php" title="Personal Projects by Jessica">Toolkit</a></li>
+                <li data-aos="fade-down" data-aos-delay="800"><a href="about.php" title="Who is Jessica?">About</a></li>
                 <li class="flex header-icons">
                     <a href="https://www.linkedin.com/in/jessicamlee-/" target="_blank" title="Visit Jessica's LinkedIn">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 258.56 258.56" title="LinkedIn Icon"><defs></defs><path d="M129.28,0A129.28,129.28,0,1,0,258.56,129.28,129.28,129.28,0,0,0,129.28,0ZM107.73,172.37H86.19V107.73h21.54ZM97,98.13a11.95,11.95,0,1,1,11.85-11.94A11.89,11.89,0,0,1,97,98.13Zm86.18,74.24H161.62V141.55c0-20.27-21.57-18.55-21.57,0v30.82H118.5V107.73h21.55v11.78c9.39-17.41,43.09-18.71,43.09,16.67Z"/></svg>
