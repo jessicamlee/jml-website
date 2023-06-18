@@ -24,12 +24,16 @@
         }
     }
 
-    .projects .project-details p {
-        @include fontstyles ($color-primary, $sm*1.125, $light, $base, $none);
-    }
-
     .about .bio img {
         height: 50vw;
+    }
+
+    .projects {
+        
+        .btn-container {
+            justify-content: space-evenly;
+            flex-direction: row;
+        }
     }
 
     .footer p {

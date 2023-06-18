@@ -6,7 +6,7 @@ h1 {
 }
 
 h2 {
-    @include fontstyles ($color-primary, $sm*1.75, $normal, $base, $uppercase);
+    @include fontstyles ($color-primary, $sm*1.75, $light, $base, $normal);
     margin-bottom: $sm*0.3;
     text-align: center;
 }

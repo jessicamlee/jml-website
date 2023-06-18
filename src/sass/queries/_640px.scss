@@ -14,4 +14,32 @@
     .projects, .about, .contact p {
         @include fontstyles ($color-primary, $sm, $normal, $base, $none);
     }
+
+    // .projects {
+    //     .projects-collection {
+    //         flex-direction: row;
+    //         flex-wrap: wrap;
+    //         gap: $sm*1.75;
+    //     }
+
+    //     .project-card {
+    //         flex-basis: 100%;
+    //         max-width: 100%;
+    //         // flex-direction: row;
+
+    //         // &:nth-child(3n+1){
+    //         //     flex-basis: 100%;
+    //         //     max-width: 100%;
+    //         // }
+    
+    //         // &:nth-child(3n+2){
+    //         //     margin-top: $sm*8;
+    //         // }
+    //     }
+
+    //     .project-thumb {
+    //         display: flex;
+    //         gap: $sm*1.25;
+    //     }
+    // }
 }

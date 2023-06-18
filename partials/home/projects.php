@@ -4,7 +4,7 @@
         <ul class="projects-collection flex">
             <?php
                 $project_title = 'Inspirational Quote Generator';
-                $project_desc = 'Full-Stack Web Application using ZenQuotesAPI';
+                $project_desc = 'Full-Stack Web Application';
                 $project_skills = 'TypeScript | Next.js | AWS';
                 $project_img_src = 'htb2023_cover';
                 $project_img_alt = 'Inspirational Quote Generator Home Page Cover Photo';
@@ -13,8 +13,8 @@
                 include('partials/home/project-card.php');
             ?>
             <?php
-                $project_title = 'CMJSH Agency';
-                $project_desc = 'Responsive React Landing & About pages';
+                $project_title = 'CMJSH Marketing Agency';
+                $project_desc = 'Responsive Landing & About Team pages';
                 $project_skills = 'React.js | TailwindCSS | BrowserStack';
                 $project_img_src = 'cmjsh_cover';
                 $project_img_alt = 'CMJSH Agency Website Cover Photo';
@@ -24,7 +24,7 @@
             ?>
             <?php
                 $project_title = 'Spring Local 2022';
-                $project_desc = 'Responsive e&dash;Commerce Landing & Shop Filtering pages';
+                $project_desc = 'Responsive Landing & Shop pages';
                 $project_skills = 'PHP | MySQL | SASS | HTML5';
                 $project_img_src = 'loclo_cover';
                 $project_img_alt = 'LOCLO Homepage Project Cover Photo';
