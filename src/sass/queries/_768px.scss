@@ -3,7 +3,19 @@
 @media (min-width:768px) {
 
     .section {
-        padding: $sm*7 $sm*2 $sm*3;
+        padding: $sm*7 $sm*2.25 $sm*3;
+    }
+
+    .subpg-section {
+        padding: $sm*2 $sm*2.25 $sm*2.5;
+    }
+
+    header .header-bar a {
+        &:focus, &:active {
+            padding: $sm*0.2;
+            border: $sm*0.1 solid $color-secondary;
+            transition: 0.2s ease-in-out;
+        }
     }
 
     header .gn {
@@ -29,6 +41,11 @@
 
         a {
             @include fontstyles($color-primary, $sm, $normal, $base, $uppercase);
+
+            &:focus, &:active {
+                border-bottom: $sm*0.2 solid $color-secondary;
+                transition: 0.5s ease-in-out;
+            }
         }
 
         .header-icons {
@@ -41,7 +58,7 @@
     }
 
     .intro {
-        padding: $sm*2 $sm*4 $sm*4;
+        padding: $sm*2 $sm*4;
 
         h1 {
             font-size: $sm*3.5;
@@ -57,9 +74,47 @@
             font-size: $sm*1.75;
         }
     }
+    
+    .work .work-collection {
+        gap: $sm*5;
 
-    .projects {
+        li {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            position: relative;
 
+            &:nth-child(2n+1){
+                flex-direction: row-reverse;
+            }
+        }
+
+        .img-container {
+            width: 60%;
+        }
+
+        .links-container {
+            padding: 0;
+            width: 37%;
+        }
+
+        .link-btn {
+            &:focus, &:active {
+                color: $color-primary;
+                background-color: $color-secondary;
+                border: $sm*0.15 solid $color-secondary;
+                transition: 0.5s ease-in-out;
+            }
+        }
+
+        .work-details {
+            text-align: left;
+            padding: 0 0 $sm;
+        }
+    }
+
+    .work, .projects {
+        
         h2 {
             margin-bottom: $sm;
         }
@@ -71,6 +126,9 @@
         p {
             @include fontstyles ($color-primary, $sm*1.05, $light, $base, $none);
         }
+    }
+
+    .projects {
 
         .projects-collection {
             flex-direction: row;
@@ -94,6 +152,31 @@
             .live-link, .code-link {
                 width: 100%;
             }
+
+            .live-link {
+                &:focus, &:active {
+                    color: $color-primary;
+                    background-color: $color-secondary;
+                    border: $sm*0.15 solid $color-secondary;
+                    transition: 0.5s ease-in-out;
+                }
+            }
+
+            .code-link {
+                &:focus, &:active {
+                    color: $color-secondary;
+                    background-color: $color-primary;
+                    border: $sm*0.15 solid $color-secondary;
+                    transition: 0.5s ease-in-out;
+                }
+            }
+        }
+
+        .more-projects p {
+            &:focus, &:active {
+                border-bottom: $sm*0.2 solid $color-primary;
+                transition: 0.5s ease-in-out;
+            }
         }
     }
 
@@ -112,6 +195,13 @@
         .bio-desc {
             width: 50%;
             margin-right: auto;
+        }
+    }
+
+    .contact svg {
+        &:focus, &:active {
+            fill: $color-secondary;
+            transition: 0.5s ease-in-out;
         }
     }
     

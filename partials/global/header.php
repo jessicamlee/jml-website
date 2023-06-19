@@ -13,7 +13,7 @@
         </button>
         <nav class="gn">
             <ul class="flex">
-                <li data-aos="fade-down" data-aos-delay="550"><a href="index.php" title="Featured Work by Jessica">Work</a></li>
+                <li data-aos="fade-down" data-aos-delay="550"><a href="index.php#work" title="Featured Work by Jessica">Work</a></li>
                 <li data-aos="fade-down" data-aos-delay="600"><a href="toolkit.php" title="Personal Projects by Jessica">Toolkit</a></li>
                 <li data-aos="fade-down" data-aos-delay="800"><a href="about.php" title="Who is Jessica?">About</a></li>
                 <li class="flex header-icons">

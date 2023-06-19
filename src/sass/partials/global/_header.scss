@@ -15,14 +15,14 @@ header {
 
     .header-bar {
         align-items: center;
+    }
 
-        .logo svg {
-            fill: $color-primary;
-            width: $sm*4;
-            height: $sm*4;
-            margin: 0 auto;
-            align-items: center;
-        }
+    .logo svg {
+        fill: $color-primary;
+        width: $sm*4;
+        height: $sm*4;
+        margin: 0 auto;
+        align-items: center;
     }
 }
 
