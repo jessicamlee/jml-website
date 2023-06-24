@@ -19,10 +19,10 @@
     .link-btn {
         flex-direction: column;
         text-align: center;
+        width: 100%;
         background-color: $color-primary;
         border: $sm*0.15 solid $color-primary;
         @include fontstyles($color-secondary, $sm*0.9, $normal, $base, $none);
-        width: 100%;
         padding: $sm*0.6 $sm*0.7;
         border-radius: $sm*1.5;
         text-align: center;

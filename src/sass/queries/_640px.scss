@@ -18,4 +18,8 @@
     .projects .more-projects {
         @include fontstyles ($color-primary, $sm*1.15, $normal, $base, $none);
     }
+
+    .toolkit .pg-preface {
+        max-width: 75%;
+    }
 }

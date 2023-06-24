@@ -71,13 +71,6 @@ li {
     margin: $sm*1.25 0;
 }
 
-.projects, .work {
-
-    h3 {
-        margin: $sm*0.15 0;
-    }
-
-    p {
-        @include fontstyles ($color-primary, $sm, $light, $base, $none);
-    }
+.projects, .work p {
+    @include fontstyles ($color-primary, $sm, $light, $base, $none);
 }

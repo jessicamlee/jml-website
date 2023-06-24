@@ -24,10 +24,6 @@
         }
     }
 
-    .about .bio img {
-        height: 50vw;
-    }
-
     .projects {
         
         .btn-container {
@@ -38,6 +34,14 @@
         .more-projects {
             @include fontstyles ($color-primary, $sm*1.1, $normal, $base, $none);
         }
+    }
+
+    .about .bio img {
+        height: 50vw;
+    }
+
+    .toolkit .pg-preface {
+        max-width: 90%;
     }
 
     .footer p {

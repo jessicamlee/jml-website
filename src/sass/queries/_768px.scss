@@ -76,7 +76,7 @@
     }
     
     .work .work-collection {
-        gap: $sm*5;
+        gap: $sm*6;
 
         li {
             display: flex;
@@ -89,13 +89,8 @@
             }
         }
 
-        .img-container {
-            width: 60%;
-        }
-
-        .links-container {
-            padding: 0;
-            width: 37%;
+        .img-container, .links-container {
+            width: 47%;
         }
 
         .link-btn {
@@ -196,6 +191,10 @@
             width: 50%;
             margin-right: auto;
         }
+    }
+
+    .toolkit .pg-preface {
+        max-width: 40.375rem;
     }
 
     .contact svg {
