@@ -9,7 +9,7 @@
                 $work_img_src = 'htb2023_cover';
                 $work_img_alt = 'Inspirational Quote Generator Home Page Cover Photo';
                 $live_link = 'https://prod.d28hmooal1ffyl.amplifyapp.com/';
-                include('partials/home/work-card.php');
+                include('partials/cards/work-card.php');
             ?>
             <?php
                 $work_title = 'CMJSH Agency';
@@ -18,7 +18,7 @@
                 $work_img_src = 'cmjsh_cover';
                 $work_img_alt = 'CMJSH Agency Website Cover Photo';
                 $live_link = 'https://jessicamlee.github.io/CMJSH-agency';
-                include('partials/home/work-card.php');
+                include('partials/cards/work-card.php');
             ?>
             <?php
                 $work_title = 'Spring Local 2022';
@@ -27,7 +27,7 @@
                 $work_img_src = 'loclo_cover';
                 $work_img_alt = 'LOCLO Homepage Project Cover Photo';
                 $live_link = 'https://locloclothing.jessicamlee.dev/';
-                include('partials/home/work-card.php');
+                include('partials/cards/work-card.php');
             ?>
         </ul>
     </div>
