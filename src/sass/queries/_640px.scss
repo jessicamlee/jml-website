@@ -19,7 +19,11 @@
         @include fontstyles ($color-primary, $sm*1.15, $normal, $base, $none);
     }
 
-    .toolkit .pg-preface {
+    .toolkit .pg-preface, .storytelling .pg-preface {
         max-width: 75%;
+    }
+
+    .storytelling-col {
+        padding-left: $sm*3;
     }
 }

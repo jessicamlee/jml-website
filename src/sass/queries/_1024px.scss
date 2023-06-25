@@ -6,15 +6,17 @@
         @include fontstyles ($color-primary, $sm*1.125, $normal, $base, $none);
     }
 
-    header .header-bar .logo:hover {
-        padding: $sm*0.3;
-        border: $sm*0.2 solid $color-secondary;
-        transition: 0.4s ease-in-out;
-    }
+    header .header-bar {
+        .logo:hover {
+            padding: $sm*0.3;
+            border: $sm*0.2 solid $color-secondary;
+            transition: 0.4s ease-in-out;
+        }
 
-    header .header-bar .gn ul li a:hover {
-        border-bottom: $sm*0.2 solid $color-secondary;
-        transition: 0.2s ease-in-out;
+        .gn ul li a:hover {
+            border-bottom: $sm*0.2 solid $color-secondary;
+            transition: 0.2s ease-in-out;
+        }
     }
 
     .projects .more-projects p:hover {
@@ -50,7 +52,7 @@
         margin: $sm*1.25 0 $sm*2.5;
     }
 
-    .toolkit .pg-preface {
+    .toolkit .pg-preface, .storytelling .pg-preface {
         max-width: 45.375rem;
     }
 

@@ -9,7 +9,7 @@
                 $project_img_src = 'loclo_cover';
                 $project_img_alt = 'Inspirational Quote Generator Home Page Cover Photo';
                 $prototype_link = 'https://locloclothing.jessicamlee.dev/';
-                // $case_study_link = 'https://github.com/jessicamlee/loclo-clothing';
+                // $case_study_link = '';
                 include('partials/cards/ux-card.php');
             ?>
             <?php
@@ -19,7 +19,7 @@
                 $project_img_src = 'loclo_cover';
                 $project_img_alt = 'The Sweat Crew Cover Photo';
                 $prototype_link = 'https://locloclothing.jessicamlee.dev/';
-                // $case_study_link = 'https://github.com/jessicamlee/loclo-clothing';
+                // $case_study_link = '';
                 include('partials/cards/ux-card.php');
             ?>
             <?php
@@ -29,7 +29,7 @@
                 $project_img_src = 'loclo_cover';
                 $project_img_alt = 'LOCLO Homepage Project Cover Photo';
                 $prototype_link = 'https://locloclothing.jessicamlee.dev/';
-                // $case_study_link = 'https://github.com/jessicamlee/loclo-clothing';
+                // $case_study_link = '';
                 include('partials/cards/ux-card.php');                
             ?>
         </ul>

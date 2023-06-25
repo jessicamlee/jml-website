@@ -193,8 +193,12 @@
         }
     }
 
-    .toolkit .pg-preface {
+    .toolkit .pg-preface, .storytelling .pg-preface {
         max-width: 40.375rem;
+    }
+
+    .storytelling-col {
+        padding-left: $sm*4;
     }
 
     .contact svg {

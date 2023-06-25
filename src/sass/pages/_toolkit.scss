@@ -1,4 +1,6 @@
-.toolkit {
+@use '../utilities' as *;
+
+.toolkit-intro {
     text-align: center;
 
     h1 {
@@ -7,5 +9,48 @@
 
     .pg-preface {
         margin: 0.5rem auto;
+    }
+}
+
+// Development
+
+// UX Design
+
+.storytelling {
+
+    .pg-preface {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    h3 {
+        margin-top: $sm*1.75;
+    }
+
+    li {
+        margin: $sm*0.75 0 $sm $sm*2.5;
+    }
+
+    li::before {
+        content: "\2022";
+        color: $color-primary;
+        font-weight: bold;
+        display: inline-block; 
+        width: $sm;
+        margin-left: $sm*-1;
+    }
+
+    a {
+        color: $color-primary;
+        line-height: $sm*1.5;
+
+        &:hover {
+            border-bottom: 1.5px solid $color-secondary;
+        }
+    }
+
+    .storytelling-content {
+        margin: 0 auto;
+        max-width: 700px;
     }
 }
