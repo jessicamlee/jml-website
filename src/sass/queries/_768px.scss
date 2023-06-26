@@ -101,15 +101,6 @@
             width: 47%;
         }
 
-        .link-btn {
-            &:focus, &:active {
-                color: $color-primary;
-                background-color: $color-secondary;
-                border: $sm*0.15 solid $color-secondary;
-                transition: 0.5s ease-in-out;
-            }
-        }
-
         .work-details {
             text-align: left;
             padding: 0 0 $sm;
@@ -141,8 +132,8 @@
             column-gap: 0;
             row-gap: $sm*1.5;
         }
-
-        .more-projects p {
+        
+        .more-projects {        
             &:focus, &:active {
                 border-bottom: $sm*0.2 solid $color-primary;
                 transition: 0.5s ease-in-out;
@@ -155,7 +146,7 @@
         max-width: 45%;
     }
 
-    .projects .btn-container, .dev-projects .project-card .btn-container, .ux-projects .project-card .btn-container {
+    .work .work-collection, .projects .btn-container, .dev-projects .project-card .btn-container, .ux-projects .project-card .btn-container {
         gap: $sm;
 
         .live-link, .prototype-link {

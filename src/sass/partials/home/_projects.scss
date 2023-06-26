@@ -39,16 +39,12 @@
         }
     }
 
-    .more-projects p {
+    .more-projects {
         width: $sm*16;
+        justify-content: center;
         padding-bottom: $sm*0.15;
         border-bottom: $color-secondary solid $sm*0.2;
         margin: auto;
         @include fontstyles ($color-primary, $sm, $normal, $base, $none);
-        text-align: center;
-
-        &:hover, &:focus, &:active {
-            border-bottom: $sm*0.2 solid $color-primary;
-        }
     }
 }

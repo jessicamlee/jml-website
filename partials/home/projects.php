@@ -23,6 +23,6 @@
                 include('partials/cards/project-card.php');
             ?>
         </ul>
-        <a class="more-projects" data-aos="fade-up" data-aos-delay="100" href="toolkit.php" title="More Personal Projects by Jessica"><p>&plus; View more Personal Projects</p></a>
+        <a class="more-projects flex" data-aos="fade-up" data-aos-delay="100" href="toolkit.php" title="More Personal Projects by Jessica">&plus; View more Personal Projects</a>
     </div>
 </section>
