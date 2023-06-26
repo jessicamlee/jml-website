@@ -18,14 +18,6 @@
         padding: $sm*2 $sm*3 $sm*2.5;
     }
 
-    header .header-bar a {
-        &:focus, &:active {
-            padding: $sm*0.2;
-            border: $sm*0.1 solid $color-secondary;
-            transition: 0.2s ease-in-out;
-        }
-    }
-
     header .gn {
         display: block!important;
         position: static;
@@ -48,16 +40,24 @@
         }
 
         a {
-            @include fontstyles($color-primary, $sm, $normal, $base, $uppercase);
-
             &:focus, &:active {
-                border-bottom: $sm*0.2 solid $color-secondary;
-                transition: 0.5s ease-in-out;
+                padding: $sm*0.2;
+                border: $sm*0.1 solid $color-secondary;
+                transition: 0.2s ease-in-out;
             }
         }
 
         .header-icons {
             display: none;
+        }
+    }
+
+    header .gn a {
+        @include fontstyles($color-primary, $sm, $normal, $base, $uppercase);
+
+        &:focus, &:active {
+            border-bottom: $sm*0.2 solid $color-secondary;
+            transition: 0.5s ease-in-out;
         }
     }
 
@@ -132,13 +132,6 @@
             column-gap: 0;
             row-gap: $sm*1.5;
         }
-        
-        .more-projects {        
-            &:focus, &:active {
-                border-bottom: $sm*0.2 solid $color-primary;
-                transition: 0.5s ease-in-out;
-            }
-        }
     }
 
     .dev-projects .project-card, .ux-projects .project-card {
@@ -146,26 +139,8 @@
         max-width: 45%;
     }
 
-    .work .work-collection, .projects .btn-container, .dev-projects .project-card .btn-container, .ux-projects .project-card .btn-container {
+    .projects .btn-container, .dev-projects .project-card .btn-container, .ux-projects .project-card .btn-container {
         gap: $sm;
-
-        .live-link, .prototype-link {
-            &:focus, &:active {
-                color: $color-primary;
-                background-color: $color-secondary;
-                border: $sm*0.15 solid $color-secondary;
-                transition: 0.5s ease-in-out;
-            }
-        }
-
-        .code-link, .case-study-link {
-            &:focus, &:active {
-                color: $color-secondary;
-                background-color: $color-primary;
-                border: $sm*0.15 solid $color-secondary;
-                transition: 0.5s ease-in-out;
-            }
-        }
     }
 
     .dev-projects .dev-collection, .ux-projects .ux-collection {
@@ -198,13 +173,6 @@
 
     .storytelling-col {
         padding-left: $sm*4;
-    }
-
-    .contact svg {
-        &:focus, &:active {
-            fill: $color-secondary;
-            transition: 0.5s ease-in-out;
-        }
     }
     
     .footer p {
