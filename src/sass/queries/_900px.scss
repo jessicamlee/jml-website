@@ -21,6 +21,10 @@
 
     .work .work-collection {
 
+        li {
+            align-items: center;
+        }
+        
         .img-container {
             width: 60%;
         }
@@ -29,6 +33,10 @@
             padding: 0;
             width: 37%;
         }
+    }
+
+    .work h2, .projects h2 {
+        margin-bottom: $sm;
     }
 
     .intro {
