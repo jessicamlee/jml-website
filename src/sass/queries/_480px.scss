@@ -46,6 +46,14 @@
     }
 
     // Focus & Active States
+    header .header-bar a {
+        &:focus, &:active {
+            padding: $sm*0.2;
+            border: $sm*0.1 solid $color-secondary;
+            transition: 0.2s ease-in-out;
+        }
+    }
+    
     .work, .projects .btn-container, .dev-projects .project-card .btn-container, .ux-projects .project-card .btn-container {
 
         .live-link, .prototype-link, .link-btn {

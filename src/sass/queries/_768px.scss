@@ -40,24 +40,16 @@
         }
 
         a {
+            @include fontstyles($color-primary, $sm, $normal, $base, $uppercase);
+
             &:focus, &:active {
-                padding: $sm*0.2;
-                border: $sm*0.1 solid $color-secondary;
-                transition: 0.2s ease-in-out;
+                border-bottom: $sm*0.2 solid $color-secondary;
+                transition: 0.5s ease-in-out;
             }
         }
 
         .header-icons {
             display: none;
-        }
-    }
-
-    header .gn a {
-        @include fontstyles($color-primary, $sm, $normal, $base, $uppercase);
-
-        &:focus, &:active {
-            border-bottom: $sm*0.2 solid $color-secondary;
-            transition: 0.5s ease-in-out;
         }
     }
 
