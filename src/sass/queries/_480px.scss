@@ -24,12 +24,24 @@
         }
     }
 
-    .projects .project-details p {
-        @include fontstyles ($color-primary, $sm*1.125, $light, $base, $none);
+    .projects {
+        
+        .btn-container {
+            justify-content: space-evenly;
+            flex-direction: row;
+        }
+
+        .more-projects {
+            @include fontstyles ($color-primary, $sm*1.1, $normal, $base, $none);
+        }
     }
 
     .about .bio img {
         height: 50vw;
+    }
+
+    .toolkit .pg-preface {
+        max-width: 90%;
     }
 
     .footer p {

@@ -1,5 +1,4 @@
-@use '../utilities' as *;
+@use '../utilities/index' as *;
 
-@forward 'header';
-@forward 'contact';
-@forward 'footer';
+@forward '../partials/global/globalpartials';
+@forward '../partials/home/home';

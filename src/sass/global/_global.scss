@@ -64,3 +64,13 @@ li {
     color: $color-secondary;
     background: $color-primary;
 }
+
+.collection-container {
+    flex-direction: column;
+    gap: $sm*1.85;
+    margin: $sm*1.25 0;
+}
+
+.projects, .work p {
+    @include fontstyles ($color-primary, $sm, $light, $base, $none);
+}

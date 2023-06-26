@@ -14,6 +14,18 @@
         @include fontstyles($color-primary, $sm*1.125, $normal, $base, $uppercase);
     }
 
+    .work .work-collection {
+
+        .img-container {
+            width: 60%;
+        }
+
+        .links-container {
+            padding: 0;
+            width: 37%;
+        }
+    }
+
     .intro {
         h1 {
             font-size: $sm*3.75;
