@@ -3,30 +3,30 @@
         <h2 data-aos="fade-right">Featured Work</h2>
         <ul class="work-collection collection-container flex">
             <?php
-                $work_title = 'Inspirational Quote Generator';
-                $work_desc = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc molestie massa et neque pharetra, quis dignissim lacus vulputate. Sed non pharetra velit, non dapibus nisi. Ut a erat commodo, suscipit felis quis, aliquam nulla. Mauris suscipit vel odio sit amet commodo. Aenean lacinia elit vel dapibus luctus.';
-                $work_skills = 'TypeScript | Next.js | AWS';
+                $work_title = 'Psystem';
+                $work_desc = 'Built progressive web app features for Psystem\'s App and Coach Portal for full CRUD functionality and analyzed, redesigned, and updated website and ad landing pages for responsive, accessible, mobile-first experiences.';
+                $work_skills = 'MERN Stack | React-Redux | MUI | Axios | Chai | Mocha';
+                $work_img_src = 'psystem_cover';
+                $work_img_alt = 'Psystem Cover Photo';
+                $live_link = 'https://www.psystem.ca/app';
+                include('partials/cards/work-card.php');
+            ?>
+            <?php
+                $work_title = 'BCIT Hack the Break 2023';
+                $work_desc = 'Led the Front-End Development to build a responsive landing page with a registration form in collaboration with a UX Designer, Back-End Developer, and Content Creator 6 weeks prior to Hack the Break\'s 2023 Hackathon event.';
+                $work_skills = 'TypeScript | CSS Modules | MUI';
                 $work_img_src = 'htb2023_cover';
-                $work_img_alt = 'Inspirational Quote Generator Home Page Cover Photo';
-                $live_link = 'https://prod.d28hmooal1ffyl.amplifyapp.com/';
+                $work_img_alt = 'Hack the Break 2023 Cover Photo';
+                $live_link = 'https://hackthebreak2023.com/';
                 include('partials/cards/work-card.php');
             ?>
             <?php
-                $work_title = 'CMJSH Agency';
-                $work_desc = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc molestie massa et neque pharetra, quis dignissim lacus vulputate. Sed non pharetra velit, non dapibus nisi. Ut a erat commodo, suscipit felis quis, aliquam nulla. Mauris suscipit vel odio sit amet commodo. Aenean lacinia elit vel dapibus luctus.';
-                $work_skills = 'React.js | TailwindCSS | BrowserStack';
-                $work_img_src = 'cmjsh_cover';
-                $work_img_alt = 'CMJSH Agency Website Cover Photo';
-                $live_link = 'https://jessicamlee.github.io/CMJSH-agency';
-                include('partials/cards/work-card.php');
-            ?>
-            <?php
-                $work_title = 'Spring Local 2022';
-                $work_desc = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc molestie massa et neque pharetra, quis dignissim lacus vulputate. Sed non pharetra velit, non dapibus nisi. Ut a erat commodo, suscipit felis quis, aliquam nulla. Mauris suscipit vel odio sit amet commodo. Aenean lacinia elit vel dapibus luctus.';
-                $work_skills = 'PHP | MySQL | SASS | HTML5';
-                $work_img_src = 'loclo_cover';
-                $work_img_alt = 'LOCLO Homepage Project Cover Photo';
-                $live_link = 'https://locloclothing.jessicamlee.dev/';
+                $work_title = 'Hack the 6ix 2023';
+                $work_desc = 'Collaborated in a team of 7 developers to update HT6\'s React Storybook UI Library and build a new responsive landing page with email notification and registration forms for Hack the 6ix\'s 2023 Hackathon event.';
+                $work_skills = 'TypeScript | Storybook UI | SCSS Modules';
+                $work_img_src = 'ht62023_cover';
+                $work_img_alt = 'Hack the 6ix 2023 Cover Photo';
+                $live_link = 'https://hackthe6ix.com/';
                 include('partials/cards/work-card.php');
             ?>
         </ul>

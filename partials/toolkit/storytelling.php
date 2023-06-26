@@ -1,11 +1,11 @@
-<section class="subpg-section">
+<section class="storytelling subpg-section">
     <div class="container">
-        <div>
+        <div class="pg-preface">
             <h2>Storytelling</h2>
             <p>Writing&comma; editing&comma; and publishing stories to inspire&comma; dream&comma; and connect&period;</p>
         </div>
-        <div>
-            <div>
+        <div class="storytelling-content">
+            <div class="storytelling-col">
                 <h3>Environment</h3>
                 <ul>
                     <li><a href="https://thestarfish.ca/journal/2023/03/sriracha-is-it-sustainably-made" target="_blank" title="Link to article">Sriracha&colon; Is It Sustainably Made&quest;</a></li>
@@ -19,8 +19,6 @@
                     <li><a href="https://thestarfish.ca/journal/2020/11/ten-eco-friendly-ways-to-celebrate-the-holidays" target="_blank" title="Link to article">TEN Eco-friendly Ways to Celebrate the Holidays</a></li>
                     <li><a href="https://thestarfish.ca/journal/2020/05/top-25-winner-talen-rimmer" target="_blank" title="Link to article">Top 25 winner&colon; Talen Rimmer</a></li>
                 </ul>
-            </div>
-            <div>
                 <h3>Well&ndash;being</h3>
                 <ul>
                     <li><a href="https://www.ubcenglish.com/overthinking-am-i-doing-enough-or-too-much/" target="_blank" title="Link to article">&ldquo;Overthinking&colon; Am I Doing Enough&quest; Or&comma; Too Much&quest;&rdquo;</a></li>

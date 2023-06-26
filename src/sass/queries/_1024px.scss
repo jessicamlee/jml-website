@@ -2,19 +2,17 @@
 
 @media (min-width:1024px) {
 
-    p {
-        @include fontstyles ($color-primary, $sm*1.125, $normal, $base, $none);
-    }
+    header .header-bar {
+        .logo:hover {
+            padding: $sm*0.3;
+            border: $sm*0.2 solid $color-secondary;
+            transition: 0.3s ease-in-out;
+        }
 
-    header .header-bar .logo:hover {
-        padding: $sm*0.3;
-        border: $sm*0.2 solid $color-secondary;
-        transition: 0.4s ease-in-out;
-    }
-
-    header .header-bar .gn ul li a:hover {
-        border-bottom: $sm*0.2 solid $color-secondary;
-        transition: 0.2s ease-in-out;
+        .gn ul li a:hover {
+            border-bottom: $sm*0.2 solid $color-secondary;
+            transition: 0.3s ease-in-out;
+        }
     }
 
     .projects .more-projects p:hover {
@@ -22,7 +20,7 @@
         transition: 0.3s ease-in-out;
     }
 
-    .projects .projects-collection .project-thumb .links-container .btn-container {
+    .projects .projects-collection .project-thumb .links-container .btn-container, .dev-projects .project-card, .ux-projects .project-card {
         
         .live-link:hover {
             color: $color-primary;
@@ -50,8 +48,12 @@
         margin: $sm*1.25 0 $sm*2.5;
     }
 
-    .toolkit .pg-preface {
+    .toolkit .pg-preface, .storytelling .pg-preface {
         max-width: 45.375rem;
+    }
+
+    .storytelling a {
+        font-size: $sm*1.125;
     }
 
     .contact svg:hover {

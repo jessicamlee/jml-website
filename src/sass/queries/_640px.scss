@@ -6,6 +6,16 @@
         display: none;
     }
 
+    .intro .intro-box {
+        h1 {
+            font-size: $sm*3.5;
+        }
+
+        .career-role {
+            font-size: $sm*1.25;
+        }
+    }
+
     .intro .blobwindow {
         width: $sm*19.125;
         height: $sm*19.125;
@@ -19,7 +29,11 @@
         @include fontstyles ($color-primary, $sm*1.15, $normal, $base, $none);
     }
 
-    .toolkit .pg-preface {
+    .toolkit .pg-preface, .storytelling .pg-preface {
         max-width: 75%;
+    }
+
+    .storytelling-col {
+        padding-left: $sm*3;
     }
 }

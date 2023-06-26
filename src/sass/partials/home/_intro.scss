@@ -5,6 +5,10 @@
     height: 70vh;
     padding-top: $sm*2;
 
+    h1 {
+        margin-bottom: 0;
+    }
+
     .career-role {
         @include fontstyles ($color-primary, $sm, $normal, $italic, $none);
         margin-top: $sm*0.25;

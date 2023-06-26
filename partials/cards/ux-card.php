@@ -6,7 +6,7 @@
     $project_img_src = $project_img_src ?? '';
     $project_img_alt = $project_img_alt ?? '';
     $prototype_link = $prototype_link ?? '';
-    // $case_study_link = $case_study_link ?? '';
+    $slide_deck_lin = $slide_deck_lin ?? '';
 
 ?><li class="project-card" data-aos="fade-right">
 <div class="project-thumb">
@@ -21,7 +21,7 @@
         </div>
         <div class="btn-container flex">
             <a class="prototype-link box-shadow-light" tabindex="0" href="<?php echo $prototype_link; ?>" target="_blank" title="View Prototype">View Prototype</a>
-            <!-- <a class="case-study-link box-shadow-light" tabindex="0" href="<?php echo $case_study_link; ?>" target="_blank" title="View Case Study">View Case Study</a> -->
+            <a class="case-study-link box-shadow-light" tabindex="0" href="<?php echo $slide_deck_link; ?>" target="_blank" title="Review Slide Deck">Slide Deck</a>
         </div>
     </div>
 </div>

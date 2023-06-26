@@ -24,27 +24,68 @@
         }
     }
 
-    .projects {
-        
-        .btn-container {
-            justify-content: space-evenly;
-            flex-direction: row;
-        }
+    .projects .more-projects {
+        @include fontstyles ($color-primary, $sm*1.1, $normal, $base, $none);
+    }
 
-        .more-projects {
-            @include fontstyles ($color-primary, $sm*1.1, $normal, $base, $none);
-        }
+    .projects .btn-container, .dev-projects .project-card .btn-container, .ux-projects .project-card .btn-container {
+        justify-content: space-evenly;
+        flex-direction: row;
     }
 
     .about .bio img {
         height: 50vw;
     }
 
-    .toolkit .pg-preface {
+    .toolkit .pg-preface, .storytelling .pg-preface {
         max-width: 90%;
     }
 
     .footer p {
         @include fontstyles ($color-secondary, $sm, $normal, $base, $none);
+    }
+
+    // Focus & Active States
+    header .header-bar a {
+        &:focus, &:active {
+            padding: $sm*0.2;
+            border: $sm*0.1 solid $color-secondary;
+            transition: 0.2s ease-in-out;
+        }
+    }
+    
+    .work, .projects .btn-container, .dev-projects .project-card .btn-container, .ux-projects .project-card .btn-container {
+
+        .live-link, .prototype-link, .link-btn {
+            &:focus, &:active {
+                color: $color-primary;
+                background-color: $color-secondary;
+                border: $sm*0.15 solid $color-secondary;
+                transition: 0.5s ease-in-out;
+            }
+        }
+
+        .code-link, .case-study-link {
+            &:focus, &:active {
+                color: $color-secondary;
+                background-color: $color-primary;
+                border: $sm*0.15 solid $color-secondary;
+                transition: 0.5s ease-in-out;
+            }
+        }
+    }
+
+    .projects .more-projects {        
+        &:focus, &:active {
+            border-bottom: $sm*0.2 solid $color-primary;
+            transition: 0.5s ease-in-out;
+        }
+    }
+
+    .contact svg {
+        &:focus, &:active {
+            fill: $color-secondary;
+            transition: 0.5s ease-in-out;
+        }
     }
 }

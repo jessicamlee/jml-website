@@ -1,0 +1,9 @@
+@use '../utilities' as *;
+
+@media (min-width: 1440px) {
+
+    .dev-projects .project-card, .ux-projects .project-card {
+        flex-basis: 31%;
+        max-width: 31%;
+    }
+}
