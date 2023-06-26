@@ -2,10 +2,6 @@
 
 @media (min-width:1024px) {
 
-    p {
-        @include fontstyles ($color-primary, $sm*1.125, $normal, $base, $none);
-    }
-
     header .header-bar {
         .logo:hover {
             padding: $sm*0.3;
@@ -24,7 +20,7 @@
         transition: 0.3s ease-in-out;
     }
 
-    .projects .projects-collection .project-thumb .links-container .btn-container {
+    .projects .projects-collection .project-thumb .links-container .btn-container, .dev-projects .project-card, .ux-projects .project-card {
         
         .live-link:hover {
             color: $color-primary;
@@ -54,6 +50,10 @@
 
     .toolkit .pg-preface, .storytelling .pg-preface {
         max-width: 45.375rem;
+    }
+
+    .storytelling a {
+        font-size: $sm*1.125;
     }
 
     .contact svg:hover {

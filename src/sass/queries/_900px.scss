@@ -2,12 +2,17 @@
 
 @media (min-width:900px) {
 
+    h1 {
+        @include fontstyles ($color-primary, $sm*3.3, $medium, $base, $none);
+    }
+    
     h2 {
-        @include fontstyles ($color-primary, $sm*2, $normal, $base, $uppercase);
+        @include fontstyles ($color-primary, $sm*2.5, $light, $base, $uppercase);
+        margin-bottom: $sm*0.3;
     }
 
-    h3 {
-        @include fontstyles ($color-primary, $sm*1.85, $normal, $base, $none);
+    p {
+        @include fontstyles ($color-primary, $sm*1.125, $normal, $base, $none);
     }
 
     header .gn a {

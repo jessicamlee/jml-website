@@ -19,8 +19,6 @@
                     <li><a href="https://thestarfish.ca/journal/2020/11/ten-eco-friendly-ways-to-celebrate-the-holidays" target="_blank" title="Link to article">TEN Eco-friendly Ways to Celebrate the Holidays</a></li>
                     <li><a href="https://thestarfish.ca/journal/2020/05/top-25-winner-talen-rimmer" target="_blank" title="Link to article">Top 25 winner&colon; Talen Rimmer</a></li>
                 </ul>
-            </div>
-            <div class="storytelling-col">
                 <h3>Well&ndash;being</h3>
                 <ul>
                     <li><a href="https://www.ubcenglish.com/overthinking-am-i-doing-enough-or-too-much/" target="_blank" title="Link to article">&ldquo;Overthinking&colon; Am I Doing Enough&quest; Or&comma; Too Much&quest;&rdquo;</a></li>

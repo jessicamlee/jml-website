@@ -24,16 +24,13 @@
         }
     }
 
-    .projects {
-        
-        .btn-container {
-            justify-content: space-evenly;
-            flex-direction: row;
-        }
+    .projects .more-projects {
+        @include fontstyles ($color-primary, $sm*1.1, $normal, $base, $none);
+    }
 
-        .more-projects {
-            @include fontstyles ($color-primary, $sm*1.1, $normal, $base, $none);
-        }
+    .projects .btn-container, .dev-projects .project-card .btn-container, .ux-projects .project-card .btn-container {
+        justify-content: space-evenly;
+        flex-direction: row;
     }
 
     .about .bio img {

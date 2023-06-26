@@ -2,12 +2,20 @@
 
 @media (min-width:768px) {
 
+    h2 {
+        @include fontstyles ($color-primary, $sm*2, $normal, $base, $uppercase);
+    }
+
+    h3 {
+        @include fontstyles ($color-primary, $sm*1.85, $normal, $base, $none);
+    }
+
     .section {
         padding: $sm*7 $sm*2.25 $sm*3;
     }
 
     .subpg-section {
-        padding: $sm*2 $sm*2.25 $sm*2.5;
+        padding: $sm*2 $sm*3 $sm*2.5;
     }
 
     header .header-bar a {
@@ -109,10 +117,6 @@
     }
 
     .work, .projects {
-        
-        h2 {
-            margin-bottom: $sm;
-        }
 
         h3 {
             @include fontstyles ($color-primary, $sm*1.75, $medium, $base, $none);
@@ -125,6 +129,11 @@
 
     .projects {
 
+        .project-card {
+            flex-basis: 48%;
+            max-width: 48%;
+        }
+
         .projects-collection {
             flex-direction: row;
             flex-wrap: wrap;
@@ -133,46 +142,45 @@
             row-gap: $sm*1.5;
         }
 
-        .project-card {
-            flex-basis: 48%;
-            max-width: 48%;
-            flex-direction: row;
-        }
-
-        .btn-container {
-            justify-content: space-evenly;
-            gap: $sm;
-            flex-direction: row;
-
-            .live-link, .code-link {
-                width: 100%;
-            }
-
-            .live-link {
-                &:focus, &:active {
-                    color: $color-primary;
-                    background-color: $color-secondary;
-                    border: $sm*0.15 solid $color-secondary;
-                    transition: 0.5s ease-in-out;
-                }
-            }
-
-            .code-link {
-                &:focus, &:active {
-                    color: $color-secondary;
-                    background-color: $color-primary;
-                    border: $sm*0.15 solid $color-secondary;
-                    transition: 0.5s ease-in-out;
-                }
-            }
-        }
-
         .more-projects p {
             &:focus, &:active {
                 border-bottom: $sm*0.2 solid $color-primary;
                 transition: 0.5s ease-in-out;
             }
         }
+    }
+
+    .dev-projects .project-card, .ux-projects .project-card {
+        flex-basis: 45%;
+        max-width: 45%;
+    }
+
+    .project .btn-container, .dev-projects .project-card .btn-container, .ux-projects .project-card .btn-container {
+        gap: $sm;
+
+        .live-link, .prototype-link {
+            &:focus, &:active {
+                color: $color-primary;
+                background-color: $color-secondary;
+                border: $sm*0.15 solid $color-secondary;
+                transition: 0.5s ease-in-out;
+            }
+        }
+
+        .code-link, .case-study-link {
+            &:focus, &:active {
+                color: $color-secondary;
+                background-color: $color-primary;
+                border: $sm*0.15 solid $color-secondary;
+                transition: 0.5s ease-in-out;
+            }
+        }
+    }
+
+    .dev-projects .dev-collection, .ux-projects .ux-collection {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
     }
 
     .about {

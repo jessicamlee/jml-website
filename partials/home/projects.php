@@ -6,7 +6,7 @@
                 $project_title = 'Inspirational Quote Generator';
                 $project_desc = 'Full-Stack Web Application';
                 $project_skills = 'TypeScript | CSS3 | Next.js | AWS';
-                $project_img_src = 'htb2023_cover';
+                $project_img_src = 'inspo_quote_cover';
                 $project_img_alt = 'Inspirational Quote Generator Home Page Cover Photo';
                 $live_link = 'https://prod.d28hmooal1ffyl.amplifyapp.com/';
                 $code_link = 'https://github.com/jessicamlee/inspirational-quote-generator';
