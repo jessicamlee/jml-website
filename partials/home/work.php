@@ -3,9 +3,9 @@
         <h2 data-aos="fade-right">Featured Work</h2>
         <ul class="work-collection collection-container flex">
             <?php
-                $work_title = 'Psystem';
+                $work_title = 'PsyHealth by Psystem';
                 $work_desc = 'Built progressive web app features for Psystem\'s App and Coach Portal for full CRUD functionality and analyzed, redesigned, and updated website and ad landing pages for responsive, accessible, mobile-first experiences.';
-                $work_skills = 'MERN Stack | React-Redux | MUI | Axios | Chai | Mocha';
+                $work_skills = 'MERN Stack | React-Redux | Material UI';
                 $work_img_src = 'psystem_cover';
                 $work_img_alt = 'Psystem Cover Photo';
                 $live_link = 'https://www.psystem.ca/app';
