@@ -8,7 +8,7 @@
                 $work_skills = 'MERN Stack | React-Redux | Material UI';
                 $work_img_src = 'psystem_cover';
                 $work_img_alt = 'Psystem Cover Photo';
-                $live_link = 'https://www.psystem.ca/app';
+                $live_link = 'https://play.google.com/store/apps/details?id=ca.mydigitalcarehome.twa';
                 include('partials/cards/work-card.php');
             ?>
             <?php
