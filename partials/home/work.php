@@ -14,7 +14,7 @@
             <?php
                 $work_title = 'BCIT Hack the Break 2023';
                 $work_desc = 'Led the Front-End Development to build a responsive landing page with a registration form in collaboration with a UX Designer, Back-End Developer, and Content Creator 6 weeks prior to Hack the Break\'s 2023 Hackathon event.';
-                $work_skills = 'TypeScript | CSS Modules | MUI';
+                $work_skills = 'TypeScript | CSS Modules | Material UI';
                 $work_img_src = 'htb2023_cover';
                 $work_img_alt = 'Hack the Break 2023 Cover Photo';
                 $live_link = 'https://hackthebreak2023.com/';
