@@ -17,7 +17,11 @@ header {
         align-items: center;
     }
 
-    .logo svg {
+    .logo {
+        margin-right: $sm*2;
+    }
+
+    svg {
         fill: $color-primary;
         width: $sm*4;
         height: $sm*4;
@@ -99,6 +103,7 @@ header {
 
     li {
         padding: $lg;
+        text-align: center;
     }
 
     a {

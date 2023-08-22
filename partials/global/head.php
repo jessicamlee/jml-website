@@ -1,6 +1,6 @@
 <?php
 
-    $title_text = $title_text ?? 'Jessica Lee &vert; Front&dash;End Developer';
+    $title_text = $title_text ?? 'Jessica Lee &vert; Front&dash;End Developer &amp; Web Designer';
 
 ?><head>
     <meta charset="UTF-8">
@@ -9,17 +9,17 @@
     <title><?php echo $title_text; ?></title>
     <link rel="icon" type="image/svg" href="images/jessicamlee_favicon.svg">
     <meta name="description" content="Jessica Lee | I build interfaces for everyone to experience.">
-    <meta name="keywords" content="web developer, front end developer, Jessica Lee front end developer, Jessica Lee bcit new media portfolio, Jessica Lee vancouver starfish canada">
+    <meta name="keywords" content="front end developer vancouver, Jessica Lee front end developer, Jessica Lee web designer, Jessica Lee web developer, Jessica Lee bcit new media, Jessica Lee vancouver">
     <meta name="author" content="Jessica Lee">
     <meta property="image" content="https://jessicamlee.dev/images/jessicamlee_share.jpg">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://jessicamlee.dev">
-    <meta property="og:title" content="Jessica Lee | Front-End Developer">
+    <meta property="og:title" content="Jessica Lee | Front-End Developer & Web Designer">
     <meta property="og:description" content="Jessica Lee | I build interfaces for everyone to experience.">
     <meta property="og:image" content="https://jessicamlee.dev/images/jessicamlee_share.jpg">
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://jessicamlee.dev">
-    <meta property="twitter:title" content="Jessica Lee | Front-End Developer">
+    <meta property="twitter:title" content="Jessica Lee | Front-End Developer & Web Designer">
     <meta property="twitter:description" content="Jessica Lee | I build interfaces for everyone to experience.">
     <meta property="twitter:image" content="https://jessicamlee.dev/images/jessicamlee_share.jpg">
     <link rel="preconnect" href="https://fonts.googleapis.com">

@@ -10,11 +10,11 @@
         }
 
         .career-role {
-            @include fontstyles ($color-primary, $sm*1.25, $normal, $italic, $none); 
+            @include fontstyles ($color-primary, $sm*1.25, $normal, $italic, $none);
         }
 
         .career-goal {
-            margin: $sm*1.25 0;
+            margin: $sm*2.5 0;
             font-size: $sm*1.5;
         }
 

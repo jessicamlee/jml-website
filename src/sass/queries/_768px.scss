@@ -28,15 +28,11 @@
         ul {
             flex-direction: row;
             justify-content: flex-end;
-            gap: $sm*1.5;
+            gap: $sm;
         }
 
         li {
             padding: $sm;
-
-            &:nth-child(3) {
-                padding: $sm $sm*0.5 $sm $sm;
-            }
         }
 
         a {
@@ -58,7 +54,7 @@
     }
 
     .intro {
-        padding: $sm*2 $sm*4;
+        padding: $sm*4;
 
         h1 {
             font-size: $sm*3.5;
@@ -70,7 +66,7 @@
         }
 
         .career-goal {
-            margin: $sm*1.75 0;
+            margin: $sm*3 0;
             font-size: $sm*1.75;
         }
     }
