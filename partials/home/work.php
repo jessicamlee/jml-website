@@ -4,11 +4,20 @@
         <ul class="work-collection collection-container flex">
             <?php
                 $work_title = 'PsyHealth by Psystem';
-                $work_desc = 'Built progressive web app features for Psystem\'s App and Coach Portal for full CRUD functionality and analyzed, redesigned, and updated website and ad landing pages for responsive, accessible, mobile-first experiences.';
+                $work_desc = 'Built progressive web application features for the Minimum Viable Products of Psystem\'s PsyHealth App and Coach Portal Dashboard with full CRUD functionality.';
                 $work_skills = 'MERN Stack | React-Redux | Material UI';
+                $work_img_src = 'psyhealth_cover';
+                $work_img_alt = 'Psystem\'s PsyHealth App Cover Photo';
+                $live_link = 'https://play.google.com/store/apps/details?id=ca.mydigitalcarehome.twa';
+                include('partials/cards/work-card.php');
+            ?>
+            <?php
+                $work_title = 'Psystem Website';
+                $work_desc = 'Designed and built the redesigned website and integrated email subscription modals using Psystem\'s updated branding while prioritizing accessible, responsive, mobile-friendly experiences.';
+                $work_skills = 'Figma | Webflow | MailChimp | Responsive UX Design';
                 $work_img_src = 'psystem_cover';
                 $work_img_alt = 'Psystem Cover Photo';
-                $live_link = 'https://play.google.com/store/apps/details?id=ca.mydigitalcarehome.twa';
+                $live_link = 'https://www.psystem.ca/';
                 include('partials/cards/work-card.php');
             ?>
             <?php
@@ -20,15 +29,15 @@
                 $live_link = 'https://hackthebreak2023.com/';
                 include('partials/cards/work-card.php');
             ?>
-            <?php
+            <!-- <?php
                 $work_title = 'Hack the 6ix 2023';
-                $work_desc = 'Collaborated in a team of 7 developers to update HT6\'s React Storybook UI Library and build a new responsive landing page with email notification and registration forms for Hack the 6ix\'s 2023 Hackathon event.';
+                $work_desc = 'Collaborated in a team of 7 developers to build a new responsive landing page, update HT6\'s Storybook UI Library, and update the Hacker Dashboard interface.';
                 $work_skills = 'TypeScript | Storybook UI | SCSS Modules';
                 $work_img_src = 'ht62023_cover';
                 $work_img_alt = 'Hack the 6ix 2023 Cover Photo';
                 $live_link = 'https://hackthe6ix.com/';
                 include('partials/cards/work-card.php');
-            ?>
+            ?> -->
         </ul>
     </div>
 </section>

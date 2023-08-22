@@ -17,6 +17,6 @@
             <h3><?php echo $work_title; ?></h3>
             <p class="work-desc"><?php echo $work_desc; ?></p>
         </div>
-        <a class="link-btn box-shadow-light" tabindex="0" href="<?php echo $live_link; ?>" target="_blank" title="Visit Live Site">Visit Site</a>
+        <a class="link-btn box-shadow-light" tabindex="0" href="<?php echo $live_link; ?>" target="_blank" title="Visit Live Site">Visit Live Site</a>
     </div>
 </li>

@@ -21,7 +21,7 @@
         </div>
         <div class="btn-container flex">
             <a class="prototype-link box-shadow-light" tabindex="0" href="<?php echo $prototype_link; ?>" target="_blank" title="View Prototype">View Prototype</a>
-            <a class="case-study-link box-shadow-light" tabindex="0" href="<?php echo $slide_deck_link; ?>" target="_blank" title="Review Slide Deck">Slide Deck</a>
+            <a class="case-study-link box-shadow-light" tabindex="0" href="<?php echo $slide_deck_link; ?>" target="_blank" title="Read Case Study">Read Case Study</a>
         </div>
     </div>
 </div>
