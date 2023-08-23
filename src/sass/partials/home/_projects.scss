@@ -19,20 +19,20 @@
         gap: $sm*0.65;
         flex-direction: column;
     
-        .live-link, .code-link {
+        .live-link, .code-link, .prototype-link, .case-study-link {
             padding: $sm*0.6 $sm*0.7;
             border-radius: $sm*1.5;
             text-align: center;
             width: 100%;
         }
     
-        .live-link {
+        .live-link, .prototype-link {
             background-color: $color-primary;
             border: $sm*0.15 solid $color-primary;
             @include fontstyles($color-secondary, $sm*0.9, $normal, $base, $none);
         }
     
-        .code-link {
+        .code-link, .case-study-link {
             background-color: transparent;
             border: $sm*0.15 solid $color-primary;
             @include fontstyles($color-primary, $sm*0.9, $normal, $base, $none);

@@ -6,8 +6,8 @@ h1 {
 }
 
 h2 {
-    @include fontstyles ($color-primary, $sm*2.2, $light, $base, $uppercase);
-    margin-bottom: $sm*0.3;
+    @include fontstyles ($color-primary, $sm*2.2, $light, $base, $none);
+    margin-bottom: $sm*0.65;
     text-align: center;
 }
 
@@ -19,5 +19,5 @@ h3 {
 
 p {
     @include fontstyles ($color-primary, $sm, $normal, $base, $none);
-    line-height: $sm*1.5;
+    line-height: $sm*1.65;
 }

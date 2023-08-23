@@ -3,7 +3,7 @@
 @media (min-width:768px) {
 
     h2 {
-        @include fontstyles ($color-primary, $sm*2, $normal, $base, $uppercase);
+        @include fontstyles ($color-primary, $sm*2, $normal, $base, $none);
     }
 
     h3 {
@@ -15,7 +15,7 @@
     }
 
     .subpg-section {
-        padding: $sm*2 $sm*3 $sm*2.5;
+        padding: $sm*2 $sm*3 $sm;
     }
 
     header .gn {
@@ -155,8 +155,8 @@
         }
     }
 
-    .toolkit .pg-preface, .storytelling .pg-preface {
-        max-width: 40.375rem;
+    .pg-preface, .storytelling .pg-preface {
+        max-width: 30rem;
     }
 
     .storytelling-col {

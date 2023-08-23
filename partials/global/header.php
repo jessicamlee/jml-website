@@ -13,9 +13,9 @@
         </button>
         <nav class="gn">
             <ul class="flex">
-                <li data-aos="fade-down" data-aos-delay="550"><a href="toolkit.php" title="Web Development Projects by Jessica">Web Development</a></li>
-                <li data-aos="fade-down" data-aos-delay="600"><a href="toolkit.php" title="UX Design Projects by Jessica">UX Design</a></li>
-                <li data-aos="fade-down" data-aos-delay="650"><a href="toolkit.php" title="Content Strategy, Writing, and Editing by Jessica">Content Strategy</a></li>
+                <li data-aos="fade-down" data-aos-delay="550"><a href="web-development.php" title="Web Development Projects by Jessica">Web Development</a></li>
+                <li data-aos="fade-down" data-aos-delay="600"><a href="ux-design.php" title="UX Design Projects by Jessica">UX Design</a></li>
+                <li data-aos="fade-down" data-aos-delay="650"><a href="content-strategy.php" title="Content Strategy, Writing, and Editing by Jessica">Content Strategy</a></li>
                 <li data-aos="fade-down" data-aos-delay="700"><a href="index.php#work" title="Featured Work by Jessica">Work Projects</a></li>
                 <li data-aos="fade-down" data-aos-delay="750"><a href="about.php" title="Who is Jessica?">About</a></li>
                 <li class="flex header-icons">

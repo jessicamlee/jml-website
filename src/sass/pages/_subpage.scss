@@ -1,14 +1,14 @@
 @use '../utilities' as *;
 
-.toolkit-intro {
+.subpage-intro {
     text-align: center;
 
     h1 {
-        margin-bottom: 0.5rem;
+        margin-bottom: $sm*0.5;
     }
 
     .pg-preface {
-        margin: 0.5rem auto;
+        margin: $sm*1.5 auto;
         max-width: 710px;
     }
 }
@@ -58,7 +58,7 @@
 
     .pg-preface {
         text-align: center;
-        margin: 0 auto;
+        margin: 0 auto $sm*3;
     }
 
     h3 {

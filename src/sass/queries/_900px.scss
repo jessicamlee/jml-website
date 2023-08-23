@@ -7,8 +7,7 @@
     }
     
     h2 {
-        @include fontstyles ($color-primary, $sm*2.5, $light, $base, $uppercase);
-        margin-bottom: $sm*0.3;
+        @include fontstyles ($color-primary, $sm*2.5, $light, $base, $none);
     }
 
     p {

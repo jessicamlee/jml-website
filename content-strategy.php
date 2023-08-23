@@ -1,17 +1,15 @@
 <!DOCTYPE html>
 <html lang="en-CA">
     <?php 
-        $title_text = "Toolkit &vert; Jessica Lee Front&dash;End Developer &amp; Web Designer";
+        $title_text = "Content Strategy &vert; Jessica Lee Front&dash;End Developer &amp; Web Designer";
         include('partials/global/head.php'); 
     ?>
     <body>
         <div class="wrapper">
         <?php include('partials/global/header.php'); ?>
             <main>
-                <?php include('partials/toolkit/toolkit-intro.php'); ?>
-                <?php include('partials/toolkit/development.php'); ?>
-                <?php include('partials/toolkit/ux-design.php'); ?>
-                <?php include('partials/toolkit/storytelling.php'); ?>
+                <?php include('partials/content-strategy/storytelling-intro.php'); ?>
+                <?php include('partials/content-strategy/storytelling.php'); ?>
                 <?php include('partials/global/contact.php'); ?>
             </main>
             <?php include('partials/global/footer.php'); ?>
