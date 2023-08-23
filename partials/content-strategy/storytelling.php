@@ -1,11 +1,11 @@
 <section class="storytelling subpg-section">
     <div class="container">
         <div class="pg-preface">
-            <h2>Why does Jessica write&quest;</h2>
-            <p>&ldquo;I write&comma; edit&comma; and publish digital content and stories to inspire&comma; dream&comma; and connect&period;&rdquo; <br> &mdash; Jessica Lee</p>
+            <h2 data-aos="fade-right" data-aos-delay="400">Why does Jessica write&quest;</h2>
+            <p data-aos="fade-right" data-aos-delay="500">&ldquo;I write&comma; edit&comma; and publish digital content and stories to inspire&comma; dream&comma; and connect&period;&rdquo; <br> &mdash; Jessica Lee</p>
         </div>
         <div class="storytelling-content">
-            <div class="storytelling-col">
+            <div class="storytelling-col" data-aos="fade-right" data-aos-delay="600">
                 <h3>Environment</h3>
                 <ul>
                     <li><a href="https://thestarfish.ca/journal/2023/03/sriracha-is-it-sustainably-made" target="_blank" title="Link to article">Sriracha&colon; Is It Sustainably Made&quest;</a></li>
