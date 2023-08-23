@@ -1,6 +1,6 @@
 <section class="dev-projects subpg-section">
     <div class="container">
-        <ul class="dev-collection collection-container flex">
+        <ul class="dev-collection collection-container flex" data-aos="fade-right" data-aos-delay="400">
             <?php
                 $project_title = 'Daily Inspiration Generator';
                 $project_desc = 'Inspirational Quote Image Generator';
