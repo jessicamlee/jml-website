@@ -7,3 +7,14 @@
 .block {
     display: block;
 }
+
+.bolded {
+    font-weight: 700;
+}
+
+.bolded-italic {
+    font-weight: 700;
+    font-style: italic;
+    // TODO: Remove later
+    color: lime;
+}

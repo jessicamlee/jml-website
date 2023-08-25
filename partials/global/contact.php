@@ -1,4 +1,4 @@
-<section id="contact" class="contact">
+<section class="contact">
     <div class="container">
         <div>
             <h2 data-aos="fade-right" class="contact-header">Connect with me&excl;</h2>

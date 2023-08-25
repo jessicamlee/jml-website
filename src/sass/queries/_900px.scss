@@ -67,4 +67,18 @@
     .storytelling-col {
         padding-left: $sm*5;
     }
+
+    .cs-body li {
+        font-size: $sm*1.125;
+    }
+
+    .cs-flex-img-box {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .cs-flex-img {
+        width: 50%;
+    }
 }

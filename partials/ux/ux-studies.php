@@ -8,7 +8,8 @@
                 $project_img_src = 'loclo_ux_cover';
                 $project_img_alt = 'Cover Photo of LOCLO Clothing text with two screenshots below of LOCLO\'s home page in desktop and mobile screen sizes.';
                 $prototype_link = 'https://xd.adobe.com/view/4b3bff5a-9d4f-4634-9865-26d9e5e8f1d1-1e68/';
-                $slide_deck_link = 'https://drive.google.com/file/d/1-h7CnIqC8pksjbeyBshcrb1hTiMfd08M/view?usp=sharing';
+                $case_study_link = 'locloclothing';
+                // $case_study_link = 'https://drive.google.com/file/d/1-h7CnIqC8pksjbeyBshcrb1hTiMfd08M/view?usp=sharing';
                 include('partials/cards/ux-card.php');
             ?>
             <?php
@@ -18,7 +19,8 @@
                 $project_img_src = 'thesweatcrew_cover';
                 $project_img_alt = 'Cover Photo of The Sweat Crew text next to desktop screenshot of The Sweat Crew\'s home page on top of a dim background.';
                 $prototype_link = 'https://xd.adobe.com/view/ab8662f6-55db-44db-9755-28de82619302-fed5/';
-                $slide_deck_link = 'https://drive.google.com/file/d/13pmYpUx9GkdeeyKfE-AIxSh9A3ptIFmn/view?usp=sharing';
+                $case_study_link = 'thesweatcrew';
+                // $case_study_link = 'https://drive.google.com/file/d/13pmYpUx9GkdeeyKfE-AIxSh9A3ptIFmn/view?usp=sharing';
                 include('partials/cards/ux-card.php');
             ?>
             <?php
@@ -28,7 +30,8 @@
                 $project_img_src = 'vancitysushi_cover';
                 $project_img_alt = 'Cover Photo of Vancity Sushi Ordering Mobile Application screenshot of Chicken Katsu next to Vancity Sushi text on top of a dim background.';
                 $prototype_link = 'https://www.figma.com/proto/0fJVrmtoCg0EExO6IxF8Vm/mobile-app-vers.-2?page-id=123%3A2&node-id=123-668&viewport=241%2C48%2C0.38&scaling=scale-down&starting-point-node-id=123%3A668';
-                $slide_deck_link = 'https://drive.google.com/file/d/1x928v_RJbuuzggUkIPV9HQDVG_aQzfrA/view?usp=sharing';
+                $case_study_link = 'vancitysushi';
+                // $case_study_link = 'https://drive.google.com/file/d/1x928v_RJbuuzggUkIPV9HQDVG_aQzfrA/view?usp=sharing';
                 include('partials/cards/ux-card.php');                
             ?>
         </ul>

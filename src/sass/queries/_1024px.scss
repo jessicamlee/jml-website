@@ -56,4 +56,9 @@
         fill: $color-secondary;
         transition: 0.5s ease-in-out;
     }
+
+    .cs-section {
+        // max-width: 80vw;
+        max-width: 1000px;
+    }
 }

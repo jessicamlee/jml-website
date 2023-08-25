@@ -31,6 +31,7 @@ a {
 li {
     list-style: none;
     list-style-type: none;
+    @include fontstyles ($color-primary, $sm, $normal, $base, $none);
 }
 
 .section {
