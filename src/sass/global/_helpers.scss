@@ -15,6 +15,29 @@
 .bolded-italic {
     font-weight: 700;
     font-style: italic;
-    // TODO: Remove later
-    color: lime;
+    color: $color-primary;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.mb-sm {
+    margin-bottom: $sm*0.25;
+}
+
+.mb-md {
+    margin-bottom: $sm;
+}
+
+.mt-lg {
+    margin-top: $sm*2;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.is-uppercase {
+    text-transform: uppercase;
 }

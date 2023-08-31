@@ -3,7 +3,7 @@
 @media (min-width:768px) {
 
     h2 {
-        @include fontstyles ($color-primary, $sm*2, $normal, $base, $none);
+        @include fontstyles ($color-primary, $sm*2, $normal, $base, $uppercase);
     }
 
     h3 {
@@ -161,6 +161,23 @@
 
     .storytelling-col {
         padding-left: $sm*4;
+    }
+
+    .cs-flex-tablet {
+        flex-direction: row;
+        gap: $sm*2;
+    }
+
+    .cs-half-width {
+        width: 50vw;
+    }
+
+    .cs-tablet-rr {
+        flex-direction: row-reverse
+    }
+
+    .cs-img-container {
+        max-width: $sm*45.3125;
     }
     
     .footer p {

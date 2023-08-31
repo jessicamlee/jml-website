@@ -7,7 +7,7 @@
     }
     
     h2 {
-        @include fontstyles ($color-primary, $sm*2.5, $light, $base, $none);
+        @include fontstyles ($color-primary, $sm*2.5, $light, $base, $uppercase);
     }
 
     p {
@@ -78,7 +78,7 @@
         justify-content: space-around;
     }
     
-    .cs-flex-img {
-        width: 50%;
-    }
+    // .cs-flex-img {
+    //     width: 50%;
+    // }
 }

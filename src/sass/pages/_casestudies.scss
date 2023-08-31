@@ -3,7 +3,7 @@
 .cs-body {
 
     p {
-        margin-bottom: $md;
+        margin-bottom: $sm*1.25;
     }
 
     li {
@@ -20,24 +20,42 @@
         width: $sm;
         margin-left: $sm*-1;
     }
+
+    h3 {
+        border-bottom: $sm*0.5 solid $color-secondary;
+        width: fit-content;
+        margin-bottom: $sm;
+    }
+
+    a {
+        color: $color-primary;
+        border-bottom: $color-secondary $sm*0.15 solid;
+    }
 }
 
-.cs-section {
-    margin: $sm*3 auto 0;
+.cs-subsection {
+    margin: $sm*2 auto $sm*3.5;
 }
 
 .cs-summary {
-    gap: $sm;
+    max-width: $sm*81.25;
     align-items: center;
-    justify-content: space-between;
 
     h1 {
         margin-bottom: $sm;
     }
+
+    p {
+        margin-bottom: $sm*0.15;
+    }
+}
+
+.cs-intro {
+    margin-top: $sm*3;
 }
 
 .cs-img-container {
-    width: 60%;
+    max-width: $sm*29.6875;
 }
 
 .cs-body-img-container {
@@ -60,15 +78,30 @@
     height: 100%;
 }
 
+.cs-btns {
+    flex-direction: row;
+    margin-top: $sm;
+}
+
 // Helpers
-.mb-sm {
-    margin-bottom: $sm*0.25;
+.cs-half-width {
+    width: 90vw;
 }
 
-.mb-md {
-    margin-bottom: $sm;
+.cs-flex-tablet {
+    flex-direction: column;
+    gap: $sm;
+    justify-content: space-between;
 }
 
-.text-center {
-    text-align: center;
+// Peer Feedback Content
+.peer-feedback-box {
+    flex-direction: column;
+    gap: $sm*0.5;
+    max-width: 550px;
+    margin: 0 auto $sm*2;
+
+    p {
+        margin-bottom: 0;
+    }
 }

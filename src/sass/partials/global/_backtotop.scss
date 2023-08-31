@@ -1,0 +1,16 @@
+@use '../../utilities' as *;
+
+.backtotop {
+    width: 125px;
+    height: auto;
+    color: $color-primary;
+    border-bottom: $color-secondary $sm*0.15 solid;
+    // border-radius: $sm*1.5;
+    // background-color: $color-primary;
+    @include fontstyles ($color-primary, $sm*1.2, $normal, $base, $none);
+    line-height: $sm*1.65;
+    padding: $sm*0.15 0;
+    // padding: $sm*0.25 $sm;
+    margin: 0 auto $sm*1.5;
+    justify-content: center;
+}

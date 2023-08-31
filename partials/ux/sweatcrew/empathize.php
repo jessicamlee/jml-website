@@ -63,13 +63,13 @@
             <div class="container">
                 <h3>User Story</h3>
                 <div class="flex cs-flex-tablet">
-                    <div class="cs-half-width">
-                        <p>The User Story for the Ann Byrne Persona focuses on part&dash;time employees and students who want to shop online quickly and easily so that they can spend more time on other enjoyable activities and responsibilities&period;</p>
-                        <p>With a persona and user story created&comma; the research process proceeded to learn more about The Sweat Crew&apos;s direct and indirect competitors&period;</p>
-                    </div>
                     <div class="img-container cs-body-img-container cs-half-width">
                         <img class="img-thumb" src="../images/case-studies/sweatcrew/sweatcrew_userstory.jpg" alt="User Story for the Ann Byrne Persona">
                         <p class="cs-img-caption">User Story for the Ann Byrne Persona</p>
+                    </div>
+                    <div class="cs-half-width">
+                        <p>The User Story for the Ann Byrne Persona focuses on part&dash;time employees and students who want to shop online quickly and easily so that they can spend more time on other enjoyable activities and responsibilities&period;</p>
+                        <p>With a persona and user story created&comma; the research process proceeded to learn more about The Sweat Crew&apos;s direct and indirect competitors&period;</p>
                     </div>
                 </div>
             </div>

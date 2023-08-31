@@ -37,6 +37,10 @@
         }
     }
 
+    .cs-summary .btn-container {
+        flex-direction: row;
+    }
+
     .work .work-collection li .links-container .link-btn:hover {
         color: $color-primary;
         background-color: $color-secondary;
