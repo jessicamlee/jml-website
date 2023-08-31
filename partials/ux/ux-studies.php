@@ -9,7 +9,6 @@
                 $project_img_alt = 'Cover Photo of Psystem';
                 $prototype_link = 'https://xd.adobe.com/view/4b3bff5a-9d4f-4634-9865-26d9e5e8f1d1-1e68/';
                 $case_study_link = 'locloclothing';
-                // $case_study_link = 'https://drive.google.com/file/d/1-h7CnIqC8pksjbeyBshcrb1hTiMfd08M/view?usp=sharing';
                 include('partials/cards/ux-card.php');
             ?> -->
             <?php

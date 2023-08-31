@@ -1,8 +1,6 @@
 <?php
 
-    $title_text = $title_text ?? 'Jessica Lee &vert; Front&dash;End Developer, Web Designer, Content Strategist';
-
-    $project_title = $project_title ?? 'Jessica Lee &vert; Front&dash;End Developer, Web Designer, Content Strategist';
+    $title_text = $title_text ?? 'Jessica Lee &vert; Web/UX Designer&comma; Developer&comma; Content Strategist';
 
 ?><head>
     <meta charset="UTF-8">
@@ -16,12 +14,12 @@
     <meta property="image" content="https://jessicamlee.dev/images/jessicamlee_share.jpg">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://jessicamlee.dev">
-    <meta property="og:title" content="Jessica Lee | Front-End Developer, Web Designer, Content Strategist">
+    <meta property="og:title" content="Jessica Lee | Web/UX Designer, Developer, Content Strategist">
     <meta property="og:description" content="Jessica Lee | I build interfaces for everyone to experience.">
     <meta property="og:image" content="https://jessicamlee.dev/images/jessicamlee_share.jpg">
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://jessicamlee.dev">
-    <meta property="twitter:title" content="Jessica Lee | Front-End Developer, Web Designer, Content Strategist">
+    <meta property="twitter:title" content="Jessica Lee | Web/UX Designer, Developer, Content Strategist">
     <meta property="twitter:description" content="Jessica Lee | I build interfaces for everyone to experience.">
     <meta property="twitter:image" content="https://jessicamlee.dev/images/jessicamlee_share.jpg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
