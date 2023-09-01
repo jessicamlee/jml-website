@@ -18,7 +18,7 @@
         <div class="cs-subsection">
             <h3>Research Findings &amp; Pain Points</h3>
             <p>The User Research process started with looking for direct and indirect competitors&period; I wanted first&dash;hand experience understanding a user&apos;s process when searching for and ordering custom clothes&period;</p>
-            <p>My <span class="bolded">assumption</span> before the research was that users would want a simple process to add design details based on the thought that there could be several components to specify for a custom order.&period;</p>
+            <p>My <span class="bolded">assumption</span> before the research was that users would want a simple process to add design details based on the thought that there could be several components to specify for a custom order&period;</p>
             <p>After learning about the competitors and potential users&comma; I gained insight into the pain points of the product and process&period;</p>
             <p class="mb-sm">The 3 central pain points users commented on when shopping for customized items online are as follows&colon;</p>
             <ol class="mb-md">

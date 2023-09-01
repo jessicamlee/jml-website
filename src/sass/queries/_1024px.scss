@@ -20,16 +20,16 @@
         transition: 0.3s ease-in-out;
     }
 
-    .projects .projects-collection .project-thumb .links-container .btn-container, .dev-projects .project-card, .ux-projects .project-card {
+    .projects .projects-collection .project-thumb .links-container .btn-container, .dev-projects .project-card, .ux-projects .project-card, .cs-summary {
         
-        .live-link:hover, .prototype-link:hover {
+        .live-link:hover, .case-study-link:hover {
             color: $color-primary;
             background-color: $color-secondary;
             border: $sm*0.15 solid $color-secondary;
             transition: 0.5s ease-in-out;
         }
             
-        .code-link:hover, .case-study-link:hover {
+        .code-link:hover, .prototype-link:hover {
             color: $color-secondary;
             background-color: $color-primary;
             border: $sm*0.15 solid $color-secondary;
@@ -62,7 +62,6 @@
     }
 
     .cs-section {
-        // max-width: 80vw;
         max-width: 1000px;
     }
 }

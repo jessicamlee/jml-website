@@ -93,6 +93,16 @@
     justify-content: space-between;
 }
 
+.cs-goal-stmt {
+    flex-direction: column;
+    gap: $sm*0.5;
+    margin-left: $lg;
+
+    p {
+        margin-bottom: 0;
+    }
+}
+
 .peer-feedback-box {
     flex-direction: column;
     gap: $sm*0.5;

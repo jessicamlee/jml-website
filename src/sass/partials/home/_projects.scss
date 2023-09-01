@@ -26,13 +26,13 @@
             width: 100%;
         }
     
-        .live-link, .prototype-link {
+        .live-link, .case-study-link {
             background-color: $color-primary;
             border: $sm*0.15 solid $color-primary;
             @include fontstyles($color-secondary, $sm*0.9, $normal, $base, $none);
         }
     
-        .code-link, .case-study-link {
+        .code-link, .prototype-link {
             background-color: transparent;
             border: $sm*0.15 solid $color-primary;
             @include fontstyles($color-primary, $sm*0.9, $normal, $base, $none);
