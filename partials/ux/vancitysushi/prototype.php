@@ -20,7 +20,7 @@
                     <p>By only using the &#35;EC4424 red and colours for call&dash;to&dash;action buttons and images of the food items&comma; users are more focused on these essential components in the design&period;</p>
                 </div>
                 <div class="img-container cs-body-img-container cs-half-width">
-                    <img class="img-thumb" src="../images/case-studies/vancitysushi/vancitysushi_styletile.png" alt="Style Guide for The Vancity Sushi App">
+                    <img class="img-thumb" src="../images/case-studies/vancitysushi/vancitysushi_styletile.jpg" alt="Style Guide for The Vancity Sushi App">
                     <p class="cs-img-caption">Style Guide&comma; Style Tile &lpar;or Sticker Sheet&rpar; for The Vancity Sushi App</p>
                 </div>
             </div>

@@ -22,7 +22,7 @@
                 <li><span class="bolded">Add More Animation&colon;</span> Having more animation or video clips of the products may appear more engaging and accessible on different screen sizes&period;</li>
                 <li><span class="bolded">Add Landmarks&colon;</span> Although the headings do help guide users&comma; landmarks can further assist anyone who wants to use their keyboard more&period; This would be especially useful for the Step 2 Customization page&period;</li>
             </ol>
-            <h4 class="text-center italic">Thank you for viewing my work&excl;</h4>
+            <h4 class="text-center italic cs-ty-note">Thank you for viewing my work&excl;</h4>
         </div>
     </div>
 </section>

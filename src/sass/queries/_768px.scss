@@ -179,6 +179,10 @@
     .cs-img-container {
         max-width: $sm*45.3125;
     }
+
+    .cs-items-center {
+        align-items: center;
+    }
     
     .footer p {
         @include fontstyles ($color-secondary, $sm, $normal, $base, $none);

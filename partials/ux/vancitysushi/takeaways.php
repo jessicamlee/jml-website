@@ -22,7 +22,7 @@
                 <li><span class="bolded">Include a Profile Page&colon;</span> Having a Profile page will help returning users update billing and delivery information for a speedy checkout process in the future&period;</li>
                 <li><span class="bolded">Conduct Another Usability Study&colon;</span> Learning more about pain points that have not been addressed yet from more users will help determine any new areas of need&period;</li>
             </ol>
-            <h4 class="text-center italic">Thank you for viewing my work&excl;</h4>
+            <h4 class="text-center italic cs-ty-note">Thank you for viewing my work&excl;</h4>
         </div>
     </div>
 </section>
