@@ -16,6 +16,19 @@
             </ul>
         </div>
         <div class="cs-subsection">
+            <h3>Competitive Analysis &amp; Pain Points</h3>
+            <p>While I gathered information about the users&comma; I also learned about the direct and indirect competitors of Vancity Sushi&period;</p>
+            <p>Besides other food ordering apps like UberEats and SkiptheDishes&comma; Vancity Sushi&apos;s direct competitors are the nearby restaurants that use a website ordering platform to process online orders&period;</p>
+            <p class="mb-sm">The primary weaknesses I noticed among the competitors are&colon;</p>
+            <ol class="mb-md">
+                <li>Lack of written descriptions and audio options</li>
+                <li>Inconsistency with images for visual aid</li>
+                <li>No mobile app is available &lpar;or mobile app is available in certain locations&rpar;</li>
+                <li>Absence of a “Notes” field to specify food allergies or dietary preferences</li>
+                <li>Missing updated Points page after purchase</li>
+            </ol>
+        </div>
+        <div class="cs-subsection">
             <div class="container">
                 <h3>Meet the Persona</h3>
                 <p>The user research process began with interviewing 5 participants who have busy schedules as full&dash;time employees&comma; business owners&comma; or students&period; After learning more about the type of users and their experiences using existing customer loyalty programs&comma; I created two personas to guide the project&period;</p>
@@ -71,19 +84,6 @@
                 <p>My assumptions before the research phase are that the participants order sushi at least once a week &lpar;or a few times a month&rpar; and prefer to gather and use points to save money on future orders&period;</p>
                 <p>Learning about how some customers forget to log into the app to accumulate points changed my assumptions&period; I also learned that avid point&dash;acquiring customers prefer to have more point promotions weekly rather than a static system&period;</p>
             </div>
-        </div>
-        <div class="cs-subsection">
-            <h3>Competitive Analysis &amp; Pain Points</h3>
-            <p>While I gathered information about the users&comma; I also learned about the direct and indirect competitors of Vancity Sushi&period;</p>
-            <p>Besides other food ordering apps like UberEats and SkiptheDishes&comma; Vancity Sushi&apos;s direct competitors are the nearby restaurants that use a website ordering platform to process online orders&period;</p>
-            <p class="mb-sm">The primary weaknesses I noticed among the competitors are&colon;</p>
-            <ol class="mb-md">
-                <li>Lack of written descriptions and audio options</li>
-                <li>Inconsistency with images for visual aid</li>
-                <li>No mobile app is available &lpar;or mobile app is available in certain locations&rpar;</li>
-                <li>Absence of a “Notes” field to specify food allergies or dietary preferences</li>
-                <li>Missing updated Points page after purchase</li>
-            </ol>
         </div>
         <div class="cs-subsection">
             <h3>Outlining the Journey</h3>

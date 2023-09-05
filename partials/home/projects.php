@@ -1,8 +1,8 @@
-<section class="projects subpg-section">
+<!-- <section class="projects subpg-section">
     <div class="container">
         <h2 data-aos="fade-right">Personal Projects</h2>
         <ul class="projects-collection collection-container flex">
-            <!-- <?php
+            <?php
                 $project_title = 'Inspirational Quote Generator';
                 $project_desc = 'Full-Stack Web Development';
                 $project_skills = 'TypeScript | CSS3 | Next.js | AWS';
@@ -12,7 +12,7 @@
                 $code_link = 'https://github.com/jessicamlee/inspirational-quote-generator';
                 include('partials/cards/project-card.php');
             ?> -->
-            <?php
+            <!-- <?php
                 $project_title = 'CMJSH Agency Website';
                 $project_desc = 'Front-End Web Development';
                 $project_skills = 'React.js | TailwindCSS | BrowserStack';
@@ -33,6 +33,6 @@
                 include('partials/cards/ux-card.php');
             ?>
         </ul>
-        <!-- <a class="more-projects flex" data-aos="fade-up" data-aos-delay="100" href="toolkit.php" title="More Personal Projects by Jessica">&plus; View more Personal Projects</a> -->
+        <a class="more-projects flex" data-aos="fade-up" data-aos-delay="100" href="toolkit.php" title="More Personal Projects by Jessica">&plus; View more Personal Projects</a>
     </div>
-</section>
+</section> -->

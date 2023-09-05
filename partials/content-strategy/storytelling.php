@@ -1,6 +1,6 @@
 <section class="storytelling subpg-section">
     <div class="container">
-        <div class="pg-preface">
+        <div class="why-write">
             <h2 data-aos="fade-right" data-aos-delay="400">Why does Jessica write&quest;</h2>
             <p data-aos="fade-right" data-aos-delay="500">&ldquo;I write&comma; edit&comma; and publish digital content and stories to inspire&comma; dream&comma; and connect&period;&rdquo; <br> &mdash; Jessica Lee</p>
         </div>

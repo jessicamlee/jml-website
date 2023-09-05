@@ -59,7 +59,7 @@
                     <p>To provide users with a more confident shopping experience&comma; some sections were removed from the Homepage to include the essential components users want and need to start their ordering process&period;</p>
                 </div>
                 <div class="img-container cs-body-img-container cs-half-width">
-                    <img class="img-thumb" src="../images/case-studies/sweatcrew/sweatcrew_challenge3.png" alt="Homepage for The Sweat Crew’s website">
+                    <img class="img-thumb" src="../images/case-studies/sweatcrew/sweatcrew_challenge3.png" alt="Homepage for The Sweat Crew's website">
                     <p class="cs-img-caption">Homepage for The Sweat Crew&apos;s website</p>
                 </div>
             </div>

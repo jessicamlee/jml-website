@@ -10,6 +10,7 @@
     .pg-preface {
         margin: $sm*1.5 auto;
         max-width: 710px;
+        text-align: left;
     }
 }
 
@@ -56,9 +57,10 @@
 
 .storytelling {
 
-    .pg-preface {
+    .why-write {
         text-align: center;
         margin: 0 auto $sm*3;
+        max-width: 33rem;
     }
 
     h3 {
@@ -81,6 +83,8 @@
     a {
         @include fontstyles ($color-primary, $sm, $normal, $base, $none);
         line-height: $sm*1.5;
+        border-bottom: 1.5px solid $color-primary;
+
 
         &:hover {
             border-bottom: 1.5px solid $color-secondary;

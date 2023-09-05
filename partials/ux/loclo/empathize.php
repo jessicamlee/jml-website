@@ -3,28 +3,25 @@
         <h2>Empathize</h2>
         <div class="cs-subsection">
             <h3>Researching</h3>
-            <p>From chatting with users who frequently shop online to users who are interested in purchasing customized clothing&comma; the research process for this project required a more narrow focus than the <a href="../ux/vancitysushi.php" title="Link to Vancity Sushi UX Case Study">Vancity Sushi project</a>&period;</p>
-            <p><span class="bolded">Research Goals&colon;</span> While the ultimate goal is to create a usable&comma; responsive website for various screens&comma; the other priority is to make the experience <span class="bolded-italic">straightforward</span>&comma; <span class="bolded-italic">accessible</span>&comma; and <span class="bolded-italic">user&dash;friendly</span>&period;</p>
-            <p>By keeping these goals in mind&comma; the primary needs of the users and the company will be met&period;</p>
+            <p>For the LOCLO Clothing project&comma; I combined my knowledge from past projects&comma; like the <a href="../ux-design/vancitysushi.php" title="Link to Vancity Sushi UX Case Study" target="_blank">Vancity Sushi project</a> and <a href="../ux-design/thesweatcrew.php" title="Link to Sweat Crew UX Case Study" target="_blank">The Sweat Crew project</a>&comma; to design a cohesive cross&dash;platform experience&period;</p>
+            <p><span class="bolded">Research Goals&colon;</span> The primary goal is to <span class="bolded-italic">understand the user&apos;s expectations</span> for a cross&dash;platform experience on both the website and mobile application interfaces&comma; create a <span class="bolded-italic">cohesive experience to maintain brand consistency</span> for both experiences&comma; and make the experience <span class="bolded-italic">accessible</span> and <span class="bolded-italic">user&dash;friendly</span>&period;</p>
             <p class="bolded mb-sm">Research Questions&colon;</p>
             <ul>
+                <li>What do users expect to see to navigate the website more intuitively&quest;</li>
                 <li>How does a user feel about navigating the website&quest;</li>
                 <li>What challenges do users face when browsing the products and placing an order&quest;</li>
                 <li>What are some ways to improve the experience&quest;</li>
                 <li>How likely would users return to place another order in the future based on their experience&quest;</li>
-                <li>What are the unidentified pain points in the low&dash;fidelity prototype&quest;</li>
+                <li>What are the disregarded pain points in the low&dash;fidelity prototype&quest;</li>
             </ul>
         </div>
         <div class="cs-subsection">
             <h3>Research Findings &amp; Pain Points</h3>
-            <p>The User Research process started with looking for direct and indirect competitors&period; I wanted first&dash;hand experience understanding a user&apos;s process when searching for and ordering custom clothes&period;</p>
-            <p>My <span class="bolded">assumption</span> before the research was that users would want a simple process to add design details based on the thought that there could be several components to specify for a custom order&period;</p>
-            <p>After learning about the competitors and potential users&comma; I gained insight into the pain points of the product and process&period;</p>
-            <p class="mb-sm">The 3 central pain points users commented on when shopping for customized items online are as follows&colon;</p>
+            <p>The User Research process started with looking for direct and indirect competitors&period;  I empathized with users by visiting similar clothing websites to LOCLO Clothing&apos;s offerings to understand the user flow and user journey that LOCLO&apos;s users would experience when searching and ordering clothes online&period;</p>
+            <p>After researching and testing competitors&apos; websites and inquiring about mobile-to-website shopping experiences through one&dash;on&dash;one user interviews&comma; I found <span class="bolded">two primary pain points</span> to resolve in this project&apos;s iteration&colon;</p>
             <ol class="mb-md">
-                <li><span class="bolded">Can&apos;t Visualize End Product&colon; </span>Some participants found it challenging to visualize the final product of a custom design when there were not enough sample reference photos&period;</li>
-                <li><span class="bolded">Limited Selection&colon; </span> Some participants felt concerned about a limited selection of design styles&comma; which led them to abandon their orders&period;</li>
-                <li><span class="bolded">Long Shopping Experience&colon; </span> Having a simple checkout process is favoured by all participants as there are various components to remember during the ordering process&period;</li>
+                <li><span class="bolded">Lack of Consistency&colon; </span>Some participants commented that they wanted more time to learn how to use the mobile application because the placement of elements was different compared to their expectations based on the website experience&period;</li>
+                <li><span class="bolded">Long Shopping Experience on Mobile&colon; </span> Optimizing the number of steps for the shopping and checkout processes can help with abandoned and frustrating user experiences&period;</li>
             </ol>
             <p>In addition to the initial challenges previously outlined&comma; these pain points provide a more narrow focus&period;</p>
             <p>Identifying pain points helps designers like myself learn <span class="bolded-italic">how</span> designers to make custom ordering experiences more enjoyable&comma; especially since a lot of details are needed to complete the order&period;</p>
@@ -32,16 +29,21 @@
         <div class="cs-subsection">
             <div class="container">
                 <h3>Competitive Analysis</h3>
-                <p>As for the competitors&comma; The Sweat Crew&apos;s business model overlapped with several direct and indirect local businesses but also differed in other ways&period;</p>
-                <p>Most local businesses focused on bulk custom orders for school jerseys&comma; uniforms&comma; and company-branded clothing. Other local merchants combined their custom printing clothing business with a department store&period;</p>
-                <p>Although The Sweat Crew also focuses on customized clothing&comma; the e-commerce store focuses on a business-to-customer transaction. The Sweat Crew&apos;s competitors are more business-to-organization focused&period;</p>
-                <p class="mb-sm">The <span class="bolded">primary weaknesses</span> observed include the following&colon;</p>
-                <ul>
-                    <li>Lack of visual appeal for the average consumer</li>
-                    <li>Too many pop&dash;up windows overwhelm the visual layout</li>
-                    <li>Limited customization options</li>
-                    <li>Multiple windows are required for the ordering process&comma; which takes too long to load on the page&comma; therefore slowing the momentum of the shopping experience</li>
-                </ul>
+                <div class="flex cs-flex-tablet">
+                    <div class="img-container cs-body-img-container cs-half-width">
+                        <img class="img-thumb" src="../images/case-studies/loclo/loclo_competitor.jpg" alt="Screenshots of LOCLO Clothing's competitors, Good for Sunday, Okay to Rest, and Tentree">
+                        <p class="cs-img-caption">Screenshots of LOCLO Clothing&apos;s competitors&comma; Good for Sunday&comma; Okay to Rest&comma; and Tentree</p>
+                    </div>
+                    <div class="cs-half-width">
+                        <p>Since LOCLO Clothing&apos;s goals are to prioritize local shoppers&comma; focus on only clothing products&comma; and have a niche audience to target social media users&comma; its competitors include Good for Sunday&comma; Okay to Rest&comma; Tentree&comma; and DRMERS CLUB&period;</p>
+                        <p class="mb-sm">The <span class="bolded">primary weaknesses</span> observed include the following&colon;</p>
+                        <ul>
+                            <li>Lack of support for abandoned experiences</li>
+                            <li>Lack of support for local shopping options during checkout</li>
+                            <li>Little support for Saved Items&sol;Favourited items for shoppers to resume their journey at a later time</li>
+                        </ul>
+                    </div>
+                </div>                
             </div>
         </div>
         <div class="cs-subsection">
