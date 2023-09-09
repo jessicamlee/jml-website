@@ -15,7 +15,7 @@
                 <li><span class="bolded">“Dissolve” transitions </span> confused users about where the user is on the web page&period;</li>
                 <li><span class="bolded">Reviewing the updated visuals </span> for the order would make it easier for users to follow along with the order process&period;</li>
             </ol>
-            <p>With the participants&apos; feedback&comma; I modified the original layout and design to resolve these pain points.</p>
+            <p>With the participants&apos; feedback&comma; I modified the original layout and design to resolve these pain points&period;</p>
             <p>Here are two examples that significantly impact the user&apos;s shopping experience.</p>
             <div class="flex cs-flex-tablet">
                 <div class="img-container cs-body-img-container cs-half-width">
@@ -30,6 +30,8 @@
         </div>
         <div class="cs-subsection">
             <h3>Reflecting on the Challenges</h3>
+            <p>I realized the practice of ideating for various screen sizes and understanding how to make transition between screen sizes fluid to appear &ldquo;responsive&rdquo; was the true challenge for me&period;</p>
+            <p>From this project and the repetition of creating each of the screens for this project&apos;s Minimum Viable Product &lpar;MVP&rpar; iteration&comma; I learned further empathize with the user from my reflections on each of the top three challenges below&period;</p>
             <div class="flex cs-flex-tablet mt-lg">
                 <div class="cs-half-width">
                     <h4><span class="is-uppercase bolded">Challenge 1&colon;</span> Design a responsive website for multiple screens</h4>
@@ -48,7 +50,7 @@
                     <p>With a straightforward ordering process&comma; the user can feel confident and at ease when shopping&comma; creating a positive impression of the brand&apos;s attention to the user&apos;s shopping experience&period;</p>
                 </div>
                 <div class="img-container cs-body-img-container cs-half-width">
-                    <img class="img-thumb" src="../images/case-studies/sweatcrew/sweatcrew_challenge2.png" alt="Customization Step 3, revealing the product design">
+                    <img class="img-thumb" src="../images/case-studies/sweatcrew/sweatcrew_challenge2.jpg" alt="Customization Step 3, revealing the product design">
                     <p class="cs-img-caption">Customization Step 3&comma; revealing the product design</p>
                 </div>
             </div>
@@ -59,11 +61,11 @@
                     <p>To provide users with a more confident shopping experience&comma; some sections were removed from the Homepage to include the essential components users want and need to start their ordering process&period;</p>
                 </div>
                 <div class="img-container cs-body-img-container cs-half-width">
-                    <img class="img-thumb" src="../images/case-studies/sweatcrew/sweatcrew_challenge3.png" alt="Homepage for The Sweat Crew's website">
+                    <img class="img-thumb" src="../images/case-studies/sweatcrew/sweatcrew_challenge3.jpg" alt="Homepage for The Sweat Crew's website">
                     <p class="cs-img-caption">Homepage for The Sweat Crew&apos;s website</p>
                 </div>
             </div>
         </div>
-        <p class="text-center">To view the changes from the following challenges&comma; check out the <a class="bolded" href="https://xd.adobe.com/view/ab8662f6-55db-44db-9755-28de82619302-fed5/" target="_blank" title="Link to Low-fidelity Prototype of The Sweat Crew">high&dash;fidelity prototype here</a>&period;</p>
+        <p class="text-center">Check out the <a class="bolded" href="https://xd.adobe.com/view/ab8662f6-55db-44db-9755-28de82619302-fed5/" target="_blank" title="Link to Low-fidelity Prototype of The Sweat Crew">high&dash;fidelity prototype</a> to view the changes&period;</p>
     </div>
 </section>

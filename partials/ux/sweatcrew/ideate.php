@@ -10,8 +10,8 @@
                     <p>Having immediate access to a search button or bar&comma; an account login&comma; and an updated shopping cart may assist with quick navigation&period;</p>
                 </div>
                 <div class="img-container cs-body-img-container cs-half-width">
-                    <img class="img-thumb" src="../images/case-studies/sweatcrew/sweatcrew_penpaper_homepage_ab.png" alt="Pen & Paper Wireframe for Variations A and B for Homepage">
-                    <p class="cs-img-caption">Pen & Paper Wireframe for Variations A and B for Homepage</p>
+                    <img class="img-thumb" src="../images/case-studies/sweatcrew/sweatcrew_penpaper_homepage_ab.png" alt="Pen and Paper Wireframe for Variations A and B for Homepage">
+                    <p class="cs-img-caption">Pen &amp; Paper Wireframe for Variations A and B for Homepage</p>
                 </div>
             </div>
             <div class="flex cs-flex-tablet">
