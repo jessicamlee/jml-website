@@ -15,7 +15,6 @@
             <main>
                 <?php include('partials/home/intro-banner.php'); ?>
                 <?php include('partials/home/work.php'); ?>
-                <?php include('partials/home/projects.php'); ?>
                 <?php include('partials/global/contact.php'); ?>
             </main>
             <?php include('partials/global/footer.php'); ?>
