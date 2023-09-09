@@ -4,8 +4,10 @@
 <!DOCTYPE html>
 <html lang="en-CA">
     <?php
-        $title_text = "Jessica Lee &vert; Web/UX Design&comma; Development&comma; Content Strategy";
+
+        $title_text = "Jessica Lee &vert; Design&comma; Development&comma; Content Strategy";
         include('partials/global/head.php'); 
+        
     ?>
     <body>
         <div class="wrapper">

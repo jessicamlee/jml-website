@@ -4,7 +4,7 @@
             $ux_project_title = 'LOCLO Clothing';
             $ux_project_img_src = 'loclo_ux_cover';
             $ux_project_img_alt = 'Cover Photo of LOCLO Clothing text with two screenshots below of LOCLO\'s home page in desktop and mobile screen sizes.';
-            $ux_project_type = 'Responsive Web Design for Cross&dash;Platform Project <br> (Mobile UX Case Study Coming Soon!)';
+            $ux_project_type = 'Responsive Web Design for Cross&dash;Platform Project';
             $ux_project_roles = 'UX Designer, UX Researcher, Visuals, Interaction &mdash; with a focus on Automated Usability Testing';
             $ux_project_duration = '5 Weeks';
             $prototype_link = 'https://xd.adobe.com/view/4b3bff5a-9d4f-4634-9865-26d9e5e8f1d1-1e68/';
@@ -20,7 +20,7 @@
             </div>
             <div class="cs-half-width">
                 <h3>Challenges</h3>
-                <p class="mb-sm">With consideration of the project&apos;s scope&comma; budget&comma; and timeline&comma; the challenges for the <span class="bolded">responsive website</span> portion of this cross&dash;platform project include the following&colon;</p>
+                <p class="mb-sm">With consideration of the project&apos;s scope&comma; budget&comma; and timeline&comma; the challenges for the <span class="bolded">responsive website</span> portion of this cross&dash;platform project&ast; include the following&colon;</p>
                 <ul>
                     <li>Design for users who have short attention spans</li>
                     <li>Design for a consistent shopping experience on the website and the mobile application</li>
@@ -28,6 +28,7 @@
                     <li>Resolve abandoned shopping cart user journeys</li>
                     <li>Add a local pick&dash;up option to the delivery method to align with the brand&apos;s eco-friendly initiative</li>
                 </ul>
+                <p><span class="bolded">&ast;Please Note&colon; </span>The LOCLO Mobile App UX Case Study is a work in progress&period; Updates are coming soon&excl;</p>
             </div>
         </div>
     </div>

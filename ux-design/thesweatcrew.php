@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="en-CA">
     <?php 
-        $project_title = "The Sweat Crew UX Case Study &vert; Jessica Lee";
+
+        $title_text = 'The Sweat Crew Website &vert; Jessica Lee';
         include('../partials/global/head_projects.php');
+        
     ?>
     <body>
         <div class="wrapper">
