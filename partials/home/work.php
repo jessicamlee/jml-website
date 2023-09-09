@@ -12,9 +12,9 @@
                 include('partials/cards/work-card.php');
             ?>
             <?php
-                $work_title = 'PsyHealth by Psystem';
+                $work_title = 'PsyHealth App';
                 $work_desc = 'Built progressive web application features for the Minimum Viable Products of Psystem\'s PsyHealth App and Coach Portal Dashboard with full CRUD functionality.';
-                $work_skills = 'PWA Development | MERN Stack | React-Redux | Material UI';
+                $work_skills = 'App UX Design &amp; Development | MERN Stack | React-Redux | Material UI';
                 $work_img_src = 'psyhealth_cover';
                 $work_img_alt = 'Psystem\'s PsyHealth App Cover Photo';
                 $live_link = 'https://play.google.com/store/apps/details?id=ca.mydigitalcarehome.twa';

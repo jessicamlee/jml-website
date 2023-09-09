@@ -21,6 +21,10 @@
         margin-left: $sm*-1;
     }
 
+    li:last-child {
+        margin-bottom: $sm;
+    }
+
     h3 {
         border-bottom: $sm*0.5 solid $color-secondary;
         width: fit-content;
@@ -30,6 +34,7 @@
     a {
         color: $color-primary;
         border-bottom: $color-secondary $sm*0.15 solid;
+        cursor: pointer;
     }
 }
 
@@ -65,6 +70,7 @@
 .cs-img-caption {
     @include fontstyles ($color-primary, $sm, $medium, $italic, $none);
     margin-top: $sm*0.5;
+    margin-bottom: 0 !important; 
 }
 
 .cs-flex-img-box {
@@ -91,6 +97,7 @@
     flex-direction: column;
     gap: $sm;
     justify-content: space-between;
+    margin-bottom: $md;
 }
 
 .cs-goal-stmt {
