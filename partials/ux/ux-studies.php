@@ -12,16 +12,6 @@
                 include('partials/cards/ux-card.php');
             ?>
             <?php
-                $project_title = 'LOCLO App';
-                $project_desc = 'Cross-Platform Shopping Experience';
-                $project_skills = 'Mobile App Design | Figma | Maze Testing';
-                $project_img_src = 'loclo_ux_cover';
-                $project_img_alt = 'Cover Photo of LOCLO Clothing text with two screenshots below of LOCLO\'s home page in desktop and mobile screen sizes.';
-                $case_study_link = 'locloclothing';
-                $prototype_link = 'https://drive.google.com/file/d/1-h7CnIqC8pksjbeyBshcrb1hTiMfd08M/view?usp=sharing';
-                include('partials/cards/ux-card.php');
-            ?>
-            <?php
                 $project_title = 'The Sweat Crew';
                 $project_desc = 'Custom Clothing Ordering Experience';
                 $project_skills = 'Web Design | Adobe XD | Manual Usability Testing';
