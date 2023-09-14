@@ -15,21 +15,16 @@
         }
     }
 
-    .projects .more-projects p:hover {
-        border-bottom: $sm*0.2 solid $color-primary;
-        transition: 0.3s ease-in-out;
-    }
-
-    .projects .projects-collection .project-thumb .links-container .btn-container, .dev-projects .project-card, .ux-projects .project-card, .cs-summary {
+    .work, .dev-projects, .ux-projects, .cs-summary {
         
-        .live-link:hover, .case-study-link:hover {
+        .btn-primary:hover {
             color: $color-primary;
             background-color: $color-secondary;
             border: $sm*0.15 solid $color-secondary;
             transition: 0.5s ease-in-out;
         }
             
-        .code-link:hover, .prototype-link:hover {
+        .btn-secondary:hover {
             color: $color-secondary;
             background-color: $color-primary;
             border: $sm*0.15 solid $color-secondary;
@@ -41,19 +36,16 @@
         flex-direction: row;
     }
 
-    .work .work-collection li .links-container .link-btn:hover {
-        color: $color-primary;
-        background-color: $color-secondary;
-        border: $sm*0.15 solid $color-secondary;
-        transition: 0.5s ease-in-out;
-    }
-
     .collection-container {
         margin: $sm*1.25 0 $sm*2.5;
     }
 
     .storytelling a {
         font-size: $sm*1.125;
+
+        &:hover {
+            border-bottom: 1.5px solid $color-secondary;
+        }
     }
 
     .contact svg:hover {

@@ -70,9 +70,24 @@
             font-size: $sm*1.75;
         }
     }
-    
-    .work .work-collection {
-        gap: $sm*6;
+
+    .work {
+
+        h3 {
+            @include fontstyles ($color-primary, $sm*1.75, $medium, $base, $none);
+        }
+
+        p {
+            @include fontstyles ($color-primary, $sm*1.05, $light, $base, $none);
+        }
+
+        .links-container {
+            padding: 0;
+        }
+
+        .work-collection {
+            gap: $sm*6;
+        }
 
         li {
             display: flex;
@@ -95,39 +110,12 @@
         }
     }
 
-    .work, .projects {
-
-        h3 {
-            @include fontstyles ($color-primary, $sm*1.75, $medium, $base, $none);
-        }
-
-        p {
-            @include fontstyles ($color-primary, $sm*1.05, $light, $base, $none);
-        }
-    }
-
-    .projects {
-
-        .project-card {
-            flex-basis: 48%;
-            max-width: 48%;
-        }
-
-        .projects-collection {
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            column-gap: 0;
-            row-gap: $sm*1.5;
-        }
-    }
-
     .dev-projects .project-card, .ux-projects .project-card {
         flex-basis: 45%;
         max-width: 45%;
     }
 
-    .projects .btn-container, .dev-projects .project-card .btn-container, .ux-projects .project-card .btn-container {
+    .btn-container {
         gap: $sm;
     }
 

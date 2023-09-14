@@ -24,11 +24,7 @@
         }
     }
 
-    .projects .more-projects {
-        @include fontstyles ($color-primary, $sm*1.1, $normal, $base, $none);
-    }
-
-    .projects .btn-container, .dev-projects .project-card .btn-container, .ux-projects .project-card .btn-container {
+    .btn-container {
         justify-content: space-evenly;
         flex-direction: row;
     }
@@ -45,7 +41,6 @@
         @include fontstyles ($color-secondary, $sm, $normal, $base, $none);
     }
 
-    // Focus & Active States
     header .header-bar a {
         &:focus, &:active {
             padding: $sm*0.2;
@@ -54,9 +49,9 @@
         }
     }
     
-    .work, .projects .btn-container, .dev-projects .project-card .btn-container, .ux-projects .project-card .btn-container {
+    .work, .dev-projects, .ux-projects {
 
-        .live-link, .prototype-link, .link-btn {
+        .btn-primary {
             &:focus, &:active {
                 color: $color-primary;
                 background-color: $color-secondary;
@@ -65,20 +60,13 @@
             }
         }
 
-        .code-link, .case-study-link {
+        .btn-secondary {
             &:focus, &:active {
                 color: $color-secondary;
                 background-color: $color-primary;
                 border: $sm*0.15 solid $color-secondary;
                 transition: 0.5s ease-in-out;
             }
-        }
-    }
-
-    .projects .more-projects {        
-        &:focus, &:active {
-            border-bottom: $sm*0.2 solid $color-primary;
-            transition: 0.5s ease-in-out;
         }
     }
 

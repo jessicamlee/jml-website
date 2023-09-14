@@ -13,47 +13,45 @@
         text-align: left;
     }
 }
-
-.dev-projects .project-card, .ux-projects .project-card, .cs-summary {
     
-    .links-container {
-        width: 100%;
-        height: 100%;
-        flex-direction: column;
-        padding: $sm*0.75 0;
-    }
-
-    .btn-container {
-        justify-content: space-evenly;
-        gap: $sm*0.65;
-        flex-direction: column;
-    }
-
-    .live-link, .code-link, .prototype-link, .case-study-link {
-        width: 100%;
-        padding: $sm*0.6 $sm*0.7;
-        border-radius: $sm*1.5;
-        text-align: center;
-    }
-
-    .live-link, .case-study-link {
-        background-color: $color-primary;
-        border: $sm*0.15 solid $color-primary;
-        color: $color-secondary;
-        @include fontstyles($color-secondary, $sm*0.9, $normal, $base, $none);
-    }
-
-    .code-link, .prototype-link {
-        background-color: transparent;
-        border: $sm*0.15 solid $color-primary;
-        @include fontstyles($color-primary, $sm*0.9, $normal, $base, $none);
-    }
-
-    .project-details {
-        padding: $sm*0.5 0 $sm;
-        text-align: center;
-    }
+.links-container {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    padding: $sm*0.75 0;
 }
+
+.btn-container {
+    justify-content: space-evenly;
+    gap: $sm*0.65;
+    flex-direction: column;
+}
+
+.btn-primary, .btn-secondary {
+    width: 100%;
+    padding: $sm*0.6 $sm*0.7;
+    border-radius: $sm*1.5;
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: $color-primary;
+    border: $sm*0.15 solid $color-primary;
+    color: $color-secondary;
+    @include fontstyles($color-secondary, $sm*0.9, $normal, $base, $none);
+}
+
+.btn-secondary {
+    background-color: transparent;
+    border: $sm*0.15 solid $color-primary;
+    @include fontstyles($color-primary, $sm*0.9, $normal, $base, $none);
+}
+
+.project-details {
+    padding: $sm*0.5 0 $sm;
+    text-align: center;
+}
+
 
 .storytelling {
 
@@ -84,11 +82,6 @@
         @include fontstyles ($color-primary, $sm, $normal, $base, $none);
         line-height: $sm*1.5;
         border-bottom: 1.5px solid $color-primary;
-
-
-        &:hover {
-            border-bottom: 1.5px solid $color-secondary;
-        }
     }
 
     .storytelling-content {

@@ -16,8 +16,8 @@
         <p><span class="bolded">Role:</span> <?php echo $ux_project_roles; ?></p>
         <p><span class="bolded">Duration:</span> <?php echo $ux_project_duration; ?></p>
         <div class="btn-container flex cs-btns">
-            <a class="case-study-link box-shadow-light" tabindex="0" href="<?php echo $case_study_link; ?>" target="_blank" title="View Slide Deck">View Slide Deck</a>
-            <a class="prototype-link box-shadow-light" tabindex="0" href="<?php echo $prototype_link; ?>" target="_blank" title="View Prototype">View Prototype</a>
+            <a class="btn-primary" tabindex="0" href="<?php echo $case_study_link; ?>" target="_blank" title="View Slide Deck">View Slide Deck</a>
+            <a class="btn-secondary" tabindex="0" href="<?php echo $prototype_link; ?>" target="_blank" title="View Prototype">View Prototype</a>
         </div>
     </div>
     <div class="img-container cs-img-container">

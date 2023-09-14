@@ -20,8 +20,8 @@
             <p><?php echo $project_desc; ?></p>
         </div>
         <div class="btn-container flex">
-            <a class="case-study-link box-shadow-light" tabindex="0" href="ux-design/<?php echo $case_study_link; ?>.php" title="Read Case Study">Read Case Study</a>
-            <a class="prototype-link box-shadow-light" tabindex="0" href="<?php echo $prototype_link; ?>" target="_blank" title="View Slide Deck">View Slide Deck</a>            
+            <a class="btn-primary" tabindex="0" href="ux-design/<?php echo $case_study_link; ?>.php" title="Read Case Study">Read Case Study</a>
+            <a class="btn-secondary" tabindex="0" href="<?php echo $prototype_link; ?>" target="_blank" title="View Slide Deck">View Slide Deck</a>            
         </div>
     </div>
 </div>
