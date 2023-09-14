@@ -29,56 +29,54 @@
             </ol>
         </div>
         <div class="cs-subsection">
-            <div class="container">
-                <h3>Meet the Persona</h3>
-                <p>The user research process began with interviewing 5 participants who have busy schedules as full&dash;time employees&comma; business owners&comma; or students&period; After learning more about the type of users and their experiences using existing customer loyalty programs&comma; I created two personas to guide the project&period;</p>
-                <h4>Persona 1&colon; Mikayla Yang</h4>
-                <div class="img-container cs-body-img-container ">
-                    <img class="img-thumb" src="../images/case-studies/vancitysushi/vancitysushi_persona_mikayla.jpg" alt="Persona Summary for Mikayla Yang, full-time working mother & small business owner">
-                    <p class="cs-img-caption">Persona Summary for Mikayla Yang&comma; full&dash;time working mother & small business owner</p>
+            <h3>Meet the Persona</h3>
+            <p>The user research process began with interviewing 5 participants who have busy schedules as full&dash;time employees&comma; business owners&comma; or students&period; After learning more about the type of users and their experiences using existing customer loyalty programs&comma; I created two personas to guide the project&period;</p>
+            <h4>Persona 1&colon; Mikayla Yang</h4>
+            <div class="img-container cs-body-img-container ">
+                <img class="img-thumb" src="../images/case-studies/vancitysushi/vancitysushi_persona_mikayla.jpg" alt="Persona Summary for Mikayla Yang, full-time working mother & small business owner">
+                <p class="cs-img-caption">Persona Summary for Mikayla Yang&comma; full&dash;time working mother & small business owner</p>
+            </div>
+            <p>As a full&dash;time working mother and small business owner&comma; Mikayla&apos;s top <span class="bolded">goals</span> and <span class="bolded">frustrations</span> include the following&colon;</p>
+            <div class="flex cs-flex-tablet">
+                <div class="cs-half-width">
+                    <p class="mb-sm bolded">Goals&colon;</p>
+                    <ul class="mb-md">
+                        <li>To balance time between her small business and family</li>
+                        <li>To Learn more points or discounts to treat the family without additional financial stress</li>
+                        <li>To spend less time planning and cooking meals</li>
+                    </ul>
                 </div>
-                <p>As a full&dash;time working mother and small business owner&comma; Mikayla&apos;s top <span class="bolded">goals</span> and <span class="bolded">frustrations</span> include the following&colon;</p>
-                <div class="flex cs-flex-tablet">
-                    <div class="cs-half-width">
-                        <p class="mb-sm bolded">Goals&colon;</p>
-                        <ul class="mb-md">
-                            <li>To balance time between her small business and family</li>
-                            <li>To Learn more points or discounts to treat the family without additional financial stress</li>
-                            <li>To spend less time planning and cooking meals</li>
-                        </ul>
-                    </div>
-                    <div class="cs-half-width">
-                        <p class="mb-sm bolded">Frustrations&colon;</p>
-                        <ul class="mb-md">
-                            <li>&ldquo;When I use other apps, some of them are complicated&period; I don&apos;t like spending time to figure it out&period;&rdquo;</li>
-                            <li>&ldquo;Can you make the points bigger? More incentive&quest; I like to not spend so much money&period; It&apos;s a nice bonus&period;&rdquo;</li>
-                            <li>&ldquo;If you have an offer&comma; it&apos;d be nice to honor it&period; Make sure the posted promotions are consistent and honored at the time of payment&period;&rdquo;</li>
-                        </ul>
-                    </div>
+                <div class="cs-half-width">
+                    <p class="mb-sm bolded">Frustrations&colon;</p>
+                    <ul class="mb-md">
+                        <li>&ldquo;When I use other apps, some of them are complicated&period; I don&apos;t like spending time to figure it out&period;&rdquo;</li>
+                        <li>&ldquo;Can you make the points bigger? More incentive&quest; I like to not spend so much money&period; It&apos;s a nice bonus&period;&rdquo;</li>
+                        <li>&ldquo;If you have an offer&comma; it&apos;d be nice to honor it&period; Make sure the posted promotions are consistent and honored at the time of payment&period;&rdquo;</li>
+                    </ul>
                 </div>
-                <h4>Persona 2&colon; Carl Dela Cruz</h4>
-                <div class="img-container cs-body-img-container ">
-                    <img class="img-thumb" src="../images/case-studies/vancitysushi/vancitysushi_persona_carl.jpg" alt="Persona Summary for Carl Dela Cruz, part-time employee & full-time student">
-                    <p class="cs-img-caption">Persona Summary for Carl Dela Cruz&comma; part&dash;time employee &amp; full&dash;time student</p>
+            </div>
+            <h4>Persona 2&colon; Carl Dela Cruz</h4>
+            <div class="img-container cs-body-img-container ">
+                <img class="img-thumb" src="../images/case-studies/vancitysushi/vancitysushi_persona_carl.jpg" alt="Persona Summary for Carl Dela Cruz, part-time employee & full-time student">
+                <p class="cs-img-caption">Persona Summary for Carl Dela Cruz&comma; part&dash;time employee &amp; full&dash;time student</p>
+            </div>
+            <p>As a part&dash;time employee and full&dash;time student&comma; Carl&apos;s top <span class="bolded">goals</span> and <span class="bolded">frustrations</span> include the following&colon;</p>
+            <div class="flex cs-flex-tablet">
+                <div class="cs-half-width">
+                    <p class="mb-sm bolded">Goals&colon;</p>
+                    <ul class="mb-md">
+                        <li>To focus on and complete his Kinesiology degree as soon as he can to start working full&dash;time and earn money</li>
+                        <li>To save money in all his purchases to pay for courses</li>
+                        <li>To have time to relax and have fun whenever he can &lpar;since he&apos;s either studying or working for most of his time&rpar;</li>
+                    </ul>
                 </div>
-                <p>As a part&dash;time employee and full&dash;time student&comma; Carl&apos;s top <span class="bolded">goals</span> and <span class="bolded">frustrations</span> include the following&colon;</p>
-                <div class="flex cs-flex-tablet">
-                    <div class="cs-half-width">
-                        <p class="mb-sm bolded">Goals&colon;</p>
-                        <ul class="mb-md">
-                            <li>To focus on and complete his Kinesiology degree as soon as he can to start working full&dash;time and earn money</li>
-                            <li>To save money in all his purchases to pay for courses</li>
-                            <li>To have time to relax and have fun whenever he can &lpar;since he&apos;s either studying or working for most of his time&rpar;</li>
-                        </ul>
-                    </div>
-                    <div class="cs-half-width">
-                        <p class="mb-sm bolded">Frustrations&colon;</p>
-                        <ul class="mb-md">
-                            <li>&ldquo;I forget to scan apps when I&apos;m about to pay for my food or items&period; I&apos;m not very good at remembering to use them&period;&rdquo;</li>
-                            <li>&ldquo;If the colors aren&apos;t vibrant or eye&dash;catching&comma; or if the tabs aren&apos;t straightforward&comma; I lose interest&period;&rdqu</li>
-                            <li>&ldquo;It&apos;s fun to see animations&comma; like Starbucks&apos; app that used to have moving stars when you shake your phone&period;&rdquo;</li>
-                        </ul>
-                    </div>
+                <div class="cs-half-width">
+                    <p class="mb-sm bolded">Frustrations&colon;</p>
+                       <ul class="mb-md">
+                        <li>&ldquo;I forget to scan apps when I&apos;m about to pay for my food or items&period; I&apos;m not very good at remembering to use them&period;&rdquo;</li>
+                        <li>&ldquo;If the colors aren&apos;t vibrant or eye&dash;catching&comma; or if the tabs aren&apos;t straightforward&comma; I lose interest&period;&rdquo;</li>
+                        <li>&ldquo;It&apos;s fun to see animations&comma; like Starbucks&apos; app that used to have moving stars when you shake your phone&period;&rdquo;</li>
+                    </ul>
                 </div>
                 <h4>My Assumptions</h4>
                 <p>My assumptions before the research phase are that the participants order sushi at least once a week &lpar;or a few times a month&rpar; and prefer to gather and use points to save money on future orders&period;</p>

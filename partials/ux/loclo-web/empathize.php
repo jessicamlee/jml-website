@@ -27,56 +27,52 @@
             <p>Identifying pain points helps designers like myself learn <span class="bolded-italic">how</span> designers to make custom ordering experiences more enjoyable&comma; especially since a lot of details are needed to complete the order&period;</p>
         </div>
         <div class="cs-subsection">
-            <div class="container">
-                <h3>Competitive Analysis</h3>
-                <div class="flex cs-flex-tablet">
-                    <div class="img-container cs-body-img-container cs-half-width">
-                        <img class="img-thumb" src="../images/case-studies/loclo-web/loclo_competitor.jpg" alt="Screenshots of LOCLO Clothing's competitors, Good for Sunday, Okay to Rest, and Tentree">
-                        <p class="cs-img-caption">Screenshots of LOCLO Clothing&apos;s competitors&comma; Good for Sunday&comma; Okay to Rest&comma; and Tentree</p>
-                    </div>
-                    <div class="cs-half-width">
-                        <p>Since LOCLO Clothing&apos;s goals are to prioritize local shoppers&comma; focus on only clothing products&comma; and have a niche audience to target social media users&comma; its competitors include Good for Sunday&comma; Okay to Rest&comma; Tentree&comma; and DRMERS CLUB&period;</p>
-                        <p class="mb-sm">The <span class="bolded">primary weaknesses</span> observed include the following&colon;</p>
-                        <ul>
-                            <li>Lack of support for abandoned experiences</li>
-                            <li>Lack of support for local shopping options during checkout</li>
-                            <li>Little support for Saved Items&sol;Favourited items for shoppers to resume their journey at a later time</li>
-                        </ul>
-                    </div>
-                </div>                
+            <h3>Competitive Analysis</h3>
+            <div class="flex cs-flex-tablet">
+                <div class="img-container cs-body-img-container cs-half-width">
+                    <img class="img-thumb" src="../images/case-studies/loclo-web/loclo_competitor.jpg" alt="Screenshots of LOCLO Clothing's competitors, Good for Sunday, Okay to Rest, and Tentree">
+                    <p class="cs-img-caption">Screenshots of LOCLO Clothing&apos;s competitors&comma; Good for Sunday&comma; Okay to Rest&comma; and Tentree</p>
+                </div>
+                <div class="cs-half-width">
+                    <p>Since LOCLO Clothing&apos;s goals are to prioritize local shoppers&comma; focus on only clothing products&comma; and have a niche audience to target social media users&comma; its competitors include Good for Sunday&comma; Okay to Rest&comma; Tentree&comma; and DRMERS CLUB&period;</p>
+                    <p class="mb-sm">The <span class="bolded">primary weaknesses</span> observed include the following&colon;</p>
+                    <ul>
+                        <li>Lack of support for abandoned experiences</li>
+                        <li>Lack of support for local shopping options during checkout</li>
+                        <li>Little support for Saved Items&sol;Favourited items for shoppers to resume their journey at a later time</li>
+                    </ul>
+                </div>               
             </div>
         </div>
         <div class="cs-subsection">
-            <div class="container">
-                <h3>Meet the Persona</h3>
-                <div class="flex cs-flex-tablet">
-                    <div class="cs-half-width">
-                        <p>The demographic for LOCLO Clothing&apos;s users consists of 18 to 29&dash;year&dash;olds who want to shop for themselves from an online interface that is based in a local city near them in the primary target audience group&comma; followed by 30 to 40&dash;year&dash;olds in the secondary group who would shop for someone else they know&period;</p>
-                        <p>I spoke with 5 participants who want quality&comma; sustainably sourced clothing from Canada and can imagine themselves shopping at an online e&dash;commerce store or mobile application like LOCLO&period;</p>
-                    </div>
-                    <div class="img-container cs-body-img-container cs-half-width">
-                        <img class="img-thumb" src="../images/case-studies/loclo-web/loclo_persona.jpg" alt="Persona Summary for Sarah Smith">
-                        <p class="cs-img-caption">Persona Summary for Sarah Smith</p>
-                    </div>
+            <h3>Meet the Persona</h3>
+            <div class="flex cs-flex-tablet">
+                <div class="cs-half-width">
+                    <p>The demographic for LOCLO Clothing&apos;s users consists of 18 to 29&dash;year&dash;olds who want to shop for themselves from an online interface that is based in a local city near them in the primary target audience group&comma; followed by 30 to 40&dash;year&dash;olds in the secondary group who would shop for someone else they know&period;</p>
+                    <p>I spoke with 5 participants who want quality&comma; sustainably sourced clothing from Canada and can imagine themselves shopping at an online e&dash;commerce store or mobile application like LOCLO&period</p>
                 </div>
-                <p>Sarah studies Environmental Sciences and Statistics at the University of Victoria&period; Sarah tries to find affordable clothing from local online businesses&comma; but most online merchants she discovered require more than $100 purchases to get free shipping&period;</p>
-                <p>The top <span class="bolded">goals</span> and <span class="bolded">frustrations</span> of this persona include the following&colon;</p>
-                <p class="mb-sm bolded">Goals&colon;</p>
-                <ul>
-                    <li>Become an Environmental Policy Analyst for Vancouver</li>
-                    <li>Live sustainably by shopping locally</li>
-                    <li>Save money by reducing spending on poor&dash;quality items to move out and build her greenhouse</li>
-                </ul>
-                <p class="mb-sm bolded">Frustrations&colon;</p>
-                <ul class="mb-md">
-                    <li>Shops in nearby neighbourhood are all fast fashion options and have poor material quality</li>
-                    <li>Local thrift shops lack variety in styles and sizing</li>
-                    <li>Challenging to find locally&comma; sustainably made loungewear that is designed in an aesthetically pleasing way</li>
-                    <li>Cannot shop online nor opt for local pickup from local merchants or local thrift shops</li>
-                </ul>
-                <p>A user&dash;friendly experience aligns with Sarah&apos;s values of saving time and money by investing in quality&comma; long&dash;lasting items made and shipped locally within Canada&period;</p>
-                <p>With a persona established&comma; the research process proceeded to learn more about LOCLO Clothing&apos;s competitors&period;</p>
+                <div class="img-container cs-body-img-container cs-half-width">
+                    <img class="img-thumb" src="../images/case-studies/loclo-web/loclo_persona.jpg" alt="Persona Summary for Sarah Smith">
+                    <p class="cs-img-caption">Persona Summary for Sarah Smith</p>
+                </div>
             </div>
+            <p>Sarah studies Environmental Sciences and Statistics at the University of Victoria&period; Sarah tries to find affordable clothing from local online businesses&comma; but most online merchants she discovered require more than $100 purchases to get free shipping&period;</p>
+            <p>The top <span class="bolded">goals</span> and <span class="bolded">frustrations</span> of this persona include the following&colon;</p>
+            <p class="mb-sm bolded">Goals&colon;</p>
+            <ul>
+                <li>Become an Environmental Policy Analyst for Vancouver</li>
+                <li>Live sustainably by shopping locally</li>
+                <li>Save money by reducing spending on poor&dash;quality items to move out and build her greenhouse</li>
+            </ul>
+            <p class="mb-sm bolded">Frustrations&colon;</p>
+            <ul class="mb-md">
+                <li>Shops in nearby neighbourhood are all fast fashion options and have poor material quality</li>
+                <li>Local thrift shops lack variety in styles and sizing</li>
+                <li>Challenging to find locally&comma; sustainably made loungewear that is designed in an aesthetically pleasing way</li>
+                <li>Cannot shop online nor opt for local pickup from local merchants or local thrift shops</li>
+            </ul>
+            <p>A user&dash;friendly experience aligns with Sarah&apos;s values of saving time and money by investing in quality&comma; long&dash;lasting items made and shipped locally within Canada&period;</p>
+            <p>With a persona established&comma; the research process proceeded to learn more about LOCLO Clothing&apos;s competitors&period;</p>
         </div>
         <div class="cs-subsection">
             <h3>Outlining the Journey</h3>

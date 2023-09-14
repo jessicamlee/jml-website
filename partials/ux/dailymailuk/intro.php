@@ -9,6 +9,5 @@
             $ux_project_duration = '7 weeks for UX/UI Strategy 2 Capstone Project';
             include('../partials/cards/cs-coming-soon.php');
         ?>
-        <p class="text-center italic cs-ty-note">Case study coming soon&excl;</p>
     </div>
 </section>

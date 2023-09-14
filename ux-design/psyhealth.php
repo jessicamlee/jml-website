@@ -12,7 +12,11 @@
             <main id="backtotop">
                 <div class="cs-body">
                     <?php include('../partials/ux/psyhealth/intro.php'); ?>
+                    <?php include('../partials/ux/psyhealth/empathize.php'); ?>
+                    <?php include('../partials/ux/psyhealth/define.php'); ?>
+                    <?php include('../partials/ux/psyhealth/takeaways.php'); ?>
                 </div>
+                <?php include('../partials/global/backtotop.php'); ?>
                 <?php include('../partials/global/contact.php'); ?>
             </main>
             <?php include('../partials/global/footer.php'); ?>

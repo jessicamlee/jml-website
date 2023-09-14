@@ -13,6 +13,7 @@
         <p><span class="bolded">Project:</span> <?php echo $ux_project_type; ?></p>
         <p><span class="bolded">Role:</span> <?php echo $ux_project_roles; ?></p>
         <p><span class="bolded">Duration:</span> <?php echo $ux_project_duration; ?></p>
+        <p class="italic cs-ty-note">Case study coming soon&excl;</p>
     </div>
     <div class="img-container cs-img-container">
         <img class="img-thumb" src="../images/projects/<?php echo $ux_project_img_src; ?>.jpg" alt="<?php echo $ux_project_img_alt; ?>">
