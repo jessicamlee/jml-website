@@ -6,8 +6,7 @@
     $ux_project_type = $ux_project_type ?? '';
     $ux_project_roles = $ux_project_roles ?? '';
     $ux_project_duration = $ux_project_duration ?? '';
-    $prototype_link = $prototype_link ?? '';
-    $case_study_link = $case_study_link ?? '';
+    $live_link = $live_link ?? '';
 
 ?><div class="container flex cs-summary cs-flex-tablet">
     <div>
@@ -16,8 +15,7 @@
         <p><span class="bolded">Role:</span> <?php echo $ux_project_roles; ?></p>
         <p><span class="bolded">Duration:</span> <?php echo $ux_project_duration; ?></p>
         <div class="btn-container flex cs-btns">
-            <a class="btn-primary" tabindex="0" href="<?php echo $case_study_link; ?>" target="_blank" title="View Slide Deck">View Slide Deck</a>
-            <a class="btn-secondary" tabindex="0" href="<?php echo $prototype_link; ?>" target="_blank" title="Visit Live Site">Visit Live Site</a>
+            <a class="btn-primary" tabindex="0" href="<?php echo $live_link; ?>" target="_blank" title="Visit Live Site">Visit Live Site</a>
         </div>
     </div>
     <div class="img-container cs-img-container">

@@ -7,8 +7,8 @@
             $ux_project_type = 'Responsive Website Design';
             $ux_project_roles = 'UX Designer, UX Researcher, Visuals, Interaction &mdash; with a focus on Moderated Usability Testing';
             $ux_project_duration = '4 Weeks';
+            $slidedeck_link = 'https://drive.google.com/file/d/13pmYpUx9GkdeeyKfE-AIxSh9A3ptIFmn/view?usp=sharing';
             $prototype_link = 'https://xd.adobe.com/view/ab8662f6-55db-44db-9755-28de82619302-fed5/';
-            $case_study_link = 'https://drive.google.com/file/d/13pmYpUx9GkdeeyKfE-AIxSh9A3ptIFmn/view?usp=sharing';
             include('../partials/cards/ux-project-card.php');
         ?>
         <div class="cs-section flex cs-intro cs-flex-tablet">

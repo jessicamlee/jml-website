@@ -6,7 +6,6 @@
     $project_img_src = $project_img_src ?? '';
     $project_img_alt = $project_img_alt ?? '';
     $case_study_link = $case_study_link ?? '';
-    $live_link = $live_link ?? '';
 
 ?><li class="project-card" data-aos="fade-right">
 <div class="project-thumb">
@@ -20,8 +19,7 @@
             <p><?php echo $project_desc; ?></p>
         </div>
         <div class="btn-container flex">
-            <a class="btn-primary" tabindex="0" href="ux-design/<?php echo $case_study_link; ?>.php" title="Read Case Study">Case Study Coming Soon</a>
-            <a class="btn-secondary" tabindex="0" href="<?php echo $live_link; ?>" target="_blank" title="Visit Live Site">Visit Live Site</a>            
+            <a class="btn-primary" tabindex="0" href="ux-design/<?php echo $case_study_link; ?>.php" title="Case Study Coming Soon">Case Study Coming Soon</a>         
         </div>
     </div>
 </div>

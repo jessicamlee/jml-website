@@ -87,6 +87,14 @@
 .cs-btns {
     flex-direction: row;
     margin-top: $sm;
+
+    a {
+        border: 0.15rem solid $color-primary;
+    }
+
+    .btn-primary {
+        color: $color-secondary;
+    }
 }
 
 .cs-half-width {

@@ -7,8 +7,8 @@
             $ux_project_type = 'Mobile Customer Loyalty Application';
             $ux_project_roles = 'UX Designer, UX Researcher, Visuals, Interaction &mdash; with a focus on Moderated Usability Testing';
             $ux_project_duration = '3 Weeks';
+            $slidedeck_link = 'https://drive.google.com/file/d/1x928v_RJbuuzggUkIPV9HQDVG_aQzfrA/view?usp=sharing';
             $prototype_link = 'https://www.figma.com/proto/0fJVrmtoCg0EExO6IxF8Vm/mobile-app-vers.-2?page-id=123%3A2&node-id=123-668&viewport=241%2C48%2C0.38&scaling=scale-down&starting-point-node-id=123%3A668';
-            $case_study_link = 'https://drive.google.com/file/d/1x928v_RJbuuzggUkIPV9HQDVG_aQzfrA/view?usp=sharing';
             include('../partials/cards/ux-project-card.php');
         ?>
         <div class="cs-section flex cs-intro cs-flex-tablet">
