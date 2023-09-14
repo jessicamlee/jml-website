@@ -30,8 +30,8 @@
         </div>
         <div class="cs-subsection">
             <h3>Reflecting on the Challenges</h3>
-            <p>I realized the practice of ideating for various screen sizes and understanding how to make transition between screen sizes fluid to appear &ldquo;responsive&rdquo; was the true challenge for me&period;</p>
-            <p>From this project and the repetition of creating each of the screens for this project&apos;s Minimum Viable Product &lpar;MVP&rpar; iteration&comma; I learned further empathize with the user from my reflections on each of the top three challenges below&period;</p>
+            <p>I realized the practice of ideating for various screen sizes and understanding how to make the transition between screen sizes fluid to appear &ldquo;responsive&rdquo; was the true challenge for me&period;</p>
+            <p>From this project and the repetition of creating each of the screens for this project&apos;s Minimum Viable Product &lpar;MVP&rpar; iteration&comma; I learned further to empathize with the user from my reflections on each of the top three challenges below&period;</p>
             <div class="flex cs-flex-tablet mt-lg">
                 <div class="cs-half-width">
                     <h4><span class="is-uppercase bolded">Challenge 1&colon;</span> Design a responsive website for multiple screens</h4>

@@ -5,7 +5,7 @@
             $ux_project_img_src = 'thesweatcrew_cover';
             $ux_project_img_alt = 'Cover Photo of The Sweat Crew text next to desktop screenshot of The Sweat Crew\'s home page on top of a dim background.';
             $ux_project_type = 'Responsive Website Design';
-            $ux_project_roles = 'UX Designer, UX Researcher, Visuals, Interaction &mdash; with a focus on Manual Usability Testing';
+            $ux_project_roles = 'UX Designer, UX Researcher, Visuals, Interaction &mdash; with a focus on Moderated Usability Testing';
             $ux_project_duration = '4 Weeks';
             $prototype_link = 'https://xd.adobe.com/view/ab8662f6-55db-44db-9755-28de82619302-fed5/';
             $case_study_link = 'https://drive.google.com/file/d/13pmYpUx9GkdeeyKfE-AIxSh9A3ptIFmn/view?usp=sharing';
