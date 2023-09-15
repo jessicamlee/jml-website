@@ -10,7 +10,6 @@
             <main>
                 <?php include('partials/ux/ux-intro.php'); ?>
                 <?php include('partials/ux/ux-studies.php'); ?>
-                <?php include('partials/ux/ux-research.php'); ?>
                 <?php include('partials/global/contact.php'); ?>
             </main>
             <?php include('partials/global/footer.php'); ?>

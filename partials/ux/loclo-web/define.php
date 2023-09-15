@@ -22,13 +22,13 @@
                 <div class="cs-half-width">
                     <p>To align with LOCLO&apos;s brand of simplicity and minimalism&comma; the navigation and site map aligned with these values to reduce information overload and redirect users to the product items first and immediately&period;</p>
                     <p>The global navigation menu includes 5 links to meet the fictional client&apos;s navigation criteria proposed of having a simple and minimal menu featuring only the essential items. The global navigation menu included the &ldquo;Shop All&rdquo;&comma; &ldquo;Apparel&rdquo;&comma; &ldquo;Accessories&rdquo;&comma; &ldquo;Login&rdquo;&comma; and &ldquo;Cart&rdquo; links&period;</p>
-                    <p>The goals of a minimum viable product criteria applied to the global navigation are to limit information overload&comma; make it quick and easy to read&comma; and redirect users to focus on the client&apos;s current offerings in their shop at the time&period;</p>
                 </div>
                 <div class="img-container cs-body-img-container cs-half-width">
                     <img class="img-thumb" src="../images/case-studies/loclo-web/loclo_sitemap.jpg" alt="Summary of Website Sitemap in Mockup">
                     <p class="cs-img-caption">Summary of Website Sitemap in Mockup</p>
                 </div>
             </div>
+            <p>The goals of a minimum viable product criteria applied to the global navigation are to limit information overload&comma; make it quick and easy to read&comma; and redirect users to focus on the client&apos;s current offerings in their shop at the time&period;</p>
             <p>As for the footer navigation&comma; additional support links were added&comma; such as the &ldquo;About&rdquo;&comma; &ldquo;Contact&rdquo;&comma; &ldquo;Help and FAQs&rdquo;&comma; &ldquo;Shipping & Returns&rdquo;&comma; and &ldquo;Behind the Scenes&rdquo; links&period;</p>
             <p>The purpose of the footer navigation is to assist shoppers with technical questions&comma; while the focus of the global navigation menu addresses the users&apos; and shoppers&apos; curiosities about the shop&apos;s current products&period;</p>
         </div>

@@ -33,7 +33,7 @@
 
     a {
         color: $color-primary;
-        border-bottom: $color-secondary $sm*0.15 solid;
+        border-bottom: $color-secondary $sm*0.35 solid;
         cursor: pointer;
     }
 }
@@ -60,7 +60,7 @@
 }
 
 .cs-img-container {
-    max-width: $sm*29.6875;
+    max-width: $sm*44;
 }
 
 .cs-body-img-container {

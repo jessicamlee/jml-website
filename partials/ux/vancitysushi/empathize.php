@@ -36,7 +36,7 @@
                 <img class="img-thumb" src="../images/case-studies/vancitysushi/vancitysushi_persona_mikayla.jpg" alt="Persona Summary for Mikayla Yang, full-time working mother & small business owner">
                 <p class="cs-img-caption">Persona Summary for Mikayla Yang&comma; full&dash;time working mother & small business owner</p>
             </div>
-            <p>As a full&dash;time working mother and small business owner&comma; Mikayla&apos;s top <span class="bolded">goals</span> and <span class="bolded">frustrations</span> include the following&colon;</p>
+            <p class="mt-md">As a full&dash;time working mother and small business owner&comma; Mikayla&apos;s top <span class="bolded">goals</span> and <span class="bolded">frustrations</span> include the following&colon;</p>
             <div class="flex cs-flex-tablet">
                 <div class="cs-half-width">
                     <p class="mb-sm bolded">Goals&colon;</p>
@@ -60,7 +60,7 @@
                 <img class="img-thumb" src="../images/case-studies/vancitysushi/vancitysushi_persona_carl.jpg" alt="Persona Summary for Carl Dela Cruz, part-time employee & full-time student">
                 <p class="cs-img-caption">Persona Summary for Carl Dela Cruz&comma; part&dash;time employee &amp; full&dash;time student</p>
             </div>
-            <p>As a part&dash;time employee and full&dash;time student&comma; Carl&apos;s top <span class="bolded">goals</span> and <span class="bolded">frustrations</span> include the following&colon;</p>
+            <p class="mt-md">As a part&dash;time employee and full&dash;time student&comma; Carl&apos;s top <span class="bolded">goals</span> and <span class="bolded">frustrations</span> include the following&colon;</p>
             <div class="flex cs-flex-tablet">
                 <div class="cs-half-width">
                     <p class="mb-sm bolded">Goals&colon;</p>
@@ -78,10 +78,10 @@
                         <li>&ldquo;It&apos;s fun to see animations&comma; like Starbucks&apos; app that used to have moving stars when you shake your phone&period;&rdquo;</li>
                     </ul>
                 </div>
-                <h4>My Assumptions</h4>
-                <p>My assumptions before the research phase are that the participants order sushi at least once a week &lpar;or a few times a month&rpar; and prefer to gather and use points to save money on future orders&period;</p>
-                <p>Learning about how some customers forget to log into the app to accumulate points changed my assumptions&period; I also learned that avid point&dash;acquiring customers prefer to have more point promotions weekly rather than a static system&period;</p>
             </div>
+            <h4>My Assumptions</h4>
+            <p>My assumptions before the research phase are that the participants order sushi at least once a week &lpar;or a few times a month&rpar; and prefer to gather and use points to save money on future orders&period;</p>
+            <p>Learning about how some customers forget to log into the app to accumulate points changed my assumptions&period; I also learned that avid point&dash;acquiring customers prefer to have more point promotions weekly rather than a static system&period;</p>
         </div>
         <div class="cs-subsection">
             <h3>Outlining the Journey</h3>
@@ -99,9 +99,9 @@
             </div>
             <div class="img-container cs-body-img-container">
                 <img class="cs-flex-img" src="../images/case-studies/vancitysushi/vancitysushi_userjourney_mikayla.jpg" alt="User Journey Map for Mikayla Persona">
-                    <p class="cs-img-caption">User Journey Map for Mikayla Persona</p>
+                <p class="cs-img-caption">User Journey Map for Mikayla Persona</p>
             </div>
-            <p>Following the User Flow activity&comma; I brainstormed a specific scenario a user&comma; such as the Mikayla persona&comma; may take to order through the app&period;</p>
+            <p class="mt-md">Following the User Flow activity&comma; I brainstormed a specific scenario a user&comma; such as the Mikayla persona&comma; may take to order through the app&period;</p>
             <p>Creating the User Journey Map helped me empathize with the user and persona better because I worked through the subtasks within each overarching task and identified specific improvement opportunities that may not have been apparent to consider before creating the wireframes&period;</p>
         </div>
     </div>

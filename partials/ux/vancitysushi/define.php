@@ -8,7 +8,7 @@
                 <img class="img-thumb" src="../images/case-studies/vancitysushi/vancitysushi_goalstatement.jpg" alt="Goal Statement for the Vancity Sushi Customer Loyalty App">
                 <p class="cs-img-caption">Goal Statement for the Vancity Sushi Customer Loyalty App</p>
             </div>
-            <p class="mb-md">The goal statement is as follows&colon;</p>
+            <p class="mb-md mt-md">The goal statement is as follows&colon;</p>
             <div class="flex cs-goal-stmt">
                 <p>&ldquo;Our <span class="bolded">Customer Loyalty App</span> will let users <span class="bolded">browse&comma; order&comma; and pay for their orders from their smartphones</span>&comma;</p>
                 <p>which will affect <span class="bolded">busy parents&comma; students&comma; and workers in the neighbourhood</span></p>
