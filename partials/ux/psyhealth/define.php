@@ -5,7 +5,7 @@
             <h3>Defining the User&apos;s Experience</h3>
             <p>As for user research&comma; I interviewed the primary target audience that aligned with the pre&dash;determined personas and archetypes to gather qualitative data and observations to understand the user&apos;s thought process&comma; feelings&comma; pain points&comma; and desire for the payment experience&period;</p>
             <p>I translated my findings by creating an Affinity Map&comma; Empathy Maps&comma; User Stories&comma; User Journey Maps&comma; User Problem Statements&comma; and a User Goal Statement&comma; which also helped me outline the essential screens to prioritize for this sprint&period;</p>
-            <div class="img-container cs-body-img-container cs-half-width">
+            <div class="img-container cs-body-img-container">
                 <img class="img-thumb" src="../images/case-studies/psyhealth/psyhealth_usergoal.jpg" alt="Screenshot User Goal Statement with the following text: Our PsyHealth App with Premium Subscription and Pathway courses will let users input all their health notes, review health analytics, and embark on their wellness journey with a self-paced guided course which will affect chronic pain sufferers and individuals who are keen on improving their health by providing one app that will support their goals and needs.">
                 <p class="cs-img-caption">User Goal Statement for PsyHealth&apos;s Payment Experiences</p>
             </div>
