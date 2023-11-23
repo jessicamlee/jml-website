@@ -7,30 +7,22 @@
     }
     
     h2 {
-        @include fontstyles ($color-primary, $sm*2.5, $light, $base, $uppercase);
+        @include fontstyles ($color-primary, $sm*2.5, $light, $base, $none);
     }
 
     p {
         @include fontstyles ($color-primary, $sm*1.125, $normal, $base, $none);
     }
 
-    header .gn a {
-        @include fontstyles($color-primary, $sm*1.125, $normal, $base, $uppercase);
-    }
-
     .work .work-collection {
 
         li {
             align-items: center;
-        }
-        
-        .img-container {
-            width: 60%;
+            gap: $sm*3;
         }
 
         .links-container {
             padding: 0;
-            width: 37%;
         }
     }
 

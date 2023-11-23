@@ -15,6 +15,10 @@
         }
     }
 
+    .collection-container {
+        gap: $sm*3.5 $sm*3;
+    }
+
     .work, .dev-projects, .ux-projects, .cs-summary {
         
         .btn-primary:hover {
@@ -34,10 +38,6 @@
 
     .cs-summary .btn-container {
         flex-direction: row;
-    }
-
-    .collection-container {
-        margin: $sm*1.25 0 $sm*2.5;
     }
 
     .storytelling a {

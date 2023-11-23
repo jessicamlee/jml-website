@@ -3,7 +3,7 @@
 @media (min-width:768px) {
 
     h2 {
-        @include fontstyles ($color-primary, $sm*2, $normal, $base, $uppercase);
+        @include fontstyles ($color-primary, $sm*2, $normal, $base, $none);
     }
 
     h3 {
@@ -36,7 +36,7 @@
         }
 
         a {
-            @include fontstyles($color-primary, $sm, $normal, $base, $uppercase);
+            @include fontstyles($color-primary, $sm*1.25, $normal, $base, $none);
 
             &:focus, &:active {
                 border-bottom: $sm*0.2 solid $color-secondary;
@@ -54,7 +54,18 @@
     }
 
     .intro {
-        padding: $sm*4;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: $sm*3 $sm*2;
+        gap: $sm*1.5;
+        height: 36vh;
+
+        .intro-box {
+            max-width: 50vw;
+            text-align: left;
+            margin: 0;
+        }
 
         h1 {
             font-size: $sm*3.5;
@@ -66,8 +77,12 @@
         }
 
         .career-goal {
-            margin: $sm*3 0;
             font-size: $sm*1.75;
+            line-height: $sm*2.25;
+        }
+
+        .blobwindow {
+            margin: 0;
         }
     }
 
@@ -85,23 +100,20 @@
             padding: 0;
         }
 
-        .work-collection {
-            gap: $sm*6;
-        }
-
         li {
             display: flex;
             flex-direction: row;
             justify-content: space-between;
             position: relative;
+            gap: $sm*2;
 
-            &:nth-child(2n+1){
+            &:nth-child(2n){
                 flex-direction: row-reverse;
             }
         }
 
         .img-container, .links-container {
-            width: 47%;
+            width: 50vw;
         }
 
         .work-details {

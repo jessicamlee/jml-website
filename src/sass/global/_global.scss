@@ -47,6 +47,7 @@ li {
     height: 100%;
     max-height: $sm*30;
     overflow: hidden;
+    border-radius: $sm*1.25;
 
     .img-thumb {
         width: 100%;
@@ -69,7 +70,7 @@ li {
 .collection-container {
     flex-direction: column;
     gap: $sm*2.5 $sm*2;
-    margin: $sm*1.25 0;
+    margin: $sm*1.25 0 0;
 }
 
 .projects, .work p {
