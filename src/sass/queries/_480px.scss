@@ -5,16 +5,16 @@
     .intro {
 
         h1 {
-            font-size: $sm*3.25;
-            margin-top: $xs;
+            font-size: $sm*4;
+            margin-top: $sm 0;
         }
 
         .career-role {
-            @include fontstyles ($color-primary, $sm*1.25, $normal, $italic, $none);
+            @include fontstyles ($color-primary, $sm*1, $normal, $italic, $none);
         }
 
         .career-goal {
-            font-size: $sm*1.5;
+            font-size: $sm*1.25;
         }
 
         .blobwindow {

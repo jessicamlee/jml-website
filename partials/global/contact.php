@@ -2,7 +2,7 @@
     <div class="container">
         <h2 data-aos="fade-right" class="contact-header">Connect with me</h2>
         <p data-aos="fade-right" data-aos-delay="200">Want to learn more about me and my work&quest;</p>
-        <p data-aos="fade-right" data-aos-delay="300" class="mb-md">Start a conversation with me in the following ways&colon;</p>
+        <p data-aos="fade-right" data-aos-delay="300" class="mb-md">Connect with me in the following ways&colon;</p>
         <ul class="flex">
             <li data-aos="fade-left" data-aos-delay="100">
                 <a href="https://www.linkedin.com/in/jessicamlee-/" target="_blank" title="Visit Jessica's LinkedIn">

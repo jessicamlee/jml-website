@@ -2,8 +2,13 @@
 
 .cs-body {
 
+    h2 {
+        text-align: left;
+        font-size: $sm*2.25;
+    }
+
     p {
-        margin-bottom: $sm*1.25;
+        margin-bottom: $sm*0.75;
     }
 
     li {
@@ -26,14 +31,14 @@
     }
 
     h3 {
-        border-bottom: $sm*0.5 solid $color-secondary;
-        width: fit-content;
-        margin-bottom: $sm;
+        @include fontstyles ($color-primary, $sm*1.35, $semibold, $base, $none);
+        margin-bottom: 0;
     }
 
     a {
         color: $color-primary;
         border-bottom: $color-secondary $sm*0.35 solid;
+        margin-bottom: $sm*0.5;
         cursor: pointer;
     }
 }

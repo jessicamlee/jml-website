@@ -17,7 +17,7 @@
     .career-goal {
         @include fontstyles($color-primary, $sm*1.25, $normal, $base, $none);
         justify-content: center;
-        line-height: $sm*1.65;
+        line-height: $sm*1.85;
         margin: $sm*1.5 0;
     }
 }

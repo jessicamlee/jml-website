@@ -6,4 +6,8 @@
         flex-basis: 31%;
         max-width: 31%;
     }
+
+    .dev-projects .dev-collection, .ux-projects .ux-collection {
+        justify-content: flex-start;
+    }
 }

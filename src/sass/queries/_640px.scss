@@ -6,14 +6,9 @@
         display: none;
     }
 
-    .intro .intro-box {
-        h1 {
-            font-size: $sm*3.75;
-        }
-
-        .career-role {
-            font-size: $sm*1.25;
-        }
+    .intro .intro-box .career-role {
+        font-size: $sm*1.125;
+        line-height: $sm*1.5;
     }
 
     .intro .blobwindow {
