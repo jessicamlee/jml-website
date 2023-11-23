@@ -12,6 +12,7 @@
 
     p {
         @include fontstyles ($color-primary, $sm*1.125, $normal, $base, $none);
+        line-height: $sm*1.85;
     }
 
     .work .work-collection {
@@ -76,8 +77,14 @@
         padding-left: $sm*5;
     }
 
-    .cs-body li {
-        font-size: $sm*1.125;
+    .cs-body {
+        p {
+            margin-bottom: $sm;
+        }
+
+        li {
+            font-size: $sm*1.125;
+        }
     }
 
     .cs-flex-img-box {

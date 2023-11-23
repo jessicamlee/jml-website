@@ -47,13 +47,14 @@ li {
     height: 100%;
     max-height: $sm*30;
     overflow: hidden;
-    border-radius: $sm*1.25;
+    margin: $sm*1.125 0 $sm*1.5;
 
     .img-thumb {
         width: 100%;
         height: 100%;
         object-fit: cover;
         transition: all 0.35s ease-in-out;
+        border-radius: $sm*0.5;
     }
 }
 

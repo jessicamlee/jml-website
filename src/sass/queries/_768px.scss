@@ -133,6 +133,20 @@
         padding-left: $sm*4;
     }
 
+    .cs-body {
+
+        h2 {
+            text-align: left;
+            font-size: $sm*2.5;
+        }
+    
+        h3 {
+            @include fontstyles ($color-secondary, $sm*1.75, $normal, $base, $none);
+            line-height: $sm*2.25;
+            margin: $sm*2 0 $sm*0.25;
+        }
+    }
+
     .cs-flex-tablet {
         flex-direction: row;
         gap: $sm*2;

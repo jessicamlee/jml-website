@@ -9,13 +9,14 @@
 }
 
 .bolded {
-    font-weight: 700;
+    font-weight: 600;
+    color: $color-secondary;
 }
 
 .bolded-italic {
-    font-weight: 700;
+    font-weight: 600;
     font-style: italic;
-    color: $color-primary;
+    color: $color-secondary;
 }
 
 .italic {
