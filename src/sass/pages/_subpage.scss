@@ -9,8 +9,8 @@
 
     .pg-preface {
         margin: $sm*1.5 auto;
-        max-width: 710px;
-        text-align: left;
+        max-width: $sm*28;
+        text-align: center;
     }
 }
     
@@ -57,7 +57,7 @@
 
     .why-write {
         text-align: center;
-        margin: 0 auto $sm*3;
+        margin: $sm*3 auto;
         max-width: 33rem;
     }
 

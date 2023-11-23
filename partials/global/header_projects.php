@@ -15,7 +15,7 @@
             <ul class="flex">
                 <li data-aos="fade-down" data-aos-delay="550"><a href="https://jessicamlee.dev/#work" title="Work by Jessica">Work</a></li>
                 <li data-aos="fade-down" data-aos-delay="600"><a href="../about.php" title="Who is Jessica?">About</a></li>
-                <li data-aos="fade-down" data-aos-delay="550"><a href="../web-development.php" title="Other work by Jessica">Log</a></li>
+                <li data-aos="fade-down" data-aos-delay="550"><a href="../log.php" title="Other work by Jessica">Log</a></li>
                 <li class="flex header-icons">
                     <a href="https://www.linkedin.com/in/jessicamlee-/" target="_blank" title="Visit Jessica's LinkedIn">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 258.56 258.56" title="LinkedIn Icon"><defs></defs><path d="M129.28,0A129.28,129.28,0,1,0,258.56,129.28,129.28,129.28,0,0,0,129.28,0ZM107.73,172.37H86.19V107.73h21.54ZM97,98.13a11.95,11.95,0,1,1,11.85-11.94A11.89,11.89,0,0,1,97,98.13Zm86.18,74.24H161.62V141.55c0-20.27-21.57-18.55-21.57,0v30.82H118.5V107.73h21.55v11.78c9.39-17.41,43.09-18.71,43.09,16.67Z"/></svg>
