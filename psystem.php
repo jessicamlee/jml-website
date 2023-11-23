@@ -11,7 +11,9 @@
             <?php include('partials/global/header.php'); ?>
             <main id="backtotop">
                 <div class="cs-body">
-                    <?php include('partials/ux/psystem/intro.php'); ?>
+                    <?php include('partials/ux/psystem/problem.php'); ?>
+                    <?php include('partials/ux/psystem/solution.php'); ?>
+                    <?php include('partials/ux/psystem/takeaways.php'); ?>
                 </div>
                 <?php include('partials/global/backtotop.php'); ?>
                 <?php include('partials/global/contact.php'); ?>

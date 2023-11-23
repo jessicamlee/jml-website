@@ -1,6 +1,6 @@
 <?php
 
-    $title_text = $title_text ?? 'Jessica Lee &vert; Design&comma; Development&comma; Content Strategy';
+    $title_text = $title_text ?? 'Jessica Lee &vert; UX Design&comma; Development&comma; Content Strategy';
 
 ?><head>
     <meta charset="UTF-8">

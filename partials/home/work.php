@@ -11,15 +11,6 @@
                 $case_study_link = 'psystem';
                 include('partials/cards/feat-work-card.php');
             ?>
-            <!-- <?php
-                $work_title = 'PsyHealth App';
-                $work_desc = 'Designing Onboarding and Payment Experiences to support Minimum Viable Product launch';
-                $work_skills = 'App Design &amp; Development | Figma';
-                $work_img_src = 'psyhealth_cover';
-                $work_img_alt = 'Psystem\'s PsyHealth App Cover Photo';
-                $live_link = 'https://play.google.com/store/apps/details?id=ca.psyhealth.twa';
-                include('partials/cards/feat-work-card.php');
-            ?> -->
         </ul>
     </div>
 </section>
