@@ -30,7 +30,7 @@
             <h3>Competitive Analysis</h3>
             <div class="flex cs-flex-tablet">
                 <div class="img-container cs-body-img-container cs-half-width">
-                    <img class="img-thumb" src="../images/case-studies/loclo-web/loclo_competitor.jpg" alt="Screenshots of LOCLO Clothing's competitors, Good for Sunday, Okay to Rest, and Tentree">
+                    <img class="img-thumb" src="images/case-studies/loclo-web/loclo_competitor.jpg" alt="Screenshots of LOCLO Clothing's competitors, Good for Sunday, Okay to Rest, and Tentree">
                     <p class="cs-img-caption">Screenshots of LOCLO Clothing&apos;s competitors&comma; Good for Sunday&comma; Okay to Rest&comma; and Tentree</p>
                 </div>
                 <div class="cs-half-width">
@@ -52,7 +52,7 @@
                     <p>I spoke with 5 participants who want quality&comma; sustainably sourced clothing from Canada and can imagine themselves shopping at an online e&dash;commerce store or mobile application like LOCLO&period</p>
                 </div>
                 <div class="img-container cs-body-img-container cs-half-width">
-                    <img class="img-thumb" src="../images/case-studies/loclo-web/loclo_persona.jpg" alt="Persona Summary for Sarah Smith">
+                    <img class="img-thumb" src="images/case-studies/loclo-web/loclo_persona.jpg" alt="Persona Summary for Sarah Smith">
                     <p class="cs-img-caption">Persona Summary for Sarah Smith</p>
                 </div>
             </div>
@@ -81,11 +81,11 @@
             <h4>User Scenario &amp; User Journey Flowchart</h4>
             <div class="flex cs-flex-tablet">
                 <div class="img-container cs-body-img-container cs-half-width">
-                    <img class="cs-flex-img" src="../images/case-studies/loclo-web/loclo_flowchart_1.jpg" alt="User Journey Flowchart Part 1, up to and including selecting the colour, size, and quantity of item to add to cart">
+                    <img class="cs-flex-img" src="images/case-studies/loclo-web/loclo_flowchart_1.jpg" alt="User Journey Flowchart Part 1, up to and including selecting the colour, size, and quantity of item to add to cart">
                     <p class="cs-img-caption">User Journey Flowchart Part 1&comma; up to and including selecting the colour&comma; size&comma; and quantity of item to add to cart</p>
                 </div>
                 <div class="img-container cs-body-img-container cs-half-width">
-                    <img class="cs-flex-img" src="../images/case-studies/loclo-web/loclo_flowchart_2.jpg" alt="User Journey Flowchart Part 2, up to and including the payment confirmation page">
+                    <img class="cs-flex-img" src="images/case-studies/loclo-web/loclo_flowchart_2.jpg" alt="User Journey Flowchart Part 2, up to and including the payment confirmation page">
                     <p class="cs-img-caption">User Journey Flowchart Part 2&comma; up to and including the payment confirmation page</p>
                 </div>
             </div>

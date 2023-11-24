@@ -11,6 +11,15 @@
                 $case_study_link = 'psystem';
                 include('partials/cards/feat-work-card.php');
             ?>
+            <?php
+                $work_title = 'PsyHealth';
+                $work_desc = 'Creating Onboarding and Payment App experiences to bridge the gap between the users and business goals.';
+                $work_skills = 'Product Design | UX Research | Moderated Testing';
+                $work_img_src = 'psyhealth_cover';
+                $work_img_alt = 'PsyHealth Cover Photo';
+                $case_study_link = 'psyhealth';
+                include('partials/cards/feat-work-card.php');
+            ?>
         </ul>
     </div>
 </section>

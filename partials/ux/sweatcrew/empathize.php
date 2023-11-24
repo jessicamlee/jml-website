@@ -51,7 +51,7 @@
                     <p>After gathering and organizing the participants&apos; thoughts and feelings&comma; I created the &ldquo;Ann Byrne&rdquo; persona to represent the target audience for this project&period;</p>
                 </div>
                 <div class="img-container cs-body-img-container cs-half-width">
-                    <img class="img-thumb" src="../images/case-studies/sweatcrew/sweatcrew_persona_ann.png" alt="Persona Summary for Ann Byrne">
+                    <img class="img-thumb" src="images/case-studies/sweatcrew/sweatcrew_persona_ann.png" alt="Persona Summary for Ann Byrne">
                     <p class="cs-img-caption">Persona Summary for Ann Byrne</p>
                 </div>
             </div>
@@ -74,7 +74,7 @@
             <h3>User Story</h3>
             <div class="flex cs-flex-tablet">
                 <div class="img-container cs-body-img-container cs-half-width">
-                    <img class="img-thumb" src="../images/case-studies/sweatcrew/sweatcrew_userstory.jpg" alt="User Story for the Ann Byrne Persona">
+                    <img class="img-thumb" src="images/case-studies/sweatcrew/sweatcrew_userstory.jpg" alt="User Story for the Ann Byrne Persona">
                     <p class="cs-img-caption">User Story for the Ann Byrne Persona</p>
                 </div>
                 <div class="cs-half-width">
@@ -91,7 +91,7 @@
                     <p>Although we can imagine how a user&apos;s journey may unfold&comma; it&apos;s easier to identify obstacles&comma; missing steps&comma; and any other opportunities for improvement when we create a user journey map&period;</p>
                 </div>
                 <div class="img-container cs-body-img-container cs-half-width">
-                    <img class="cs-flex-img" src="../images/case-studies/sweatcrew/sweatcrew_userjourney.png" alt="User Journey Map for Ann Byrne Persona">
+                    <img class="cs-flex-img" src="images/case-studies/sweatcrew/sweatcrew_userjourney.png" alt="User Journey Map for Ann Byrne Persona">
                     <p class="cs-img-caption">User Journey Map for Ann Byrne Persona</p>
                 </div>
             </div>

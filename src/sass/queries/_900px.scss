@@ -10,6 +10,10 @@
         @include fontstyles ($color-primary, $sm*2.5, $light, $base, $none);
     }
 
+    h3 {
+        @include fontstyles ($color-primary, $sm*2.25, $normal, $base, $none);
+    }
+
     p {
         @include fontstyles ($color-primary, $sm*1.125, $normal, $base, $none);
         line-height: $sm*1.85;
@@ -80,6 +84,10 @@
     .cs-body {
         p {
             margin-bottom: $sm;
+        }
+
+        .cs-summary p {
+            margin-bottom: $sm*0.15;
         }
 
         li {

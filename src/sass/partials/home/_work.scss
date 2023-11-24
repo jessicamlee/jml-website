@@ -1,6 +1,10 @@
 @use '../../utilities' as *;
 
 .work {
+
+    h3 {
+        color: $color-tertiary;
+    }
     
     .links-container {
         width: 100%;

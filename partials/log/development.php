@@ -1,6 +1,6 @@
 <section class="dev-projects subpg-section">
     <div class="container">
-        <h2 data-aos="fade-right" data-aos-delay="350">Web Development</h2>
+        <h2 class="mt-lg" data-aos="fade-right" data-aos-delay="350">Web Development</h2>
         <ul class="dev-collection collection-container flex" data-aos="fade-right" data-aos-delay="400">
             <?php
                 $work_title = 'BCIT Hack the Break 2023';

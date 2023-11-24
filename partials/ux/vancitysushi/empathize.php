@@ -33,7 +33,7 @@
             <p>The user research process began with interviewing 5 participants who have busy schedules as full&dash;time employees&comma; business owners&comma; or students&period; After learning more about the type of users and their experiences using existing customer loyalty programs&comma; I created two personas to guide the project&period;</p>
             <h4>Persona 1&colon; Mikayla Yang</h4>
             <div class="img-container cs-body-img-container ">
-                <img class="img-thumb" src="../images/case-studies/vancitysushi/vancitysushi_persona_mikayla.jpg" alt="Persona Summary for Mikayla Yang, full-time working mother & small business owner">
+                <img class="img-thumb" src="images/case-studies/vancitysushi/vancitysushi_persona_mikayla.jpg" alt="Persona Summary for Mikayla Yang, full-time working mother & small business owner">
                 <p class="cs-img-caption">Persona Summary for Mikayla Yang&comma; full&dash;time working mother & small business owner</p>
             </div>
             <p class="mt-md">As a full&dash;time working mother and small business owner&comma; Mikayla&apos;s top <span class="bolded">goals</span> and <span class="bolded">frustrations</span> include the following&colon;</p>
@@ -57,7 +57,7 @@
             </div>
             <h4>Persona 2&colon; Carl Dela Cruz</h4>
             <div class="img-container cs-body-img-container ">
-                <img class="img-thumb" src="../images/case-studies/vancitysushi/vancitysushi_persona_carl.jpg" alt="Persona Summary for Carl Dela Cruz, part-time employee & full-time student">
+                <img class="img-thumb" src="images/case-studies/vancitysushi/vancitysushi_persona_carl.jpg" alt="Persona Summary for Carl Dela Cruz, part-time employee & full-time student">
                 <p class="cs-img-caption">Persona Summary for Carl Dela Cruz&comma; part&dash;time employee &amp; full&dash;time student</p>
             </div>
             <p class="mt-md">As a part&dash;time employee and full&dash;time student&comma; Carl&apos;s top <span class="bolded">goals</span> and <span class="bolded">frustrations</span> include the following&colon;</p>
@@ -88,7 +88,7 @@
             <p>After gathering information about the users and the competitors&comma; it is time to begin outlining the journey&period; I constructed a user flow and user flow diagram to outline the steps a user would take to place an order through the app&period;</p>
             <div class="flex cs-flex-tablet">
                 <div class="img-container cs-body-img-container cs-half-width">
-                    <img class="cs-flex-img" src="../images/case-studies/vancitysushi/vancitysushi_userflow_diagram.png" alt="User Flow and User Flow Diagram from opening the app to order confirmation">
+                    <img class="cs-flex-img" src="images/case-studies/vancitysushi/vancitysushi_userflow_diagram.png" alt="User Flow and User Flow Diagram from opening the app to order confirmation">
                     <p class="cs-img-caption">User Flow and User Flow Diagram from opening the app to order confirmation</p>
                 </div>
                 <div class="cs-half-width">
@@ -98,7 +98,7 @@
                 </div>
             </div>
             <div class="img-container cs-body-img-container">
-                <img class="cs-flex-img" src="../images/case-studies/vancitysushi/vancitysushi_userjourney_mikayla.jpg" alt="User Journey Map for Mikayla Persona">
+                <img class="cs-flex-img" src="images/case-studies/vancitysushi/vancitysushi_userjourney_mikayla.jpg" alt="User Journey Map for Mikayla Persona">
                 <p class="cs-img-caption">User Journey Map for Mikayla Persona</p>
             </div>
             <p class="mt-md">Following the User Flow activity&comma; I brainstormed a specific scenario a user&comma; such as the Mikayla persona&comma; may take to order through the app&period;</p>

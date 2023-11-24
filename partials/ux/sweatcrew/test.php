@@ -19,11 +19,11 @@
             <p>Here are two examples that significantly impact the user&apos;s shopping experience.</p>
             <div class="flex cs-flex-tablet">
                 <div class="img-container cs-body-img-container cs-half-width">
-                    <img class="img-thumb" src="../images/case-studies/sweatcrew/sweatcrew_homepage.png" alt="Homepage from Before and After Usability Study">
+                    <img class="img-thumb" src="images/case-studies/sweatcrew/sweatcrew_homepage.png" alt="Homepage from Before and After Usability Study">
                     <p class="cs-img-caption">Homepage from Before and After Usability Study</p>
                 </div>
                 <div class="img-container cs-body-img-container cs-half-width">
-                    <img class="img-thumb" src="../images/case-studies/sweatcrew/sweatcrew_customizingorder.png" alt="Customization Ordering Page from Before and After Usability Study">
+                    <img class="img-thumb" src="images/case-studies/sweatcrew/sweatcrew_customizingorder.png" alt="Customization Ordering Page from Before and After Usability Study">
                     <p class="cs-img-caption">Customization Ordering Page from Before and After Usability Study</p>
                 </div>
             </div>
@@ -39,7 +39,7 @@
                     <p>Spending more time with my pen & paper to sketch wireframes for all screen types taught me to consider enlarging or minimizing sections as the user&apos;s screens get smaller&period;</p>
                 </div>
                 <div class="img-container cs-body-img-container cs-half-width">
-                    <img class="img-thumb" src="../images/case-studies/sweatcrew/sweatcrew_challenge1.png" alt="Digital Wireframe for Tablet and Mobile Screens of the Homepage">
+                    <img class="img-thumb" src="images/case-studies/sweatcrew/sweatcrew_challenge1.png" alt="Digital Wireframe for Tablet and Mobile Screens of the Homepage">
                     <p class="cs-img-caption">Digital Wireframe for Tablet and Mobile Screens of the Homepage</p>
                 </div>
             </div>
@@ -50,7 +50,7 @@
                     <p>With a straightforward ordering process&comma; the user can feel confident and at ease when shopping&comma; creating a positive impression of the brand&apos;s attention to the user&apos;s shopping experience&period;</p>
                 </div>
                 <div class="img-container cs-body-img-container cs-half-width">
-                    <img class="img-thumb" src="../images/case-studies/sweatcrew/sweatcrew_challenge2.jpg" alt="Customization Step 3, revealing the product design">
+                    <img class="img-thumb" src="images/case-studies/sweatcrew/sweatcrew_challenge2.jpg" alt="Customization Step 3, revealing the product design">
                     <p class="cs-img-caption">Customization Step 3&comma; revealing the product design</p>
                 </div>
             </div>
@@ -61,7 +61,7 @@
                     <p>To provide users with a more confident shopping experience&comma; some sections were removed from the Homepage to include the essential components users want and need to start their ordering process&period;</p>
                 </div>
                 <div class="img-container cs-body-img-container cs-half-width">
-                    <img class="img-thumb" src="../images/case-studies/sweatcrew/sweatcrew_challenge3.jpg" alt="Homepage for The Sweat Crew's website">
+                    <img class="img-thumb" src="images/case-studies/sweatcrew/sweatcrew_challenge3.jpg" alt="Homepage for The Sweat Crew's website">
                     <p class="cs-img-caption">Homepage for The Sweat Crew&apos;s website</p>
                 </div>
             </div>

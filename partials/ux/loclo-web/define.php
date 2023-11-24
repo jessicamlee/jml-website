@@ -24,7 +24,7 @@
                     <p>The global navigation menu includes 5 links to meet the fictional client&apos;s navigation criteria proposed of having a simple and minimal menu featuring only the essential items. The global navigation menu included the &ldquo;Shop All&rdquo;&comma; &ldquo;Apparel&rdquo;&comma; &ldquo;Accessories&rdquo;&comma; &ldquo;Login&rdquo;&comma; and &ldquo;Cart&rdquo; links&period;</p>
                 </div>
                 <div class="img-container cs-body-img-container cs-half-width">
-                    <img class="img-thumb" src="../images/case-studies/loclo-web/loclo_sitemap.jpg" alt="Summary of Website Sitemap in Mockup">
+                    <img class="img-thumb" src="images/case-studies/loclo-web/loclo_sitemap.jpg" alt="Summary of Website Sitemap in Mockup">
                     <p class="cs-img-caption">Summary of Website Sitemap in Mockup</p>
                 </div>
             </div>

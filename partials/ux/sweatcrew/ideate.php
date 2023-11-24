@@ -10,7 +10,7 @@
                     <p>Having immediate access to a search button or bar&comma; an account login&comma; and an updated shopping cart may assist with quick navigation&period;</p>
                 </div>
                 <div class="img-container cs-body-img-container cs-half-width">
-                    <img class="img-thumb" src="../images/case-studies/sweatcrew/sweatcrew_penpaper_homepage_ab.png" alt="Pen and Paper Wireframe for Variations A and B for Homepage">
+                    <img class="img-thumb" src="images/case-studies/sweatcrew/sweatcrew_penpaper_homepage_ab.png" alt="Pen and Paper Wireframe for Variations A and B for Homepage">
                     <p class="cs-img-caption">Pen &amp; Paper Wireframe for Variations A and B for Homepage</p>
                 </div>
             </div>
@@ -21,7 +21,7 @@
                     <p>In Variation F&comma; I combined the most helpful components I sketched from Variation A to E&period;</p>
                 </div>
                 <div class="img-container cs-body-img-container cs-half-width">
-                    <img class="img-thumb" src="../images/case-studies/sweatcrew/sweatcrew_penpaper_homepage_cd.png" alt="Pen & Paper Wireframe for Variations C and D for Homepage">
+                    <img class="img-thumb" src="images/case-studies/sweatcrew/sweatcrew_penpaper_homepage_cd.png" alt="Pen & Paper Wireframe for Variations C and D for Homepage">
                     <p class="cs-img-caption">Pen & Paper Wireframe for Variations C and D for Homepage</p>
                 </div>
             </div>
@@ -31,7 +31,7 @@
                     <p>Another benefit and priority is to reduce the amount of endless scrolling experience for mobile users as a common complaint I discovered from the initial interviews was the discomfort of gesturing the thumb continuously&period;</p>
                 </div>
                 <div class="img-container cs-body-img-container cs-half-width">
-                    <img class="img-thumb" src="../images/case-studies/sweatcrew/sweatcrew_penpaper_mobile_homepage.png" alt="Pen & Paper Wireframe for Mobile Screen for Homepage">
+                    <img class="img-thumb" src="images/case-studies/sweatcrew/sweatcrew_penpaper_mobile_homepage.png" alt="Pen & Paper Wireframe for Mobile Screen for Homepage">
                     <p class="cs-img-caption">Pen & Paper Wireframe for Mobile Screen for Homepage</p>
                 </div>
             </div>

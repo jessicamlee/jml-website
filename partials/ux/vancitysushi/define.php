@@ -5,7 +5,7 @@
         <div class="cs-subsection">
             <h3>Goal Statement</h3>
             <div class="img-container cs-body-img-container">
-                <img class="img-thumb" src="../images/case-studies/vancitysushi/vancitysushi_goalstatement.jpg" alt="Goal Statement for the Vancity Sushi Customer Loyalty App">
+                <img class="img-thumb" src="images/case-studies/vancitysushi/vancitysushi_goalstatement.jpg" alt="Goal Statement for the Vancity Sushi Customer Loyalty App">
                 <p class="cs-img-caption">Goal Statement for the Vancity Sushi Customer Loyalty App</p>
             </div>
             <p class="mb-md mt-md">The goal statement is as follows&colon;</p>

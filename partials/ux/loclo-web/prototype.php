@@ -3,7 +3,7 @@
         <h2>Prototype</h2>
         <div class="cs-subsection cs-flex-tablet flex">
             <div class="img-container cs-body-img-container cs-half-width">
-                <img class="img-thumb" src="../images/case-studies/loclo-web/loclo_prototype_overview.jpg" alt="Screenshot of the first iteration of LOCLO Clothing Website's High-fidelity Prototype">
+                <img class="img-thumb" src="images/case-studies/loclo-web/loclo_prototype_overview.jpg" alt="Screenshot of the first iteration of LOCLO Clothing Website's High-fidelity Prototype">
                 <p class="cs-img-caption">Screenshot of the first iteration of LOCLO Clothing Website&apos;s High&dash;fidelity Prototype</p>
             </div>
             <div class="cs-half-width">

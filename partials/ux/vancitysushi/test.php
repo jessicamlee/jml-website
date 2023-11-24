@@ -11,11 +11,11 @@
             </ul>
             <div class="flex cs-flex-tablet mt-lg">
                 <div class="img-container cs-body-img-container cs-half-width">
-                    <img class="img-thumb" src="../images/case-studies/vancitysushi/vancitysushi_homescreen.jpg" alt="Before and After screenshots of Vancity Sushi's home screen with and without visual cues to guide users">
+                    <img class="img-thumb" src="images/case-studies/vancitysushi/vancitysushi_homescreen.jpg" alt="Before and After screenshots of Vancity Sushi's home screen with and without visual cues to guide users">
                     <p class="cs-img-caption">Before&dash;and&dash;After screenshots of Vancity Sushi&apos;s Home screen with and without visual cues to guide users&period;</p>
                 </div>
                 <div class="img-container cs-body-img-container cs-half-width">
-                    <img class="img-thumb" src="../images/case-studies/vancitysushi/vancitysushi_orderconfirmation.jpg" alt="Before and After screenshots of Vancity Sushi's order confirmation screen with and without call-to-action buttons, estimated order completion time, and location details.">
+                    <img class="img-thumb" src="images/case-studies/vancitysushi/vancitysushi_orderconfirmation.jpg" alt="Before and After screenshots of Vancity Sushi's order confirmation screen with and without call-to-action buttons, estimated order completion time, and location details.">
                     <p class="cs-img-caption">Before&dash;and&dash;After screenshots of Vancity Sushi&apos;s Order Confirmation screen with and without call-to-action buttons, estimated order completion time, and location details.</p>
                 </div>
             </div>
@@ -27,11 +27,11 @@
             </ul>
             <div class="flex cs-flex-tablet mt-lg">
                 <div class="img-container cs-body-img-container cs-half-width">
-                    <img class="img-thumb" src="../images/case-studies/vancitysushi/vancitysushi_cartscreen.jpg" alt="Before and After screenshots of Vancity Sushi's Cart screen with and without the Remove Items button.">
+                    <img class="img-thumb" src="images/case-studies/vancitysushi/vancitysushi_cartscreen.jpg" alt="Before and After screenshots of Vancity Sushi's Cart screen with and without the Remove Items button.">
                     <p class="cs-img-caption">Before&dash;and&dash;After screenshots of Vancity Sushi&apos;s Cart screen with and without the Remove Items button&period;</p>
                 </div>
                 <div class="img-container cs-body-img-container cs-half-width">
-                    <img class="img-thumb" src="../images/case-studies/vancitysushi/vancitysushi_payment.jpg" alt="Before and After screenshots of Vancity Sushi's payment screen with the payment fields expanded after each step rather than all expanded to reduce excessive scrolling.">
+                    <img class="img-thumb" src="images/case-studies/vancitysushi/vancitysushi_payment.jpg" alt="Before and After screenshots of Vancity Sushi's payment screen with the payment fields expanded after each step rather than all expanded to reduce excessive scrolling.">
                     <p class="cs-img-caption">Before&dash;and&dash;After screenshots of Vancity Sushi&apos;s Payment screen with the payment fields expanded after each step rather than all expanded to reduce excessive scrolling&period;</p>
                 </div>
             </div>
@@ -46,7 +46,7 @@
                     <p>One advantage Vancity Sushi has is the familiar and mobile&dash;friendly experience with a clutter&dash;free layout&period;</p>
                 </div>
                 <div class="img-container cs-body-img-container cs-half-width cs-portrait-width">
-                    <img class="img-thumb" src="../images/case-studies/vancitysushi/vancitysushi_challenge1.png" alt="Vancity Sushi's App Homepage">
+                    <img class="img-thumb" src="images/case-studies/vancitysushi/vancitysushi_challenge1.png" alt="Vancity Sushi's App Homepage">
                     <p class="cs-img-caption">Vancity Sushi&apos;s App Homepage</p>
                 </div>
             </div>
@@ -57,7 +57,7 @@
                     <p>With the help of images&comma; users have an improved ordering experience now that they have a visual aid for the menu items they are browsing&period;</p>
                 </div>
                 <div class="img-container cs-body-img-container cs-half-width cs-portrait-width">
-                    <img class="img-thumb" src="../images/case-studies/vancitysushi/vancitysushi_challenge2.png" alt="Vancity Sushi's App Product Page">
+                    <img class="img-thumb" src="images/case-studies/vancitysushi/vancitysushi_challenge2.png" alt="Vancity Sushi's App Product Page">
                     <p class="cs-img-caption">Vancity Sushi&apos;s App Product Page</p>
                 </div>
             </div>
@@ -68,7 +68,7 @@
                     <p>Vancity Sushi&apos;s app focuses on making the experience easy and simple to use with navigation cues and high&dash;contrast call&dash;to&dash;action buttons with icons for accessibility&period;</p>
                 </div>
                 <div class="img-container cs-body-img-container cs-half-width cs-portrait-width">
-                    <img class="img-thumb" src="../images/case-studies/vancitysushi/vancitysushi_challenge3.png" alt="Vancity Sushi's App Navigational Cues">
+                    <img class="img-thumb" src="images/case-studies/vancitysushi/vancitysushi_challenge3.png" alt="Vancity Sushi's App Navigational Cues">
                     <p class="cs-img-caption">Vancity Sushi&apos;s App Navigational Cues</p>
                 </div>
             </div>

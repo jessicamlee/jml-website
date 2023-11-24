@@ -3,7 +3,7 @@
         <h2>Prototype</h2>
         <div class="cs-subsection cs-flex-tablet flex">
             <div class="img-container cs-body-img-container cs-half-width">
-                <img class="img-thumb" src="../images/case-studies/sweatcrew/sweatcrew_lofiwireframes.jpg" alt="Screenshot of the wireframes for The Sweat Crew's Low-fidelity Prototype">
+                <img class="img-thumb" src="images/case-studies/sweatcrew/sweatcrew_lofiwireframes.jpg" alt="Screenshot of the wireframes for The Sweat Crew's Low-fidelity Prototype">
                 <p class="cs-img-caption">Screenshot of the wireframes for The Sweat Crew&apos;s Low&dash;fidelity Prototype</p>
             </div>
             <div class="cs-half-width">
@@ -20,7 +20,7 @@
                     <p>With a board of images&comma; I started sampling colors that would display a contrasting yet visually appealing fashion aesthetic to reflect the brand while maintaining interest from the users&period;</p>
                 </div>
                 <div class="img-container cs-body-img-container cs-half-width">
-                    <img class="img-thumb" src="../images/case-studies/sweatcrew/sweatcrew_styletile.png" alt="Style Guide for The Sweat Crew">
+                    <img class="img-thumb" src="images/case-studies/sweatcrew/sweatcrew_styletile.png" alt="Style Guide for The Sweat Crew">
                     <p class="cs-img-caption">Style Guide&comma; Style Tile &lpar;or Sticker Sheet&rpar; for The Sweat Crew</p>
                 </div>
             </div>

@@ -9,6 +9,7 @@
         <?php include('partials/global/header.php'); ?>
             <main>
                 <?php include('partials/log/log-intro.php'); ?>
+                <?php include('partials/log/ux-design.php'); ?>
                 <?php include('partials/log/development.php'); ?>
                 <?php include('partials/log/storytelling.php'); ?>
                 <?php include('partials/global/contact.php'); ?>

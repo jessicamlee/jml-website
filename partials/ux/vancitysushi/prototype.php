@@ -3,7 +3,7 @@
         <h2>Prototype</h2>
         <div class="cs-subsection cs-flex-tablet flex">
             <div class="img-container cs-body-img-container cs-half-width">
-                <img class="img-thumb" src="../images/case-studies/vancitysushi/vancitysushi_lofi_prototype.jpg" alt="Screenshot of the wireframes for The Sweat Crew's Low-fidelity Prototype">
+                <img class="img-thumb" src="images/case-studies/vancitysushi/vancitysushi_lofi_prototype.jpg" alt="Screenshot of the wireframes for The Sweat Crew's Low-fidelity Prototype">
                 <p class="cs-img-caption">Screenshot of the wireframes for The Sweat Crew&apos;s Low&dash;fidelity Prototype</p>
             </div>
             <div class="cs-half-width">
@@ -20,7 +20,7 @@
                     <p>By only using the &#35;EC4424 red and colours for call&dash;to&dash;action buttons and images of the food items&comma; users are more focused on these essential components in the design&period;</p>
                 </div>
                 <div class="img-container cs-body-img-container cs-half-width">
-                    <img class="img-thumb" src="../images/case-studies/vancitysushi/vancitysushi_styletile.jpg" alt="Style Guide for The Vancity Sushi App">
+                    <img class="img-thumb" src="images/case-studies/vancitysushi/vancitysushi_styletile.jpg" alt="Style Guide for The Vancity Sushi App">
                     <p class="cs-img-caption">Style Guide&comma; Style Tile &lpar;or Sticker Sheet&rpar; for The Vancity Sushi App</p>
                 </div>
             </div>

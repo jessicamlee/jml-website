@@ -49,29 +49,29 @@
             <h3>Second Iteration Prototype Updates</h3>
             <p>The new pain points discovered from the Usability Study included insufficient emphasis on call&dash;to&dash;action buttons and links and unclear progression for the checkout experience as many users unexpectedly misclicked on non&dash;clickable areas on the screen&period;</p>
             <p>The following screenshots provide a comparison of the before and after mockups of the screens with the areas of improvement from the first usability study&period;</p>
-            <h4><span class="is-uppercase bolded">Challenge 1&colon;</span> Design for users who have short attention spans</h4>
+            <h4><span class="is-uppercase bolded">🎯 Challenge 1&colon;</span> Design for users who have short attention spans</h4>
             <div class="flex cs-flex-tablet mt-lg">
                 <div class="cs-half-width">
                     <p>When reviewing the unmoderated usability testing recordings&comma; I noticed usability participants were spam&dash;clicking all over the page and not many of them scolded past the fold&period; I inferred that it seemed like the usability participants could have been confused about where to navigate after reading the prompt&period;</p>
                     <p><span class="bolded">Changes made&colon; </span>Revised the components on the account page to fit above the fold and added emphasis on the first &ldquo;Saved Items&rdquo; tab to help users identify where they are within their LOCLO dashboard&period;</p>
                 </div>
                 <div class="img-container cs-body-img-container cs-half-width">
-                    <img class="img-thumb" src="../images/case-studies/loclo-web/loclo_beforeafter_accountpage.jpg" alt="Challenge 1 on Account Page, Before and After Usability Study">
+                    <img class="img-thumb" src="images/case-studies/loclo-web/loclo_beforeafter_accountpage.jpg" alt="Challenge 1 on Account Page, Before and After Usability Study">
                     <p class="cs-img-caption">Challenge 1 on Account Page&comma; Before and After Usability Study</p>
                 </div>
             </div>
-            <h4><span class="is-uppercase bolded">Challenge 2&colon;</span> Resolve abandoned shopping cart user journeys</h4>
+            <h4><span class="is-uppercase bolded">🎯 Challenge 2&colon;</span> Resolve abandoned shopping cart user journeys</h4>
             <div class="flex cs-flex-tablet mt-lg cs-tablet-rr">
                 <div class="cs-half-width">
                     <p>During the usability study&comma; usability participants were observed clicking the breadcrumb icons to test what the icons could do&comma; not scrolling past the fold&comma; and clicking on the discount code field to trial&dash;and&dash;error the next step to continue&period;</p>
                     <p><span class="bolded">Changes made&colon; </span>Since the prompt for this step was to continue the usability participant&apos;s shopping experience by completing the purchase&comma; I reorganized the components and content on the page to fit above the fold to reduce the chances of users abandoning the experience due to not being to see the &ldquo;Continue&rdquo; call&dash;to&dash;action button above the fold&period;</p>
                 </div>
                 <div class="img-container cs-body-img-container cs-half-width">
-                    <img class="img-thumb" src="../images/case-studies/loclo-web/loclo_beforeafter_cartpage.jpg" alt="Challenge 2 on Cart Page, Before and After Usability Study">
+                    <img class="img-thumb" src="images/case-studies/loclo-web/loclo_beforeafter_cartpage.jpg" alt="Challenge 2 on Cart Page, Before and After Usability Study">
                     <p class="cs-img-caption">Challenge 2 on Cart Page&comma; Before and After Usability Study</p>
                 </div>
             </div>
-            <h4><span class="is-uppercase bolded">Challenge 3&colon;</span>  Revise shopping experience to feel less overwhelming</h4>
+            <h4><span class="is-uppercase bolded">🎯 Challenge 3&colon;</span>  Revise shopping experience to feel less overwhelming</h4>
             <div class="flex cs-flex-tablet mt-lg">
                 <div class="cs-half-width">
                     <p>Although the focus for the third challenge is not specifically on resolving abandoned shopping experiences&comma; sometimes the long payment input&comma; review&comma; and confirmation can make the final steps of the shopping experience feel long and overwhelming&period;</p>
@@ -79,7 +79,7 @@
                     <p><span class="bolded">Changes made&colon; </span>Instead of down arrows&comma; I replaced the edit trigger buttons with a pencil icon to encourage users to click the icons as the usability testers proved that users like to trial and error with spam&dash;clicking the interface &lpar;from my observations of this usability study&rpar;&period;</p>
                 </div>
                 <div class="img-container cs-body-img-container cs-half-width">
-                    <img class="img-thumb" src="../images/case-studies/loclo-web/loclo_beforeafter_checkout.jpg" alt="Challenge 3 on Checkout Process, Before and After Usability Study">
+                    <img class="img-thumb" src="images/case-studies/loclo-web/loclo_beforeafter_checkout.jpg" alt="Challenge 3 on Checkout Process, Before and After Usability Study">
                     <p class="cs-img-caption">Challenge 3 on Checkout Process&comma; Before and After Usability Study</p>
                 </div>
             </div>

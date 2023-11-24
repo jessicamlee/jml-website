@@ -9,7 +9,7 @@
                     <p>By experimenting with two different methods to begin the wireframing process&comma; I could consider other perspectives to approach the Home screen by prioritizing different features to highlight and provide value to the user&period;</p>
                 </div>
                 <div class="img-container cs-body-img-container cs-half-width">
-                    <img class="img-thumb" src="../images/case-studies/vancitysushi/paperpenwireframes_abc.png" alt="Pen & Paper Wireframe for Variations A and B for Homepage">
+                    <img class="img-thumb" src="images/case-studies/vancitysushi/paperpenwireframes_abc.png" alt="Pen & Paper Wireframe for Variations A and B for Homepage">
                     <p class="cs-img-caption">Pen &amp; Paper Wireframe for Variations A and B for Homepage</p>
                 </div>
             </div>
@@ -19,7 +19,7 @@
                     <p>For the final option&comma; I reviewed the 5 iterations and selected the components that are the most useful for the user&apos;s needs and ordering experience to create a final pen&dash;and&dash;paper wireframe&period;</p>
                 </div>
                 <div class="img-container cs-body-img-container cs-half-width">
-                    <img class="img-thumb" src="../images/case-studies/vancitysushi/paperpenwireframes_def.png" alt="Pen & Paper Wireframe for Variations C and D for Homepage">
+                    <img class="img-thumb" src="images/case-studies/vancitysushi/paperpenwireframes_def.png" alt="Pen & Paper Wireframe for Variations C and D for Homepage">
                     <p class="cs-img-caption">Pen &amp; Paper Wireframe for Variations C and D for Homepage</p>
                 </div>
             </div>

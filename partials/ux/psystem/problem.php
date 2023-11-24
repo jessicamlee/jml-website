@@ -1,5 +1,5 @@
 <section class="subpg-section">
-    <div class="container cs-section">
+    <div class="container">
         <?php
             $ux_project_title = 'Psystem';
             $ux_project_img_src = 'psystem_cover';
