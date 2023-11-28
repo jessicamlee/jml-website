@@ -6,10 +6,6 @@
         @include fontstyles ($color-primary, $sm*1.6, $normal, $base, $none);
     }
 
-    p {
-        font-size: $sm*1.0625;
-    }
-
     .section {
         padding: $sm*3 $sm*2.25;
     }
@@ -21,7 +17,7 @@
     header .gn {
         display: block!important;
         position: static;
-        top: 0px;
+        top: 0;
         height: auto;
         box-shadow: 0;
     

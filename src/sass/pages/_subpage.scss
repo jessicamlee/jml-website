@@ -37,13 +37,13 @@
     background-color: $color-primary;
     border: $sm*0.15 solid $color-primary;
     color: $color-secondary;
-    @include fontstyles($color-secondary, $sm*0.9, $normal, $base, $none);
+    @include fontstyles($color-secondary, $sm*1.0625, $normal, $base, $none);
 }
 
 .btn-secondary {
     background-color: transparent;
     border: $sm*0.15 solid $color-primary;
-    @include fontstyles($color-primary, $sm*0.9, $normal, $base, $none);
+    @include fontstyles($color-primary, $sm*1.0625, $normal, $base, $none);
 }
 
 .project-details {
@@ -80,11 +80,11 @@
     a {
         @include fontstyles ($color-primary, $sm, $normal, $base, $none);
         line-height: $sm*1.5;
-        border-bottom: 1.5px solid $color-primary;
+        border-bottom: $sm*0.09375 solid $color-primary;
     }
 
     .storytelling-content {
         margin: 0 auto;
-        max-width: 700px;
+        max-width: $sm*43.75;
     }
 }

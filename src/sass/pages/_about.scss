@@ -39,7 +39,7 @@
         flex-direction: column;
         gap: $sm*1.25;
         margin: 0 auto;
-        max-width: 550px;
+        max-width: $sm*34.375;
     }
 
     li {

@@ -152,7 +152,7 @@
 .peer-feedback-box {
     flex-direction: column;
     gap: $sm*0.5;
-    max-width: 550px;
+    max-width: $sm*34.375;
     margin: 0 auto $sm*2;
 
     p {

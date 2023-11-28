@@ -19,20 +19,20 @@
         gap: $sm*3.5 $sm*3;
     }
 
-    .work, .dev-projects, .ux-projects, .cs-summary {
+    .ux-projects, .cs-summary {
         
         .btn-primary:hover {
             color: $color-primary;
             background-color: $color-secondary;
             border: $sm*0.15 solid $color-secondary;
-            transition: 0.5s ease-in-out;
+            transition: 0.4s ease-in-out;
         }
             
         .btn-secondary:hover {
             color: $color-secondary;
             background-color: $color-primary;
             border: $sm*0.15 solid $color-secondary;
-            transition: 0.5s ease-in-out;
+            transition: 0.4s ease-in-out;
         }
     }
 
@@ -44,20 +44,25 @@
         font-size: $sm*1.125;
 
         &:hover {
-            border-bottom: 1.5px solid $color-secondary;
+            border-bottom: $sm*0.09375 dotted $color-secondary;
         }
     }
 
     .contact svg:hover {
         fill: $color-secondary;
         transition: 0.5s ease-in-out;
-        border: $sm*0.2 solid $color-primary;
+        border: $sm*0.3 dotted $color-tertiary;
         border-radius: $sm*1.5;
         padding: $sm*0.25;
         transform: scale(1.5);
     }
 
     .cs-section {
-        max-width: 1000px;
+        max-width: $sm*62.5;
+    }
+
+    .backtotop:hover {
+        border-bottom: $color-tertiary $sm*0.3 dotted;
+        transition: 0.25s ease-in-out;
     }
 }

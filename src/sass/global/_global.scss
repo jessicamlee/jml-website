@@ -74,6 +74,6 @@ li {
     margin: $sm*1.25 0 0;
 }
 
-.projects, .work p {
-    @include fontstyles ($color-primary, $sm, $light, $base, $none);
+.work p {
+    @include fontstyles ($color-primary, $sm*1.125, $light, $base, $none);
 }
