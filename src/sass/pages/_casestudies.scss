@@ -64,6 +64,10 @@
     }
 }
 
+.cs-problem-stmt h4 {
+    margin: $sm 0 $sm*0.5;
+}
+
 .cs-subsection {
     margin: $sm*2 auto $sm*3.5;    
 }
@@ -90,7 +94,7 @@
 }
 
 .cs-img-caption {
-    @include fontstyles ($color-primary, $sm, $medium, $italic, $none);
+    @include fontstyles ($color-primary, $sm*1.06, $medium, $italic, $none);
     margin-top: $sm*0.5;
     margin-bottom: 0 !important; 
     line-height: $sm*1.5;

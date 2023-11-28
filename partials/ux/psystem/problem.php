@@ -17,6 +17,52 @@
             <p><span class="bolded">Constraints&colon;</span> Webflow element&comma; Limited timeline as time was shared with development responsibilities</p>
         </div>
         <div class="cs-section">
+            <h2>Notable Designs</h2>
+            <p>Before diving into the project journey&comma; let&apos;s check out the 3 highlights of Psystem&apos;s redesigned web pages&excl;</p>
+            <div class="notable-designs">
+                <div class="notable-desc">
+                    <h3>🤼 Coaching Services</h3>
+                    <p>The new Services page answered the question&comma; &ldquo;What services does Psystem offer to support your chronic pain and health and wellness journey&quest;&rdquo;</p>
+                </div>
+                <div class="img-container cs-body-img-container">
+                    <video width="1080" height="400" autoplay loop muted>
+                        <source src="images/case-studies/psystem/psystem_coaching.mp4" type="video/mp4">
+                        <source src="images/case-studies/psystem/psystem_coaching.mp4" type="video/ogg">
+                        Your browser does not support the video tag.
+                    </video>
+                    <p class="cs-img-caption">Psystem&apos;s Coaching Services page at mobile screen size&period;</p>
+                </div>
+            </div>
+            <div class="notable-designs even-designs">
+                <div class="notable-desc">
+                    <h3>📅 Life Beyond Chronic Pain Webinars</h3>
+                    <p>Gathering feedback from the entire team gave me more input and perspectives to further iterate the Webinar page to encourage user engagement while meeting webinar signup target&period;</p>
+                </div>
+                <div class="img-container cs-body-img-container">
+                    <video width="1080" height="400" autoplay loop muted>
+                        <source src="images/case-studies/psystem/psystem_webinar.mp4" type="video/mp4">
+                        <source src="images/case-studies/psystem/psystem_webinar.mp4" type="video/ogg">
+                        Your browser does not support the video tag.
+                    </video>
+                    <p class="cs-img-caption">Psystem&apos;s Webinar page at mobile screen size&period;</p>
+                </div>
+            </div>
+            <div class="notable-designs">
+                <div class="notable-desc">
+                    <h3>📚 Chronic Pain Pathways</h3>
+                    <p>Clearly defining the best practices of self&dash;guided course landing pages through robust secondary research and landing page analyses helped me test and iterate my designs within budget constraints&period;</p>
+                </div>
+                <div class="img-container cs-body-img-container">
+                    <video width="1080" height="400" autoplay loop muted>
+                        <source src="images/case-studies/psystem/psystem_pathways.mp4" type="video/mp4">
+                        <source src="images/case-studies/psystem/psystem_pathways.mp4" type="video/ogg">
+                        Your browser does not support the video tag.
+                    </video>
+                    <p class="cs-img-caption">Psystem&apos;s Coaching Services page at mobile screen size&period;</p>
+                </div>
+            </div>
+        </div>
+        <div class="cs-section">
             <h2>Problem&colon; What &amp; Why Now&quest;</h2>
             <h3>Problem</h3>
             <p>Psystem is a health and wellness company that was in need of a website redesign as the brand colours&comma; styles&comma; and marketing focus changed to support an upcoming social media marketing campaign to use the webpages as advertisements &lpar;or &ldquo;ad&rdquo;&rpar; landing pages to increase coaching appointments bookings and newsletter signup conversions&period;</p>

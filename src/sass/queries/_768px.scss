@@ -56,14 +56,19 @@
     .intro {
         display: flex;
         align-items: center;
-        justify-content: space-evenly  ;
+        justify-content: space-between;
         gap: $sm*1.5;
         height: 36vh;
+        padding: $sm*4;
 
         .intro-box {
             max-width: 50vw;
             text-align: left;
             margin: 0;
+        }
+
+        .career-role, .career-goal {
+            max-width: $sm*40;
         }
 
         h1 {
@@ -78,7 +83,7 @@
 
     .work {
         p {
-            @include fontstyles ($color-primary, $sm*1.35, $normal, $base, $none);
+            @include fontstyles ($color-primary, $sm*1.25, $normal, $base, $none);
             line-height: $sm*1.85;
         }
 
@@ -144,7 +149,7 @@
         h3 {
             @include fontstyles ($color-tertiary, $sm*1.75, $normal, $base, $none);
             line-height: $sm*2.25;
-            margin: $sm*2 0 $sm*0.25;
+            margin: $sm*3 0 $sm*0.5;
         }
     }
 

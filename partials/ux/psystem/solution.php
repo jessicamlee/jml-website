@@ -81,7 +81,7 @@
         <p>The primary call&dash;to&dash;action for the Webinar Event cards section on the Webinar page was to guide users to sign up for the upcoming webinar&period;</p>
         <p>From learning about the team&apos;s thought processes from a first glance at the iterations&comma; I modified the original wireframe in 3 steps as follows&colon;</p>
         <ol>
-            <li><span class="bolded">Noticed a lack of focal point</span> ith the 3 webinar cards every odd row and 2 cards every even row grid pattern&period; The users&apos; eyes were drawn toward the larger 2&dash;card row first instead of the first row&period;</li>
+            <li><span class="bolded">Noticed a lack of focal point</span> with the 3 webinar cards every odd row and 2 cards every even row grid pattern&period; The users&apos; eyes were drawn toward the larger 2&dash;card row first instead of the first row&period;</li>
             <li><span class="bolded">Revised to 2&dash;column grid layout</span> to restore balance to this force and prioritize the larger cards to capture and maintain user&apos;s attention&period; It still wasn&apos;t enough&semi; I iterated one more round of possibilities&period;</li>
             <li><span class="bolded">A focal point was achieved</span> while maintaining the balanced grid layout from Version 2 to guide users to the latest&comma; upcoming webinar to sign up for first before revealing the past webinars they cannot sign up for&period;</li>
         </ol>

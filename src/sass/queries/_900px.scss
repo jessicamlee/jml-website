@@ -89,6 +89,21 @@
         .cs-summary p, .tldr-details p {
             margin-bottom: $sm*0.15;
         }
+
+        .notable-designs {
+            display: flex;
+            gap: $sm*2;
+            margin-bottom: $sm;
+            align-items: center;
+        }
+
+        .notable-desc {
+            max-width: 37vw;
+        }
+
+        .even-designs {
+            flex-direction: row-reverse;
+        }
     }
 
     .cs-flex-img-box {
