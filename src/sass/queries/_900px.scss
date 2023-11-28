@@ -86,12 +86,8 @@
             margin-bottom: $sm;
         }
 
-        .cs-summary p {
+        .cs-summary p, .tldr-details p {
             margin-bottom: $sm*0.15;
-        }
-
-        li {
-            font-size: $sm*1.125;
         }
     }
 

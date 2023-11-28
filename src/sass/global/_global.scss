@@ -5,7 +5,7 @@
 
 body {
     margin: 0 auto;
-    font-size: 16px!important;
+    font-size: 18px!important;
     font-family: 'Poppins', sans-serif;
     background-color: $color-bg;
 }
@@ -31,7 +31,7 @@ a {
 li {
     list-style: none;
     list-style-type: none;
-    @include fontstyles ($color-primary, $sm, $normal, $base, $none);
+    @include fontstyles ($color-primary, $sm*1.125, $normal, $base, $none);
 }
 
 .section {

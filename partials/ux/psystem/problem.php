@@ -5,10 +5,17 @@
             $ux_project_img_src = 'psystem_cover';
             $ux_project_img_alt = 'Opened laptop screen with Psystem\'s webinar page of introduction text, discover webinar button, and a woman staring at a computer.';
             $ux_project_type = 'Webpage Redesigns';
-            $ux_project_roles = 'UX Designer, UX Researcher, Web Designer';
-            $ux_project_duration = 'January to March 2023';
+            $ux_project_roles = 'Sole UX Designer, responsible for research & implementation';
+            $ux_project_timeline = '3 months';
             include('partials/cards/ux-work-card.php');
         ?>
+        <div class="cs-section tldr-details">
+            <h2>The TLDR&semi;</h2>
+            <p><span class="bolded">Status&colon;</span> Designs Deployed&excl;</p>
+            <p><span class="bolded">Team&colon;</span> Product Owner&sol;Manager</p>
+            <p><span class="bolded">Goal Achieved&colon;</span> Redesigned 5 webpages into Ad Landing Pages for 2023 marketing campaigns</p>
+            <p><span class="bolded">Constraints&colon;</span> Webflow element&comma; Limited timeline as time was shared with development responsibilities</p>
+        </div>
         <div class="cs-section">
             <h2>Problem&colon; What &amp; Why Now&quest;</h2>
             <h3>Problem</h3>

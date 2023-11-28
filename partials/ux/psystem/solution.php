@@ -61,7 +61,46 @@
     </div>
     <div class="container cs-section">
         <h3>Iterate</h3>
-        <p>From the initial feedback&comma; I updated the wireframes as needed for a final review before moving forward with the high&dash;fidelity mockups&period; This step was one of the next most exciting phases as I had the opportunity to learn more about Colour Vision Deficiency &lpar;CVD&rpar; as the founder shared insights about why certain colours are used in Psystem&apos;s branding&period;</p>
+        <p>The design review and feedback process was a combination of sharing my work and process and taking note of the entire team&apos;s initial impressions&period;</p>
+        <p>The comments that had the most weight were from the project manager&sol;founder when they explained to me how they felt when they looked at each layout and section of the redesigned pages&period;</p>
+        <p>The 3 redesigned web pages that evolved the most are the Discover&comma; Webinar&comma; and Blog pages&period;</p>
+        <h4>Discovering a more engaging way to highlight Psystem</h4>
+        <p>The Discover page is the landing page to summarize what Psystem is and its various offerings including coaching services&comma; the PsyHealth App&comma; business consultations&comma; webinars&comma; and pathway courses&period;</p>
+        <p>The key changes to the &ldquo;Why Psystem&rdquo; section between the initial medium&dash;fidelity wireframe and the final design are the following&colon;</p>
+        <ul>
+            <li><span class="bolded">Redistributed 3 Highlights to Opportunity Space &num;2</span> below the video on the right&dash;hand side to remove the juxtaposition to the video and create visual balance&period;</li>
+            <li><span class="bolded">Reformatted the text</span> below the section heading to make the content more scannable and enjoyable to read for mobile readers&period;</li>
+            <li><span class="bolded">Maximized opportunity space</span> to include stakeholder input while maintaining visual appeal and balance between the written copy&comma; video&comma; and graphical content&period;</li>
+            <li><span class="bolded">Added visual balance and a focal point</span> to guide users when consuming the content for the first time&comma; especially toward the embedded video content&period;</li>
+        </ul>
+        <div class="img-container cs-body-img-container">
+            <img class="img-thumb" src="images/case-studies/psystem/psystem_iteration_discovery.jpg" alt="Two screenshots placed side-by-side to compare the changes in the web page layout on Psystem's Discover page">
+            <p class="cs-img-caption">The Before and After of the &ldquo;Why Psystem&rdquo; section in Desktop view on the Discover page&period;</p>
+        </div>
+        <h4>Making Webinar Event cards interesting  </h4>
+        <p>The primary call&dash;to&dash;action for the Webinar Event cards section on the Webinar page was to guide users to sign up for the upcoming webinar&period;</p>
+        <p>From learning about the team&apos;s thought processes from a first glance at the iterations&comma; I modified the original wireframe in 3 steps as follows&colon;</p>
+        <ol>
+            <li><span class="bolded">Noticed a lack of focal point</span> ith the 3 webinar cards every odd row and 2 cards every even row grid pattern&period; The users&apos; eyes were drawn toward the larger 2&dash;card row first instead of the first row&period;</li>
+            <li><span class="bolded">Revised to 2&dash;column grid layout</span> to restore balance to this force and prioritize the larger cards to capture and maintain user&apos;s attention&period; It still wasn&apos;t enough&semi; I iterated one more round of possibilities&period;</li>
+            <li><span class="bolded">A focal point was achieved</span> while maintaining the balanced grid layout from Version 2 to guide users to the latest&comma; upcoming webinar to sign up for first before revealing the past webinars they cannot sign up for&period;</li>
+        </ol>
+        <div class="img-container cs-body-img-container">
+            <img class="img-thumb" src="images/case-studies/psystem/psystem_iteration_webinar.jpg" alt="The 3 key versions of the Webinar event cards section show the progression after each iteration">
+            <p class="cs-img-caption">The 3 iterations of the Webinar events section in Desktop view on the Webinar page&period;</p>
+        </div>
+        <h4>Keeping the Blog simple and easy to read</h4>
+        <p>The original Blog page was not as established as the other web pages&comma; which gave me the creative freedom to experiment with how might I approach the redesign&period;</p>
+        <p>Taking inspiration from existing blog page layouts like Medium and news media websites&comma; I started with the following iteration&colon;</p>
+        <ul>
+            <li><span class="bolded">Simple Block display of a blog article card</span> to visualize how much space an article card could take up before it started to not meet user expectations&period;</li>
+            <li><span class="bolded">Add visual interest</span> by taking inspiration from the Webinar page and meeting user expectations to see the 3 cards per row layout&period;</li>
+            <li><span class="bolded">Webflow Article Component constraints</span> led to another iteration to revise the card appearance to support a more efficient way for Psystem&apos;s staff to publish content based on Webflow&apos;s setup&period;</li>
+        </ul>
+        <div class="img-container cs-body-img-container">
+            <img class="img-thumb" src="images/case-studies/psystem/psystem_iteration_blog.jpg" alt="The 3 key versions of the Blog Articles cards section show the progression after each iteration">
+            <p class="cs-img-caption">The 3 iterations of the Blog Articles section in Desktop view on the Blog page&period;</p>
+        </div>
         <h4>Creating Psystem&apos;s Style Tile</h4>
         <p>I proposed adding a tertiary colour to highlight call&dash;to&dash;action sections and was grateful to test and review the idea with the founder to check that it adds value to their visual user experience while positively contributing to Psystem&apos;s brand colours and supporting the landing page initiatives&period;</p>
         <p>To make my process more efficient&comma; I summarized Psystem&apos;s colours&comma; typography&comma; button styles&comma; and interaction details into a style guide for future designers working with Psystem&apos;s offerings and to maintain cohesive brand recognition for Psystem&apos;s other offering&comma; the PsyHealth mobile application&period;</p>
