@@ -78,9 +78,10 @@
     }
 
     a {
-        @include fontstyles ($color-primary, $sm, $normal, $base, $none);
+        @include fontstyles ($color-primary, $sm*1.0625, $normal, $base, $none);
         line-height: $sm*1.5;
-        border-bottom: $sm*0.09375 solid $color-primary;
+        border-bottom: $sm*0.125 solid $color-primary;
+        line-height: $sm*2;
     }
 
     .storytelling-content {
