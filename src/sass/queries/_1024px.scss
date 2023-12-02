@@ -61,7 +61,7 @@
         max-width: $sm*62.5;
     }
 
-    .backtotop:hover {
+    .backtotop:hover, .cs-body a:hover {
         border-bottom: $color-tertiary $sm*0.3 dotted;
         transition: 0.25s ease-in-out;
     }
