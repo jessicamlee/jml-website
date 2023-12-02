@@ -5,18 +5,19 @@
     h2 {
         text-align: left;
         font-size: $sm*2.25;
+        line-height: $sm*3;
     }
 
     h3 {
-        @include fontstyles ($color-tertiary, $sm*1.5, $normal, $base, $none);
+        @include fontstyles ($color-tertiary, $sm*1.85, $normal, $base, $none);
         line-height: $sm*2;
-        margin: $sm*1.25 0 $sm*0.25;
+        margin: $sm*1.25 0 $sm*0.5;
     }
 
     h4 {
-        @include fontstyles ($color-tertiary, $sm*1.4, $semibold, $base, $none);
+        @include fontstyles ($color-tertiary, $sm*1.5, $medium, $base, $none);
         line-height: $sm*1.5;
-        margin: $sm*1.5 0 $sm*0.5;
+        margin: $sm*2 0 $sm*0.75;
     }
 
     a {
@@ -64,9 +65,15 @@
     }
 }
 
-.cs-problem-stmt h4 {
-    margin: $sm 0 $sm*0.5;
+.cs-problem-stmt {
+    margin-bottom: $sm;
+
+    h3 {
+        font-weight: 500;
+        margin: $sm*0.5 0;
+    }
 }
+
 
 .cs-subsection {
     margin: $sm*2 auto $sm*3.5;    

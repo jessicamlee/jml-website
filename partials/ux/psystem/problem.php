@@ -5,24 +5,23 @@
             $ux_project_img_src = 'psystem_cover';
             $ux_project_img_alt = 'Opened laptop screen with Psystem\'s webinar page of introduction text, discover webinar button, and a woman staring at a computer.';
             $ux_project_type = 'Webpage Redesigns';
-            $ux_project_roles = 'Sole UX Designer, responsible for research & implementation';
+            $ux_project_roles = 'Sole UX Designer, research & implementation';
             $ux_project_timeline = '3 months';
             include('partials/cards/ux-work-card.php');
         ?>
         <div class="cs-section tldr-details">
             <h2>The TLDR&semi;</h2>
             <p><span class="bolded">Status&colon;</span> Designs Deployed&excl;</p>
-            <p><span class="bolded">Team&colon;</span> Product Owner&sol;Manager</p>
-            <p><span class="bolded">Goal Achieved&colon;</span> Redesigned 5 webpages into Ad Landing Pages for 2023 marketing campaigns</p>
-            <p><span class="bolded">Constraints&colon;</span> Webflow element&comma; Limited timeline as time was shared with development responsibilities</p>
+            <p><span class="bolded">Team&colon;</span> Product Owner &lpar;a&period;k&period;a&period; Psystem&apos;s Founder&rpar;</p>
+            <p><span class="bolded">Goal Achieved&colon;</span> Transformed 5 web pages into Ad Landing Pages for 2023 marketing campaigns</p>
+            <p><span class="bolded">Constraints&colon;</span> Webflow elements&comma; Time crunch &lpar;juggling UX development responsibilities&rpar;</p>
         </div>
         <div class="cs-section">
-            <h2>Notable Designs</h2>
-            <p>Before diving into the project journey&comma; let&apos;s check out the 3 highlights of Psystem&apos;s redesigned web pages&excl;</p>
+            <h2>Redesigned Web Pages Highlights</h2>
             <div class="notable-designs">
                 <div class="notable-desc">
                     <h3>🤼 Coaching Services</h3>
-                    <p>The new Services page answered the question&comma; &ldquo;What services does Psystem offer to support your chronic pain and health and wellness journey&quest;&rdquo;</p>
+                    <p>Unveiling Psystem&apos;s Chronic Pain magic for your wellness journey&period;</p>
                 </div>
                 <div class="img-container cs-body-img-container">
                     <video width="1080" height="400" autoplay loop muted>
@@ -36,7 +35,7 @@
             <div class="notable-designs even-designs">
                 <div class="notable-desc">
                     <h3>📅 Life Beyond Chronic Pain Webinars</h3>
-                    <p>Gathering feedback from the entire team gave me more input and perspectives to further iterate the Webinar page to encourage user engagement while meeting webinar signup target&period;</p>
+                    <p>Creating a Webinar wonderland with feedback&dash;driven flair to boost signups for newsletters and coaching appointments&excl;</p>
                 </div>
                 <div class="img-container cs-body-img-container">
                     <video width="1080" height="400" autoplay loop muted>
@@ -50,7 +49,7 @@
             <div class="notable-designs">
                 <div class="notable-desc">
                     <h3>📚 Chronic Pain Pathways</h3>
-                    <p>Clearly defining the best practices of self&dash;guided course landing pages through robust secondary research and landing page analyses helped me test and iterate my designs within budget constraints&period;</p>
+                    <p>I spruced up Psystem&apos;s first self&dash;guided course thanks to the research&comma; landing page wizardry&comma; and A&sol;B testing adventures&period;</p>
                 </div>
                 <div class="img-container cs-body-img-container">
                     <video width="1080" height="400" autoplay loop muted>
@@ -63,20 +62,19 @@
             </div>
         </div>
         <div class="cs-section">
-            <h2>Problem&colon; What &amp; Why Now&quest;</h2>
-            <h3>Problem</h3>
-            <p>Psystem is a health and wellness company that was in need of a website redesign as the brand colours&comma; styles&comma; and marketing focus changed to support an upcoming social media marketing campaign to use the webpages as advertisements &lpar;or &ldquo;ad&rdquo;&rpar; landing pages to increase coaching appointments bookings and newsletter signup conversions&period;</p>
-            <p>A few of the technical issues included a lack of a responsive web experience for mobile users&comma; misuse of headings for Search Engine Optimization &lpar;SEO&rpar; performance&comma; and unstreamlined webpages for scannable content that would encourage users to take action to increase conversions&period;</p>
+            <h2>What&apos;s the Problem&colon; &amp; Why the Urgency&quest;</h2>
+            <h3>How can I make content accessible for users and marketing campaign visibility&quest;</h3>
+            <p><a href="https://www.psystem.ca/" target="_blank" title="Link to Psystem's website">Psystem</a> needed a website redesign to align with its new marketing campaigns and improve the user experiences for mobile users&period;</p>
             <div class="cs-problem-stmt">
-                <h4>Problem Statement</h4>
-                <p>How might we <span class="bolded-italic">help mobile users</span> so that <span class="bolded-italic">mobile users can easily access information to learn more about and sign up for Psystem&apos;s services without feeling overwhelmed by the new information</span>&quest;</p>
+                <h3>Problem Statement</h3>
+                <p>How might we <span class="bolded-italic">make information more accessible for mobile users</span> so that <span class="bolded-italic">they can easily find and sign up for Psystem&apos;s services without feeling overwhelmed by new details</span>&quest;</p>
             </div>
-            <h3>Goal</h3>
-            <p class="cs-goal-highlight">Redesign the Coaching Services&comma; Webinar&comma; Toolkit Signup&comma; and App web pages so users can easily access a responsive&comma; mobile-first user experience when navigating from Instagram ad redirects to the website&period;</p>
-            <h3>Approach</h3>
-            <h4>Empathize → Define → Ideate → Iterate → Test</h4>
-            <p>Being the only designer for this project&comma; I followed a variation of the Design-Thinking concept by replacing the Prototype phase with the Iterate phase&period; I made this decision because the iteration for this project primarily focused on creating and optimizing static ad landing pages&period;</p>
-            <p>To encourage users to continue discovering more about Psystem&apos;s offerings&comma; I took the initiative to suggest an update for Psystem&apos;s Global and Footer Navigation menu sections to support an intuitive exploration of Psystem&apos;s website&period;</p>
+            <div class="cs-problem-stmt">
+                <h3>Goal</h3>
+                <p>Redesign multiple key web pages for a <span class="bolded-italic">responsive&comma; mobile&dash;first experience&comma;</span> aiming to <span class="bolded-italic">increase coaching bookings and newsletter signups</span>&period;</p>
+            </div>
+            <h3>The Empathize → Define → Ideate → Iterate → Test Approach</h3>
+            <p>I investigated through a user&dash;centric approach&comma; reshaping web pages with feedback-fueled decisions to meet the business goals&period;</p>
         </div>
     </div>
 </section>

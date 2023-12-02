@@ -1,34 +1,31 @@
 <section class="subpg-section">
     <div class="container cs-section">
-        <h2>Takeaways</h2>
-        <p>For an internship experience&comma; I am grateful to have the opportunity to take the lead in updating the select webpages to support Psystem&apos;s upcoming marketing campaign and business goals in driving conversions and providing informative value and resources to their users&period;</p>
-        <h3>✨ How my work impacted the website</h3>
-        <p>To track the visitors on the website while advocating for cookie consent&comma; I got permission to add a Cookie Consent app provided by Elfsight&period; The regular updates from Elfsight&apos;s insight reveal <span class="bolded">more than 200 monthly view visits</span> 2 weeks into the month&comma; which was an increase of around 33&percnt; in website visits&period;</p>
-        <div class="img-container cs-body-img-container">
-            <img class="img-thumb" src="images/case-studies/psystem/psystem_myimpact.jpg" alt="Screencap of Elfsight's Cookie Consent notice that website visits have surpassed the 200 view limit for the month of May 2023">
-            <p class="cs-img-caption">Highlighting the positive impact of more website visits tracked by Elfsight&apos;s Cookie Consent tool&period;</p>
-        </div>
-        <p>Psystem&apos;s founder expressed <span class="bolded">appreciation for bringing their vision to life</span> with limited visual references provided to me&period; Including them in every step within and beyond the design process provided more confidence to them about how the project was progressing and set clear expectations for the end result&period;</p>
+        <h2>Outcome&colon; I brought the vision to life</h2>
+        <p>Thrilled to lead the redesign&comma;  I prepared the team for Psystem&apos;s upcoming campaigns with the informative ad landing pages&period; <span class="bolded">The gratitude levels were off the charts&excl;</span></p>
         <div class="img-container cs-body-img-container">
             <img class="img-thumb" src="images/case-studies/psystem/psystem_recommendation.jpg" alt="Three highlighted aspects of Jessica's impact from a LinkedIn Recommendation note">
             <p class="cs-img-caption">Highlighting my impact on Psystem&apos;s growth from Psystem&apos;s founder&apos;s LinkedIn recommendation note&period;</p>
         </div>
-        <h3>🌱 What I learned</h3>
-        <p>While I learned a lot more about myself when putting my user experience design and research&comma; project management&comma; and curious learning mindset to the test&comma; the most memorable lessons I learned are the following&colon;</p>
+        <p>I also implemented a Cookie Consent tool that tracked <span class="bolded">more than 200 monthly view visits</span>&comma; which <span class="bolded">increased by around 33&#x0025; in website visits</span>&period;</p>
+        <div class="img-container cs-body-img-container">
+            <img class="img-thumb" src="images/case-studies/psystem/psystem_myimpact.jpg" alt="Screencap of Elfsight's Cookie Consent notice that website visits have surpassed the 200 view limit for the month of May 2023">
+            <p class="cs-img-caption">Highlighting the positive impact of more website visits tracked by Elfsight&apos;s Cookie Consent tool&period;</p>
+        </div>
+        <h2>Wisdom Gained&comma; Onwards I go</h2>
+        <h3>🌱 Lessons Learned&colon; Design&comma; Manage&comma; Learn&comma; Repeat&excl;</h3>
+        <p>In my UX design and research&comma; project management&comma; and curious explorer mode&comma; I discovered a treasure box of insights&colon;</p>
         <ul>
-            <li><span class="bolded">Research is my best friend</span> whether I am trying to learn more about the competitors&comma; users&comma; market&comma; expectations&comma; or technologies used to implement the design&comma; there is always something for me to learn and consider in the empathizing and planning stages of a project&semi;</li>
-            <li><span class="bolded">Asking about the existing research</span> to learn more about what the company has established or may not have explored yet also further validates the product-market fit that can influence the design process&semi;</li>
-            <li><span class="bolded">Starting the conversation early with stakeholders</span> to set expectations about an iterative design process helped me demonstrate my domain knowledge and care for the design and business&apos;s resources from a project management standpoint&semi;</li>
-            <li><span class="bolded">Asking questions reduces future problems</span> as everyone can have different interpretations and connotations of the same idea&comma; so good communication helps to ensure everyone involved arrives at the same agreed-upon end result&semi; and</li>
-            <li><span class="bolded">Providing regular updates</span> through messages and video conferences early on sets the expectation to encourage constant&comma; good communication throughout the project&comma; which is especially helpful if or when a problem arises&period;</li>
+            <li><span class="bolded">Research is my ride&dash;or&dash;die</span>&comma; whether I am learning about competitors&comma; users&comma; market trends&comma; or the tech scene &mdash; there&apos;s always something in the empathy and planning learning experience&period;</li>
+            <li><span class="bolded">Starting chats early with stakeholders</span> is like a rewarding workout for my design and management muscles&period; I get to show my wisdom and love for projects from start to finish&period;</li>
+            <li><span class="bolded">Keeping constant conversation</span> paves the path for constant, clear communication with stakeholders when a concern arises&period;</li>
         </ul>
         <h3>📌 Next Steps</h3>
-        <p>To further optimize the webpages to increase conversions&comma; I would like to</p>
+        <p>To scale the web page conversions&comma; I am curious to</p>
         <ul>
-            <li><span class="bolded">Learn what is and is not supporting an intuitive and accessible user experience</span> across all of Psytem&apos;s webpages by analyzing the Key Performance Indicators &lpar;KPIs&rpar; and other measured analytics&semi;</li>
-            <li><span class="bolded">Conduct more formal usability tests</span> with users beyond Psytem&apos;s internal testers to learn about overlooked behaviour and pain points that can be addressed to make the website more accessible for chronic pain sufferers and their caretakers&semi; and</li>
-            <li><span class="bolded">Research more on the website&dash;to&dash;mobile application user journey</span> to support a seamless user journey that supports Psystem&apos;s business goals in connecting the value of the website and the mobile application&apos;s functionalities&period;</li>
+            <li><span class="bolded">Uncover the UX secrets</span> by diving into Psytem&apos;s Key Performance Indicators &lpar;KPIs&rpar; and and analytics to learn what clicks and what clunks&period;</li>
+            <li><span class="bolded">Unroll the usability red carpet with tests</span> wbeyond internal testers to catch new pain points and opportunities for a chronic pain&dash;friendly website&period;</li>
+            <li><span class="bolded">Embark on a quest to map the website&dash;to&dash;mobile app journey</span> to create a smooth ride that aligns with Psystem&apos;s goals on both platforms&period;</li>
         </ul>
-        <p>🌿 <span class="bolded">Thank you for reviewing my work&excl;</span> If you have questions or would like to chat with me about my process&comma; connect with me on LinkedIn&excl; I look forward to learning from your thoughts and feedback&period; 🥳</p>
+        <p>🌿 <span class="bolded">Thank you for checking out my adventure&excl;</span> Got thoughts or questions&quest; Let&apos;s chat on <a href="https://www.linkedin.com/in/jessicamlee-/" target="_blank" title="Connect with Jessica on LinkedIn">LinkedIn&excl; I&apos;m excited to learn from your wisdom&excl; 🥳</p>
     </div>
 </section>
