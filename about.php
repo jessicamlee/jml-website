@@ -9,6 +9,7 @@
             <?php include('partials/global/header.php'); ?>
             <main>
                 <?php include('partials/about/about-jessica.php'); ?>
+                <?php include('partials/about/mission-values.php'); ?>
                 <?php include('partials/about/proud-moments.php'); ?>
                 <?php include('partials/global/contact.php'); ?>
             </main>
