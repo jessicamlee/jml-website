@@ -1,6 +1,6 @@
 <section class="subpg-section">
     <div class="container cs-section">
-        <h2>The Design Sauce&colon; How in the World&quest;</h2>
+        <h2>Designing the Solution</h2>
         <h3>Empathize</h3>
         <p>I engaged in interviews with Psystem&apos;s founder and Vice President of Operations who are both familiar with chronic pain&period;</p>
         <h4>Elevating user experiences by identifying existing pain points</h4>
@@ -48,10 +48,10 @@
             <p class="cs-img-caption">Pen&dash;and&dash;paper wireframes during the ideation phase for the Services Subpages to explore the options in providing value to the users&period;</p>
         </div>
         <p>From the pen&dash;and&dash;paper chaos&comma; I plucked the influential layouts to create the top 3 digital low&dash;fidelity wireframes to review and critique before the high&dash;fidelity mockups begin&period;</p>
-        <h4>Micro changes for Macro Accessibility for all</h4>
+        <h4>Micro changes for Macro Accessibility</h4>
         <p>In a chat with the project manager&comma; I showcased the wallet&dash;friendly perks of an iterative design approach&period; I advocated for a more accessible website&comma; aligning with the Web Content Accessibility Guidelines &lpar;WCAG&rpar;&period;</p>
-        <p>My design magic&quest;</p>
-        <p>Proposing visible hover states in the menus&comma; easy&dash;to&dash;select buttons for tablet and mobile users&comma; and a typography style for all screen sizes&period; One small step for design&comma; one giant leap for accessibility joy&period;</p>
+        <p>What did I propose&quest;</p>
+        <p>Adding visible hover states in the menus&comma; easy&dash;to&dash;select buttons for tablet and mobile users&comma; and a typography style for all screen sizes&period; One small step for design&comma; one giant leap for accessibility joy&period;</p>
     </div>
     <div class="container cs-section">
         <h3>Iterate</h3>
@@ -60,7 +60,7 @@
         <p>The 3 redesigned web pages that evolved the most are the Discover&comma; Webinar&comma; and Blog pages&period;</p>
         <h4>Discover Psystem&apos;s Healing Power</h4>
         <p>The revamped Discover page spills the beans on Psystem&apos;s coaching services&comma; PsyHealth app&comma; business consultations&comma; webinars&comma; and pathway courses&period;</p>
-        <p>What&apos;s the charm behind &ldquo;Why Psystem&rdquo;&excl;</p>
+        <p>What&apos;s the charm behind &ldquo;Why Psystem&rdquo; section&quest;</p>
         <ul>
             <li><span class="bolded">Text makeover</span> to make the content more scannable and enjoyable for mobile readers&period;</li>
             <li><span class="bolded">Optimized opportunity spaces</span> from stakeholder input to prioritize visual appeal between the written copy&comma; video&comma; and graphical content&period;</li>
@@ -94,7 +94,7 @@
         </div>
         <h4>Style Tile&colon; Crafting Design Harmony</h4>
         <p>I added a pop of tertiary colour for visual interest without stealing the spotlight from Psystem&apos;s main brand colours&period;</p>
-        <p>Enter the style tile &mdash; my productivity buddy&excl;</p>
+        <p>Enter the style tile &mdash; my time and energy saver&excl;</p>
         <p>Assembling Psystem&apos;s colours&comma; typography&comma; button styles&comma; and interactions in one space ensured the brand was consistent across all of the offerings I contributed to&period;</p>
         <div class="img-container cs-body-img-container">
             <img class="img-thumb" src="images/case-studies/psystem/psystem_styletile.jpg" alt="A visual summary of the colours, typography, buttons, icons, and brand identity graphics of Psystem's brand">
