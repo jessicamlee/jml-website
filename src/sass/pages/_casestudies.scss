@@ -30,11 +30,13 @@
     p {
         font-size: $sm*1.125;
         margin-bottom: $sm*0.75;
+        color: $color-white;
     }
 
     li {
         margin: $sm*0.5 0 0 $sm*2.5;
         line-height: $sm*1.75;
+        color: $color-white;
     }
 
     li::before {
@@ -80,7 +82,7 @@
 }
 
 .cs-summary {
-    max-width: $sm*81.25;
+    max-width: $sm*62.5;
     align-items: center;
 
     h1 {
@@ -101,9 +103,9 @@
 }
 
 .cs-img-caption {
-    @include fontstyles ($color-primary, $sm*1.06, $medium, $italic, $none);
-    margin-top: $sm*0.75;
-    margin-bottom: 0 !important; 
+    @include fontstyles ($color-white, $sm*0.875, $medium, $italic, $none);
+    margin: $sm*0.75 0 0 !important;
+    font-size: $sm !important;
     line-height: $sm*1.5;
 }
 

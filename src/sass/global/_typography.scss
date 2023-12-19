@@ -24,6 +24,6 @@ h4 {
 }
 
 p {
-    @include fontstyles ($color-primary, $sm*1.125, $normal, $base, $none);
+    @include fontstyles ($color-white, $sm*1.125, $normal, $base, $none);
     line-height: $sm*1.65;
 }

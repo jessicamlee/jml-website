@@ -34,9 +34,12 @@
         margin-bottom: $sm;
     }
 
-    ul {
+    ul, .mission-values-box, .values {
         display: flex;
         flex-direction: column;
+    }
+
+    ul {
         gap: $sm*1.25;
         margin: 0 auto;
         max-width: $sm*34.375;
@@ -47,19 +50,23 @@
     }
 
     .about-highlight {
-        font-weight: 600;
-        font-size: $sm*1.125;
+        @include fontstyles ($color-tertiary, $sm*1.125, $semibold, $base, $none);
         line-height: $sm*1.5;
         margin-bottom: $sm*0.2;
     }
 
     .highlight-date {
-        font-weight: 400;
-        font-size: $sm*0.9;
+        @include fontstyles ($color-primary, $sm, $medium, $base, $none);
         margin-bottom: $sm*0.3;
     }
 
-    .highlight-desc {
-        font-size: $sm;
+    .mission-values-box {
+        gap: $sm*0.5;
+        margin: 0 auto;
+        max-width: $sm*34.375; 
+    }
+
+    .values {
+        gap: $sm*0.5;
     }
 }

@@ -17,7 +17,7 @@
     }
 
     .projects, .about, .contact p {
-        @include fontstyles ($color-primary, $sm, $normal, $base, $none);
+        @include fontstyles ($color-primary, $sm*1.125, $normal, $base, $none);
     }
 
     .projects .more-projects {
