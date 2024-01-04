@@ -3,7 +3,7 @@
         <h2>Designing the Solution</h2>
         <h3>Empathize</h3>
         <p>I engaged in interviews with Psystem&apos;s founder and Vice President of Operations who are both familiar with chronic pain&period;</p>
-        <h4>Elevating user experiences by identifying existing pain points</h4>
+        <h4>Elevating user experiences by identifying pain points</h4>
         <p>During the user interviews&comma; I wanted to learn about the user&apos;s current experience and expectations for the website&period;</p>
         <p>Through user interviews and empathetic follow&dash;up questions&comma; I pinpointed the following areas to enhance on each web page&colon;</p>
         <ul>
@@ -11,7 +11,7 @@
             <li><span class="bolded">Unclear coaching appointment signups</span> due to lack of content cohesiveness&semi; and</li>
             <li><span class="bolded">Incomplete experience</span> regarding insufficient information about Psystsem&apos;s sub-services&period;</li>
         </ul>
-        <h4>Spotting Opportunities like a Web Page Detective</h4>
+        <h4>Spotting Opportunities</h4>
         <p>I combed through Psystem&apos;s web pages like a digital detective to identify opportunity spaces for the redesign&period;</p>
         <div class="img-container cs-body-img-container">
             <img class="img-thumb" src="images/case-studies/psystem/psystem_critique1.jpg" alt="Desktop and mobile screens of Psystem's previous Services page with labels of areas of improvement for the hero or top of the page">
@@ -33,7 +33,7 @@
             <li><span class="bolded">Navigation Nudges&colon;</span> 3 of 5 participants faced the wild ride of inconsistent menus and asked for a consistent roadmap&period;</li>
             <li><span class="bolded">Structured Sip of Information&colon;</span> Everyone&apos;s parched for knowledge&excl; Unfortunately&comma; both desktop and mobile experiences lacked the organization to make it easier to continue reading&period;</li>
         </ul>
-        <h4>What Psystem&apos;s Users currently need</h4>
+        <h4>What Psystem&apos;s users currently need</h4>
         <ul>
             <li><span class="bolded">Mobile Maestro&colon;</span> For the mobile&dash;savvy chronic pain warrior&comma; I aim to make info easily digestible on the services page&period; Deciding on Psystem&apos;s offerings should be a breeze on your phone&excl;</li>
             <li><span class="bolded">Webinar Wizard&colon;</span> Calling all caretakers&excl; I&apos;m on a mission to help you swiftly locate and register for Psystem&apos;s webinars&period; Because who has time to waste when caring for a loved one and yourself&quest;</li>

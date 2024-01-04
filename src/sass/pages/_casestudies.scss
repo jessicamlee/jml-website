@@ -14,9 +14,9 @@
         margin: $sm*1.25 0 $sm*0.5;
     }
 
-    h4 {
+    h4, .hhighlight {
         @include fontstyles ($color-tertiary, $sm*1.5, $medium, $base, $none);
-        line-height: $sm*1.5;
+        line-height: $sm*1.75;
         margin: $sm*2 0 $sm*0.75;
     }
 
@@ -61,21 +61,18 @@
     background-color: $color-highlight;
     padding: $sm*0.75 $sm*1.75 $sm*0.5;
     border-radius: $sm*0.75;
+    margin-bottom: $sm;
+
+    h3 {
+        font-size: $sm*1.5;
+        font-weight: 500;
+        margin: $sm*0.5 0;
+    }
 
     p {
         color: $color-bg;
     }
 }
-
-.cs-problem-stmt {
-    margin-bottom: $sm;
-
-    h3 {
-        font-weight: 500;
-        margin: $sm*0.5 0;
-    }
-}
-
 
 .cs-subsection {
     margin: $sm*2 auto $sm*3.5;    
