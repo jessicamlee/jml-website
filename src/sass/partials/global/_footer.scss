@@ -5,7 +5,7 @@ footer {
     background-color: $color-primary;
     
     p {
-        @include fontstyles($color-secondary, $sm*0.9, $normal, $base, $none);
+        @include fontstyles($color-secondary, $sm, $normal, $base, $none);
         text-align: center;
         line-height: $sm*1.5;
     }

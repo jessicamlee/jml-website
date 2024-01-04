@@ -1,0 +1,167 @@
+@use '../utilities' as *;
+
+.cs-body {
+
+    h2 {
+        text-align: left;
+        font-size: $sm*2.25;
+        line-height: $sm*3;
+    }
+
+    h3 {
+        @include fontstyles ($color-tertiary, $sm*1.85, $normal, $base, $none);
+        line-height: $sm*2.5;
+        margin: $sm*1.25 0 $sm*0.5;
+    }
+
+    h4, .hhighlight {
+        @include fontstyles ($color-tertiary, $sm*1.5, $medium, $base, $none);
+        line-height: $sm*1.75;
+        margin: $sm*2 0 $sm*0.75;
+    }
+
+    a {
+        color: $color-primary;
+        border-bottom: $color-tertiary $sm*0.2 dotted;
+        margin-bottom: $sm*0.5;
+        cursor: pointer;
+    }
+
+    p {
+        font-size: $sm*1.125;
+        margin-bottom: $sm*0.75;
+        color: $color-white;
+    }
+
+    li {
+        margin: $sm*0.5 0 0 $sm*2.5;
+        line-height: $sm*1.75;
+        color: $color-white;
+    }
+
+    li::before {
+        content: "\2022";
+        color: $color-primary;
+        font-weight: bold;
+        display: inline-block; 
+        width: $sm;
+        margin-left: $sm*-1;
+    }
+
+    li:last-child {
+        margin-bottom: $sm;
+    }
+}
+
+.tldr-details p, .cs-summary p {
+    margin-bottom: $sm*0.25;
+}
+
+.cs-section .cs-problem-stmt {
+    background-color: $color-highlight;
+    padding: $sm*0.75 $sm*1.75 $sm*0.5;
+    border-radius: $sm*0.75;
+    margin-bottom: $sm;
+
+    h3 {
+        font-size: $sm*1.5;
+        font-weight: 500;
+        margin: $sm*0.5 0;
+    }
+
+    p {
+        color: $color-bg;
+    }
+}
+
+.cs-subsection {
+    margin: $sm*2 auto $sm*3.5;    
+}
+
+.cs-summary {
+    max-width: $sm*62.5;
+    align-items: center;
+
+    h1 {
+        margin-bottom: $sm;
+    }
+}
+
+.cs-intro {
+    margin-top: $sm*3;
+}
+
+.cs-img-container {
+    max-width: $sm*44;
+}
+
+.cs-body-img-container {
+    max-height: fit-content;
+}
+
+.cs-img-caption {
+    @include fontstyles ($color-white, $sm*0.875, $medium, $italic, $none);
+    margin: $sm*0.75 0 0 !important;
+    font-size: $sm !important;
+    line-height: $sm*1.5;
+}
+
+.cs-flex-img-box {
+    display: flex;
+    flex-direction: column;
+    gap: $sm;
+}
+
+.cs-flex-img {
+    width: 100%;
+    height: 100%;
+}
+
+.cs-btns {
+    flex-direction: row;
+    margin-top: $sm;
+
+    a {
+        border: 0.15rem solid $color-primary;
+    }
+
+    .btn-primary {
+        color: $color-secondary;
+    }
+}
+
+.cs-half-width {
+    width: 90vw;
+}
+
+.cs-flex-tablet {
+    flex-direction: column;
+    gap: $sm;
+    justify-content: space-evenly;
+    margin-bottom: $md;
+}
+
+.cs-goal-stmt {
+    flex-direction: column;
+    gap: $sm*0.5;
+    margin-left: $lg;
+
+    p {
+        margin-bottom: 0;
+    }
+}
+
+.cs-ty-note {
+    margin-top: $sm*2;
+}
+
+.peer-feedback-box {
+    flex-direction: column;
+    gap: $sm*0.5;
+    max-width: $sm*34.375;
+    margin: 0 auto $sm*2;
+
+    p {
+        margin-bottom: 0;
+    }
+}

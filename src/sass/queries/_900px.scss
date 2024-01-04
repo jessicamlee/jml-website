@@ -7,46 +7,58 @@
     }
     
     h2 {
-        @include fontstyles ($color-primary, $sm*2.5, $light, $base, $uppercase);
-        margin-bottom: $sm*0.3;
+        @include fontstyles ($color-primary, $sm*2.5, $light, $base, $none);
+    }
+
+    h3 {
+        @include fontstyles ($color-primary, $sm*2.25, $normal, $base, $none);
     }
 
     p {
-        @include fontstyles ($color-primary, $sm*1.125, $normal, $base, $none);
-    }
-
-    header .gn a {
-        @include fontstyles($color-primary, $sm*1.125, $normal, $base, $uppercase);
+        @include fontstyles ($color-white, $sm*1.125, $normal, $base, $none);
+        line-height: $sm*1.85;
     }
 
     .work .work-collection {
 
         li {
             align-items: center;
-        }
-        
-        .img-container {
-            width: 60%;
+            gap: $sm*3;
         }
 
         .links-container {
             padding: 0;
-            width: 37%;
         }
     }
 
-    .work h2, .projects h2 {
+    .work h2 {
         margin-bottom: $sm;
     }
 
     .intro {
         h1 {
-            font-size: $sm*3.75;
+            font-size: $sm*4.5;
             margin-top: $xs;
         }
 
         .career-role {
             @include fontstyles ($color-primary, $sm*1.35, $normal, $italic, $none); 
+        }
+
+        .career-goal {
+            font-size: $sm*1.75;
+            line-height: $sm*2.25;
+        }
+    }
+
+    .about .bio {
+        flex-direction: row;
+        column-gap: $sm*3.5;
+        margin-top: $sm;
+
+        img {
+            height: $sm*25;
+            width: auto;
         }
     }
 
@@ -67,5 +79,41 @@
 
     .storytelling-col {
         padding-left: $sm*5;
+    }
+
+    .cs-body {
+        p {
+            margin-bottom: $sm;
+        }
+
+        .cs-summary p, .tldr-details p {
+            margin-bottom: $sm*0.15;
+        }
+
+        .notable-designs {
+            display: flex;
+            gap: $sm*2;
+            margin-bottom: $sm;
+            align-items: center;
+        }
+
+        .notable-desc {
+            max-width: 37vw;
+            margin-bottom: $sm*8;
+        }
+
+        .even-designs {
+            flex-direction: row-reverse;
+        }
+    }
+
+    .cs-flex-img-box {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .cs-portrait-width {
+        width: 35vw;
     }
 }

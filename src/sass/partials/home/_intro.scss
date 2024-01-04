@@ -2,7 +2,7 @@
 
 .intro {
     text-align: center;
-    height: 70vh;
+    height: 65vh;
     padding-top: $sm*2;
 
     h1 {
@@ -11,13 +11,18 @@
 
     .career-role {
         @include fontstyles ($color-primary, $sm, $normal, $italic, $none);
-        margin-top: $sm*0.25;
+        margin-top: $sm*0.75;
+        margin: $sm auto;
     }
 
     .career-goal {
         @include fontstyles($color-primary, $sm*1.25, $normal, $base, $none);
         justify-content: center;
-        line-height: $sm*1.25;
-        margin: $sm*1.5 0;
+        line-height: $sm*1.85;
+        margin: $sm*2 auto $sm;
+    }
+
+    .career-role, .career-goal {
+        max-width: $sm*27;
     }
 }

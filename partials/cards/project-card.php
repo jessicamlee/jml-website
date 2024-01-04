@@ -20,8 +20,8 @@
                 <p><?php echo $project_desc; ?></p>
             </div>
             <div class="btn-container flex">
-                <a class="live-link" tabindex="0" href="<?php echo $live_link; ?>" target="_blank" title="Visit Live Site">Visit Site</a>
-                <a class="code-link" tabindex="0" href="<?php echo $code_link; ?>" target="_blank" title="Visit GitHub Repository">Review Code</a>
+                <a class="btn-primary" tabindex="0" href="<?php echo $live_link; ?>" target="_blank" title="Visit Live Site">Visit Live Site</a>
+                <a class="btn-secondary" tabindex="0" href="<?php echo $code_link; ?>" target="_blank" title="Visit GitHub Repository">Review Code</a>
             </div>
         </div>
     </div>

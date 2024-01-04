@@ -1,0 +1,91 @@
+@use '../utilities' as *;
+
+.subpage-intro {
+    text-align: center;
+
+    h1 {
+        margin: $sm*2 0 $sm;
+    }
+
+    .pg-preface {
+        margin: $sm*1.5 auto;
+        max-width: $sm*35;
+        text-align: center;
+    }
+}
+    
+.links-container {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.btn-container {
+    justify-content: space-evenly;
+    gap: $sm*0.65;
+    flex-direction: column;
+}
+
+.btn-primary, .btn-secondary {
+    width: 100%;
+    padding: $sm*0.6 $sm*0.7;
+    border-radius: $sm*1.5;
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: $color-primary;
+    border: $sm*0.15 solid $color-primary;
+    color: $color-secondary;
+    @include fontstyles($color-secondary, $sm*1.0625, $normal, $base, $none);
+}
+
+.btn-secondary {
+    background-color: transparent;
+    border: $sm*0.15 solid $color-primary;
+    @include fontstyles($color-primary, $sm*1.0625, $normal, $base, $none);
+}
+
+.project-details {
+    padding: $sm*0.5 0 $sm;
+    text-align: center;
+}
+
+
+.storytelling {
+
+    .why-write {
+        text-align: center;
+        margin: $sm*3 auto;
+        max-width: 33rem;
+    }
+
+    h3 {
+        margin-top: $sm*1.75;
+    }
+
+    li {
+        margin: $sm*0.75 0 $sm $sm*2.5;
+    }
+
+    li::before {
+        content: "\2022";
+        color: $color-primary;
+        font-weight: bold;
+        display: inline-block; 
+        width: $sm;
+        margin-left: $sm*-1;
+    }
+
+    a {
+        @include fontstyles ($color-primary, $sm*1.0625, $normal, $base, $none);
+        line-height: $sm*1.5;
+        border-bottom: $sm*0.125 solid $color-primary;
+        line-height: $sm*2;
+    }
+
+    .storytelling-content {
+        margin: 0 auto;
+        max-width: $sm*43.75;
+    }
+}

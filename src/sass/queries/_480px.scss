@@ -5,17 +5,16 @@
     .intro {
 
         h1 {
-            font-size: $sm*3.25;
-            margin-top: $xs;
+            font-size: $sm*4;
+            margin-top: $sm 0;
         }
 
         .career-role {
-            @include fontstyles ($color-primary, $sm*1.25, $normal, $italic, $none); 
+            @include fontstyles ($color-primary, $sm*1, $normal, $italic, $none);
         }
 
         .career-goal {
-            margin: $sm*1.25 0;
-            font-size: $sm*1.5;
+            font-size: $sm*1.25;
         }
 
         .blobwindow {
@@ -24,11 +23,7 @@
         }
     }
 
-    .projects .more-projects {
-        @include fontstyles ($color-primary, $sm*1.1, $normal, $base, $none);
-    }
-
-    .projects .btn-container, .dev-projects .project-card .btn-container, .ux-projects .project-card .btn-container {
+    .btn-container {
         justify-content: space-evenly;
         flex-direction: row;
     }
@@ -37,15 +32,14 @@
         height: 50vw;
     }
 
-    .toolkit .pg-preface, .storytelling .pg-preface {
-        max-width: 90%;
+    .pg-preface {
+        max-width: 90vw;
     }
 
     .footer p {
         @include fontstyles ($color-secondary, $sm, $normal, $base, $none);
     }
 
-    // Focus & Active States
     header .header-bar a {
         &:focus, &:active {
             padding: $sm*0.2;
@@ -54,9 +48,9 @@
         }
     }
     
-    .work, .projects .btn-container, .dev-projects .project-card .btn-container, .ux-projects .project-card .btn-container {
+    .work, .dev-projects, .ux-projects {
 
-        .live-link, .prototype-link, .link-btn {
+        .btn-primary {
             &:focus, &:active {
                 color: $color-primary;
                 background-color: $color-secondary;
@@ -65,7 +59,7 @@
             }
         }
 
-        .code-link, .case-study-link {
+        .btn-secondary {
             &:focus, &:active {
                 color: $color-secondary;
                 background-color: $color-primary;
@@ -75,17 +69,14 @@
         }
     }
 
-    .projects .more-projects {        
-        &:focus, &:active {
-            border-bottom: $sm*0.2 solid $color-primary;
-            transition: 0.5s ease-in-out;
-        }
-    }
-
     .contact svg {
         &:focus, &:active {
             fill: $color-secondary;
             transition: 0.5s ease-in-out;
         }
+    }
+
+    .cs-section {
+        margin: $sm*2 auto 0;
     }
 }

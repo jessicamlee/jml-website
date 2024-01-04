@@ -5,59 +5,65 @@
     header .header-bar {
         .logo:hover {
             padding: $sm*0.3;
-            border: $sm*0.2 solid $color-secondary;
+            border: $sm*0.3 dotted $color-tertiary;
             transition: 0.3s ease-in-out;
         }
 
         .gn ul li a:hover {
-            border-bottom: $sm*0.2 solid $color-secondary;
-            transition: 0.3s ease-in-out;
+            border-bottom: $sm*0.3 dotted $color-tertiary;
+            transition: 0.2s ease-in-out;
         }
-    }
-
-    .projects .more-projects p:hover {
-        border-bottom: $sm*0.2 solid $color-primary;
-        transition: 0.3s ease-in-out;
-    }
-
-    .projects .projects-collection .project-thumb .links-container .btn-container, .dev-projects .project-card, .ux-projects .project-card {
-        
-        .live-link:hover {
-            color: $color-primary;
-            background-color: $color-secondary;
-            border: $sm*0.15 solid $color-secondary;
-            transition: 0.5s ease-in-out;
-        }
-            
-        .code-link:hover {
-            color: $color-secondary;
-            background-color: $color-primary;
-            border: $sm*0.15 solid $color-secondary;
-            transition: 0.5s ease-in-out;
-        }
-    }
-
-    .work .work-collection li .links-container .link-btn:hover {
-        color: $color-primary;
-        background-color: $color-secondary;
-        border: $sm*0.15 solid $color-secondary;
-        transition: 0.5s ease-in-out;
     }
 
     .collection-container {
-        margin: $sm*1.25 0 $sm*2.5;
+        gap: $sm*3.5 $sm*3;
     }
 
-    .toolkit .pg-preface, .storytelling .pg-preface {
-        max-width: 45.375rem;
+    .dev-projects, .ux-projects, .cs-summary {
+        
+        .btn-primary:hover {
+            color: $color-primary;
+            background-color: $color-secondary;
+            border: $sm*0.15 solid $color-secondary;
+            transition: 0.4s ease-in-out;
+        }
+            
+        .btn-secondary:hover {
+            color: $color-secondary;
+            background-color: $color-primary;
+            border: $sm*0.15 solid $color-secondary;
+            transition: 0.4s ease-in-out;
+        }
+    }
+
+    .cs-summary .btn-container {
+        flex-direction: row;
     }
 
     .storytelling a {
         font-size: $sm*1.125;
+
+        &:hover {
+            border-bottom: $sm*0.3 dotted $color-tertiary;
+            transition: 0.25s ease-in-out;
+        }
     }
 
     .contact svg:hover {
         fill: $color-secondary;
         transition: 0.5s ease-in-out;
+        border: $sm*0.3 dotted $color-tertiary;
+        border-radius: $sm*1.5;
+        padding: $sm*0.25;
+        transform: scale(1.5);
+    }
+
+    .cs-section {
+        max-width: $sm*62.5;
+    }
+
+    .backtotop:hover, .cs-body a:hover {
+        border-bottom: $color-tertiary $sm*0.3 dotted;
+        transition: 0.25s ease-in-out;
     }
 }

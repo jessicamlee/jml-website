@@ -3,44 +3,36 @@
 @media (min-width:768px) {
 
     h2 {
-        @include fontstyles ($color-primary, $sm*2, $normal, $base, $uppercase);
-    }
-
-    h3 {
-        @include fontstyles ($color-primary, $sm*1.85, $normal, $base, $none);
+        @include fontstyles ($color-primary, $sm*1.6, $normal, $base, $none);
     }
 
     .section {
-        padding: $sm*7 $sm*2.25 $sm*3;
+        padding: $sm*3 $sm*2.25;
     }
 
     .subpg-section {
-        padding: $sm*2 $sm*3 $sm*2.5;
+        padding: $sm*2 $sm*3 $sm;
     }
 
     header .gn {
         display: block!important;
         position: static;
-        top: 0px;
+        top: 0;
         height: auto;
         box-shadow: 0;
     
         ul {
             flex-direction: row;
             justify-content: flex-end;
-            gap: $sm*1.5;
+            gap: $sm;
         }
 
         li {
             padding: $sm;
-
-            &:nth-child(3) {
-                padding: $sm $sm*0.5 $sm $sm;
-            }
         }
 
         a {
-            @include fontstyles($color-primary, $sm, $normal, $base, $uppercase);
+            @include fontstyles($color-primary, $sm*1.25, $normal, $base, $none);
 
             &:focus, &:active {
                 border-bottom: $sm*0.2 solid $color-secondary;
@@ -58,71 +50,65 @@
     }
 
     .intro {
-        padding: $sm*2 $sm*4;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: $sm*1.5;
+        height: 36vh;
+        padding: $sm*4;
+
+        .intro-box {
+            max-width: 50vw;
+            text-align: left;
+            margin: 0;
+        }
+
+        .career-role, .career-goal {
+            max-width: $sm*40;
+        }
 
         h1 {
             font-size: $sm*3.5;
             margin-top: $xs;
         }
 
-        .career-role {
-            @include fontstyles ($color-primary, $sm*1.35, $normal, $italic, $none); 
-        }
-
-        .career-goal {
-            margin: $sm*1.75 0;
-            font-size: $sm*1.75;
+        .blobwindow {
+            margin: 0;
         }
     }
-    
-    .work .work-collection {
-        gap: $sm*6;
 
-        li {
+    .work {
+        p {
+            @include fontstyles ($color-primary, $sm*1.25, $normal, $base, $none);
+            line-height: $sm*1.85;
+        }
+
+        .links-container {
+            padding: 0;
+        }
+
+        .feat-work-card {
             display: flex;
             flex-direction: row;
             justify-content: space-between;
             position: relative;
+            gap: $sm*2;
+            align-items: center;
 
             &:nth-child(2n+1){
-                flex-direction: row-reverse;
+                flex-direction: row;
             }
         }
 
         .img-container, .links-container {
-            width: 47%;
+            width: 50vw;
         }
 
         .work-details {
             text-align: left;
-            padding: 0 0 $sm;
-        }
-    }
-
-    .work, .projects {
-
-        h3 {
-            @include fontstyles ($color-primary, $sm*1.75, $medium, $base, $none);
-        }
-
-        p {
-            @include fontstyles ($color-primary, $sm*1.05, $light, $base, $none);
-        }
-    }
-
-    .projects {
-
-        .project-card {
-            flex-basis: 48%;
-            max-width: 48%;
-        }
-
-        .projects-collection {
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            column-gap: 0;
-            row-gap: $sm*1.5;
+            display: flex;
+            flex-direction: column;
+            gap: $sm*0.25;
         }
     }
 
@@ -131,7 +117,7 @@
         max-width: 45%;
     }
 
-    .projects .btn-container, .dev-projects .project-card .btn-container, .ux-projects .project-card .btn-container {
+    .btn-container {
         gap: $sm;
     }
 
@@ -141,31 +127,55 @@
         justify-content: space-between;
     }
 
-    .about {
-        .bio {
-            flex-direction: row;
-            column-gap: $sm*3.5;
-            margin-top: $sm*3;
-
-            img {
-                height: $sm*17;
-                margin: 0 0 0 auto;
-            }
-        }
-
-        .bio-desc {
-            width: 50%;
-            margin-right: auto;
-        }
-    }
-
-    .toolkit .pg-preface, .storytelling .pg-preface {
-        max-width: 40.375rem;
+    .pg-preface {
+        max-width: 30rem;
     }
 
     .storytelling-col {
         padding-left: $sm*4;
     }
+
+    .cs-body {
+
+        h2 {
+            text-align: left;
+            font-size: $sm*2.5;
+            margin-top: $sm*2.5;
+        }
+    
+        h3 {
+            @include fontstyles ($color-tertiary, $sm*1.75, $normal, $base, $none);
+            line-height: $sm*2.25;
+            margin: $sm*1.5 0 $sm*0.5;
+        }
+    }
+
+    .cs-flex-tablet {
+        flex-direction: row;
+        gap: $sm*2;
+    }
+
+    .cs-half-width {
+        width: 50vw;
+    }
+
+    .cs-tablet-rr {
+        flex-direction: row-reverse
+    }
+
+    .cs-img-container {
+        max-width: $sm*45.3125;
+    }
+
+    .cs-items-center {
+        align-items: center;
+    }
+
+    .cs-problem-stmt h3 {
+        font-weight: 500;
+        margin: $sm*0.5 0;
+    }
+    
     
     .footer p {
         @include fontstyles ($color-secondary, $sm, $normal, $base, $none);

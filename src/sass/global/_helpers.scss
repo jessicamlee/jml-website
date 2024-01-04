@@ -7,3 +7,50 @@
 .block {
     display: block;
 }
+
+.bolded {
+    font-weight: 600;
+    color: $color-tertiary;
+}
+
+.bolded-italic {
+    font-weight: 600;
+    font-style: italic;
+    color: $color-tertiary;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.mb-sm {
+    margin-bottom: $sm*0.25;
+}
+
+.mb-md {
+    margin-bottom: $sm;
+}
+
+.mb-lg {
+    margin-bottom: $sm*2;
+}
+
+.mt-md {
+    margin-top: $sm;
+}
+
+.mt-lg {
+    margin-top: $sm*2;
+}
+
+.mt-xl {
+    margin-top: $sm*3;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.is-uppercase {
+    text-transform: uppercase;
+}

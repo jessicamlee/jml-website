@@ -2,16 +2,11 @@
 
 .contact {
     text-align: center;
-    padding: $sm*2.75 $sm*1.25 $sm*2.5;
+    padding: $sm*2.75 $sm*1.25 $sm*3.5;
 
     .contact-header {
         text-align: center;
         text-transform: none;
-    }
-
-    p {
-        margin-bottom: $sm;
-        line-height: 1.75;
     }
 
     ul {
@@ -27,5 +22,6 @@
         height: $sm*2.5;
         fill: $color-primary;
         margin: $sm*0.25 $sm*0.75;
+        border-radius: $sm*1.5;
     }
 }

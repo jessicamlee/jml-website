@@ -6,14 +6,9 @@
         display: none;
     }
 
-    .intro .intro-box {
-        h1 {
-            font-size: $sm*3.5;
-        }
-
-        .career-role {
-            font-size: $sm*1.25;
-        }
+    .intro .intro-box .career-role {
+        font-size: $sm*1.25;
+        line-height: $sm*1.65;
     }
 
     .intro .blobwindow {
@@ -22,18 +17,23 @@
     }
 
     .projects, .about, .contact p {
-        @include fontstyles ($color-primary, $sm, $normal, $base, $none);
+        @include fontstyles ($color-primary, $sm*1.125, $normal, $base, $none);
     }
 
     .projects .more-projects {
         @include fontstyles ($color-primary, $sm*1.15, $normal, $base, $none);
     }
 
-    .toolkit .pg-preface, .storytelling .pg-preface {
-        max-width: 75%;
+    .pg-preface {
+        max-width: 75vw;
     }
 
     .storytelling-col {
         padding-left: $sm*3;
+    }
+
+    .cs-intro {
+        margin-top: $sm*6;
+        gap: $sm*2;
     }
 }
