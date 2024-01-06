@@ -4,7 +4,7 @@
         <p>Thrilled to lead the redesign&comma;  I prepared the team for Psystem&apos;s upcoming campaigns with the informative ad landing pages&period; <span class="bolded">The gratitude levels were off the charts&excl;</span></p>
         <div class="img-container cs-body-img-container">
             <img class="img-thumb" src="images/case-studies/psystem/psystem_recommendation.jpg" alt="Three highlighted aspects of Jessica's impact from a LinkedIn Recommendation note">
-            <p class="cs-img-caption">My impact on Psystem&apos;s growth from Psystem&apos;s founder&apos;s LinkedIn recommendation note&period;</p>
+            <p class="cs-img-caption">My impact on Psystem&apos;s growth from Psystem&apos;s founder&apos;s LinkedIn recommendation&period;</p>
         </div>
         <p>I also implemented a Cookie Consent tool that tracked <span class="bolded">more than 200 monthly view visits</span>&comma; which <span class="bolded">increased by around 33&#x0025; in website visits</span>&period;</p>
         <div class="img-container cs-body-img-container">
@@ -13,18 +13,20 @@
         </div>
         <div class="cs-section">
             <h2>Design Highlights</h2>
-            <p>Here are a couple of snippets that stole the show&colon;</p>
-            <div class="img-container cs-body-img-container">
-                <img class="img-thumb" src="images/case-studies/psystem/psystem_finaldesign_services.jpg" alt="Desktop view of Psystem's updated Services page above the fold">
-                <p class="cs-img-caption">Desktop view of Psystem&apos;s updated Services page above the fold&period;</p>
-            </div>
-            <div class="img-container cs-body-img-container">
-                <img class="img-thumb" src="images/case-studies/psystem/psystem_finaldesign_blog.jpg" alt="Desktop view of Psystem's updated Blog page above the fold">
-                <p class="cs-img-caption">Desktop view of Psystem&apos;s updated Blog page above the fold&period;</p>
-            </div>
-            <div class="img-container cs-body-img-container">
-                <img class="img-thumb" src="images/case-studies/psystem/psystem_finaldesign_discover.jpg" alt="Desktop view of Psystem's offerings on the updated Discover page">
-                <p class="cs-img-caption">Desktop view of Psystem&apos;s offerings on the updated Discover page&period;</p>
+            <p class="design-highlight">✅ Optimized webpage layouts for desktop and mobile users&comma; increasing website visits by 33&#x0025; within 2 weeks of launching</p>
+            <div class="carousel-container">
+                <div class="carousel-box img-container cs-body-img-container">
+                    <img class="img-thumb" src="images/case-studies/psystem/psystem_finaldesign_services.jpg" alt="Desktop view of Psystem's updated Services page above the fold">
+                    <p class="cs-img-caption">Services and expertise introduction above the fold&period;</p>
+                </div>
+                <div class="carousel-box img-container cs-body-img-container">
+                    <img class="img-thumb" src="images/case-studies/psystem/psystem_finaldesign_blog.jpg" alt="Desktop view of Psystem's updated Blog page above the fold">
+                    <p class="cs-img-caption">Revamped Blog page above the fold&period;</p>
+                </div>
+                <div class="carousel-box img-container cs-body-img-container">
+                    <img class="img-thumb" src="images/case-studies/psystem/psystem_finaldesign_discover.jpg" alt="Desktop view of Psystem's offerings on the updated Discover page">
+                    <p class="cs-img-caption">Updated offerings section on the updated Discover page&period;</p>
+                </div>
             </div>
         </div>
         <h2>Retrospective</h2>

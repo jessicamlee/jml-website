@@ -20,6 +20,12 @@
         margin: $sm*2 0 $sm*0.75;
     }
 
+    .design-highlight {
+        @include fontstyles ($color-primary, $sm*1.25, $normal, $base, $none);
+        line-height: $sm*2;
+        margin: 0;
+    }
+
     a {
         color: $color-primary;
         border-bottom: $color-tertiary $sm*0.2 dotted;

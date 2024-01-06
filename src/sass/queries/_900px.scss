@@ -106,4 +106,13 @@
     .cs-portrait-width {
         width: 35vw;
     }
+
+    .carousel-box {
+        min-width: $sm*42;
+        max-width: $sm*54;
+    }
+
+    .design-highlight {
+        font-size: $sm*1.35;
+    }
 }
