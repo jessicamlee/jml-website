@@ -4,8 +4,8 @@
         <ul class="work-collection collection-container flex">
             <?php
                 $work_title = 'Psystem';
-                $work_desc = 'Redesign webpages to create accessible, responsive, mobile-first experiences and support marketing initiatives.';
-                $work_skills = 'Webpage Redesigns | Figma | Webflow';
+                $work_desc = 'Elevating user experience and marketing impact with enhanced mobile-friendly design.';
+                $work_skills = '↪ Webpage Redesign, Figma, Webflow';
                 $work_img_src = 'psystem_cover';
                 $work_img_alt = 'Psystem Cover Photo';
                 $case_study_link = 'psystem';
@@ -13,8 +13,8 @@
             ?>
             <?php
                 $work_title = 'PsyHealth';
-                $work_desc = 'Creating Onboarding and Payment App experiences to bridge the gap between the users and business goals.';
-                $work_skills = 'App Design | UX Research | Moderated Testing';
+                $work_desc = 'Craft a sales-driven payment journey to enhance user experiences and revenue growth.';
+                $work_skills = '↪ App Design, UX Research Moderated Testing';
                 $work_img_src = 'psyhealth_cover';
                 $work_img_alt = 'PsyHealth Cover Photo';
                 $case_study_link = 'psyhealth';

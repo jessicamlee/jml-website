@@ -14,9 +14,9 @@
     </div>
     <div class="links-container flex">
         <div class="work-details">
-            <p><?php echo $work_skills; ?></p>
             <h3><?php echo $work_title; ?></h3>
-            <p><?php echo $work_desc; ?></p>
+            <p><?php echo $work_skills; ?></p>
+            <p class="work-desc"><?php echo $work_desc; ?></p>
         </div>
     </div>
     </a>

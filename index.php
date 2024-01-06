@@ -5,7 +5,7 @@
 <html lang="en-CA">
     <?php
 
-        $title_text = "Jessica Lee &vert; Product&sol;UX Design&comma; Development&comma; Content Strategy";
+        $title_text = "Jessica Lee &vert; Product Design&comma;  UX&sol;UI Development&comma; Content Strategy";
         include('partials/global/head.php'); 
         
     ?>

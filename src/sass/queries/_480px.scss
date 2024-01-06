@@ -10,11 +10,7 @@
         }
 
         .career-role {
-            @include fontstyles ($color-primary, $sm*1, $normal, $italic, $none);
-        }
-
-        .career-goal {
-            font-size: $sm*1.25;
+            @include fontstyles ($color-primary, $sm, $normal, $base, $none);
         }
 
         .blobwindow {

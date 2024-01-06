@@ -35,7 +35,7 @@ li {
 }
 
 .section {
-    padding: $sm*7 $sm*1.25 $sm*2;
+    padding: $sm*3 $sm*1.25 $sm*2;
 }
 
 .subpg-section {
@@ -47,7 +47,7 @@ li {
     height: 100%;
     max-height: $sm*30;
     overflow: hidden;
-    margin: $sm*1.125 0 $sm*1.5;
+    margin: $sm 0;
 
     .img-thumb {
         width: 100%;
@@ -71,7 +71,6 @@ li {
 .collection-container {
     flex-direction: column;
     gap: $sm*2.5 $sm*2;
-    margin: $sm*1.25 0 0;
 }
 
 .work p {

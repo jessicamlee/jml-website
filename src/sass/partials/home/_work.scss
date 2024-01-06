@@ -5,6 +5,10 @@
     h3 {
         color: $color-tertiary;
     }
+
+    p {
+        margin-bottom: $sm*0.75;
+    }
     
     .links-container {
         width: 100%;
@@ -12,12 +16,10 @@
         justify-content: center;
         align-items: left;
         flex-direction: column;
-        padding: $sm*0.75 0;
     }
 
     .work-details {
-        padding: $sm*0.5 0 $sm;
-        text-align: center;
+        text-align: left;
     }
 
     .link-btn {
