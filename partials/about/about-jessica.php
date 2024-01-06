@@ -2,7 +2,7 @@
     <div class="container bio flex">
         <div class="bio-desc">
             <h1 data-aos="fade-right">Hi&comma; Jessica here&excl;</h1>
-            <p data-aos="fade-left">I&apos;m a <span class="bolded">Product&sol;UX Designer</span> with a curious learning mindset and a background in English Literature and Creative Writing&period;</p>
+            <p data-aos="fade-left">I&apos;m a <span class="bolded">Product Designer</span> with a curious learning mindset&comma; passion for UX&comma; and background in English Literature and Creative Writing&period;</p>
             <p data-aos="fade-left" data-aos-delay="350">📚 <span class="bolded">Analyzing characters and stories</span> led me to critique how I can optimize digital interfaces for everyone with the help of my storytelling skills&period;</p>
             <p data-aos="fade-left" data-aos-delay="400">🍵  <span class="bolded">Besides unwinding with matcha tea&comma;</span> I enjoy self&dash;reflecting&comma; reading &amp; dissecting stories&comma; practicing yoga&comma; and exploring non&dash;digital spaces&period;</p>
         </div>
