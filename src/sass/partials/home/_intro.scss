@@ -2,15 +2,14 @@
 
 .intro {
     text-align: center;
-    height: 65vh;
-    padding-top: $sm*2;
+    height: 60vh;
 
     h1 {
         margin-bottom: 0;
     }
 
     .career-role {
-        @include fontstyles ($color-primary, $sm, $normal, $italic, $none);
+        @include fontstyles ($color-primary, $sm*1.25, $normal, $base, $none);
         margin-top: $sm*0.75;
         margin: $sm auto;
         max-width: $sm*27;

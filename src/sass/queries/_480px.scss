@@ -2,21 +2,9 @@
 
 @media (min-width:480px) {
 
-    .intro {
-
-        h1 {
-            font-size: $sm*4;
-            margin-top: $sm 0;
-        }
-
-        .career-role {
-            @include fontstyles ($color-primary, $sm, $normal, $base, $none);
-        }
-
-        .blobwindow {
-            width: $sm*18.125;
-            height: $sm*18.125;
-        }
+    .intro h1 {
+        font-size: $sm*4;
+        margin-top: $sm 0;
     }
 
     .btn-container {
