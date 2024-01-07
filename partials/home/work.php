@@ -14,7 +14,7 @@
             <?php
                 $work_title = 'PsyHealth';
                 $work_desc = 'Craft a sales-driven payment journey to enhance user experiences and revenue growth.';
-                $work_skills = '↪ App Design, UX Research Moderated Testing';
+                $work_skills = '↪ App Design, UX Research Moderated Usability Testing';
                 $work_img_src = 'psyhealth_cover';
                 $work_img_alt = 'PsyHealth Cover Photo';
                 $case_study_link = 'psyhealth';

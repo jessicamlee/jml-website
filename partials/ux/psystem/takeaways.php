@@ -33,7 +33,7 @@
         <h3>🌱 Lessons Learned</h3>
         <p>Design&comma; manage&comma; learn&comma; and repeat&excl; From researching&comma; designing&comma; and publishing this project&comma; I discovered a treasure box of insights&colon;</p>
         <ul>
-            <li><span class="bolded">Research is my ride&dash;or&dash;die</span>&comma; whether I am learning about competitors&comma; users&comma; market trends&comma; or market trends &mdash; there is something for me to learn from emphasizing and planning&period;</li>
+            <li><span class="bolded">Research is my ride&dash;or&dash;die</span>&comma; whether I am learning about competitors&comma; users&comma; or market trends &mdash; there is something for me to learn from emphasizing and planning&period;</li>
             <li><span class="bolded">Starting chats early with stakeholders</span> is like a rewarding workout for my design and management muscles&period; I get to show my wisdom and love for the project from start to finish&period;</li>
             <li><span class="bolded">Keeping constant conversation</span> paves the path for constant, clear communication with stakeholders when a concern arises&period;</li>
         </ul>
