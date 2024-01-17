@@ -11,7 +11,7 @@
     h3 {
         @include fontstyles ($color-tertiary, $sm*1.85, $normal, $base, $none);
         line-height: $sm*2.5;
-        margin: $sm*1.25 0 $sm*0.5;
+        margin: $sm*1.75 0 $sm*0.5;
     }
 
     h4, .hhighlight {
@@ -21,7 +21,7 @@
     }
 
     .design-highlight {
-        @include fontstyles ($color-primary, $sm*1.25, $normal, $base, $none);
+        @include fontstyles ($color-white, $sm*1.25, $normal, $base, $none);
         line-height: $sm*2;
         margin: 0;
     }
@@ -165,7 +165,7 @@
     flex-direction: column;
     gap: $sm*0.5;
     max-width: $sm*34.375;
-    margin: 0 auto $sm*2;
+    margin: $sm*2 auto;
 
     p {
         margin-bottom: 0;

@@ -151,7 +151,7 @@
         h3 {
             @include fontstyles ($color-tertiary, $sm*1.75, $normal, $base, $none);
             line-height: $sm*2.25;
-            margin: $sm*1.5 0 $sm*0.5;
+            margin: $sm*2 0 $sm*0.5;
         }
     }
 

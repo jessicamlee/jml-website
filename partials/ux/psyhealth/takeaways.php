@@ -1,28 +1,44 @@
 <section class="subpg-section">
     <div class="container cs-section">
-        <h2>Takeaways</h2>
-        <p>With PsyHealth&apos;s ongoing&comma; iterative growth&comma; I gained new insights from the roles of a UX Researcher and UX Designer from each sprint&period;</p>
-        <p>Before I share my lessons learned&comma; below is a quote from an internal tester&apos;s feedback on the proposed profile screen revision&colon;</p>
+        <h2>Outcome&colon; Small changes to simplify the journey</h2>
+        <p>With PsyHealth&apos;s ongoing&comma; iterative growth&comma; I gained new insights from my responsibilities during each sprint&period;</p>
+        <h3>✨ How my work made a positive impact</h3>
+        <p>With designs still in development&comma; the way to validate and improve my work is by asking for feedback&colon;</p>
         <div class="peer-feedback-box flex">
-            <p class="bolded-italic">One quote from usability test participant feedback&colon;</p>
             <p class="italic">&ldquo;I like that everything is on one page or screen for the profile and settings sections&period; It&apos;s quicker to manage subscriptions and payment details in one place&period;&rdquo;</p>
             <p class="bolded">&mdash; Usability Study Participant</p>
         </div>
-        <h3>🌱 What I Learned</h3>
-        <p>Supporting the PsyHealth app taught me how to learn from previous designers and developers as the project&apos;s working files are set up in a different way than I am accustomed to&period;</p> 
-        <p>From conducting more user interviews and asking additional open&dash;ended questions&comma; I learned about <span class="bolded">edge case scenarios</span> that I had yet to consider before we completed our internal quality assurance tests&period;</p>
-        <p>Listening to the testers <span class="bolded">share their thoughts and feelings</span> when encountering a different outcome than they expected provided more insight into what PsyHealth&apos;s users are looking for and what we can include in future design iterations&period;</p>
-        <p class="mb-sm">An <span class="bolded">additional and important perspective I gained</span> from the latest iteration is the developer&apos;s point of view&period; I asked myself the following questions&comma;</p>
+        <div class="cs-section">
+            <h2>The Final Design</h2>
+            <p class="design-highlight">✅ Created a simple subscription&dash;payment user journey within the project constraints to establish a revenue avenue</p>
+            <div class="img-container cs-body-img-container">
+                <img class="img-thumb" src="images/case-studies/psyhealth/psyhealth_payment_journey.jpg" alt="Six high-fidelity wireframes outlining PsyHealth's Subscription-Payment process starting from the Profile/Settings screen">
+                <p class="cs-img-caption">PsyHealth&apos;s Subscription&dash;Payment process&comma; starting on the Profile&sol;Settings screen</p>
+            </div>
+        </div>
+        <h2>Retrospective</h2>
+        <h3>🌱 Lessons Learned</h3>
+        <p>Contributing to PsyHealth introduced me to varied file structures&comma; fostering insights from past designers and developers&period; I further developed my skills in&colon;</p> 
         <ul>
-            <li>&ldquo;Is this feature and approach feasible for our current sprint&comma; considering our Minimum Viable Product &lpar;MVP&rpar; timeline and team resources&quest;&rdquo;</li>
-            <li>&ldquo;What other information do I need to know about regarding the data inputted&comma; saved&comma; updated&comma; and deleted from our back&dash;end server&quest;&rdquo;</li>
-            <li>&ldquo;What features are a concern for development that have not been addressed yet&quest;&rdquo;</li>
+            <li><span class="bolded">Expanded user interview efforts</span>&comma; and posed additional open&dash;ended questions to <span class="bolded">uncover previously unexplored edge case scenarios</span>&semi;</li>
+            <li>Actively listened to tester feedback&comma;<span class="bolded">gaining insights into user expectations</span> and <span class="bolded">identifying areas for improvement</span> in future design iteration&semi; and</li>
+            <li><span class="bolded">Learned about unforeseen user considerations</span> during internal quality assurance tests&period;</li>
         </ul>
-        <p>With those questions&comma; I helped reduce the chances of feeling burnt out from all the possibilities and ideas I <span class="italic">could</span> pursue&period; I then knew <span class="italic">who</span> to speak with&comma; such as the back&dash;end developer&comma; to <span class="bolded">understand how the data is saved and presented to the end user</span> to translate that process to the user&apos;s interface for this payment experience&period;</p>
+        <h4>Optimized project management with relevant questions</h4>
+        <p>In the latest iteration&comma; I gained a crucial developer&apos;s perspective&comma; asking myself the following questions&colon;</p> 
+        <ul>
+            <li>Considering our Minimum Viable Product &lpar;MVP&rpar; timeline and team resources&comma; <span class="bolded">is this feature and approach feasible for our current sprint</span>&quest;</li>
+            <li><span class="bolded">What other information do I need to know</span> about regarding the data inputted&comma; saved&comma; updated, and deleted from our back-end server&quest;</li>
+            <li><span class="bolded">What features are a concern for development</span> that still need to be addressed&quest;</li>
+        </ul>
+        <p>Asking these questions boosted my early creativity and sparked inspiration&period; I collaborated with key collaborators to understand data handling and <span class="bolded">translate it into the payment experience</span>&period;</p> 
         <h3>📌 Next Steps</h3>
-        <p>Although there are project limitations&comma; in an ideal situation &lpar;possibly in the future&rpar;&comma; I would like to continue conducting user interviews and usability tests to lead A&sol;B unit testing for future sprints and design iterations&period;</p>
-        <p>From further moderated usability tests&comma; I aim to improve the experience by <span class="bolded">adding more support for errors</span> and <span class="bolded">making the interface more intuitive and accessible</span> as the secondary target audience would also benefit from this support in addition to PsyHealth&apos;s offerings and services&period;</p>
-        <p>I would also like to support and <span class="bolded">lead external usability testing</span> to gather a larger pool of data from different users to identify potential new archetypes&comma; personas&comma; and user journeys&comma; and create additional empathy maps to define further and <span class="bolded">better understand PsyHealth&apos;s users</span>&period;</p>
+        <p>In an ideal situation&comma; I would like to&colon;</p>
+        <ul>
+            <li><span class="bolded">Continue conducting user interviews</span>and usability tests to lead A&sol;B unit testing for future sprints and design iterations&semi;</li>
+            <li>Enhance error support and interface accessibility<span class="bolded"> for both primary and secondary target audiences&semi; and</li>
+            <li><span class="bolded">Conduct external usability testing</span> to <span class="bolded">identify new user insights</span> with archetypes&comma; personas&comma; and empathy maps for PsyHealth&period;</li>
+        </ul>
         <p>🌿 <span class="bolded">Thank you for reviewing my work&excl;</span> If you have questions or would like to chat with me about my process&comma; connect with me on LinkedIn&excl; I look forward to learning from your thoughts and feedback&period; 🥳</p>
     </div>
 </section>

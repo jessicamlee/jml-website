@@ -5,7 +5,7 @@
             <?php
                 $work_title = 'Psystem';
                 $work_desc = 'Elevating user experience and marketing impact with enhanced mobile-friendly design.';
-                $work_skills = '↪ Webpage Redesign, Figma, Webflow';
+                $work_skills = '↪ Web and Ad Landing page Redesign, Figma, Webflow';
                 $work_img_src = 'psystem_cover';
                 $work_img_alt = 'Psystem Cover Photo';
                 $case_study_link = 'psystem';
@@ -14,7 +14,7 @@
             <?php
                 $work_title = 'PsyHealth';
                 $work_desc = 'Craft a sales-driven payment journey to enhance user experiences and revenue growth.';
-                $work_skills = '↪ App Design, UX Research Moderated Usability Testing';
+                $work_skills = '↪ Subscription-Payment App Design, UX Research, Moderated Usability Testing';
                 $work_img_src = 'psyhealth_cover';
                 $work_img_alt = 'PsyHealth Cover Photo';
                 $case_study_link = 'psyhealth';
