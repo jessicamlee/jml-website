@@ -51,7 +51,7 @@
 
     .contact svg:hover {
         fill: $color-secondary;
-        transition: 0.5s ease-in-out;
+        transition: 0.3s ease-in-out;
         border: $sm*0.3 dotted $color-tertiary;
         border-radius: $sm*1.5;
         padding: $sm*0.25;
@@ -64,6 +64,13 @@
 
     .backtotop:hover, .cs-body a:hover {
         border-bottom: $color-tertiary $sm*0.3 dotted;
+        transition: 0.25s ease-in-out;
+    }
+
+    .work-collection .feat-work-card:hover {
+        border: $color-tertiary $sm*0.3 dotted;
+        border-radius: $sm*1.5;
+        padding: $sm*0.25;
         transition: 0.25s ease-in-out;
     }
 }
