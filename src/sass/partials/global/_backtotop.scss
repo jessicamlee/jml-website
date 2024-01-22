@@ -3,9 +3,9 @@
 .backtotop {
     width: $sm*7.8125;
     height: auto;
-    color: $color-primary;
-    border-bottom: $color-secondary $sm*0.25 dotted;
-    @include fontstyles ($color-primary, $sm*1.2, $normal, $base, $none);
+    color: $dark-primary;
+    border-bottom: $dark-tertiary $sm*0.25 dotted;
+    @include fontstyles ($dark-primary, $sm*1.2, $normal, $base, $none);
     line-height: $sm*1.65;
     padding: $sm*0.15 0;
     margin: 0 auto $sm*1.5;

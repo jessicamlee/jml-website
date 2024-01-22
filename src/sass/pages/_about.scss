@@ -50,13 +50,13 @@
     }
 
     .about-highlight {
-        @include fontstyles ($color-tertiary, $sm*1.125, $semibold, $base, $none);
+        @include fontstyles ($dark-tertiary, $sm*1.125, $semibold, $base, $none);
         line-height: $sm*1.5;
         margin-bottom: $sm*0.2;
     }
 
     .highlight-date {
-        @include fontstyles ($color-primary, $sm, $medium, $base, $none);
+        @include fontstyles ($dark-primary, $sm, $medium, $base, $none);
         margin-bottom: $sm*0.3;
     }
 

@@ -2,7 +2,7 @@
     <div class="container">
         <div class="why-write">
             <h2 data-aos="fade-right" data-aos-delay="400">Content Strategy</h2>
-            <p data-aos="fade-right" data-aos-delay="500">&ldquo;I write&comma; edit&comma; and publish digital content and stories to inspire&comma; dream&comma; and connect&period;&rdquo; <br> &mdash; Jessica Lee</p>
+            <p data-aos="fade-right" data-aos-delay="500">&ldquo;I write&comma; edit&comma; and share digital content and stories to inspire&comma; dream&comma; and connect&period;&rdquo; <br> &mdash; Jessica Lee</p>
         </div>
         <div class="storytelling-content">
             <div class="storytelling-col" data-aos="fade-right" data-aos-delay="600">

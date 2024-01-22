@@ -1,10 +1,10 @@
 @use '../../utilities' as *;
 
 .blobwindow {
-    width: $sm*13.125;
-    height: $sm*13.125;
+    width: $sm*18.125;
+    height: $sm*18.125;
     background-image: url(../../images/starsinspace_byjessica.jpg);
-    border: $color-secondary solid $sm*0.125;
+    border: $dark-secondary solid $sm*0.125;
     border-radius: 57% 43% 70% 30% / 48% 33% 67% 52%;
     overflow: hidden;
     background-position: cover;

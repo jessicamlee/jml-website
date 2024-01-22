@@ -9,20 +9,26 @@
     }
 
     h3 {
-        @include fontstyles ($color-tertiary, $sm*1.85, $normal, $base, $none);
+        @include fontstyles ($dark-tertiary, $sm*1.85, $normal, $base, $none);
         line-height: $sm*2.5;
-        margin: $sm*1.25 0 $sm*0.5;
+        margin: $sm*1.75 0 $sm*0.5;
     }
 
     h4, .hhighlight {
-        @include fontstyles ($color-tertiary, $sm*1.5, $medium, $base, $none);
+        @include fontstyles ($dark-tertiary, $sm*1.5, $medium, $base, $none);
         line-height: $sm*1.75;
-        margin: $sm*2 0 $sm*0.75;
+        margin: $sm 0 $sm*0.75;
+    }
+
+    .design-highlight {
+        @include fontstyles ($color-white, $sm*1.25, $normal, $base, $none);
+        line-height: $sm*2;
+        margin: 0;
     }
 
     a {
-        color: $color-primary;
-        border-bottom: $color-tertiary $sm*0.2 dotted;
+        color: $dark-primary;
+        border-bottom: $dark-tertiary $sm*0.2 dotted;
         margin-bottom: $sm*0.5;
         cursor: pointer;
     }
@@ -41,7 +47,7 @@
 
     li::before {
         content: "\2022";
-        color: $color-primary;
+        color: $dark-primary;
         font-weight: bold;
         display: inline-block; 
         width: $sm;
@@ -58,7 +64,7 @@
 }
 
 .cs-section .cs-problem-stmt {
-    background-color: $color-highlight;
+    background-color: $color-white;
     padding: $sm*0.75 $sm*1.75 $sm*0.5;
     border-radius: $sm*0.75;
     margin-bottom: $sm;
@@ -70,7 +76,9 @@
     }
 
     p {
-        color: $color-bg;
+        color: $color-black;
+        font-size: $sm*1.25;
+        line-height: $sm*1.85;
     }
 }
 
@@ -101,7 +109,7 @@
 
 .cs-img-caption {
     @include fontstyles ($color-white, $sm*0.875, $medium, $italic, $none);
-    margin: $sm*0.75 0 0 !important;
+    margin: $sm 0 0 !important;
     font-size: $sm !important;
     line-height: $sm*1.5;
 }
@@ -122,11 +130,11 @@
     margin-top: $sm;
 
     a {
-        border: 0.15rem solid $color-primary;
+        border: 0.15rem solid $dark-primary;
     }
 
     .btn-primary {
-        color: $color-secondary;
+        color: $dark-secondary;
     }
 }
 
@@ -159,7 +167,7 @@
     flex-direction: column;
     gap: $sm*0.5;
     max-width: $sm*34.375;
-    margin: 0 auto $sm*2;
+    margin: $sm*2 auto;
 
     p {
         margin-bottom: 0;

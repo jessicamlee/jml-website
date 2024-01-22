@@ -9,8 +9,8 @@ header {
     will-change: top;
     transition: top 0.35s ease;
     padding: $sm*0.9 $sm*2;
-    background: $color-bg;
-    color: $color-primary;
+    background: $color-black;
+    color: $dark-primary;
     z-index: 2;
 
     .header-bar {
@@ -22,7 +22,7 @@ header {
     }
 
     svg {
-        fill: $color-primary;
+        fill: $dark-primary;
         width: $sm*4;
         height: $sm*4;
         margin: 0 auto;
@@ -44,7 +44,7 @@ header {
         position: absolute;
         width: $xl;
         height: $sm*0.025;
-        border: $sm*0.132 $color-primary solid;
+        border: $sm*0.132 $dark-primary solid;
         border-radius:$sm*1.5625;
         top: 35%;
         right: 0;
@@ -55,11 +55,11 @@ header {
             position: absolute;
             width: $xl;
             height: $sm*0.025;
-            border: $sm*0.132 $color-primary solid;
+            border: $sm*0.132 $dark-primary solid;
             border-radius: $sm*1.5625;
             top: $sm*0.6;
             right: $xs;
-            box-shadow: 0 $sm*0.1875 $sm*0.4375 $sm*-0.0625 box-shadow;
+            box-shadow: 4px 4px 8px 2px rgba(41, 52, 107, 0.25);
         }
     }
 
@@ -71,13 +71,13 @@ header {
 
     &.is-active {
         .burger-menu {
-            background-color: $color-bg;
+            background-color: $color-black;
             transform: rotate(405deg);
             top: $md;
             right: 0;
 
             &:after {
-                background-color: $color-bg;
+                background-color: $color-black;
                 transform: rotate(-450deg);
                 top: -$sm*0.1;
                 right: -$sm*0.1;
@@ -92,13 +92,13 @@ header {
     top: $sm*4.5;
     left: $sm*-2;
     width: 100vw;
-    background-color: $color-bg;
+    background-color: $color-black;
 
     ul {
         justify-content: space-between;
         align-items: center;
         flex-direction: column;
-        background-color: $color-bg;
+        background-color: $color-black;
     }
 
     li {
@@ -107,17 +107,17 @@ header {
     }
 
     a {
-        @include fontstyles($color-primary, $sm*1.25, $normal, $base, $none);
+        @include fontstyles($dark-primary, $sm*1.25, $normal, $base, $none);
     }
 
     svg {
         width: $sm*2.5;
         height: $sm*2.5;
-        fill: $color-primary;
+        fill: $dark-primary;
         margin: $sm*0.25 $sm*0.75;
     }
 
     .header-icons {
-        padding: $sm*1 $sm*1 $sm*1.5;
+        padding: $sm;
     }
 }

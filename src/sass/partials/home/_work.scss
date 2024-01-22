@@ -3,7 +3,12 @@
 .work {
 
     h3 {
-        color: $color-tertiary;
+        color: $dark-tertiary;
+        margin-bottom: $sm*0.25;
+    }
+
+    p {
+        margin-bottom: $sm*0.75;
     }
     
     .links-container {
@@ -12,23 +17,9 @@
         justify-content: center;
         align-items: left;
         flex-direction: column;
-        padding: $sm*0.75 0;
     }
 
     .work-details {
-        padding: $sm*0.5 0 $sm;
-        text-align: center;
-    }
-
-    .link-btn {
-        flex-direction: column;
-        text-align: center;
-        width: 100%;
-        background-color: $color-primary;
-        border: $sm*0.15 solid $color-primary;
-        @include fontstyles($color-secondary, $sm*0.9, $normal, $base, $none);
-        padding: $sm*0.6 $sm*0.7;
-        border-radius: $sm*1.5;
-        text-align: center;
+        text-align: left;
     }
 }

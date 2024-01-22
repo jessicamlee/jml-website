@@ -7,8 +7,8 @@
     }
 
     .intro .intro-box .career-role {
-        font-size: $sm*1.25;
-        line-height: $sm*1.65;
+        font-size: $sm*1.5;
+        line-height: $sm*2.125;
     }
 
     .intro .blobwindow {
@@ -17,11 +17,7 @@
     }
 
     .projects, .about, .contact p {
-        @include fontstyles ($color-primary, $sm*1.125, $normal, $base, $none);
-    }
-
-    .projects .more-projects {
-        @include fontstyles ($color-primary, $sm*1.15, $normal, $base, $none);
+        @include fontstyles ($dark-primary, $sm*1.125, $normal, $base, $none);
     }
 
     .pg-preface {

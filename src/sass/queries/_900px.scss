@@ -3,15 +3,17 @@
 @media (min-width:900px) {
 
     h1 {
-        @include fontstyles ($color-primary, $sm*3.3, $medium, $base, $none);
+        @include fontstyles ($dark-primary, $sm*3.5, $medium, $base, $none);
     }
     
     h2 {
-        @include fontstyles ($color-primary, $sm*2.5, $light, $base, $none);
+        @include fontstyles ($dark-primary, $sm*2.85, $normal, $base, $none);
     }
 
     h3 {
-        @include fontstyles ($color-primary, $sm*2.25, $normal, $base, $none);
+        @include fontstyles ($dark-primary, $sm*2.75, $normal, $base, $none);
+        margin: $sm*0.75 0;
+        line-height: $sm*3;
     }
 
     p {
@@ -35,20 +37,9 @@
         margin-bottom: $sm;
     }
 
-    .intro {
-        h1 {
-            font-size: $sm*4.5;
-            margin-top: $xs;
-        }
-
-        .career-role {
-            @include fontstyles ($color-primary, $sm*1.35, $normal, $italic, $none); 
-        }
-
-        .career-goal {
-            font-size: $sm*1.75;
-            line-height: $sm*2.25;
-        }
+    .intro h1 {
+        font-size: $sm*4.5;
+        margin-top: $xs;
     }
 
     .about .bio {
@@ -115,5 +106,14 @@
     
     .cs-portrait-width {
         width: 35vw;
+    }
+
+    .carousel-box {
+        min-width: $sm*42;
+        max-width: $sm*54;
+    }
+
+    .design-highlight {
+        font-size: $sm*1.35;
     }
 }

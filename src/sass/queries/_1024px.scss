@@ -5,14 +5,18 @@
     header .header-bar {
         .logo:hover {
             padding: $sm*0.3;
-            border: $sm*0.3 dotted $color-tertiary;
-            transition: 0.3s ease-in-out;
+            border: $sm*0.3 dotted $dark-tertiary;
+            transition: 0.25s ease-in-out;
         }
 
         .gn ul li a:hover {
-            border-bottom: $sm*0.3 dotted $color-tertiary;
-            transition: 0.2s ease-in-out;
+            border-bottom: $sm*0.3 dotted $dark-tertiary;
+            transition: 0.15s ease-in-out;
         }
+    }
+
+    .intro h1 {
+        font-size: $sm*5.5;
     }
 
     .collection-container {
@@ -22,16 +26,16 @@
     .dev-projects, .ux-projects, .cs-summary {
         
         .btn-primary:hover {
-            color: $color-primary;
-            background-color: $color-secondary;
-            border: $sm*0.15 solid $color-secondary;
+            color: $dark-primary;
+            background-color: $dark-secondary;
+            border: $sm*0.15 solid $dark-secondary;
             transition: 0.4s ease-in-out;
         }
             
         .btn-secondary:hover {
-            color: $color-secondary;
-            background-color: $color-primary;
-            border: $sm*0.15 solid $color-secondary;
+            color: $dark-secondary;
+            background-color: $dark-primary;
+            border: $sm*0.15 solid $dark-secondary;
             transition: 0.4s ease-in-out;
         }
     }
@@ -44,15 +48,15 @@
         font-size: $sm*1.125;
 
         &:hover {
-            border-bottom: $sm*0.3 dotted $color-tertiary;
+            border-bottom: $sm*0.3 dotted $dark-tertiary;
             transition: 0.25s ease-in-out;
         }
     }
 
     .contact svg:hover {
-        fill: $color-secondary;
-        transition: 0.5s ease-in-out;
-        border: $sm*0.3 dotted $color-tertiary;
+        fill: $dark-secondary;
+        transition: 0.3s ease-in-out;
+        border: $sm*0.3 dotted $dark-tertiary;
         border-radius: $sm*1.5;
         padding: $sm*0.25;
         transform: scale(1.5);
@@ -63,7 +67,14 @@
     }
 
     .backtotop:hover, .cs-body a:hover {
-        border-bottom: $color-tertiary $sm*0.3 dotted;
+        border-bottom: $dark-primary $sm*0.3 dotted;
+        transition: 0.25s ease-in-out;
+    }
+
+    .work-collection .feat-work-card:hover {
+        border: $dark-tertiary $sm*0.3 dotted;
+        border-radius: $sm*1.5;
+        padding: $sm*0.25;
         transition: 0.25s ease-in-out;
     }
 }
