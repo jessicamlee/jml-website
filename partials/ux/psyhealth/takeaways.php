@@ -39,6 +39,6 @@
             <li>Enhance error support and interface accessibility<span class="bolded"> for both primary and secondary target audiences&semi; and</li>
             <li><span class="bolded">Conduct external usability testing</span> to <span class="bolded">identify new user insights</span> with archetypes&comma; personas&comma; and empathy maps for PsyHealth&period;</li>
         </ul>
-        <p>🌿 <span class="bolded">Thank you for reviewing my work&excl;</span> If you have questions or would like to chat with me about my process&comma; connect with me on LinkedIn&excl; I look forward to learning from your thoughts and feedback&period; 🥳</p>
+        <p>🌿 <span class="bolded">Thank you for checking out my adventure&excl;</span> Share your thoughts or questions with me on <a href="https://www.linkedin.com/in/jessicamlee-/" target="_blank" title="Connect with Jessica on LinkedIn">LinkedIn</a>&excl; I&apos;m excited to learn from you&excl; 🥳</p>
     </div>
 </section>
