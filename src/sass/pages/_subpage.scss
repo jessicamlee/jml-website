@@ -34,16 +34,16 @@
 }
 
 .btn-primary {
-    background-color: $color-primary;
-    border: $sm*0.15 solid $color-primary;
-    color: $color-secondary;
-    @include fontstyles($color-secondary, $sm*1.0625, $normal, $base, $none);
+    background-color: $dark-primary;
+    border: $sm*0.15 solid $dark-primary;
+    color: $dark-secondary;
+    @include fontstyles($dark-secondary, $sm*1.0625, $normal, $base, $none);
 }
 
 .btn-secondary {
     background-color: transparent;
-    border: $sm*0.15 solid $color-primary;
-    @include fontstyles($color-primary, $sm*1.0625, $normal, $base, $none);
+    border: $sm*0.15 solid $dark-primary;
+    @include fontstyles($dark-primary, $sm*1.0625, $normal, $base, $none);
 }
 
 .project-details {
@@ -70,7 +70,7 @@
 
     li::before {
         content: "\2022";
-        color: $color-primary;
+        color: $dark-primary;
         font-weight: bold;
         display: inline-block; 
         width: $sm;
@@ -78,9 +78,9 @@
     }
 
     a {
-        @include fontstyles ($color-primary, $sm*1.0625, $normal, $base, $none);
+        @include fontstyles ($dark-primary, $sm*1.0625, $normal, $base, $none);
         line-height: $sm*1.5;
-        border-bottom: $sm*0.125 solid $color-primary;
+        border-bottom: $sm*0.125 solid $dark-primary;
         line-height: $sm*2;
     }
 

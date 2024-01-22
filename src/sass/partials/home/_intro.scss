@@ -9,7 +9,7 @@
     }
 
     .career-role {
-        @include fontstyles ($color-primary, $sm*1.25, $normal, $base, $none);
+        @include fontstyles ($dark-primary, $sm*1.25, $normal, $base, $none);
         margin-top: $sm*0.75;
         margin: $sm auto;
         max-width: $sm*27;

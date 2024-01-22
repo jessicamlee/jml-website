@@ -1,24 +1,24 @@
 @use '../utilities' as *;
 
 h1 {
-    @include fontstyles ($color-primary, $sm*3.125, $medium, $base, $none);
+    @include fontstyles ($dark-primary, $sm*3.125, $medium, $base, $none);
     margin-top: $sm;
 }
 
 h2 {
-    @include fontstyles ($color-primary, $sm*2.125, $light, $base, $none);
+    @include fontstyles ($dark-primary, $sm*2.125, $light, $base, $none);
     margin-bottom: $sm*0.65;
     text-align: center;
 }
 
 h3 {
-    @include fontstyles ($color-primary, $sm*2.25, $medium, $base, $none);
+    @include fontstyles ($dark-primary, $sm*2.25, $medium, $base, $none);
     margin: $sm*0.15 0 0.5rem;
     line-height: $sm*2.5;
 }
 
 h4 {
-    @include fontstyles ($color-primary, $sm*1.4375, $medium, $base, $none);
+    @include fontstyles ($dark-primary, $sm*1.4375, $medium, $base, $none);
     margin: $sm 0;
     line-height: $sm*1.95;
 }

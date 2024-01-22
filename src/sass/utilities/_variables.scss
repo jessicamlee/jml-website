@@ -1,23 +1,32 @@
-// Colors
-$color-primary: rgba(196, 206, 255, 1);
-$color-secondary: rgba(60, 35, 255, 1);
-$color-tertiary: rgba(97, 124, 255, 1);
-$color-bg: rgba(21, 21, 21, 1);
-$color-highlight: rgba(235, 239, 255, 1);
-$color-white: rgb(230, 235, 255);
+// ----- COLORS -----
+// Dark Mode
+$dark-primary: rgba(196, 206, 255, 1);
+$dark-secondary: rgba(60, 35, 255, 1);
+$dark-tertiary: rgba(97, 124, 255, 1);
+// $dark-highlight: rgba(235, 239, 255, 1);
 
-// Sizes
+// Light Mode
+$light-primary: rgba(53, 68, 140, 1);
+$light-secondary: rgba(60, 35, 255, 1);
+$light-tertiary: rgba(41, 52, 107, 1);
+$light-highlight: rgba(208, 218, 255, 1);
+
+// Neutrals
+$color-white: rgb(246, 248, 255);
+$color-black: rgba(21, 21, 21, 1);
+
+// ----- SIZES -----
 $xs: 0.5rem;
 $sm: 1rem;
 $md: 1.5rem;
 $lg: 2rem;
 $xl: 2.5rem;
 
-// Font-Styles
+// ----- FONT STYLES -----
 $italic: italic;
 $base: normal;
 
-// Font Weights
+// ----- FONT WEIGHTS -----
 $xlight: 200;
 $light: 300;
 $normal: 400;
@@ -25,7 +34,7 @@ $medium: 500;
 $semibold: 600;
 $bold: 700;
 
-// Text Transform
+// ----- TEXT TRANSFORM -----
 $uppercase: uppercase;
 $capitalize: capitalize;
 $none: none;

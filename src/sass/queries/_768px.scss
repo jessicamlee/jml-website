@@ -3,7 +3,7 @@
 @media (min-width:768px) {
 
     h2 {
-        @include fontstyles ($color-primary, $sm*1.6, $normal, $base, $none);
+        @include fontstyles ($dark-primary, $sm*1.6, $normal, $base, $none);
     }
 
     .section {
@@ -32,10 +32,10 @@
         }
 
         a {
-            @include fontstyles($color-primary, $sm*1.25, $normal, $base, $none);
+            @include fontstyles($dark-primary, $sm*1.25, $normal, $base, $none);
 
             &:focus, &:active {
-                border-bottom: $sm*0.2 solid $color-secondary;
+                border-bottom: $sm*0.2 solid $dark-secondary;
                 transition: 0.5s ease-in-out;
             }
         }
@@ -79,8 +79,8 @@
 
     .work {
         p {
-            @include fontstyles ($color-primary, $sm*1.0625, $normal, $base, $none);
-            line-height: $sm*1.85;
+            @include fontstyles ($dark-primary, $sm*1.0625, $normal, $base, $none);
+            line-height: $sm*1.75;
             margin-bottom: $sm*0.75;
         }
 
@@ -95,10 +95,6 @@
             position: relative;
             gap: $sm*2;
             align-items: center;
-
-            &:nth-child(2n+1){
-                flex-direction: row;
-            }
         }
 
         .img-container, .links-container {
@@ -113,7 +109,7 @@
         }
 
         .work-desc {
-            font-size: $sm*1.125;
+            font-size: $sm*1.25;
         }
     }
 
@@ -149,8 +145,8 @@
         }
     
         h3 {
-            @include fontstyles ($color-tertiary, $sm*1.75, $normal, $base, $none);
-            line-height: $sm*2.25;
+            @include fontstyles ($dark-tertiary, $sm*2.125, $normal, $base, $none);
+            line-height: $sm*2.5;
             margin: $sm*2 0 $sm*0.5;
         }
     }
@@ -183,6 +179,6 @@
     
     
     .footer p {
-        @include fontstyles ($color-secondary, $sm, $normal, $base, $none);
+        @include fontstyles ($dark-secondary, $sm, $normal, $base, $none);
     }
 }

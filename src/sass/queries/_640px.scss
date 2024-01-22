@@ -17,11 +17,7 @@
     }
 
     .projects, .about, .contact p {
-        @include fontstyles ($color-primary, $sm*1.125, $normal, $base, $none);
-    }
-
-    .projects .more-projects {
-        @include fontstyles ($color-primary, $sm*1.15, $normal, $base, $none);
+        @include fontstyles ($dark-primary, $sm*1.125, $normal, $base, $none);
     }
 
     .pg-preface {
