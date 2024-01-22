@@ -9,7 +9,166 @@ body {
     margin: 0 auto;
     font-size: 16px!important;
     font-family: 'Poppins', sans-serif;
-    background-color: $color-bg;
+    background-color: $color-black;
+
+    &.light {
+        background-color: $color-white;
+
+        // Header
+        header {
+            background-color: $color-white;
+
+            svg {
+                fill: $light-primary
+            }
+        }
+
+        .gn-trigger .burger-menu {
+            border: $sm*0.132 $light-primary solid;
+
+            &:after {
+                border: $sm*0.132 $light-primary solid;
+            }
+
+            &.is-active {
+                .burger-menu {
+                    background-color: $color-white;
+        
+                    &:after {
+                        background-color: $color-white;
+                    }
+                }
+            }
+        }
+
+        .gn, .gn ul {
+            background-color: $color-white;
+        }
+
+        .gn a:focus, a:active {
+            border-bottom: $sm*0.2 solid $light-primary;
+        } 
+
+        // Typography
+        h1, h2, h3, h4, 
+        .highlight-date, 
+        .cs-body li::before, 
+        .cs-btns a,
+        .gn a,
+        .career-role,
+        header,
+        .cs-body .design-highlight {
+            color: $light-primary;
+        }
+
+        .about-highlight,
+        .cs-img-caption,
+        .storytelling a,
+        .storytelling li::before,
+        .work p,
+        .contact p,
+        .subpage-intro .pg-preface p,
+        .cs-body .hhighlight,
+        .bolded,
+        .bolded-italic,
+        .cs-body li,
+        .cs-body a {
+            color: $light-tertiary;
+        }
+
+        p {
+            color: $color-black;
+        }
+
+        .cs-section .cs-problem-stmt {
+            background-color: $light-highlight;
+            box-shadow: 2px 2px 6px 1px rgba(41,52,107,0.1);
+        }
+
+        .cs-body {
+            h2 {
+                font-weight: 500;
+            }
+
+            h3, h4 {
+                font-weight: 600;
+            }
+        }
+
+        // Buttons
+        .btn-primary {
+            background-color: $light-primary;
+            border: $sm*0.15 solid $light-primary;
+            color: $color-white;
+
+            &:focus, &:active {
+                color: $light-primary;
+                background-color: $color-white;
+                border: $sm*0.15 solid $light-primary;
+            }
+        }
+
+        .btn-secondary {
+            border: $sm*0.15 solid $light-primary;
+            color: $light-primary;
+
+            &:focus, &:active {
+                color: $color-white;
+                background-color: $light-primary;
+                border: $sm*0.15 solid $light-primary;
+            }
+        }
+
+        .backtotop {
+            color: $light-primary;
+            border-bottom: $light-primary $sm*0.25 dotted;
+        }
+
+        .gn svg, .contact svg {
+            fill: $light-primary;
+        }
+
+        .storytelling {
+            a {
+                border-bottom: 0.125rem solid $light-tertiary;
+                font-weight: 500;
+            }
+
+            &::before {
+                border-bottom: 0.125rem solid $light-tertiary;
+            }
+        }
+
+        // Footer 
+        footer {
+            background-color: $light-tertiary;
+
+            p {
+                color: $color-white;
+            }
+        }
+
+        // Hover States 
+        header .logo:hover {
+            border: $sm*0.3 dotted $light-tertiary;
+        }
+
+        .gn ul li a:hover {
+            border-bottom: $sm*0.3 dotted $light-tertiary;
+        }
+
+        .storytelling a:hover {
+            border-bottom: $sm*0.3 dotted $light-tertiary;
+        }
+
+        .backtotop:hover, .cs-body a:hover {
+            border-bottom: $light-primary $sm*0.3 dotted;
+        }
+
+        .work-collection .feat-work-card:hover {
+            border: $light-tertiary $sm*0.3 dotted;
+        }
+    }
 }
 
 .wrapper {
@@ -18,7 +177,7 @@ body {
 
 .container {
     margin: 0 auto;
-    max-width: 1440px;
+    max-width: 1400px;
     position: relative;
 }
 
@@ -33,7 +192,7 @@ a {
 li {
     list-style: none;
     list-style-type: none;
-    @include fontstyles ($color-primary, $sm*1.125, $normal, $base, $none);
+    @include fontstyles ($dark-primary, $sm*1.125, $normal, $base, $none);
 }
 
 .section {
@@ -57,17 +216,18 @@ li {
         object-fit: cover;
         transition: all 0.35s ease-in-out;
         border-radius: $sm*0.5;
+        box-shadow: 0px 2px 10px 0px rgba(41, 52, 107, 0.12);
     }
 }
 
 ::-moz-selection {
-    color: $color-secondary;
-    background: $color-primary;
+    color: $dark-secondary;
+    background: $dark-primary;
 }
   
 ::selection {
-    color: $color-secondary;
-    background: $color-primary;
+    color: $dark-secondary;
+    background: $dark-primary;
 }
 
 .collection-container {
@@ -76,5 +236,5 @@ li {
 }
 
 .work p {
-    @include fontstyles ($color-primary, $sm*1.125, $light, $base, $none);
+    @include fontstyles ($dark-primary, $sm*1.125, $light, $base, $none);
 }

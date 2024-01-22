@@ -30,6 +30,7 @@ function build_js() {
     // Files are concatenated in the order that they would be printed in the destination folder/file
     return src([
             './src/js/jquery-min.js', 
+            './src/js/dark-mode-toggle.js',
             './src/js/aos.js', 
             './src/js/scroll-lock.js',
             './src/js/main.js',])
