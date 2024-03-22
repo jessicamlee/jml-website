@@ -40,8 +40,17 @@
             }
         }
 
+        .resume {
+            padding: $sm*0.75 $sm; 
+            margin: 0;
+        }
+
         .header-icons {
             display: none;
+        }
+
+        .toggle {
+            margin-left: $sm*0.5;
         }
     }
 
@@ -49,33 +58,32 @@
         display: none;
     }
 
-    .intro {
-        display: flex;
-        align-items: flex-start;
-        justify-content: space-between;
-        gap: $sm*1.5;
-        height: 50vh;
-        padding-top: $sm*4;
-
-        .intro-box {
-            max-width: 48vw;
-            text-align: left;
-            margin: 0;
-        }
-
-        .career-role {
-            max-width: $sm*40;
-        }
-
-        h1 {
-            font-size: $sm*3.5;
-            margin-top: $xs;
-        }
-
-        .blobwindow {
-            margin: 0;
-        }
+    .into h1 {
+        font-size: $sm*3.5;
+        margin-top: $xs;
     }
+
+    // .intro {
+    //     display: flex;
+    //     align-items: flex-start;
+    //     justify-content: space-between;
+    //     padding-top: $sm*2;
+
+    //     .intro-box {
+    //         max-width: 69vw;
+    //         text-align: left;
+    //         margin: 0;
+    //     }
+
+    //     h1 {
+    //         font-size: $sm*3.5;
+    //         margin-top: $xs;
+    //     }
+
+    //     .blobwindow {
+    //         margin: 0;
+    //     }
+    // }
 
     .work {
         p {

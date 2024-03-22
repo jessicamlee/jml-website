@@ -66,7 +66,7 @@
 .cs-section .cs-problem-stmt {
     background-color: $color-white;
     padding: $sm*0.75 $sm*1.75 $sm*0.5;
-    border-radius: $sm*0.75;
+    border-radius: $b-rounded-md;
     margin-bottom: $sm;
 
     h3 {
@@ -109,7 +109,7 @@
 
 .cs-img-caption {
     @include fontstyles ($color-white, $sm*0.875, $medium, $italic, $none);
-    margin: $sm 0 0 !important;
+    margin: $sm 0 !important;
     font-size: $sm !important;
     line-height: $sm*1.5;
 }

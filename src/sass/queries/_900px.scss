@@ -21,6 +21,23 @@
         line-height: $sm*1.85;
     }
 
+    .intro {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding-top: $sm*2;
+
+        .intro-box {
+            max-width: 1120px;
+            text-align: left;
+            margin: 0;
+        }
+
+        .blobwindow {
+            margin: 0;
+        }
+    }
+
     .work .work-collection {
 
         li {

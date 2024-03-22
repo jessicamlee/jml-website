@@ -57,7 +57,7 @@
         fill: $dark-secondary;
         transition: 0.3s ease-in-out;
         border: $sm*0.3 dotted $dark-tertiary;
-        border-radius: $sm*1.5;
+        border-radius: $b-rounded-3xl;
         padding: $sm*0.25;
         transform: scale(1.5);
     }
@@ -73,7 +73,7 @@
 
     .work-collection .feat-work-card:hover {
         border: $dark-tertiary $sm*0.3 dotted;
-        border-radius: $sm*1.5;
+        border-radius: $b-rounded-md;
         padding: $sm*0.25;
         transition: 0.25s ease-in-out;
     }
