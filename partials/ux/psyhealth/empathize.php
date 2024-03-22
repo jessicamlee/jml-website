@@ -1,21 +1,21 @@
-<section class="subpg-section">
-    <div class="container cs-section">
-        <h2>Empathize</h2>
-        <div class="cs-subsection">
-            <h3>Understanding the Competitors and Users</h3>
-            <p>My research began with Psystem&apos;s competitors by exploring their mobile application offerings and user experiences first&dash;hand to observe their strengths and identify opportunities for improvement&period; I wanted to understand how &lpar;and if&rpar; the competitors addressed the following tasks&colon;</p>
-            <ul class="mb-lg">
-                <li>Browse and explore PsyHealth App&apos;s Premium and Free functions&comma; Premium benefits&comma; and available Pathway courses&semi;</li>
-                <li>Select and confirm payment for a subscription or purchase&semi; and</li>
-                <li>Receive feedback for successful and unsuccessful payments &lpar;as per the back&dash;end developer&apos;s request&rpar;&period;</li>
+<section class="subpg-section container">
+    <div class="cs-section">
+        <h2>Discovering the Starting Point</h2>
+        <p><a class="bolded" href="https://play.google.com/store/apps/details?id=ca.psyhealth.twa&pli=1" target="_blank" title="Link to Psystem's website">PsyHealth</a> needed exposure from Psystem&apos;s audience and the initial plan to connect the website and mobile app databases proved unfeasible&period;</p>
+        <p>To finalize a functional Minimum Viable Product &lpar;MVP&rpar; for the 2024 launch within the project constraints&comma; I searched for cost&dash;effective payment integration options before outlining a subscription and payment user journey to support a new revenue generation source&period;</p>
+        <div class="cs-problem-stmt mt-lg">
+            <h3>Setting the Goal</h3>
+            <p>Craft a simple user journey to introduce PsyHealth&apos;s Premium subscription plan and self&dash;paced courses to <span class="bolded">convert users</span> and <span class="bolded">build trust during the in-app payment step</span>&period;</p>
+        </div>
+        <div class="mt-lg">
+            <h3>Managing the Project First</h3>
+            <p>As the lead designer and front&dash;end developer&comma; <span class="bolded">regular chats</span> with the project manager and back&dash;end developer guided me to <span class="bolded">understand the project constraints</span> and how I might work within them <span class="bolded">to identify the execution</span>&period;</p>
+            <p>The chats with the team clarified</p>
+            <ul>
+                <li><span class="bolded">how payment data</span> will be <span class="bolded">accepted</span>&comma;</li>
+                <li><span class="bolded">optimal integrations</span> for the platform&comma; and</li>
+                <li><span class="bolded">potential barriers</span> limiting the design process in building the MVP&period;</li>
             </ul>
-            <div class="img-container cs-body-img-container">
-                <img class="img-thumb" src="../images/case-studies/psyhealth/psyhealth_userresearch.jpg" alt="Screenshots of Affinity Map, Empathy Maps, and User Journey Maps created for understanding PsyHealth's payment user experience">
-                <p class="cs-img-caption">UX Research Affinity Map&comma; Empathy Maps&comma; and User Journey maps to empathize with and understand user&apos;s behaviour&comma; thoughts&comma; actions&comma; and feelings throughout the Payment Experience</p>
-            </div>
-            <p class="mt-md">Another task I found would be useful from my competitive research is to <span class="bolded">combine our current Settings and Profile screens into one screen</span> for users to modify information and payment details in the same place&period;</p>
-            <p>Having all administrative details updated on one screen would reduce the number of clicks and steps a user needs to take to reach their goal of editing their profile&comma; settings&comma; and payment information&comma; which would lead to a more positive user experience&period;</p>
-            <p><span class="bolded">&rarr; Impact&colon; </span>From the moderated usability testing for the low&dash;fidelity wireframes&comma; the usability test participants confirmed that they preferred having everything on one screen to review&comma; especially when exploring the app in a small&comma; mobile screen size&period;</p>
         </div>
     </div>
 </section>

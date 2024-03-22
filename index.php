@@ -13,7 +13,7 @@
         <div class="wrapper">
             <?php include('partials/global/header.php'); ?>
             <main>
-                <?php include('partials/home/intro-banner.php'); ?>
+                <?php include('partials/home/intro.php'); ?>
                 <?php include('partials/home/work.php'); ?>
                 <?php include('partials/global/contact.php'); ?>
             </main>

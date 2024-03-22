@@ -1,17 +1,20 @@
-<section class="subpg-section">
-    <div class="container cs-section">
-        <h2>Define</h2>
-        <div class="cs-subsection">
-            <h3>Defining the User&apos;s Experience</h3>
-            <p>As for user research&comma; I interviewed the primary target audience that aligned with the pre&dash;determined personas and archetypes to gather qualitative data and observations to understand the user&apos;s thought process&comma; feelings&comma; pain points&comma; and desire for the payment experience&period;</p>
-            <p>I translated my findings by creating an Affinity Map&comma; Empathy Maps&comma; User Stories&comma; User Journey Maps&comma; User Problem Statements&comma; and a User Goal Statement&comma; which also helped me outline the essential screens to prioritize for this sprint&period;</p>
-            <div class="img-container cs-body-img-container">
-                <img class="img-thumb" src="../images/case-studies/psyhealth/psyhealth_usergoal.jpg" alt="Screenshot User Goal Statement with the following text: Our PsyHealth App with Premium Subscription and Pathway courses will let users input all their health notes, review health analytics, and embark on their wellness journey with a self-paced guided course which will affect chronic pain sufferers and individuals who are keen on improving their health by providing one app that will support their goals and needs.">
-                <p class="cs-img-caption">User Goal Statement for PsyHealth&apos;s Payment Experiences</p>
-            </div>
-            <p class="mt-md">By visualizing the user&apos;s experience&comma; I summarized how designing the Payment Experience for subscriptions and course purchases would affect the primary target audience &lpar;as the current sprint is focused on the Minimum Viable Product &lpar;MVP&rpar;&rpar;&period;</p>
-            <p>From the defined user stories and diagrams&comma; I began iterating through the Crazy Eights Method using pen and paper to quickly ideate the most impactful screens that will help the users reach their goals and complete their tasks in the shortest journey possible&period;</p>
-            <p><span class="bolded">&rarr; Impact&colon; </span>Having visualized outlines of the user&apos;s journey along with the corresponding user stories supported my conversations with the product owner and usability test participants to identify specific areas of improvement within the user&apos;s journey&period; More details are provided in the next section&comma; &ldquo;Takeaways&period;&rdquo;</p>
+<section class="subpg-section container">
+    <div class="cs-section">
+        <h2>Defining the Payment Journey</h2>
+        <p>Understanding the steps <span class="bolded">just before</span> and <span class="bolded">after</span> the payment journey was crucial to define how and if the payment journey would begin for different users&period;</p>
+        <div class="img-container cs-body-img-container">
+            <img class="img-thumb" src="images/case-studies/psyhealth/psyhealth_insights_competitoranalysis.jpg" alt="hree lists supporting three central themes of the subscription experiences from the Top 5 Competitors">
+            <p class="cs-img-caption">Competitor Analysis Themes from initial and discovered observations of user journeys amongst Top 5 Competitors&period;</p>
+        </div>
+        <p>Using pre&dash;determined personas and <span class="bolded">conducting user interviews and competitor research</span>&comma; I visualized observations about App Subscription Experiences into maps and flow charts to <span class="bolded">identify insights</span> and user pain points to <span class="bolded">prioritize the most impactful suggestions</span> with my team&period;</p>
+        <div class="img-container cs-body-img-container">
+            <img class="img-thumb" src="images/case-studies/psyhealth/psyhealth_insights_affinitymap.jpg" alt="Three groups of list items highlighting the initial feedback, themes, and insights from Affinity Mapping the App Navigation user feedback">
+            <p class="cs-img-caption">Key insights from Affinity Mapping user&apos;s initial feedback and thoughts on navigating the app to learn about courses and subscription options&period;</p>
+        </div>
+        <p><span class="bolded">Iterations based on team feedback</span> led to the first completed User Journey Map to design and test&comma; reflecting <span class="bolded">optimized steps during the payment decision&dash;making and completion steps</span>&period;</p>
+        <div class="img-container cs-body-img-container">
+            <img class="img-thumb" src="images/case-studies/psyhealth/psyhealth_insights_userjourneymap.jpg" alt="Five groups of text outlining the feelings of the users, when they happened during the user journey, and opportunity areas to consider for the next design iteration">
+            <p class="cs-img-caption">Highlights from the User Journey Map&comma; focusing on how users felt throughout the process and opportunity areas to iterate on in the design&period;</p>
         </div>
     </div>
 </section>
