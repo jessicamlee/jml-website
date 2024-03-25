@@ -19,7 +19,7 @@ body {
             background-color: $color-white;
         }
 
-        header svg, .backtotop svg {
+        header svg, .backtotop svg, .home-cta svg {
             fill: $light-primary;
         }
 
@@ -45,12 +45,17 @@ body {
             background-color: $color-white;
         }
 
-        .gn a {
+        .gn ul li a {
             color: $light-primary;
             font-weight: $medium;
+
+            &::after {
+                content: "";
+                background: $light-tertiary;
+            }
         }
 
-        .gn a:focus, a:active {
+        .home-cta:active {
             border-bottom: $sm*0.2 solid $light-primary;
         } 
 
@@ -64,17 +69,15 @@ body {
         }
 
         // Typography
-        h1, h2, h3, h4, 
-        .highlight-date, 
         .cs-body li::before, 
         .cs-btns a,
-        .career-role,
         header,
-        .cs-body .design-highlight {
+        .cs-body .design-highlight  {
             color: $light-primary;
         }
 
-        .about-highlight,
+        h1, h2, h3, h4, .cs-problem-stmt h3,
+        .highlight-date, .about-highlight,
         .cs-img-caption,
         .storytelling a,
         .storytelling li::before,
@@ -85,7 +88,7 @@ body {
         .bolded,
         .bolded-italic,
         .cs-body li,
-        .cs-body a {
+        .cs-body a, .home-cta, .career-role {
             color: $light-tertiary;
         }
 
@@ -98,14 +101,8 @@ body {
             box-shadow: 2px 2px 6px 1px rgba(41,52,107,0.1);
         }
 
-        .cs-body {
-            h2 {
-                font-weight: 500;
-            }
-
-            h3, h4 {
-                font-weight: 600;
-            }
+        .cs-body h3, h4 {
+            font-weight: 600;
         }
 
         // Buttons
@@ -132,24 +129,35 @@ body {
             }
         }
 
-        .backtotop {
-            color: $light-primary;
-            border-bottom: $light-primary $sm*0.25 dotted;
-        }
-
         .gn svg, .contact svg {
             fill: $light-primary;
         }
 
+        .backtotop {
+            color: $light-primary;
+        }
+
+        .backtotop:hover {
+            color: $light-tertiary;
+    
+            svg:hover {
+                fill: $light-tertiary;
+            }
+        }
+
         .storytelling {
             a {
-                border-bottom: 0.125rem solid $light-tertiary;
+                border-bottom: $sm*0.2 solid $light-tertiary;
                 font-weight: 500;
             }
 
             &::before {
                 border-bottom: 0.125rem solid $light-tertiary;
             }
+        }
+
+        .cs-body a:hover {
+            border-bottom: 0.125rem solid $dark-tertiary;
         }
 
         // Footer 
@@ -162,24 +170,16 @@ body {
         }
 
         // Hover States 
-        header .logo:hover {
-            border: $sm*0.3 dotted $light-tertiary;
-        }
-
-        .gn ul li a:hover {
-            border-bottom: $sm*0.3 dotted $light-tertiary;
+        header .logo:hover, .work-collection .feat-work-card:hover {
+            border: $sm*0.2 solid $light-tertiary;
         }
 
         .storytelling a:hover {
-            border-bottom: $sm*0.3 dotted $light-tertiary;
+            border-bottom: $light-primary $sm*0.2 solid;
         }
 
-        .backtotop:hover, .cs-body a:hover {
-            border-bottom: $light-primary $sm*0.3 dotted;
-        }
-
-        .work-collection .feat-work-card:hover {
-            border: $light-tertiary $sm*0.3 dotted;
+        .cs-body a:hover {
+            border-bottom: $light-tertiary $sm*0.2 solid;
         }
     }
 }
@@ -213,7 +213,7 @@ li {
 }
 
 .subpg-section {
-    padding: $sm*2 $sm*1.25 $sm;
+    padding: $sm*2;
 }
 
 .img-container {

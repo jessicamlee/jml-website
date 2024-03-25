@@ -1,14 +1,14 @@
 @use '../utilities' as *;
 
 h1 {
-    @include fontstyles ($dark-primary, $sm*3.815, $semibold, $base, $none);
+    @include fontstyles ($dark-primary, $sm*2.986, $semibold, $base, $none);
     // @include fontstyles ($dark-primary, $sm*3.125, $medium, $base, $none);
     margin-top: $sm;
     line-height: 1.15;
 }
 
 h2 {
-    @include fontstyles ($dark-primary, $sm*3.052, $semibold, $base, $none);
+    @include fontstyles ($dark-primary, $sm*2.488, $semibold, $base, $none);
     // @include fontstyles ($dark-primary, $sm*2.125, $light, $base, $none);
     margin-bottom: $sm*0.65;
     text-align: center;
@@ -16,7 +16,7 @@ h2 {
 }
 
 h3 {
-    @include fontstyles ($dark-primary, $sm*2.441, $semibold, $base, $none);
+    @include fontstyles ($dark-primary, $sm*1.728, $semibold, $base, $none);
     // @include fontstyles ($dark-primary, $sm*2.25, $medium, $base, $none);
     margin: $sm*0.15 0 0.5rem;
     // line-height: $sm*2.5;
@@ -24,9 +24,9 @@ h3 {
 }
 
 h4 {
-    @include fontstyles ($dark-primary, $sm*1.953, $semibold, $base, $none);
+    @include fontstyles ($dark-primary, $sm*1.44, $semibold, $base, $none);
     // @include fontstyles ($dark-primary, $sm*1.4375, $medium, $base, $none);
-    margin: $sm 0;
+    margin: $sm*0.5 0;
     // line-height: $sm*1.95;
     line-height: 1.15;
 }

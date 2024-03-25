@@ -12,4 +12,23 @@
         @include fontstyles ($dark-primary, $sm*1.25, $normal, $base, $none);
         margin-top: $sm*0.75;
     }
+
+    .home-cta {
+        align-items: center;
+        gap: $sm*0.5;
+        padding: $sm*0.75 0;
+        width: fit-content;
+        margin-top: $sm;
+        @include fontstyles ($dark-primary, $sm*1.15, $medium, $base, $none);
+        cursor: pointer;
+
+        svg {
+            transform: rotate(90deg);
+            fill: $dark-primary
+        }
+
+        &:active {
+            border-bottom: $sm*0.1 solid $dark-primary;
+        }
+    }
 }

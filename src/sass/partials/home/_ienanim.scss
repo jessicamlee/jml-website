@@ -4,12 +4,12 @@
     width: $sm*18.125;
     height: $sm*18.125;
     background-image: url(../../images/starsinspace_byjessica.jpg);
-    border: $dark-secondary solid $sm*0.3;
+    border: $dark-secondary solid $sm*0.2;
     border-radius: 57% 43% 70% 30% / 48% 33% 67% 52%;
     overflow: hidden;
     background-position: cover;
     position: relative;
-    margin: $sm*5 auto 0;
+    margin: $sm*2 auto 0;
     animation: spaceAlien 20s ease-in-out infinite;
     box-shadow: $box-shadow;
 }

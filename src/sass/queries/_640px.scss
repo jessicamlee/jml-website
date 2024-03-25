@@ -16,10 +16,6 @@
         height: $sm*19.125;
     }
 
-    .projects, .about, .contact p {
-        @include fontstyles ($dark-primary, $sm*1.125, $normal, $base, $none);
-    }
-
     .pg-preface {
         max-width: 75vw;
     }

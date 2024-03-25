@@ -4,19 +4,33 @@
 
     header .header-bar {
         .logo:hover {
-            padding: $sm*0.3;
-            border: $sm*0.3 dotted $dark-tertiary;
-            transition: 0.25s ease-in-out;
-        }
+            padding: $sm*0.75;
+            border: $sm*0.2 solid $light-primary;
+            transition: 0.3s;
+            border-radius: $sm*14;
+            background: $dark-primary;
 
-        .gn ul li a:hover {
-            border-bottom: $sm*0.3 dotted $dark-tertiary;
-            transition: 0.15s ease-in-out;
+            svg {
+                fill: $light-primary;
+            }
         }
     }
 
-    .intro h1 {
-        font-size: $sm*5.5;
+    .intro {
+        h1 {
+            font-size: $sm*5.5;
+        }
+
+        .home-cta:hover {
+           gap: $sm;
+           transition: 0.13s ease-in-out;
+           transition-delay: none;
+        }
+
+        .blobwindow {
+            width: $sm*25;
+            height: $sm*20;
+        }
     }
 
     .collection-container {
@@ -40,6 +54,25 @@
         }
     }
 
+    .cs-flex-tablet {
+        flex-direction: row;
+        gap: $sm*2;
+        margin-bottom: 0;
+    }
+
+    .cs-half-width {
+        width: 50vw;
+    }
+
+    .cs-items-center {
+        align-items: center;
+    }
+
+    .cs-problem-stmt h3 {
+        font-weight: 500;
+        margin: $sm*0.5 0;
+    }
+
     .cs-summary .btn-container {
         flex-direction: row;
     }
@@ -48,7 +81,7 @@
         font-size: $sm*1.125;
 
         &:hover {
-            border-bottom: $sm*0.3 dotted $dark-tertiary;
+            border-bottom: $sm*0.2 solid $dark-tertiary;
             transition: 0.25s ease-in-out;
         }
     }
@@ -56,25 +89,42 @@
     .contact svg:hover {
         fill: $dark-secondary;
         transition: 0.3s ease-in-out;
-        border: $sm*0.3 dotted $dark-tertiary;
+        border: $sm*0.15 solid $dark-tertiary;
         border-radius: $b-rounded-3xl;
-        padding: $sm*0.25;
+        padding: $sm*0.2;
         transform: scale(1.5);
     }
 
-    .cs-section {
-        max-width: $sm*62.5;
+    .backtotop:hover {
+        color: $color-white;
+
+        svg:hover {
+            fill: $color-white;
+            transition: 0.3s ease-in-out;
+            transition-delay: none;
+            transform: translateY($sm*-0.5);
+        }
     }
 
-    .backtotop:hover, .cs-body a:hover {
-        border-bottom: $dark-primary $sm*0.3 dotted;
-        transition: 0.25s ease-in-out;
+    .gn a:hover, .cs-body a:hover {
+        border-bottom: $dark-tertiary $sm*0.2 solid;
+        transition: 0.3s ease-in-out;
+    }
+
+    .gn .resume:hover {
+        a {
+            border-bottom: 0;
+        }
     }
 
     .work-collection .feat-work-card:hover {
-        border: $dark-tertiary $sm*0.3 dotted;
+        border: $dark-tertiary $sm*0.2 solid;
         border-radius: $b-rounded-md;
         padding: $sm*0.25;
-        transition: 0.25s ease-in-out;
+        transition: 0.2s ease-in-out;
+    }
+
+    .work-collection .feat-work-card {
+        gap: $sm*3;
     }
 }

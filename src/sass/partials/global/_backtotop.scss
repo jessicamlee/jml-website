@@ -1,14 +1,15 @@
 @use '../../utilities' as *;
 
 .backtotop {
-    width: $sm*10;
+    width: $sm*9;
     height: auto;
     color: $dark-primary;
-    border-bottom: $dark-tertiary $sm*0.25 dotted;
-    @include fontstyles ($dark-primary, $sm*1.25, $medium, $base, $none);
+    border: none !important;
+    @include fontstyles ($dark-primary, $sm*1.15, $medium, $base, $none);
     line-height: $sm*1.65;
     padding: $sm*0.75 $sm*0.2 $sm*0.5;
     margin: 0 auto;
+    align-items: center;
     justify-content: space-between;
 
     svg {

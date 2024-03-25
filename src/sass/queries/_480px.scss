@@ -23,14 +23,6 @@
     .footer p {
         @include fontstyles ($dark-secondary, $sm, $normal, $base, $none);
     }
-
-    header .header-bar a {
-        &:focus, &:active {
-            padding: $sm*0.2;
-            border: $sm*0.1 solid $dark-secondary;
-            transition: 0.2s ease-in-out;
-        }
-    }
     
     .work, .dev-projects, .ux-projects {
 

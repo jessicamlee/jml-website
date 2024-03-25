@@ -4,20 +4,14 @@
 
     h2 {
         text-align: left;
-        font-size: $sm*2.25;
-        line-height: $sm*3;
     }
 
     h3 {
-        @include fontstyles ($dark-tertiary, $sm*1.85, $normal, $base, $none);
-        line-height: $sm*2.5;
-        margin: $sm*1.75 0 $sm*0.5;
+        margin: $sm*2 0 $sm*0.5;
     }
 
     h4, .hhighlight {
         @include fontstyles ($dark-tertiary, $sm*1.5, $medium, $base, $none);
-        line-height: $sm*1.75;
-        margin: $sm 0 $sm*0.75;
     }
 
     .design-highlight {
@@ -28,14 +22,12 @@
 
     a {
         color: $dark-primary;
-        border-bottom: $dark-tertiary $sm*0.2 dotted;
-        margin-bottom: $sm*0.5;
+        border-bottom: $dark-tertiary $sm*0.2 solid;
         cursor: pointer;
     }
 
     p {
-        font-size: $sm*1.125;
-        margin-bottom: $sm*0.75;
+        margin-bottom: $sm;
         color: $color-white;
     }
 
@@ -65,20 +57,18 @@
 
 .cs-section .cs-problem-stmt {
     background-color: $color-white;
-    padding: $sm*0.75 $sm*1.75 $sm*0.5;
+    padding: $sm*0.75 $sm*1.75 $sm;
     border-radius: $b-rounded-md;
     margin-bottom: $sm;
 
     h3 {
-        font-size: $sm*1.5;
-        font-weight: 500;
         margin: $sm*0.5 0;
+        @include fontstyles ($dark-tertiary, $sm*1.5, $semibold, $base, $none);
     }
 
     p {
-        color: $color-black;
-        font-size: $sm*1.25;
-        line-height: $sm*1.85;
+        @include fontstyles ($color-black, $sm*1.125, $medium, $base, $none);
+        margin-bottom: 0;
     }
 }
 
@@ -87,7 +77,6 @@
 }
 
 .cs-summary {
-    max-width: $sm*62.5;
     align-items: center;
 
     h1 {
@@ -99,12 +88,9 @@
     margin-top: $sm*3;
 }
 
-.cs-img-container {
-    max-width: $sm*44;
-}
-
 .cs-body-img-container {
     max-height: fit-content;
+    padding: $sm 0;
 }
 
 .cs-img-caption {

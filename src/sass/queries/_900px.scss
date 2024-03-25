@@ -3,22 +3,24 @@
 @media (min-width:900px) {
 
     h1 {
-        @include fontstyles ($dark-primary, $sm*3.5, $medium, $base, $none);
+        @include fontstyles ($dark-primary, $sm*3.815, $semibold, $base, $none);
     }
     
     h2 {
-        @include fontstyles ($dark-primary, $sm*2.85, $normal, $base, $none);
+        @include fontstyles ($dark-primary, $sm*3.052, $semibold, $base, $none);
     }
 
     h3 {
-        @include fontstyles ($dark-primary, $sm*2.75, $normal, $base, $none);
-        margin: $sm*0.75 0;
-        line-height: $sm*3;
+        @include fontstyles ($dark-primary, $sm*2.441, $semibold, $base, $none);
     }
 
-    p {
-        @include fontstyles ($color-white, $sm*1.125, $normal, $base, $none);
-        line-height: $sm*1.85;
+    h4 {
+        @include fontstyles ($dark-primary, $sm*1.953, $medium, $base, $none);
+    }
+
+    .intro h1 {
+        font-size: $sm*4.5;
+        margin-top: $xs;
     }
 
     .intro {
@@ -26,15 +28,20 @@
         align-items: flex-start;
         justify-content: space-between;
         padding-top: $sm*2;
+        gap: $sm*1.5;
 
         .intro-box {
-            max-width: 1120px;
+            max-width: 60vw;
             text-align: left;
             margin: 0;
         }
 
         .blobwindow {
             margin: 0;
+        }
+
+        .home-cta {
+            padding: $sm*0.75 0 $sm*0.5;
         }
     }
 
@@ -46,17 +53,12 @@
         }
 
         .links-container {
-            padding: 0;
+            padding: 0 $sm*4 0 0;;
         }
     }
 
     .work h2 {
         margin-bottom: $sm;
-    }
-
-    .intro h1 {
-        font-size: $sm*4.5;
-        margin-top: $xs;
     }
 
     .about .bio {
@@ -90,9 +92,6 @@
     }
 
     .cs-body {
-        p {
-            margin-bottom: $sm;
-        }
 
         .cs-summary p, .tldr-details p {
             margin-bottom: $sm*0.15;

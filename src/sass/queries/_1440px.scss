@@ -2,8 +2,13 @@
 
 @media (min-width: 1440px) {
 
-    .blobwindow {
-        margin-right: 6rem;
+    .intro h1 {
+        font-size: $sm*6.5;
+        margin-top: $xs;
+    }
+
+    .work-collection .feat-work-card {
+        gap: $sm*4;
     }
     
     .dev-projects .project-card, .ux-projects .project-card {

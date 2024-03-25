@@ -10,6 +10,7 @@ header {
     transition: top 0.35s ease;
     padding: $sm*0.9 $sm*2;
     background: $color-black;
+    background: $color-black;
     color: $dark-primary;
     z-index: 2;
 
@@ -107,7 +108,7 @@ header {
     }
 
     a {
-        @include fontstyles($dark-primary, $sm*1.5, $medium, $base, $none);
+        @include fontstyles($dark-primary, $sm*1.25, $medium, $base, $none);
     }
 
     .resume {
