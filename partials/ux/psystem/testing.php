@@ -7,7 +7,7 @@
             <li>Initial <span class="bolded">content impressions</span> for understanding Psystem&apos;s Services</li>
             <li><span class="bolded">Accessibility</span> to book coaching appointments and subscribe to newsletters</li>
         </ul>
-        <p>AAdding the <span class="bolded">Back to Top button</span> is a crucial solution to endless scrolling&comma; <span class="bolded">enhancing mobile usability</span> and <span class="bolded">user journey completion</span> of the above tasks&period;</p>
+        <p>Adding the <span class="bolded">Back to Top button</span> is a crucial solution to endless scrolling&comma; <span class="bolded">enhancing mobile usability</span> and <span class="bolded">user journey completion</span> of the above tasks&period;</p>
         <div class="img-container cs-body-img-container">
             <img class="img-thumb" src="images/case-studies/psystem/psystem_iteration_discovery_before.jpg" alt="Mobile screens of Psystem's website with and without a Back to Top button shortcut">
             <p class="cs-img-caption">The Before and After of the mobile screen size showcases the difference of having a Back to Top button to make the user&apos;s experience more enjoyable and accessible&period;</p>

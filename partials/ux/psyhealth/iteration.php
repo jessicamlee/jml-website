@@ -2,7 +2,7 @@
     <div class="cs-section">
         <h2>Iterating for User Confidence</h2>
         <p>Feedback on my low&dash;fidelity wireframes revealed that preferred <span class="bolded">layouts depended on the content&apos;s context</span>&period;</p>
-        <p>The mid&dash;fidelity wireframes with <span class="bolded">relevant copy</span> led to iterations to the monthly and annual subscription plan layouts that <span class="bolded">led users to feel unconfident about making a payment</span>&period;</p>
+        <p>The mid&dash;fidelity wireframes with <span class="bolded">relevant copy</span> led to iterations to the monthly and annual subscription plan layouts that <span class="bolded">led users to feel not confident about making a payment</span>&period;</p>
         <div class="img-container cs-body-img-container">
             <img class="img-thumb" src="images/case-studies/psyhealth/psyhealth_iterations_paymentcta_before.jpg" alt="Two screenshots placed side-by-side to compare the changes in the webpage layout on Psystem's Discover page">
             <p class="cs-img-caption">The Before wireframes of PsyHealth&apos;s Subscription&dash;Payment Call&dash;to&dash;action screen&period;</p>

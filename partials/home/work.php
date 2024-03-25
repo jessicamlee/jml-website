@@ -4,17 +4,17 @@
         <ul class="work-collection collection-container flex">
             <?php
                 $work_title = 'Website Redesign: Boosted Visits by 33%';
-                $work_desc = 'Transforming Psystem’s Digital Presence for Chronic Pain Management';
                 $work_subtitle = 'Psystem';
+                $work_desc = 'Enhancing Accessibility across Psystem’s Online Presence';
                 $work_img_src = 'psystem_cover';
                 $work_img_alt = 'Psystem Cover Photo';
                 $case_study_link = 'psystem';
                 include('partials/cards/feat-work-card.php');
             ?>
             <?php
-                $work_title = 'PsyHealth';
-                $work_desc = 'Empowering PsyHealth’s Digital Transactions in Mental Health';
-                $work_subtitle = 'App Payment Setup: 20% Conversion Rate Increase';
+                $work_title = 'App Payment Setup: 20% Conversion Growth';
+                $work_subtitle = 'PsyHealth';
+                $work_desc = 'Empowering PsyHealth’s In-App Payment Journey';
                 $work_img_src = 'psyhealth_cover';
                 $work_img_alt = 'PsyHealth Cover Photo';
                 $case_study_link = 'psyhealth';
